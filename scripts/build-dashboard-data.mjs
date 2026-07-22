@@ -19,6 +19,15 @@ function read(path) {
   return readFileSync(path, "utf8");
 }
 
+const sourceFilesAvailable = existsSync(join(dataDir, "target-companies.md"))
+  && existsSync(join(outputDir, "scan-history.md"))
+  && existsSync(jdDir);
+
+if (!sourceFilesAvailable) {
+  console.log("Workspace source files unavailable; keeping committed dashboard data for remote build");
+  process.exit(0);
+}
+
 function stripMarkdown(value) {
   return value
     .replace(/<br\s*\/?>/gi, " ")
