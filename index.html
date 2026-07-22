@@ -130,6 +130,19 @@
       width: min(420px, 100%);
     }
 
+    .export-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .export-status {
+      min-height: 18px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
     section {
       background: var(--panel);
       border: 1px solid var(--line);
@@ -648,6 +661,12 @@
           <option value="medium">Medium</option>
           <option value="watch">Watch</option>
         </select>
+        <div class="export-actions" aria-label="Event table export">
+          <button id="copy-events" type="button">Copy table</button>
+          <button id="download-events-md" type="button">Download MD</button>
+          <button id="download-events-csv" type="button">Download CSV</button>
+          <span class="export-status" id="event-export-status"></span>
+        </div>
       </div>
       <div class="table-wrap" style="margin-top: 12px;">
         <table>
@@ -970,6 +989,93 @@
       return `${item.startDate} → ${item.endDate}`;
     }
 
+    function eventExportRows() {
+      return filteredEvents().map((item) => ({
+        date: dateRange(item),
+        event: item.title,
+        location: item.location,
+        region: item.region,
+        priority: item.priority,
+        category: item.category,
+        action: item.status,
+        why: item.fit,
+        caveat: item.notes,
+        source: item.sourceName,
+        url: item.sourceUrl,
+        verified: `${item.verification?.checkedAt ?? ""} ${item.verification?.summary ?? ""}`.trim()
+      }));
+    }
+
+    function markdownEscape(value) {
+      return String(value ?? "").replace(/\|/g, "\\|").replace(/\n/g, " ").trim();
+    }
+
+    function eventsToMarkdown() {
+      const rows = eventExportRows();
+      const header = "| Date | Event | Location | Priority | Action | Why / caveat | Source |";
+      const divider = "| --- | --- | --- | --- | --- | --- | --- |";
+      const body = rows.map((item) => [
+        item.date,
+        item.event,
+        item.location,
+        item.priority,
+        item.action,
+        `${item.why} ${item.caveat}`,
+        `[${item.source}](${item.url})`
+      ].map(markdownEscape).join(" | "));
+      return [header, divider, ...body.map((line) => `| ${line} |`)].join("\n");
+    }
+
+    function csvCell(value) {
+      return `"${String(value ?? "").replace(/"/g, '""').replace(/\n/g, " ").trim()}"`;
+    }
+
+    function eventsToCsv() {
+      const columns = ["date", "event", "location", "region", "priority", "category", "action", "why", "caveat", "source", "url", "verified"];
+      return [
+        columns.join(","),
+        ...eventExportRows().map((item) => columns.map((column) => csvCell(item[column])).join(","))
+      ].join("\n");
+    }
+
+    function downloadText(filename, mime, content) {
+      const blob = new Blob([content], { type: mime });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function setExportStatus(message) {
+      const status = document.getElementById("event-export-status");
+      status.textContent = message;
+      window.clearTimeout(setExportStatus.timer);
+      setExportStatus.timer = window.setTimeout(() => {
+        status.textContent = "";
+      }, 2200);
+    }
+
+    async function copyEventsTable() {
+      const content = eventsToMarkdown();
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(content);
+      } else {
+        const textarea = document.createElement("textarea");
+        textarea.value = content;
+        textarea.style.position = "fixed";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        textarea.remove();
+      }
+      setExportStatus("Copied visible table");
+    }
+
     function renderEventTable() {
       const rows = filteredEvents();
       document.getElementById("event-count").textContent = "Korea first, East Asia next, far events only if virtual or exceptional";
@@ -1044,6 +1150,17 @@
       });
       ["event-search", "event-region-filter", "event-priority-filter"].forEach((id) => {
         document.getElementById(id).addEventListener("input", renderEventTable);
+      });
+      document.getElementById("copy-events").addEventListener("click", () => {
+        copyEventsTable().catch(() => setExportStatus("Copy failed"));
+      });
+      document.getElementById("download-events-md").addEventListener("click", () => {
+        downloadText("quant-career-events-2026-07-22.md", "text/markdown;charset=utf-8", eventsToMarkdown());
+        setExportStatus("Downloaded Markdown");
+      });
+      document.getElementById("download-events-csv").addEventListener("click", () => {
+        downloadText("quant-career-events-2026-07-22.csv", "text/csv;charset=utf-8", eventsToCsv());
+        setExportStatus("Downloaded CSV");
       });
     }
 
