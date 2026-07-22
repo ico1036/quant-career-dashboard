@@ -82,6 +82,31 @@ if (sff && (!/Singapore EXPO/i.test(sff.location) || !/Nov 18-20|18-20/i.test(sf
   errors.push("singapore-fintech-festival-2026: missing official Nov 18-20 Singapore EXPO details");
 }
 
+const investOpsAsia = findEvent("investops-asia-2026");
+if (investOpsAsia && !/One Farrer Hotel/i.test(investOpsAsia.location)) {
+  errors.push("investops-asia-2026: missing official One Farrer Hotel detail");
+}
+
+const asifmaLiquidity = findEvent("asifma-future-liquidity-apac-2026");
+if (asifmaLiquidity && !/Ritz Carlton/i.test(asifmaLiquidity.location)) {
+  errors.push("asifma-future-liquidity-apac-2026: missing official Ritz Carlton Hong Kong detail");
+}
+
+const fixSea = findEvent("fix-sea-multi-asset-trading-2026");
+if (fixSea && !/Grand Hyatt Kuala Lumpur/i.test(fixSea.location)) {
+  errors.push("fix-sea-multi-asset-trading-2026: missing official Grand Hyatt Kuala Lumpur detail");
+}
+
+const fxMarketsAsia = findEvent("fx-markets-asia-2026");
+if (fxMarketsAsia && !/Marina Bay Sands/i.test(fxMarketsAsia.location)) {
+  errors.push("fx-markets-asia-2026: missing official Marina Bay Sands detail");
+}
+
+const fiaAsia = findEvent("fia-asia-derivatives-2026");
+if (fiaAsia && !/St. Regis Singapore/i.test(fiaAsia.location)) {
+  errors.push("fia-asia-derivatives-2026: missing official St. Regis Singapore detail");
+}
+
 const bitcoinKorea = findEvent("bitcoin-korea-conference-2026");
 if (bitcoinKorea && /hybrid|online/i.test(bitcoinKorea.format)) {
   errors.push("bitcoin-korea-conference-2026: must not be marked hybrid/online without official livestream confirmation");

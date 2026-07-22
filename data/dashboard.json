@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T08:47:14.632Z",
+  "generatedAt": "2026-07-22T09:06:39.033Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -13,7 +13,7 @@
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
-    "upcomingEvents": 16,
+    "upcomingEvents": 23,
     "koreaEvents": 8,
     "virtualWatchEvents": 4,
     "scansParsed": 24,
@@ -5953,6 +5953,28 @@
   ],
   "events": [
     {
+      "id": "investops-asia-2026",
+      "title": "InvestOps Asia 2026",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-20",
+      "region": "East Asia / Singapore",
+      "location": "One Farrer Hotel, Singapore",
+      "format": "in-person",
+      "category": "Investment Operations / Buy Side",
+      "priority": "medium",
+      "fit": "Buy-side operations, data, transformation, and private-markets event; useful for Singapore asset-manager network but less direct for front-office quant alpha.",
+      "sourceName": "Worldwide Business Research / InvestOps Asia",
+      "sourceUrl": "https://investopsasia.wbresearch.com/",
+      "status": "watch / target buy-side ops contacts",
+      "notes": "Official page confirms Aug 19-20 at One Farrer Hotel. Keep below AI finance and trading-specific events because it is operations-heavy.",
+      "focusRank": 99,
+      "verification": {
+        "checkedAt": "2026-07-22",
+        "sourceType": "official organizer source",
+        "summary": "official InvestOps Asia page confirms Aug 19-20 at One Farrer Hotel, Singapore"
+      }
+    },
+    {
       "id": "origin-seoul-2026",
       "title": "ORIGIN SEOUL 2026",
       "startDate": "2026-08-31",
@@ -6077,11 +6099,99 @@
       "sourceUrl": "https://www.token2049.com/singapore",
       "status": "travel only with meetings",
       "notes": "Official tickets are on sale. Do not travel just for hallway exposure; bundle with Singapore career/fund meetings.",
-      "focusRank": 6,
+      "focusRank": 99,
       "verification": {
         "checkedAt": "2026-07-22",
         "sourceType": "official organizer source",
         "summary": "official TOKEN2049 page confirms Oct 7-8 at Marina Bay Sands"
+      }
+    },
+    {
+      "id": "asifma-future-liquidity-apac-2026",
+      "title": "ASIFMA Future of Liquidity in Asia Pacific Capital Markets Conference",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-09",
+      "region": "East Asia / Hong Kong",
+      "location": "Ritz Carlton, Hong Kong",
+      "format": "in-person; approval required",
+      "category": "Market Structure / Liquidity",
+      "priority": "medium",
+      "fit": "Capital-markets liquidity conference covering AI, algo trading, collateral, repo, securities lending, DLT and tokenization; useful if Hong Kong meetings are bundled.",
+      "sourceName": "ASIFMA",
+      "sourceUrl": "https://www.asifma.org/event/the-future-of-liquidity-in-asia-pacific-capital-markets-conference/",
+      "status": "watch / register if HK meetings exist",
+      "notes": "Official ASIFMA page confirms Oct 9 at Ritz Carlton Hong Kong. Registration requires approval; stronger market-structure signal than generic fintech, but travel only with meetings.",
+      "focusRank": 8,
+      "verification": {
+        "checkedAt": "2026-07-22",
+        "sourceType": "official organizer source",
+        "summary": "official ASIFMA page confirms Oct 9 at Ritz Carlton Hong Kong with liquidity, AI, algo trading, repo, securities lending, DLT and tokenization themes"
+      }
+    },
+    {
+      "id": "energy-risk-asia-2026",
+      "title": "Energy Risk Asia 2026",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-19",
+      "region": "East Asia / Singapore",
+      "location": "SGX Centre Auditorium, Singapore",
+      "format": "in-person",
+      "category": "Commodities / Energy Trading Risk",
+      "priority": "medium",
+      "fit": "Relevant for commodities, energy-risk, trading, and compliance network in Singapore; useful only if targeting commodity trading or risk desks.",
+      "sourceName": "Risk.net / Energy Risk",
+      "sourceUrl": "https://asia.energyrisk.com/",
+      "status": "watch / targeted networking",
+      "notes": "Official Risk.net event page confirms Oct 19 at SGX Centre Auditorium. Trading relevance is commodities/risk, not pure quant research.",
+      "focusRank": 99,
+      "verification": {
+        "checkedAt": "2026-07-22",
+        "sourceType": "official organizer source",
+        "summary": "official Risk.net event page confirms Oct 19, SGX Centre Auditorium, Singapore"
+      }
+    },
+    {
+      "id": "risk-live-asia-2026",
+      "title": "Risk Live Asia 2026",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-22",
+      "region": "East Asia / Singapore",
+      "location": "Singapore",
+      "format": "in-person",
+      "category": "Risk / Derivatives / Markets",
+      "priority": "medium",
+      "fit": "Risk.net Asia event for senior risk, derivatives, compliance, markets, and technology leaders; good Singapore finance network but not a quant-research conference.",
+      "sourceName": "Risk Live Asia",
+      "sourceUrl": "https://asia.risklive.net/",
+      "status": "watch / targeted networking",
+      "notes": "Official Risk Live page confirms Asia event in October 2026; Risk Live global page lists Oct 21-22. Use for risk/markets network, not standalone travel.",
+      "focusRank": 99,
+      "verification": {
+        "checkedAt": "2026-07-22",
+        "sourceType": "official organizer source",
+        "summary": "official Risk Live pages confirm Asia event in October 2026 and Oct 21-22 dates"
+      }
+    },
+    {
+      "id": "fx-markets-asia-2026",
+      "title": "FX Markets Asia 2026",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "region": "East Asia / Singapore",
+      "location": "Marina Bay Sands Expo and Convention Centre, Singapore",
+      "format": "in-person",
+      "category": "FX / Trading / Market Structure",
+      "priority": "medium",
+      "fit": "FX trading practitioner event for buy-side, sell-side, regulators, and market-makers; useful Singapore market-structure network if targeting FX/trading desks.",
+      "sourceName": "FX Markets",
+      "sourceUrl": "https://asia.fx-markets.com/",
+      "status": "watch / targeted networking",
+      "notes": "Official FX Markets Asia page confirms Oct 22 at Marina Bay Sands Expo and Convention Centre. Stronger trading fit than generic fintech, but still networking-led.",
+      "focusRank": 7,
+      "verification": {
+        "checkedAt": "2026-07-22",
+        "sourceType": "official organizer source",
+        "summary": "official FX Markets Asia page confirms Oct 22 at Marina Bay Sands Expo and Convention Centre, Singapore"
       }
     },
     {
@@ -6217,6 +6327,28 @@
       }
     },
     {
+      "id": "fix-sea-multi-asset-trading-2026",
+      "title": "FIX Southeast Asia Multi-Asset Trading Conference 2026",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-11",
+      "region": "East Asia / Malaysia",
+      "location": "Grand Hyatt Kuala Lumpur",
+      "format": "in-person",
+      "category": "Electronic Trading / Market Structure",
+      "priority": "medium",
+      "fit": "Practitioner-led electronic trading and multi-asset market-structure conference; stronger trading-relevance than generic fintech expos.",
+      "sourceName": "FIX Trading Community",
+      "sourceUrl": "https://www.fix-events.com/sea/index.html",
+      "status": "watch / register if nearby",
+      "notes": "Official FIX page confirms Nov 11, 9am-5pm plus cocktail, Grand Hyatt Kuala Lumpur. Free for FIX members.",
+      "focusRank": 99,
+      "verification": {
+        "checkedAt": "2026-07-22",
+        "sourceType": "official organizer source",
+        "summary": "official FIX page confirms Nov 11 and Grand Hyatt Kuala Lumpur"
+      }
+    },
+    {
       "id": "quantminds-international-2026",
       "title": "QuantMinds International 2026",
       "startDate": "2026-11-16",
@@ -6258,6 +6390,28 @@
         "checkedAt": "2026-07-22",
         "sourceType": "official organizer source",
         "summary": "official SFF page confirms Nov 18-20, Singapore EXPO, and registration access"
+      }
+    },
+    {
+      "id": "fia-asia-derivatives-2026",
+      "title": "FIA Asia Derivatives Conference 2026",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-03",
+      "region": "East Asia / Singapore",
+      "location": "The St. Regis Singapore",
+      "format": "in-person",
+      "category": "Derivatives / Cleared Markets",
+      "priority": "high",
+      "fit": "Directly relevant to derivatives market structure, exchanges, clearing, vendors, and APAC trading infrastructure; strong Singapore finance-network event.",
+      "sourceName": "FIA",
+      "sourceUrl": "https://www.fia.org/fia/events/asia-derivatives-conference",
+      "status": "watch / plan meetings",
+      "notes": "Official FIA page confirms Dec 1-3 at The St. Regis Singapore. More market-structure/cleared-derivatives than quant alpha research.",
+      "focusRank": 6,
+      "verification": {
+        "checkedAt": "2026-07-22",
+        "sourceType": "official organizer source",
+        "summary": "official FIA page confirms Dec 1-3 at The St. Regis Singapore"
       }
     },
     {
