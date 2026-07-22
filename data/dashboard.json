@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T05:07:54.359Z",
+  "generatedAt": "2026-07-22T07:34:35.519Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -13,8 +13,8 @@
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
-    "upcomingEvents": 20,
-    "koreaEvents": 7,
+    "upcomingEvents": 15,
+    "koreaEvents": 8,
     "virtualWatchEvents": 5,
     "scansParsed": 24,
     "applyFirst": 3,
@@ -5985,6 +5985,22 @@
       "notes": "Invitation-only; track speakers and possible warm intro paths."
     },
     {
+      "id": "avcj-private-equity-forum-korea-2026",
+      "title": "AVCJ Private Equity Forum Korea 2026",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "region": "Korea",
+      "location": "Four Seasons Hotel, Seoul",
+      "format": "in-person",
+      "category": "Alternatives / Private Equity",
+      "priority": "medium",
+      "fit": "Flagship Korea alternatives forum for GPs and LPs; better institutional signal than generic conference-alert pages.",
+      "sourceName": "ION Analytics Community",
+      "sourceUrl": "https://community.ionanalytics.com/avcj-private-equity-forum-korea-2026",
+      "status": "watch",
+      "notes": "Private equity and credit focus; relevant for allocator/network context rather than quant trading."
+    },
+    {
       "id": "cqf-ai-ml-quant-finance-2026",
       "title": "AI and Machine Learning in Quant Finance Conference",
       "startDate": "2026-09-16",
@@ -6010,11 +6026,11 @@
       "format": "in-person",
       "category": "Crypto / Institutional",
       "priority": "high",
-      "fit": "Korea anchor crypto event; institutional adoption, digital assets, AI integration.",
+      "fit": "Korea anchor crypto event; official page positions it as Asia's premier crypto event and gateway to the Korean market.",
       "sourceName": "Korea Blockchain Week",
       "sourceUrl": "https://koreablockchainweek.com/",
       "status": "register",
-      "notes": "Main Seoul crypto week. Watch side events for funds, exchanges, and trading teams."
+      "notes": "Track main conference plus side events for funds, exchanges, builders, and market-structure contacts."
     },
     {
       "id": "token2049-singapore-2026",
@@ -6033,20 +6049,20 @@
       "notes": "Not Korea, but geographically acceptable and directly relevant to crypto trading."
     },
     {
-      "id": "icpeai-seoul-2026",
-      "title": "International Conference on Private Equity and Alternative Investments",
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-21",
+      "id": "ask-global-conference-2026",
+      "title": "ASK Global Conference 2026",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
       "region": "Korea",
-      "location": "Seoul, Korea",
+      "location": "Conrad Seoul",
       "format": "in-person",
-      "category": "Investment / Alternatives",
-      "priority": "watch",
-      "fit": "Alternative investment angle; lower quant specificity but relevant allocator context.",
-      "sourceName": "Research Fora",
-      "sourceUrl": "https://www.researchfora.net/event/index.php?id=100830159",
-      "status": "verify quality",
-      "notes": "Conference listing quality should be verified before spending time or money."
+      "category": "Alternatives / Institutional",
+      "priority": "medium",
+      "fit": "KED alternative investment conference; private debt, private equity, hedge fund, multi-asset allocator signal.",
+      "sourceName": "KED ASK",
+      "sourceUrl": "https://www.kedask.com/",
+      "status": "watch",
+      "notes": "Useful Korea allocator-network signal; relevant for hedge fund and multi-asset context."
     },
     {
       "id": "hk-fintech-week-2026",
@@ -6054,15 +6070,15 @@
       "startDate": "2026-11-02",
       "endDate": "2026-11-06",
       "region": "East Asia / Hong Kong",
-      "location": "Hong Kong",
+      "location": "HKCEC and multiple venues, Hong Kong",
       "format": "in-person",
       "category": "Fintech / AI / Web3",
       "priority": "medium",
-      "fit": "Asia flagship fintech event; useful for AI finance, digital assets, and HK quant network.",
+      "fit": "Asia flagship fintech event; main conference is Nov 2-3 at HKCEC, with broader festival/community events through Nov 6.",
       "sourceName": "Hong Kong FinTech Week",
       "sourceUrl": "https://www.fintechweek.hk/",
       "status": "watch",
-      "notes": "Track agenda for quant, AI finance, digital asset market structure sessions."
+      "notes": "Track agenda for fintech, AI, Web3, digital assets, and institutional finance. Not a pure quant event."
     },
     {
       "id": "devcon-8-2026",
@@ -6118,15 +6134,15 @@
       "startDate": "2026-11-07",
       "endDate": "2026-11-08",
       "region": "Korea",
-      "location": "COEX, Seoul",
-      "format": "hybrid / online access listed",
+      "location": "COEX Convention & Exhibition Center, Seoul",
+      "format": "conference; online access listed",
       "category": "Crypto / Bitcoin",
       "priority": "high",
-      "fit": "Korea Bitcoin conference with education, workshops, and community network.",
+      "fit": "Korea Bitcoin conference focused on Bitcoin education, workshops, Lightning market, and community building.",
       "sourceName": "Plan B Academy",
       "sourceUrl": "https://planb.academy/events/742dfc51-2ae2-4677-a97b-0e2f246f59ac",
       "status": "register",
-      "notes": "Plan B listing shows access as online; also check official Bitcoin Korea Conference site for side-event details."
+      "notes": "Plan B lists Access as Online; verify whether that means streamed access or online ticketing before assuming virtual attendance."
     },
     {
       "id": "quantminds-international-2026",
@@ -6154,11 +6170,11 @@
       "format": "hybrid",
       "category": "Finance / Economics",
       "priority": "watch",
-      "fit": "Hybrid finance conference; lower trading specificity but easy remote optionality.",
+      "fit": "Hybrid economics and finance conference for academics, government, and private-sector finance professionals.",
       "sourceName": "East Asia Research",
       "sourceUrl": "https://apef.ear.com.sg/",
       "status": "virtual watch",
-      "notes": "Use as optional academic/professional finance signal, not a top priority."
+      "notes": "Optional research/networking signal only; not a quant trading conference."
     },
     {
       "id": "global-ai-finance-research-2026",
@@ -6175,102 +6191,56 @@
       "sourceUrl": "https://www.aifinconf.org/",
       "status": "watch",
       "notes": "Track program/speaker release for quant relevance."
+    }
+  ],
+  "watchSources": [
+    {
+      "id": "jane-street-programs-events",
+      "company": "Jane Street",
+      "title": "Programs and Events",
+      "sourceUrl": "https://www.janestreet.com/join-jane-street/programs-and-events/",
+      "priority": "high",
+      "notes": "Monitor for QTC, Preview, researcher programs, and APAC recruiting events."
     },
     {
       "id": "citadel-securities-programs-events",
-      "title": "Citadel Securities Programs and Events",
-      "startDate": "2026-12-31",
-      "endDate": "2026-12-31",
-      "region": "Fund-hosted / Global",
-      "location": "Global / APAC offices",
-      "format": "rolling",
-      "category": "Fund-hosted / Quant Trading",
+      "company": "Citadel Securities",
+      "title": "Programs and Events",
+      "sourceUrl": "https://www.citadelsecurities.com/careers/students/programs-and-events/",
       "priority": "high",
-      "fit": "Top-tier market-maker event page; includes Quant Invitational, Trading Invitational, PhD Summit, Datathons.",
-      "sourceName": "Citadel Securities",
-      "sourceUrl": "https://www.citadelsecurities.com/",
-      "status": "monitor weekly",
-      "notes": "No Korea-specific date surfaced today; monitor APAC/Singapore/HK opportunities directly."
-    },
-    {
-      "id": "imc-programs-events-2026",
-      "title": "IMC Trading Programs and Events",
-      "startDate": "2026-12-31",
-      "endDate": "2026-12-31",
-      "region": "Fund-hosted / Global",
-      "location": "Global / APAC careers pages",
-      "format": "rolling",
-      "category": "Fund-hosted / Quant Trading",
-      "priority": "medium",
-      "fit": "Official programs pages cover trading simulations, coding challenges, and market-making insight programs.",
-      "sourceName": "IMC Trading",
-      "sourceUrl": "https://www.imc.com/us/careers/students-graduates/programs",
-      "status": "monitor weekly",
-      "notes": "Also track APAC careers pages for Singapore/Hong Kong event announcements."
-    },
-    {
-      "id": "jane-street-programs-events",
-      "title": "Jane Street Programs and Events",
-      "startDate": "2026-12-31",
-      "endDate": "2026-12-31",
-      "region": "Fund-hosted / Global",
-      "location": "Global / online pages",
-      "format": "rolling",
-      "category": "Fund-hosted / Quant Trading",
-      "priority": "high",
-      "fit": "Top-tier quant fund event page; includes QTC, Preview, researcher programs, and recruiting events.",
-      "sourceName": "Jane Street",
-      "sourceUrl": "https://www.janestreet.com/join-jane-street/programs-and-events/",
-      "status": "monitor weekly",
-      "notes": "No Korea-specific date surfaced today; keep as direct fund-hosted event watchlist."
-    },
-    {
-      "id": "jump-research-programs-2026",
-      "title": "Jump Trading Research & Programs",
-      "startDate": "2026-12-31",
-      "endDate": "2026-12-31",
-      "region": "Fund-hosted / Global",
-      "location": "Global / online pages",
-      "format": "rolling",
-      "category": "Fund-hosted / Quant Trading",
-      "priority": "medium",
-      "fit": "Official pages expose travel grants, fellowship program, student/new-grad roles, and research programs.",
-      "sourceName": "Jump Trading",
-      "sourceUrl": "https://www.jumptrading.com/hr/students-new-grads",
-      "status": "monitor weekly",
-      "notes": "Probability Cup already ended in July 2026; keep future programs on watch."
+      "notes": "Monitor Quant Invitational, Trading Invitational, PhD Summit, Datathons, and APAC postings."
     },
     {
       "id": "optiver-events-2026",
-      "title": "Optiver Recruiting Events",
-      "startDate": "2026-12-31",
-      "endDate": "2026-12-31",
-      "region": "Fund-hosted / Global",
-      "location": "Global / event page",
-      "format": "rolling",
-      "category": "Fund-hosted / Quant Trading",
-      "priority": "high",
-      "fit": "Official event page surfaces trading-floor AI events, recruiting sessions, and conference participation.",
-      "sourceName": "Optiver",
+      "company": "Optiver",
+      "title": "Recruiting Events",
       "sourceUrl": "https://www.optiver.com/join-us/events/",
-      "status": "monitor weekly",
-      "notes": "Current public event page showed remaining 2026 EMEA events; monitor for APAC/Singapore additions."
+      "priority": "high",
+      "notes": "Monitor trading-floor AI events, recruiting sessions, and APAC additions."
     },
     {
       "id": "two-sigma-quant-events-2026",
-      "title": "Two Sigma Quant Research / Data Science Programs",
-      "startDate": "2026-12-31",
-      "endDate": "2026-12-31",
-      "region": "Fund-hosted / Global",
-      "location": "Global / online pages",
-      "format": "rolling",
-      "category": "Fund-hosted / Quant Research",
-      "priority": "medium",
-      "fit": "Official quant research/data science pages mention summits, internships, seminars, and campus connections.",
-      "sourceName": "Two Sigma",
+      "company": "Two Sigma",
+      "title": "Quant Research / Data Science",
       "sourceUrl": "https://www.twosigma.com/careers/quantitative-research-data-science/",
-      "status": "monitor weekly",
-      "notes": "Good for research-facing opportunities; less Korea-specific today."
+      "priority": "medium",
+      "notes": "Monitor research-facing programs, seminars, internships, and campus connections."
+    },
+    {
+      "id": "imc-programs-events-2026",
+      "company": "IMC Trading",
+      "title": "Programs",
+      "sourceUrl": "https://www.imc.com/us/careers/students-graduates/programs",
+      "priority": "medium",
+      "notes": "Monitor trading simulations, coding challenges, and APAC careers pages."
+    },
+    {
+      "id": "jump-research-programs-2026",
+      "company": "Jump Trading",
+      "title": "Students and New Grads",
+      "sourceUrl": "https://www.jumptrading.com/hr/students-new-grads",
+      "priority": "medium",
+      "notes": "Monitor future programs; Probability Cup already ended in July 2026."
     }
   ]
 }

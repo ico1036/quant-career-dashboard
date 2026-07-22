@@ -665,6 +665,23 @@
           <tbody id="event-table"></tbody>
         </table>
       </div>
+      <div class="section-title" style="margin-top: 18px;">
+        <h2>Fund Watchlist</h2>
+        <span class="note">not dated events; official pages to monitor</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Fund</th>
+              <th>Page</th>
+              <th>Priority</th>
+              <th>What to watch</th>
+            </tr>
+          </thead>
+          <tbody id="watch-table"></tbody>
+        </table>
+      </div>
     </section>
   </main>
 
@@ -770,7 +787,7 @@
         .sort((a, b) => (b.score ?? -1) - (a.score ?? -1))
         .slice(0, 3);
       const nextEvents = data.events
-        .filter((item) => item.priority === "high" && item.startDate !== "2026-12-31")
+        .filter((item) => item.priority === "high")
         .slice(0, 3);
       const currentResumes = data.resumes
         .filter((item) => item.isLatest && ["base quant", "base fde"].includes(item.kind))
@@ -815,7 +832,6 @@
 
     function renderOverviewEvents(data) {
       document.getElementById("overview-events").innerHTML = data.events
-        .filter((item) => item.startDate !== "2026-12-31")
         .slice(0, 6)
         .map((item) => `
         <li><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.title)}</a><br><span class="note">${esc(dateRange(item))} · ${esc(item.location)} · ${esc(item.status)}</span></li>
@@ -967,6 +983,17 @@
       `).join("");
     }
 
+    function renderWatchTable() {
+      document.getElementById("watch-table").innerHTML = state.watchSources.map((item) => `
+        <tr>
+          <td data-label="Fund"><b>${esc(item.company)}</b></td>
+          <td data-label="Page"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.title)}</a></td>
+          <td data-label="Priority"><span class="pill event-${esc(item.priority)}">${esc(item.priority)}</span></td>
+          <td data-label="Watch">${esc(item.notes)}</td>
+        </tr>
+      `).join("");
+    }
+
     function activateTab(tab) {
       document.querySelectorAll(".tabs button").forEach((button) => {
         button.classList.toggle("active", button.dataset.tab === tab);
@@ -991,6 +1018,7 @@
       renderJdTable();
       renderResumeTable();
       renderEventTable();
+      renderWatchTable();
 
       document.querySelectorAll(".tabs button").forEach((button) => {
         button.addEventListener("click", () => activateTab(button.dataset.tab));
