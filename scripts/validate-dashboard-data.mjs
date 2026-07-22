@@ -77,6 +77,11 @@ if (kbw && !/Upbit Institutional Summit/i.test(`${kbw.location} ${kbw.notes}`)) 
   errors.push("kbw-2026: missing Upbit Institutional Summit split");
 }
 
+const sff = findEvent("singapore-fintech-festival-2026");
+if (sff && (!/Singapore EXPO/i.test(sff.location) || !/Nov 18-20|18-20/i.test(sff.notes))) {
+  errors.push("singapore-fintech-festival-2026: missing official Nov 18-20 Singapore EXPO details");
+}
+
 const bitcoinKorea = findEvent("bitcoin-korea-conference-2026");
 if (bitcoinKorea && /hybrid|online/i.test(bitcoinKorea.format)) {
   errors.push("bitcoin-korea-conference-2026: must not be marked hybrid/online without official livestream confirmation");

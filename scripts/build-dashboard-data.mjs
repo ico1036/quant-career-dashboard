@@ -585,6 +585,7 @@ function trackedEvents() {
     ["bitcoin-plus-plus-seoul-2026", "bitcoin++ Seoul - Privacy Edition", "2026-11-05", "2026-11-06", "Korea", "Page Project, Seoul", "in-person", "Crypto / Bitcoin Engineering", "medium", "Developer and researcher-centered Bitcoin privacy/P2P event; useful for protocol and market-structure contacts.", "bitcoin++", "https://btcpp.dev/seoul", "track", "Attend if the goal is Bitcoin protocol, privacy, P2P exchange, or market-structure network rather than general investing."],
     ["bitcoin-korea-conference-2026", "Bitcoin Korea Conference 2026", "2026-11-07", "2026-11-08", "Korea", "Nov 7 COEX; Nov 8 Korea Federation of Banks + Community House Masil, Seoul", "in-person", "Crypto / Bitcoin", "medium", "Official offline Bitcoin Korea event focused on Bitcoin education, Lightning market, workshops, and community network.", "Bitcoin Korea Conference", "https://www.bitcoinkoreaconference.com/en/schedule", "register if protocol/network goal", "Removed hybrid label. Treat Plan B Academy's Access: Online metadata as wrong unless the official schedule later confirms livestream access."],
     ["quantminds-international-2026", "QuantMinds International 2026", "2026-11-16", "2026-11-19", "Far / Virtual Watch", "InterContinental O2, London", "in-person", "Quant Finance", "medium", "Top-tier global quant finance conference; strongest content fit among far-travel events.", "Informa Connect", "https://informaconnect.com/quantminds-international/", "content watch", "No confirmed live online pass; monitor YouTube/on-demand content. London travel only if paired with speaking, recruiting, or targeted meetings."],
+    ["singapore-fintech-festival-2026", "Singapore FinTech Festival 2026", "2026-11-18", "2026-11-20", "East Asia / Singapore", "Singapore EXPO, Halls 1-6 and Foyer", "in-person", "FinTech / Institutional / AI", "high", "Singapore's flagship policy, finance, fintech, AI, and digital-assets gathering; strong for MAS/GFTN network, institutional partners, and Singapore job/business meetings.", "Singapore FinTech Festival", "https://www.fintechfestival.sg/registration", "register / plan meetings", "Official SFF page confirms Nov 18-20 at Singapore EXPO. Early Bird registration ends Jul 31, 2026; attend only with pre-booked meetings or targeted sessions."],
     ["apef-2026", "Asia-Pacific Conference on Economics and Finance 2026", "2026-12-10", "2026-12-11", "East Asia / Singapore", "Holiday Inn Singapore Atrium", "hybrid; virtual presenter mainly pre-recorded", "Finance / Economics", "watch", "Economics and finance conference with low Helix/quant specificity.", "East Asia Research", "https://apef.ear.com.sg/", "low priority", "Remote option appears aimed at pre-recorded virtual presenters, not a clear general livestream ticket. Keep behind higher-signal events."],
     ["global-ai-finance-research-2026", "Global AI Finance Research Conference", "2026-12-14", "2026-12-15", "East Asia / Taiwan", "Howard Civil Service International House, Taipei", "in-person only", "AI Finance / Research", "high", "Highest-priority Helix paper-submission candidate: publish frontier model x harness, evaluation design, repeatability, or post-training comparison without exposing full know-how.", "Global AI Finance Research Conference", "https://www.conftool.net/aifinconf2026/register.php", "evaluate paper submission", "Offline-only. Paper submission deadline is Aug 31; acceptance notification is Sep 30. Use the working ConfTool registration page; the aifinconf.org root/CFP URLs were unreachable in link verification on 2026-07-22."]
   ].map(([id, title, startDate, endDate, region, location, format, category, priority, fit, sourceName, sourceUrl, status, notes]) => {
@@ -593,8 +594,8 @@ function trackedEvents() {
       "cqf-ai-ml-quant-finance-2026": 2,
       "kbw-2026": 3,
       "korea-global-investment-forum-2026": 4,
-      "token2049-singapore-2026": 5,
-      "quantminds-international-2026": 6
+      "singapore-fintech-festival-2026": 5,
+      "token2049-singapore-2026": 6
     };
     const verification = {
       "origin-seoul-2026": "official page confirms Aug 31-Sep 2 and Bitcoin-only Seoul positioning",
@@ -610,6 +611,7 @@ function trackedEvents() {
       "bitcoin-plus-plus-seoul-2026": "official bitcoin++ page confirms Nov 5-6 Seoul privacy edition",
       "bitcoin-korea-conference-2026": "official schedule confirms Nov 7 COEX and Nov 8 bank/community venues; no official livestream confirmation",
       "quantminds-international-2026": "official Informa page confirms Nov 16-19 London; no confirmed live online attendee pass",
+      "singapore-fintech-festival-2026": "official SFF page confirms Nov 18-20, Singapore EXPO, and registration access",
       "apef-2026": "official APEF page confirms hybrid Singapore conference, but remote mode is mainly virtual presenter/pre-recorded",
       "global-ai-finance-research-2026": "official ConfTool page opens and identifies the 2026 Global AI Finance Research Conference; original aifinconf.org root was unreachable during link check"
     };

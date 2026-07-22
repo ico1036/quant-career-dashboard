@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T08:43:01.096Z",
+  "generatedAt": "2026-07-22T08:47:14.632Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -13,7 +13,7 @@
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
-    "upcomingEvents": 15,
+    "upcomingEvents": 16,
     "koreaEvents": 8,
     "virtualWatchEvents": 4,
     "scansParsed": 24,
@@ -6077,7 +6077,7 @@
       "sourceUrl": "https://www.token2049.com/singapore",
       "status": "travel only with meetings",
       "notes": "Official tickets are on sale. Do not travel just for hallway exposure; bundle with Singapore career/fund meetings.",
-      "focusRank": 5,
+      "focusRank": 6,
       "verification": {
         "checkedAt": "2026-07-22",
         "sourceType": "official organizer source",
@@ -6231,11 +6231,33 @@
       "sourceUrl": "https://informaconnect.com/quantminds-international/",
       "status": "content watch",
       "notes": "No confirmed live online pass; monitor YouTube/on-demand content. London travel only if paired with speaking, recruiting, or targeted meetings.",
-      "focusRank": 6,
+      "focusRank": 99,
       "verification": {
         "checkedAt": "2026-07-22",
         "sourceType": "official organizer source",
         "summary": "official Informa page confirms Nov 16-19 London; no confirmed live online attendee pass"
+      }
+    },
+    {
+      "id": "singapore-fintech-festival-2026",
+      "title": "Singapore FinTech Festival 2026",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-20",
+      "region": "East Asia / Singapore",
+      "location": "Singapore EXPO, Halls 1-6 and Foyer",
+      "format": "in-person",
+      "category": "FinTech / Institutional / AI",
+      "priority": "high",
+      "fit": "Singapore's flagship policy, finance, fintech, AI, and digital-assets gathering; strong for MAS/GFTN network, institutional partners, and Singapore job/business meetings.",
+      "sourceName": "Singapore FinTech Festival",
+      "sourceUrl": "https://www.fintechfestival.sg/registration",
+      "status": "register / plan meetings",
+      "notes": "Official SFF page confirms Nov 18-20 at Singapore EXPO. Early Bird registration ends Jul 31, 2026; attend only with pre-booked meetings or targeted sessions.",
+      "focusRank": 5,
+      "verification": {
+        "checkedAt": "2026-07-22",
+        "sourceType": "official organizer source",
+        "summary": "official SFF page confirms Nov 18-20, Singapore EXPO, and registration access"
       }
     },
     {

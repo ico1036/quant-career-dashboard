@@ -33,8 +33,8 @@ Use this for Quant Career Pipeline dashboard events.
 2. CQF AI/ML in Quant Finance: direct AI-native quant content, online.
 3. KBW + Upbit Institutional Summit: company-name institutional access.
 4. Korea Global Investment Forum: only via warm intro.
-5. TOKEN2049 Singapore: only with pre-booked Singapore meetings.
-6. QuantMinds: excellent content, travel only with concrete meetings.
+5. Singapore FinTech Festival: Singapore fintech, policy, institutional, AI, and digital-assets network.
+6. TOKEN2049 Singapore: only with pre-booked Singapore meetings.
 
 ## Build Gate
 
@@ -44,6 +44,7 @@ Use this for Quant Career Pipeline dashboard events.
 - synthetic `2026-12-31` dates for watch pages.
 - Bitcoin Korea being marked hybrid/online without official confirmation.
 - missing Upbit Institutional Summit split for KBW.
+- missing Singapore FinTech Festival.
 - missing Global AI Finance paper deadline.
 - missing event or watch-page verification metadata.
 - fund pages represented as dated events.
