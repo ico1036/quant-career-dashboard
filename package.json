@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build:data": "node scripts/build-dashboard-data.mjs",
-    "build": "npm run build:data && vite build",
+    "build:worker": "node scripts/build-worker.mjs",
+    "build": "npm run build:data && npm run build:worker && vite build",
     "dev": "npm run build:data && vite --host 0.0.0.0"
   },
   "dependencies": {
