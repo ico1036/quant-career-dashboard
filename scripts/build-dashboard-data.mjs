@@ -61,6 +61,42 @@ function inferAction(status, score, notes) {
   return "hold";
 }
 
+function actionDetails(action) {
+  const details = {
+    apply: {
+      label: "Apply now",
+      meaning: "Clean high-priority target",
+      nextStep: "Open posting, use paired resume, submit or start Phase 3 package"
+    },
+    verify: {
+      label: "Verify first",
+      meaning: "Promising but needs a quick check",
+      nextStep: "Confirm JD, location, seniority, and active status before spending resume cycle"
+    },
+    watch: {
+      label: "Watch",
+      meaning: "Useful signal, not urgent today",
+      nextStep: "Keep tracking for new SG/remote QR or ML openings"
+    },
+    researched: {
+      label: "Already researched",
+      meaning: "Company has prior research or tailored resume",
+      nextStep: "Reuse existing materials; only refresh if the JD changed"
+    },
+    hold: {
+      label: "Hold",
+      meaning: "Low fit, blocked, stale, or suspicious",
+      nextStep: "Do not spend resume cycle unless a cleaner role appears"
+    },
+    unknown: {
+      label: "Review",
+      meaning: "Not enough signal",
+      nextStep: "Manually inspect source before action"
+    }
+  };
+  return details[action] ?? details.unknown;
+}
+
 function inferGeo(text, company = "") {
   const lower = text.toLowerCase();
   const companyLower = company.toLowerCase();
@@ -87,6 +123,165 @@ function inferGeo(text, company = "") {
   return "Unspecified";
 }
 
+const companyAliasRules = [
+  ["point72-cubist", ["point72", "cubist"]],
+  ["citadel", ["citadel", "citsec", "citadel securities", "gqs"]],
+  ["goldman sachs", ["goldman"]],
+  ["jane street", ["jane street"]],
+  ["gic", ["gic", "ai alpha"]],
+  ["drw", ["drw"]],
+  ["jump trading", ["jump"]],
+  ["worldquant", ["worldquant"]],
+  ["crypto.com", ["crypto.com", "crypto"]],
+  ["graviton research capital", ["graviton"]],
+  ["imc trading", ["imc"]],
+  ["qube research technologies", ["qube"]],
+  ["binance", ["binance"]],
+  ["qcp", ["qcp"]],
+  ["hrt", ["hrt", "hudson river"]],
+  ["optiver", ["optiver"]],
+  ["virtu financial", ["virtu"]],
+  ["xtx markets", ["xtx"]],
+  ["blocktech", ["blocktech"]],
+  ["selini capital", ["selini"]],
+  ["bridgewater", ["bridgewater"]],
+  ["millennium", ["millennium"]],
+  ["squarepoint capital", ["squarepoint"]],
+  ["balyasny", ["balyasny"]],
+  ["kronos research", ["kronos"]],
+  ["grasshopper", ["grasshopper"]],
+  ["schonfeld", ["schonfeld"]],
+  ["g-research", ["g-research", "gresearch"]],
+  ["jane street", ["jane street"]],
+  ["quantedge", ["quantedge"]],
+  ["moreton capital partners", ["moreton"]],
+  ["fionics", ["fionics"]],
+  ["ms capital", ["ms capital", "ms-capital"]]
+];
+
+const careersFallback = new Map([
+  ["gic", "https://careers.gic.com.sg/"],
+  ["drw", "https://www.drw.com/work-at-drw/listings"],
+  ["citadel", "https://www.citadel.com/careers/open-opportunities/"],
+  ["citadel securities", "https://www.citadelsecurities.com/careers/open-opportunities/"],
+  ["goldman sachs", "https://higher.gs.com/"],
+  ["jane street", "https://www.janestreet.com/join-jane-street/open-roles/"],
+  ["point72-cubist", "https://careers.point72.com/"],
+  ["point72", "https://careers.point72.com/"],
+  ["cubist", "https://careers.point72.com/"],
+  ["jump trading", "https://www.jumptrading.com/careers/"],
+  ["worldquant", "https://www.worldquant.com/career-listing/"],
+  ["crypto.com", "https://crypto.com/careers"],
+  ["graviton research capital", "https://www.gravitontrading.com/careers.html"],
+  ["imc trading", "https://www.imc.com/ap/careers/"],
+  ["qube research technologies", "https://www.qube-rt.com/careers/"],
+  ["binance", "https://www.binance.com/en/careers"],
+  ["qcp", "https://www.qcpgroup.com/careers"],
+  ["hrt", "https://www.hudsonrivertrading.com/careers/"],
+  ["optiver", "https://optiver.com/working-at-optiver/career-opportunities/"],
+  ["virtu financial", "https://www.virtu.com/careers/"],
+  ["xtx markets", "https://www.xtxmarkets.com/careers/"],
+  ["blocktech", "https://www.blocktech.com/careers"],
+  ["citi", "https://jobs.citi.com/"],
+  ["selini capital", "https://www.selini.capital/careers"],
+  ["grasshopper", "https://www.grasshopperasia.com/careers"],
+  ["fionics", "https://www.fionics.com/jobs"],
+  ["quantedge", "https://www.quantedge.com/careers"],
+  ["b2c2", "https://www.b2c2.com/careers"],
+  ["marshall wace", "https://www.mwam.com/careers/"],
+  ["eastspring", "https://www.eastspring.com/about-us/careers"],
+  ["julius baer", "https://www.juliusbaer.com/en/careers/"],
+  ["mercuria", "https://mercuria.com/careers/"],
+  ["monad foundation", "https://www.monad.xyz/careers"],
+  ["oxford knight", "https://www.oxfordknight.co.uk/jobs/"],
+  ["anson mccade", "https://www.ansonmccade.com/jobs/"],
+  ["charterhouse", "https://www.charterhouse.com.sg/jobs"],
+  ["ellwood consulting", "https://www.ellwoodconsulting.com/jobs/"],
+  ["bridgewater", "https://www.bridgewater.com/working-at-bridgewater/job-openings"],
+  ["millennium", "https://www.mlp.com/careers/"],
+  ["squarepoint capital", "https://www.squarepoint-capital.com/careers"],
+  ["balyasny", "https://www.bamfunds.com/careers/"],
+  ["schonfeld", "https://www.schonfeld.com/careers/"],
+  ["g-research", "https://www.gresearch.com/vacancies/"]
+]);
+
+function companyNeedles(company) {
+  const normalized = company.toLowerCase();
+  const needles = new Set(
+    normalized
+      .replace(/[^a-z0-9]+/g, " ")
+      .split(/\s+/)
+      .filter((token) => token.length >= 3 && !["research", "capital", "trading", "experienced", "quant", "street", "jobs", "careers"].includes(token))
+  );
+
+  for (const [canonical, aliases] of companyAliasRules) {
+    if (aliases.some((alias) => normalized.includes(alias))) {
+      needles.add(canonical);
+      aliases.forEach((alias) => needles.add(alias));
+    }
+  }
+
+  return [...needles];
+}
+
+function fallbackJobUrl(company) {
+  const normalized = company.toLowerCase();
+  for (const [key, url] of careersFallback) {
+    if (normalized.includes(key) || key.includes(normalized)) return url;
+  }
+  for (const [, aliases] of companyAliasRules) {
+    if (aliases.some((alias) => normalized.includes(alias))) {
+      const canonical = aliases.find((alias) => careersFallback.has(alias));
+      if (canonical) return careersFallback.get(canonical);
+    }
+  }
+  return `https://www.google.com/search?q=${encodeURIComponent(`${company} careers quant jobs`)}`;
+}
+
+function bestJdForCompany(company, jdCache) {
+  const needles = companyNeedles(company.company);
+  const geo = company.geo.toLowerCase();
+  const scored = jdCache
+    .filter((jd) => jd.url)
+    .map((jd) => {
+      const haystack = `${jd.title} ${jd.file} ${jd.excerpt}`.toLowerCase();
+      let score = 0;
+      let companyScore = 0;
+      for (const needle of needles) {
+        if (!needle) continue;
+        if (haystack.includes(needle)) companyScore += needle.length > 8 ? 5 : 3;
+      }
+      score += companyScore;
+      if (geo.includes("singapore") && haystack.includes("singapore")) score += 3;
+      if (geo.includes("remote") && haystack.includes("remote")) score += 2;
+      if (geo.includes("texas") && (haystack.includes("texas") || haystack.includes("remote"))) score += 2;
+      if (/machine learning|quantitative researcher|quant research|ai alpha|prediction markets/i.test(haystack)) score += 1;
+      if (/intern|graduate|university/i.test(haystack) && !/intern|graduate|university/i.test(company.notes)) score -= 2;
+      return { jd, score, companyScore };
+    })
+    .filter((item) => item.companyScore > 0)
+    .sort((a, b) => b.score - a.score || String(b.jd.date ?? "").localeCompare(String(a.jd.date ?? "")));
+
+  return scored[0]?.jd ?? null;
+}
+
+function enrichCompanyLinks(companies, jdCache) {
+  return companies.map((company) => {
+    const jd = bestJdForCompany(company, jdCache);
+    const fallback = fallbackJobUrl(company.company);
+    const details = actionDetails(company.action);
+    return {
+      ...company,
+      actionLabel: details.label,
+      actionMeaning: details.meaning,
+      actionNextStep: details.nextStep,
+      jobTitle: jd?.title ?? (fallback ? `${company.company} careers` : null),
+      jobUrl: jd?.url ?? fallback,
+      jobSource: jd ? "cached JD" : (fallback?.includes("google.com/search") ? "job search" : "careers page")
+    };
+  });
+}
+
 function parseTargetCompanies() {
   const md = read(join(dataDir, "target-companies.md"));
   const rows = [];
@@ -99,6 +294,8 @@ function parseTargetCompanies() {
     if (!company || company === "Company") continue;
     const score = parseScore(fitScoreRaw);
     const fullText = `${company} ${status} ${fitScoreRaw} ${lastSeen} ${notes}`;
+    const action = inferAction(status, score, notes);
+    const actionDetail = actionDetails(action);
     rows.push({
       id: company.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
       company,
@@ -109,7 +306,10 @@ function parseTargetCompanies() {
       lastSeen,
       notes,
       geo: inferGeo(fullText, company),
-      action: inferAction(status, score, notes)
+      action,
+      actionLabel: actionDetail.label,
+      actionMeaning: actionDetail.meaning,
+      actionNextStep: actionDetail.nextStep
     });
   }
 
@@ -321,9 +521,9 @@ function parseResumes(companies) {
   return safeResumes;
 }
 
-const companies = parseTargetCompanies();
 const history = parseScanHistory();
 const jdCache = parseJdCache();
+const companies = enrichCompanyLinks(parseTargetCompanies(), jdCache);
 const resumes = parseResumes(companies);
 const top = companies.filter((item) => (item.score ?? 0) >= 4).slice(0, 16);
 

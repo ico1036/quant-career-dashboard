@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T04:13:12.775Z",
+  "generatedAt": "2026-07-22T04:22:17.945Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -41,7 +41,13 @@
       "lastSeen": "2026-07-14",
       "notes": "AI Alpha Group remains strongest active fit. Official Quantitative Portfolio Manager and Quantitative Analyst AI Alpha pages/snippets remain active; proprietary Gen AI-powered fundamental investment process and portfolio construction signal. GIC Phase 3 eligible on demand.",
       "geo": "Singapore",
-      "action": "apply"
+      "action": "apply",
+      "actionLabel": "Apply now",
+      "actionMeaning": "Clean high-priority target",
+      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
+      "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
+      "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
+      "jobSource": "cached JD"
     },
     {
       "id": "drw",
@@ -53,7 +59,13 @@
       "lastSeen": "2026-07-22",
       "notes": "Official Greenhouse Quantitative Researcher - Machine Learning now cleanly lists London, Singapore. Strong transformer/modern ML, forecasting, noisy structured/unstructured data, scalable production ML pipelines, and research-to-live-production signal. Recurring; no Phase 3 unless requested/resume version bump.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "DRW — Quantitative Researcher - Machine Learning",
+      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/7276024",
+      "jobSource": "cached JD"
     },
     {
       "id": "citadel-gqs-qr-experienced",
@@ -65,7 +77,13 @@
       "lastSeen": "2026-05-05",
       "notes": "⭐ Experienced QR in GQS Asia. Predictive models, multi-asset portfolio optimization. SG confirmed. High autonomy + depth. Already tracked Citadel so no Phase 3.",
       "geo": "Singapore",
-      "action": "apply"
+      "action": "apply",
+      "actionLabel": "Apply now",
+      "actionMeaning": "Clean high-priority target",
+      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "goldman-sachs",
@@ -77,7 +95,13 @@
       "lastSeen": "2026-06-30",
       "notes": "Official Foundation Engineering Applied AI Senior AI/ML Quant Research Engineer VP Singapore role active. Very strong AI/ML, LLM, RL, XAI, MLOps, production trading signal; sell-side/platform setting keeps it just under Phase 3 auto-urgency.",
       "geo": "Singapore",
-      "action": "apply"
+      "action": "apply",
+      "actionLabel": "Apply now",
+      "actionMeaning": "Clean high-priority target",
+      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
+      "jobTitle": "Goldman Sachs — Senior AI/ML Quant Research Engineer, VP",
+      "jobUrl": "https://higher.gs.com/roles/162208",
+      "jobSource": "cached JD"
     },
     {
       "id": "kronos-research",
@@ -89,7 +113,13 @@
       "lastSeen": "2026-06-24",
       "notes": "⚠️ Greenhouse board deactivated as of 2026-06-24. Prior roles: ML Researcher SG + Exp Quant Trader Remote/SG. Monitor for board reactivation.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Kronos Research — Machine Learning Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
+      "jobSource": "cached JD"
     },
     {
       "id": "moreton-capital-partners",
@@ -101,7 +131,13 @@
       "lastSeen": "2026-07-01",
       "notes": "NEW prediction-markets quant analyst role. Agentic AI + quantitative modelling + alpha signal ownership; partial JD extraction but official Workable/company careers/news signals align. Phase 3 completed; resume v1 uploaded to Drive.",
       "geo": "Unspecified",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
+      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "jobSource": "cached JD"
     },
     {
       "id": "point72-cubist",
@@ -113,7 +149,13 @@
       "lastSeen": "2026-07-21",
       "notes": "Official Greenhouse/Careers Cubist Quantitative Researcher Singapore active (7046019002): experienced alpha research, original signal research, backtesting, portfolio analysis, production code, direct investment-decision impact. Researched historically; no Phase 3.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
+      "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+      "jobSource": "cached JD"
     },
     {
       "id": "binance",
@@ -125,7 +167,13 @@
       "lastSeen": "2026-06-29",
       "notes": "Official/search-confirmed Data Scientist, NLP & Trading Strategies remains active in Singapore/remote surfaces; strongest Binance AI-quant signal. QR/Junior QR also recurring on Lever.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Binance — Quantitative Researcher",
+      "jobUrl": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "jobSource": "cached JD"
     },
     {
       "id": "bridgewater",
@@ -137,7 +185,13 @@
       "lastSeen": "2026-06-29",
       "notes": "NEW official Equity Quantitative Research Associate for New York City & Singapore: PM-led APAC systematic macro/L/S equity pod, end-to-end alpha, alternative data, new tech adoption. Strong but junior-mid; already researched historically.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Bridgewater — Equity Quantitative Research Associate",
+      "jobUrl": "https://job-boards.greenhouse.io/bridgewater89/jobs/8406845002",
+      "jobSource": "cached JD"
     },
     {
       "id": "imc-trading",
@@ -149,7 +203,13 @@
       "lastSeen": "2026-06-12",
       "notes": "APAC experienced QR/ML page active; current visible roles in HK/Sydney/Seoul, no Singapore QR role this pass. Strong large-model/GPU/ML role-family signal; Phase 3 already complete historically.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "IMC — APAC Quant Research / Experienced Roles",
+      "jobUrl": "https://www.imc.com/ap/careers/experienced-roles/quant-research",
+      "jobSource": "cached JD"
     },
     {
       "id": "schonfeld",
@@ -161,7 +221,13 @@
       "lastSeen": "2026-07-15",
       "notes": "Official Greenhouse Quantitative Researcher role still active: systematic trading, ML alphas, NLP/LLM, distributed research pipelines, live signal deployment. Page header remains Hong Kong but application asks Hong Kong/Singapore authorization; watch/verify SG transfer before Phase 3.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Schonfeld — Quantitative Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/schonfeld/jobs/7624691",
+      "jobSource": "cached JD"
     },
     {
       "id": "selini-capital",
@@ -173,7 +239,13 @@
       "lastSeen": "2026-05-21",
       "notes": "Experienced Quantitative Researcher (London/Singapore) on Greenhouse. Crypto HFT/systematic trading; research-heavy feature/model/pipeline improvement with direct live strategy feedback. Resume v1 done.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Selini Capital careers",
+      "jobUrl": "https://www.selini.capital/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "citadel-citsec",
@@ -185,7 +257,13 @@
       "lastSeen": "2026-07-20",
       "notes": "Official Citadel Securities QR/QRA page resurfaced fresh: Singapore-compatible recurring signal with ML/pattern recognition/NLP and live trading signal implementation. Citadel DSG QR is excellent AI/ML + alternative-data fit but official location is New York only, so excluded for SG pipeline. Recurring; no Phase 3.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "hrt",
@@ -197,7 +275,13 @@
       "lastSeen": "2026-06-01",
       "notes": "Official portal loaded but filtered SG/quant role list did not render in browser snapshot. Keep prior status: Algo Developer/QR SG signals active recently; conventional ML/stat rather than LLM-native.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
+      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
+      "jobSource": "cached JD"
     },
     {
       "id": "jane-street-hkg",
@@ -209,7 +293,13 @@
       "lastSeen": "2026-04-21",
       "notes": "QR HKG open. SG 없음. Location mismatch.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Jane Street (HKG) careers",
+      "jobUrl": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "jobSource": "careers page"
     },
     {
       "id": "jump-trading",
@@ -221,7 +311,13 @@
       "lastSeen": "2026-07-08",
       "notes": "Fresh official/search-confirmed Quantitative Researcher \\",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
+      "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
+      "jobSource": "cached JD"
     },
     {
       "id": "optiver",
@@ -233,7 +329,13 @@
       "lastSeen": "2026-06-16",
       "notes": "Careers page currently shows SG Data Center Engineer only in first-page extract; no SG QR/AI role surfaced today. Prior AI Researcher remains Shanghai-only/SG-ineligible.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Optiver — Graduate Quantitative Researcher, PhD (2026 Start)",
+      "jobUrl": "https://optiver.com/working-at-optiver/career-opportunities/8053587002/",
+      "jobSource": "cached JD"
     },
     {
       "id": "worldquant",
@@ -245,7 +347,13 @@
       "lastSeen": "2026-07-15",
       "notes": "Official Greenhouse/search surfaces continue to list Singapore Quantitative Researcher / intern role family, including \"Quantitative Research Intern (LLMs & AI Agents)\" in APAC. Strong but recurring; internship/junior surfaces are not ideal for immediate application.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
+      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "jobSource": "cached JD"
     },
     {
       "id": "xtx-deep-learning-forecasting",
@@ -257,7 +365,13 @@
       "lastSeen": "2026-07-14",
       "notes": "New search surface for deep learning forecasting researcher is highly aligned technically, but London-only / non-SG compatibility in today's pass.",
       "geo": "Location blocked",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Kronos Research — Machine Learning Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
+      "jobSource": "cached JD"
     },
     {
       "id": "blocktech",
@@ -269,7 +383,13 @@
       "lastSeen": "2026-07-13",
       "notes": "Official Ashby/company surfaces show Senior Quantitative Researcher Singapore active; experienced ownership in crypto derivatives/spot algorithmic trading. Resume v1+v2 already done, so no Phase 3.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "BlockTech careers",
+      "jobUrl": "https://www.blocktech.com/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "citi",
@@ -281,7 +401,13 @@
       "lastSeen": "2026-04-21",
       "notes": "Agentic AI Architect VP. Multi-agent + RAG.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Citi careers",
+      "jobUrl": "https://jobs.citi.com/",
+      "jobSource": "careers page"
     },
     {
       "id": "g-research-nlp-researcher",
@@ -293,7 +419,13 @@
       "lastSeen": "2026-07-22",
       "notes": "NLP Researcher. Strong AI signal: LLMs, domain-adaptive pretraining, instruction tuning, LoRA, quantisation, vLLM/PyTorch, finance text prediction. Official role location is London; Dallas appears as office/company presence, not clean role location. Watch for Dallas opening.",
       "geo": "Texas/Dallas",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "G-Research — Natural Language Processing Researcher",
+      "jobUrl": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
+      "jobSource": "cached JD"
     },
     {
       "id": "millennium",
@@ -305,7 +437,13 @@
       "lastSeen": "2026-07-10",
       "notes": "QR Equity SG/HK remains prior good fit. Today surfaced Systematic Macro QR official MLP role, but official location is New York only despite search noise; no SG Phase 3.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Millennium careers",
+      "jobUrl": "https://www.mlp.com/careers/",
+      "jobSource": "careers page"
     },
     {
       "id": "platinum-partners-recruiter",
@@ -317,7 +455,13 @@
       "lastSeen": "2026-07-03",
       "notes": "Anonymous systematic hedge fund QR role in Singapore: APAC equities/FX/rates alpha, ML models, alternative/news data, live trading strategies. Good fit but recruiter/anonymous client, so no Phase 3 until direct employer is identified.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
+      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "jobSource": "cached JD"
     },
     {
       "id": "aquatic-capital-management",
@@ -329,7 +473,13 @@
       "lastSeen": "2026-07-14",
       "notes": "Official/search surfaced quantitative researcher role with ML/statistical research and live trading relevance, but current visible locations skew US/Chicago rather than Singapore/APAC.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
+      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
+      "jobSource": "cached JD"
     },
     {
       "id": "balyasny-bam",
@@ -341,7 +491,13 @@
       "lastSeen": "2026-04-21",
       "notes": "SG expansion. $225-275k base.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Balyasny (BAM) careers",
+      "jobUrl": "https://www.bamfunds.com/careers/",
+      "jobSource": "careers page"
     },
     {
       "id": "ilex-capital",
@@ -353,7 +509,13 @@
       "lastSeen": "2026-04-23",
       "notes": "Quant Researcher. Ex-Balyasny team expansion. SG connection via London+SG strategies.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Ilex Capital careers",
+      "jobUrl": "https://www.google.com/search?q=Ilex%20Capital%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "jain-global",
@@ -365,7 +527,13 @@
       "lastSeen": "2026-04-30",
       "notes": "⚠️ CONFIRMED: Returning investor cash, exclusively managing Millennium money (Bloomberg 27 Apr). Hiring uncertain/likely paused.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
+      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "jobSource": "cached JD"
     },
     {
       "id": "paragon-alpha-recruiter",
@@ -377,7 +545,13 @@
       "lastSeen": "2026-06-04",
       "notes": "AI Research Scientist / QR ML posting surfaced. Strong AI language but anonymous client/location ambiguity; no Phase 3 unless direct employer/SG compatibility verified.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Paragon Alpha — AI Research Scientist Hedge Fund / Quantitative Researcher Machine Learning (partial)",
+      "jobUrl": "https://www.paragonalpha.com/jobs",
+      "jobSource": "cached JD"
     },
     {
       "id": "seven-research",
@@ -389,7 +563,13 @@
       "lastSeen": "2026-07-14",
       "notes": "Search surfaced AI Research Engineer for crypto trading research; strong AI-native signal, but location/SG compatibility and official JD detail need verification before Phase 3.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Seven Research careers",
+      "jobUrl": "https://www.google.com/search?q=Seven%20Research%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "citadel-phd-graduate-asia",
@@ -401,7 +581,13 @@
       "lastSeen": "2026-05-04",
       "notes": "QR PhD Graduate — HK/Singapore. PhD-specific, high depth, moderate AI signal. Recurring Citadel but this PhD Asia role is NEW.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "grasshopper",
@@ -413,7 +599,13 @@
       "lastSeen": "2026-07-06",
       "notes": "Official Greenhouse Quantitative Researcher Singapore role active. New trading-team role with founding-team autonomy, market microstructure, ML/statistical predictive models, production code/live systems; good practical/culture fit but weak LLM/AI-native signal keeps it below Phase 3.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Grasshopper careers",
+      "jobUrl": "https://www.grasshopperasia.com/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "helix-ai-capital",
@@ -425,7 +617,13 @@
       "lastSeen": "2026-07-10",
       "notes": "LinkedIn-only Crypto Quantitative Researcher Singapore: crypto spot/derivatives/DeFi, order books, funding/open interest, on-chain data, predictive signals and research pipelines. Strong but company/direct JD verification incomplete.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Helix AI Capital careers",
+      "jobUrl": "https://www.google.com/search?q=Helix%20AI%20Capital%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "metabit-technology-llc",
@@ -437,7 +635,13 @@
       "lastSeen": "2026-07-03",
       "notes": "Official Greenhouse remains active with SG Senior QR Intraday Equities Alpha and NEW Senior QR Monetization across HK/NY/SG. Strong alpha-to-live-PnL/portfolio-optimization signal, but role-level AI-native signal remains weak. Below Phase 3.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Metabit Technology LLC — Senior Quantitative Researcher, Intraday Equities Alpha",
+      "jobUrl": "https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009",
+      "jobSource": "cached JD"
     },
     {
       "id": "rock-bund-capital",
@@ -449,7 +653,13 @@
       "lastSeen": "2026-05-19",
       "notes": "NEW Singapore MFT QR posting on Greenhouse. Strong alpha/ML/portfolio-construction signal but crypto/MFT execution-heavy; below Phase 3 threshold.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Rock Bund Capital — Quantitative Researcher - MFT Strategies (Crypto / TradFi)",
+      "jobUrl": "https://job-boards.eu.greenhouse.io/rockbund/jobs/4868807101",
+      "jobSource": "cached JD"
     },
     {
       "id": "selby-jennings-recruiter",
@@ -461,7 +671,13 @@
       "lastSeen": "2026-07-03",
       "notes": "Quant Researcher/Trader Systematic Strategies Singapore surfaced; anonymous global trading firm, traditional+digital systematic expansion. Recruiter-only and limited company verification.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Selby Jennings (recruiter) careers",
+      "jobUrl": "https://www.google.com/search?q=Selby%20Jennings%20(recruiter)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "squarepoint-capital",
@@ -473,7 +689,13 @@
       "lastSeen": "2026-06-16",
       "notes": "Official Junior QR / ML Alpha still active: time-series + ML/NLP alpha research, deploy/monitor trading-signal models. Strong content, but junior framing creates overqualification risk.",
       "geo": "Unspecified",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Squarepoint Capital — Junior Quant Researcher - ML Alpha Research",
+      "jobUrl": "https://job-boards.greenhouse.io/embed/job_app?for=squarepointcapital&token=6069464",
+      "jobSource": "cached JD"
     },
     {
       "id": "tower-research-capital",
@@ -485,7 +707,13 @@
       "lastSeen": "2026-06-01",
       "notes": "Official portal shell loaded but job list did not render in browser snapshot. Keep prior status: ML Engineer HK/Shanghai/SG and SG trader/dev roles recently visible; engineering-platform-heavy, below Phase 3 threshold.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Tower Research Capital — Machine Learning Engineer (Hong Kong / Shanghai / Singapore)",
+      "jobUrl": "https://www.tower-research.com/open-positions/?gh_jid=7714667",
+      "jobSource": "cached JD"
     },
     {
       "id": "xtx-markets",
@@ -497,7 +725,13 @@
       "lastSeen": "2026-04-21",
       "notes": "Research Director SG — ML focus. Senior (L7+) role.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
+      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "jobSource": "cached JD"
     },
     {
       "id": "augmentti-recruiter",
@@ -509,7 +743,13 @@
       "lastSeen": "2026-07-10",
       "notes": "LinkedIn-only Quant Researcher - Options MM Singapore; recruiter-mediated, C++/Python, production code, options/systematic background. Anonymous client; below Phase 3.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Augmentti (recruiter) careers",
+      "jobUrl": "https://www.google.com/search?q=Augmentti%20(recruiter)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "bah-partners-recruiter",
@@ -521,7 +761,13 @@
       "lastSeen": "2026-04-24",
       "notes": "QR/Jr QR for unnamed crypto prop (HFT digital assets). $200-500k. Anonymous client.",
       "geo": "Unspecified",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
+      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "jobSource": "cached JD"
     },
     {
       "id": "citadel-gqs-qre",
@@ -533,7 +779,13 @@
       "lastSeen": "2026-04-30",
       "notes": "NEW role: Quantitative Research Engineer. QR-QRE hybrid. SG available.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "douro-labs",
@@ -545,7 +797,13 @@
       "lastSeen": "2026-06-03",
       "notes": "Remote Quantitative Researcher / Financial Engineer snippets for Pyth Pro pricing/market-data role; official career page not recovered, Europe/remote not SG-primary. Watch only, no Phase 3.",
       "geo": "Remote",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Douro Labs — Quantitative Researcher / Financial Engineer (Remote, partial)",
+      "jobUrl": "https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs",
+      "jobSource": "cached JD"
     },
     {
       "id": "ellwood-consulting-recruiter",
@@ -557,7 +815,13 @@
       "lastSeen": "2026-04-27",
       "notes": "Sr QR for anonymous multi-strat HF, SG. Suspicious (anonymous client).",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Ellwood Consulting (recruiter) careers",
+      "jobUrl": "https://www.ellwoodconsulting.com/jobs/",
+      "jobSource": "careers page"
     },
     {
       "id": "fionics",
@@ -569,7 +833,13 @@
       "lastSeen": "2026-04-16",
       "notes": "Small SG systematic fund. AI-native angle possible.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Fionics careers",
+      "jobUrl": "https://www.fionics.com/jobs",
+      "jobSource": "careers page"
     },
     {
       "id": "mlp-group-millennium",
@@ -581,7 +851,13 @@
       "lastSeen": "2026-04-30",
       "notes": "24 SG roles across quant/ML. Pod model. career.mlp.com.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
+      "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
+      "jobSource": "cached JD"
     },
     {
       "id": "tudor-investment-xantium",
@@ -593,7 +869,13 @@
       "lastSeen": "2026-07-06",
       "notes": "Official Greenhouse Medium Frequency Quantitative Researcher lists NYC/London/Singapore. Systematic futures alpha, ownership, Python/R, advanced degree preference; strong traditional quant but weak AI-native/LLM signal.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Tudor Investment Corporation — Low Latency Quantitative Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/tudorgroup/jobs/5358163",
+      "jobSource": "cached JD"
     },
     {
       "id": "virtu-financial",
@@ -605,7 +887,13 @@
       "lastSeen": "2026-07-08",
       "notes": "Official Singapore Options Quantitative Strategist active: volatility signals, predictive models, options pricing, strategy calibration, live infra integration. ML Researcher remains 4.5-quality but NY-only; watch for SG/remote variant.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
+      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
+      "jobSource": "cached JD"
     },
     {
       "id": "westbury-partners",
@@ -617,7 +905,13 @@
       "lastSeen": "2026-04-28",
       "notes": "QR Systematic Trading Strategies SG + HK. eFC posting active 27 Apr.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
+      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "jobSource": "cached JD"
     },
     {
       "id": "citadel-securities-qd-re",
@@ -629,7 +923,13 @@
       "lastSeen": "2026-05-08",
       "notes": "Quant Dev/Research Engineer. SG listed. Dev-heavy QR-QE hybrid. Below 4.0 threshold.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "crypto-com",
@@ -641,7 +941,13 @@
       "lastSeen": "2026-07-21",
       "notes": "Options quant + VP trader historically. New 2026-07-21 Texas-expanded/US-remote Quantitative Researcher - Prediction Markets official Lever role surfaced; hands-on pricing, market-making, and risk models. Secondary watch, not top apply target.",
       "geo": "Texas/Dallas",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Crypto.com — Quantitative Researcher - Prediction Markets, Quant Trading",
+      "jobUrl": "https://jobs.lever.co/crypto/5e8ddb0f-c326-41d3-be2e-382be2b5a3e0",
+      "jobSource": "cached JD"
     },
     {
       "id": "deeter-analytics",
@@ -653,7 +959,13 @@
       "lastSeen": "2026-07-14",
       "notes": "Search surfaced Quantitative Researcher / Financial Engineer, remote-friendly crypto analytics/DeFi role. Interesting on-chain + AI/tooling angle, but company verification and SG compatibility are incomplete.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Deeter Analytics careers",
+      "jobUrl": "https://www.google.com/search?q=Deeter%20Analytics%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "hudson-river-trading",
@@ -665,7 +977,13 @@
       "lastSeen": "2026-07-20",
       "notes": "2027 Grads role remains the clean Singapore-compatible official JD but is junior/new-grad. 2026 PhDs search result resurfaced, but official HRT URL returned 404/Page not found on 2026-07-20, so treat that PhD page as ghost until reopened.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
+      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
+      "jobSource": "cached JD"
     },
     {
       "id": "polymer-capital",
@@ -677,7 +995,13 @@
       "lastSeen": "2026-07-01",
       "notes": "Quant Researcher/Trader Singapore appears on Workable/JobStreet/Grapevine; official Polymer Freshteam currently shows HK in extracted text, so SG signal is partial. Execution/TCA/microstructure/CRB strategy fit, weak AI-native signal.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Polymer Capital careers",
+      "jobUrl": "https://www.google.com/search?q=Polymer%20Capital%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "squarepoint-sr-qr-volatility",
@@ -689,7 +1013,13 @@
       "lastSeen": "2026-05-05",
       "notes": "Senior QR Volatility. SG listed on Greenhouse. Traditional vol, limited AI signal.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Squarepoint Capital — Junior Quant Researcher - ML Alpha Research",
+      "jobUrl": "https://job-boards.greenhouse.io/embed/job_app?for=squarepointcapital&token=6069464",
+      "jobSource": "cached JD"
     },
     {
       "id": "xantium-tudor-investment",
@@ -701,7 +1031,13 @@
       "lastSeen": "2026-06-18",
       "notes": "Tudor Low Latency QR official Greenhouse active with Singapore listed; automated futures signals and ownership, but traditional low-latency focus and weak AI-native signal.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Tudor Investment Corporation — Low Latency Quantitative Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/tudorgroup/jobs/5358163",
+      "jobSource": "cached JD"
     },
     {
       "id": "akuna-capital",
@@ -713,7 +1049,13 @@
       "lastSeen": "2026-07-15",
       "notes": "Official Akuna page confirms Quantitative Researcher and Junior Quantitative Researcher - Prediction Markets surfaces; ML/predictive-model signal is relevant, but SG compatibility and junior/sports framing keep it below Phase 3.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Akuna Capital — MLOps Engineer",
+      "jobUrl": "https://www.akunacapital.com/careers/job/7936692/?gh_jid=7936692",
+      "jobSource": "cached JD"
     },
     {
       "id": "anonymous-systematic-equities-efc",
@@ -725,7 +1067,13 @@
       "lastSeen": "2026-04-28",
       "notes": "QR Systematic Equities SG. MFT strategies. Mid-frequency. Senior signal.",
       "geo": "Unspecified",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Anonymous / eFinancialCareers — Quantitative Researcher – Systematic Trading Strategies",
+      "jobUrl": "https://www.efinancialcareers.sg/jobs-Singapore-Singapore-Quantitative_Researcher_%E2%80%93_Systematic_Trading_Strategies.id23371327",
+      "jobSource": "cached JD"
     },
     {
       "id": "arrowpoint-investment-partners",
@@ -737,7 +1085,13 @@
       "lastSeen": "2026-07-01",
       "notes": "Official careers page lists Quantitative Developer plus Quantitative/ML Intern Singapore. Multi-strategy hedge fund and financial time-series/deep-learning signal, but senior full-time QR signal not recovered today.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
+      "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
+      "jobSource": "cached JD"
     },
     {
       "id": "engineers-gate-eg",
@@ -749,7 +1103,13 @@
       "lastSeen": "2026-06-09",
       "notes": "ML Quantitative Researcher URL now closed/removed (ghost). Current official Greenhouse has QR Hong Kong and QR U.S. telecommuting only; no SG-compatible QR today.",
       "geo": "APAC",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
+      "jobUrl": "https://www-webflow.jumptrading.com/hr/job?gh_jid=5870589",
+      "jobSource": "cached JD"
     },
     {
       "id": "midpoint-markets",
@@ -761,7 +1121,13 @@
       "lastSeen": "2026-07-06",
       "notes": "Official Greenhouse QR lists Singapore among broad global locations but says in-person San Francisco preferred. Crypto/DeFi quant with ML/statistics; SG compatibility and research depth uncertain.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
+      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "jobSource": "cached JD"
     },
     {
       "id": "alveria-capital",
@@ -773,7 +1139,13 @@
       "lastSeen": "2026-07-09",
       "notes": "JobStreet-only Quantitative Researcher C++ Singapore signal; trading-team wording but sparse JD and no official portal recovered.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Alveria Capital careers",
+      "jobUrl": "https://www.google.com/search?q=Alveria%20Capital%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "anonymous-us-hf-efc",
@@ -785,7 +1157,13 @@
       "lastSeen": "2026-04-28",
       "notes": "FI Quant Researcher, systematic macro. Asia expansion. Suspicious (anonymous).",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Anonymous / eFinancialCareers — Quantitative Researcher – Systematic Trading Strategies",
+      "jobUrl": "https://www.efinancialcareers.sg/jobs-Singapore-Singapore-Quantitative_Researcher_%E2%80%93_Systematic_Trading_Strategies.id23371327",
+      "jobSource": "cached JD"
     },
     {
       "id": "b2c2-sbi",
@@ -797,7 +1175,13 @@
       "lastSeen": "2026-04-29",
       "notes": "Quantitative Trader, SG. Crypto market maker. Execution-heavy, not pure research.",
       "geo": "Unspecified",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "B2C2 (SBI) careers",
+      "jobUrl": "https://www.b2c2.com/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "brew-labs",
@@ -809,7 +1193,13 @@
       "lastSeen": "2026-04-23",
       "notes": "Quant Researcher (HF). Crypto. Suspicious — needs verification.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Douro Labs — Quantitative Researcher / Financial Engineer (Remote, partial)",
+      "jobUrl": "https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs",
+      "jobSource": "cached JD"
     },
     {
       "id": "g-research",
@@ -821,7 +1211,13 @@
       "lastSeen": "2026-07-22",
       "notes": "Dallas office/company presence confirmed, but official vacancies still list quant research / ML / NLP roles as London. Keep re-scanning Dallas/Texas under Y'all Street scope, but do not count current London-only roles as Dallas-actionable.",
       "geo": "Texas/Dallas",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "G-Research — Natural Language Processing Researcher",
+      "jobUrl": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
+      "jobSource": "cached JD"
     },
     {
       "id": "mwam-marshall-wace",
@@ -833,7 +1229,13 @@
       "lastSeen": "2026-06-24",
       "notes": "Quant Associate Programme (Research & Implementation). London-based, no SG confirmed. Systematic investment team.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "MWAM (Marshall Wace) careers",
+      "jobUrl": "https://www.mwam.com/careers/",
+      "jobSource": "careers page"
     },
     {
       "id": "qcp",
@@ -845,7 +1247,13 @@
       "lastSeen": "2026-04-16",
       "notes": "Head of Quant — leadership level.",
       "geo": "Unspecified",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "QCP careers",
+      "jobUrl": "https://www.qcpgroup.com/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "quantedge",
@@ -857,7 +1265,13 @@
       "lastSeen": "2026-04-21",
       "notes": "Summer intern only. SG systematic macro fund.",
       "geo": "Singapore",
-      "action": "watch"
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Quantedge careers",
+      "jobUrl": "https://www.quantedge.com/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "bright-point-capital",
@@ -869,7 +1283,13 @@
       "lastSeen": "2026-07-09",
       "notes": "JobStreet-only Singapore QR signal: systematic trading model research/validation, salary $6k-$9k/month. Needs company verification/direct JD before serious pipeline work.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Squarepoint Capital — Junior Quant Researcher - ML Alpha Research",
+      "jobUrl": "https://job-boards.greenhouse.io/embed/job_app?for=squarepointcapital&token=6069464",
+      "jobSource": "cached JD"
     },
     {
       "id": "graviton-research-capital",
@@ -881,7 +1301,13 @@
       "lastSeen": "2026-06-18",
       "notes": "Official Greenhouse QR Singapore JD verified active; startup culture and SG role, but junior/mid C++ traditional HFT with weak AI-native signal.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Graviton Research Capital — Quantitative Researcher (Singapore)",
+      "jobUrl": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
+      "jobSource": "cached JD"
     },
     {
       "id": "qrt-qube",
@@ -893,7 +1319,13 @@
       "lastSeen": "2026-06-18",
       "notes": "Portal active: Crypto Quant Trader Singapore visible; most research/quant roles are non-SG/intern/engineering. Trader-heavy, below Phase 3 threshold.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Qube Research & Technologies — Board SG Quant Signals",
+      "jobUrl": "https://job-boards.greenhouse.io/quberesearchandtechnologies",
+      "jobSource": "cached JD"
     },
     {
       "id": "quantbox-research",
@@ -905,7 +1337,13 @@
       "lastSeen": "2026-05-19",
       "notes": "Experienced QR + Junior QR active on Greenhouse; verified but HFT/MM-heavy, limited AI-native signal.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Quantbox Research — Experienced Quantitative Researcher",
+      "jobUrl": "https://job-boards.eu.greenhouse.io/quantboxresearchpte/jobs/4001033101",
+      "jobSource": "cached JD"
     },
     {
       "id": "acheron-trading",
@@ -917,7 +1355,13 @@
       "lastSeen": "2026-07-10",
       "notes": "Official careers page lists Singapore Quantitative Trading Research Intern: on-chain latency/flow and DeFi market-making primitives. Interesting crypto research signal but internship/junior level.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Acheron Trading careers",
+      "jobUrl": "https://www.google.com/search?q=Acheron%20Trading%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "bluecrest-capital-management",
@@ -929,7 +1373,13 @@
       "lastSeen": "2026-06-30",
       "notes": "Official Greenhouse Quant Researcher Singapore JD active, but Front Office Technology / pricing-risk analytics / C# C++ delivery focus with weak AI-native alpha signal.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
+      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
+      "jobSource": "cached JD"
     },
     {
       "id": "alphagrep-securities",
@@ -941,7 +1391,13 @@
       "lastSeen": "2026-06-18",
       "notes": "Portal active: Singapore role remains Trading Ops; Quantitative Analyst multiple-location and QR Shanghai. SG research fit weak/partial.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "crypto-com-trading-analytics",
@@ -953,7 +1409,13 @@
       "lastSeen": "2026-05-04",
       "notes": "Trading Analytics Developer, SG. LangGraph/LangChain AI signal. Dev-heavy, skip.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Crypto.com — Quantitative Researcher - Prediction Markets, Quant Trading",
+      "jobUrl": "https://jobs.lever.co/crypto/5e8ddb0f-c326-41d3-be2e-382be2b5a3e0",
+      "jobSource": "cached JD"
     },
     {
       "id": "flashflow",
@@ -965,7 +1427,13 @@
       "lastSeen": "2026-07-09",
       "notes": "JobStreet-only Quantitative Researcher Singapore signal, early applicant, \"technical consulting team\" wording. Weak employer/JD specificity and no direct official careers page recovered in this pass.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "JobStreet — New Singapore QR Signals",
+      "jobUrl": "https://sg.jobstreet.com/quantitative-researcher-jobs",
+      "jobSource": "cached JD"
     },
     {
       "id": "wintermute-graduate-qr",
@@ -977,7 +1445,13 @@
       "lastSeen": "2026-05-08",
       "notes": "Graduate QR Summer 2026. London crypto MM. Graduate level, limited SG signal.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "mercuria",
@@ -989,7 +1463,13 @@
       "lastSeen": "2026-04-21",
       "notes": "Quant Strategist, SG. Commodity-focused.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Mercuria careers",
+      "jobUrl": "https://mercuria.com/careers/",
+      "jobSource": "careers page"
     },
     {
       "id": "abundance-apoorva-mehta",
@@ -1001,7 +1481,13 @@
       "lastSeen": "2026-04-29",
       "notes": "Agentic AI hedge fund, Palo Alto, $100M seed. No SG, no public postings. Highest AI-native signal.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Abundance (Apoorva Mehta) careers",
+      "jobUrl": "https://www.google.com/search?q=Abundance%20(Apoorva%20Mehta)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "anson-mccade-recruiter",
@@ -1013,7 +1499,13 @@
       "lastSeen": "2026-05-08",
       "notes": "2 QR postings ($175-200k + $96k) on eFC. Anonymous clients. Suspicious.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Anson McCade (recruiter) careers",
+      "jobUrl": "https://www.ansonmccade.com/jobs/",
+      "jobSource": "careers page"
     },
     {
       "id": "aptitude-asia-recruiter",
@@ -1025,7 +1517,13 @@
       "lastSeen": "2026-04-24",
       "notes": "2 QR postings SG. $100-160k range. Anonymous client.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Binance — Quantitative Researcher",
+      "jobUrl": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "jobSource": "cached JD"
     },
     {
       "id": "charterhouse-recruiter",
@@ -1037,7 +1535,13 @@
       "lastSeen": "2026-04-24",
       "notes": "QR SG $150-220k hybrid. Anonymous client.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Charterhouse (recruiter) careers",
+      "jobUrl": "https://www.charterhouse.com.sg/jobs",
+      "jobSource": "careers page"
     },
     {
       "id": "eastspring",
@@ -1049,7 +1553,13 @@
       "lastSeen": "2026-04-16",
       "notes": "AI Researcher, Quant Strategies.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Eastspring careers",
+      "jobUrl": "https://www.eastspring.com/about-us/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "fenghe-fund-management",
@@ -1061,7 +1571,13 @@
       "lastSeen": "2026-04-27",
       "notes": "SG L/S equity fund. 27% net 2025. Fundamental-focused, no QR posting. Monitor.",
       "geo": "Singapore",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
+      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
+      "jobSource": "cached JD"
     },
     {
       "id": "julius-baer",
@@ -1073,7 +1589,13 @@
       "lastSeen": "2026-04-15",
       "notes": "Private banking quant.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Julius Baer careers",
+      "jobUrl": "https://www.juliusbaer.com/en/careers/",
+      "jobSource": "careers page"
     },
     {
       "id": "lumenai-investments",
@@ -1085,7 +1607,13 @@
       "lastSeen": "2026-04-29",
       "notes": "Fully agentic AI hedge fund, Stamford CT. No SG, no public postings. WATCH.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Lumenai Investments careers",
+      "jobUrl": "https://www.google.com/search?q=Lumenai%20Investments%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "monad-foundation",
@@ -1097,7 +1625,13 @@
       "lastSeen": "2026-07-10",
       "notes": "Official Ashby/Monad ecosystem QR page surfaced, but secondary official ecosystem page says no longer accepting applications. Do not pursue unless reopened.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Monad Foundation careers",
+      "jobUrl": "https://www.monad.xyz/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "oxford-knight-recruiter",
@@ -1109,7 +1643,13 @@
       "lastSeen": "2026-04-24",
       "notes": "QR SG. Anonymous client.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Oxford Knight (recruiter) careers",
+      "jobUrl": "https://www.oxfordknight.co.uk/jobs/",
+      "jobSource": "careers page"
     },
     {
       "id": "peak-legal",
@@ -1121,7 +1661,13 @@
       "lastSeen": "2026-04-15",
       "notes": "\"Quant Agent Developer\" — most AI-native title.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "PEAK Legal careers",
+      "jobUrl": "https://www.google.com/search?q=PEAK%20Legal%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "standard-signal-yc-s26",
@@ -1133,7 +1679,13 @@
       "lastSeen": "2026-06-24",
       "notes": "\"First hedge fund where AI does the trading.\" Michael Royzen. YC Summer 2026. No public postings yet. Highest AI-native signal alongside Abundance/Lumenai. WATCH.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "IMC — APAC Quant Research / Experienced Roles",
+      "jobUrl": "https://www.imc.com/ap/careers/experienced-roles/quant-research",
+      "jobSource": "cached JD"
     },
     {
       "id": "starx-capital-markets",
@@ -1145,7 +1697,13 @@
       "lastSeen": "2026-06-18",
       "notes": "LinkedIn-only Quantitative Strategist (Machine Learning, AI); weak company verification/no official JD; do not Phase 3 unless verified.",
       "geo": "Unspecified",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
+      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "jobSource": "cached JD"
     },
     {
       "id": "voleon-group",
@@ -1157,7 +1715,13 @@
       "lastSeen": "2026-06-01",
       "notes": "Quantitative Trading Strategist looked relevant in search snippets (ML/stat trading), but official Lever URL returned 404. Senior Research Engineer snippet unverified/location unknown; monitor only if official active APAC/remote role appears.",
       "geo": "Remote",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
+      "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
+      "jobSource": "cached JD"
     },
     {
       "id": "westbury-partners",
@@ -1169,7 +1733,13 @@
       "lastSeen": "2026-04-17",
       "notes": "Small systematic fund.",
       "geo": "Unspecified",
-      "action": "hold"
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
+      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "jobSource": "cached JD"
     }
   ],
   "top": [
@@ -1183,7 +1753,13 @@
       "lastSeen": "2026-07-14",
       "notes": "AI Alpha Group remains strongest active fit. Official Quantitative Portfolio Manager and Quantitative Analyst AI Alpha pages/snippets remain active; proprietary Gen AI-powered fundamental investment process and portfolio construction signal. GIC Phase 3 eligible on demand.",
       "geo": "Singapore",
-      "action": "apply"
+      "action": "apply",
+      "actionLabel": "Apply now",
+      "actionMeaning": "Clean high-priority target",
+      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
+      "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
+      "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
+      "jobSource": "cached JD"
     },
     {
       "id": "drw",
@@ -1195,7 +1771,13 @@
       "lastSeen": "2026-07-22",
       "notes": "Official Greenhouse Quantitative Researcher - Machine Learning now cleanly lists London, Singapore. Strong transformer/modern ML, forecasting, noisy structured/unstructured data, scalable production ML pipelines, and research-to-live-production signal. Recurring; no Phase 3 unless requested/resume version bump.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "DRW — Quantitative Researcher - Machine Learning",
+      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/7276024",
+      "jobSource": "cached JD"
     },
     {
       "id": "citadel-gqs-qr-experienced",
@@ -1207,7 +1789,13 @@
       "lastSeen": "2026-05-05",
       "notes": "⭐ Experienced QR in GQS Asia. Predictive models, multi-asset portfolio optimization. SG confirmed. High autonomy + depth. Already tracked Citadel so no Phase 3.",
       "geo": "Singapore",
-      "action": "apply"
+      "action": "apply",
+      "actionLabel": "Apply now",
+      "actionMeaning": "Clean high-priority target",
+      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "goldman-sachs",
@@ -1219,7 +1807,13 @@
       "lastSeen": "2026-06-30",
       "notes": "Official Foundation Engineering Applied AI Senior AI/ML Quant Research Engineer VP Singapore role active. Very strong AI/ML, LLM, RL, XAI, MLOps, production trading signal; sell-side/platform setting keeps it just under Phase 3 auto-urgency.",
       "geo": "Singapore",
-      "action": "apply"
+      "action": "apply",
+      "actionLabel": "Apply now",
+      "actionMeaning": "Clean high-priority target",
+      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
+      "jobTitle": "Goldman Sachs — Senior AI/ML Quant Research Engineer, VP",
+      "jobUrl": "https://higher.gs.com/roles/162208",
+      "jobSource": "cached JD"
     },
     {
       "id": "kronos-research",
@@ -1231,7 +1825,13 @@
       "lastSeen": "2026-06-24",
       "notes": "⚠️ Greenhouse board deactivated as of 2026-06-24. Prior roles: ML Researcher SG + Exp Quant Trader Remote/SG. Monitor for board reactivation.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Kronos Research — Machine Learning Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
+      "jobSource": "cached JD"
     },
     {
       "id": "moreton-capital-partners",
@@ -1243,7 +1843,13 @@
       "lastSeen": "2026-07-01",
       "notes": "NEW prediction-markets quant analyst role. Agentic AI + quantitative modelling + alpha signal ownership; partial JD extraction but official Workable/company careers/news signals align. Phase 3 completed; resume v1 uploaded to Drive.",
       "geo": "Unspecified",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
+      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "jobSource": "cached JD"
     },
     {
       "id": "point72-cubist",
@@ -1255,7 +1861,13 @@
       "lastSeen": "2026-07-21",
       "notes": "Official Greenhouse/Careers Cubist Quantitative Researcher Singapore active (7046019002): experienced alpha research, original signal research, backtesting, portfolio analysis, production code, direct investment-decision impact. Researched historically; no Phase 3.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
+      "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+      "jobSource": "cached JD"
     },
     {
       "id": "binance",
@@ -1267,7 +1879,13 @@
       "lastSeen": "2026-06-29",
       "notes": "Official/search-confirmed Data Scientist, NLP & Trading Strategies remains active in Singapore/remote surfaces; strongest Binance AI-quant signal. QR/Junior QR also recurring on Lever.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Binance — Quantitative Researcher",
+      "jobUrl": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "jobSource": "cached JD"
     },
     {
       "id": "bridgewater",
@@ -1279,7 +1897,13 @@
       "lastSeen": "2026-06-29",
       "notes": "NEW official Equity Quantitative Research Associate for New York City & Singapore: PM-led APAC systematic macro/L/S equity pod, end-to-end alpha, alternative data, new tech adoption. Strong but junior-mid; already researched historically.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Bridgewater — Equity Quantitative Research Associate",
+      "jobUrl": "https://job-boards.greenhouse.io/bridgewater89/jobs/8406845002",
+      "jobSource": "cached JD"
     },
     {
       "id": "imc-trading",
@@ -1291,7 +1915,13 @@
       "lastSeen": "2026-06-12",
       "notes": "APAC experienced QR/ML page active; current visible roles in HK/Sydney/Seoul, no Singapore QR role this pass. Strong large-model/GPU/ML role-family signal; Phase 3 already complete historically.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "IMC — APAC Quant Research / Experienced Roles",
+      "jobUrl": "https://www.imc.com/ap/careers/experienced-roles/quant-research",
+      "jobSource": "cached JD"
     },
     {
       "id": "schonfeld",
@@ -1303,7 +1933,13 @@
       "lastSeen": "2026-07-15",
       "notes": "Official Greenhouse Quantitative Researcher role still active: systematic trading, ML alphas, NLP/LLM, distributed research pipelines, live signal deployment. Page header remains Hong Kong but application asks Hong Kong/Singapore authorization; watch/verify SG transfer before Phase 3.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Schonfeld — Quantitative Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/schonfeld/jobs/7624691",
+      "jobSource": "cached JD"
     },
     {
       "id": "selini-capital",
@@ -1315,7 +1951,13 @@
       "lastSeen": "2026-05-21",
       "notes": "Experienced Quantitative Researcher (London/Singapore) on Greenhouse. Crypto HFT/systematic trading; research-heavy feature/model/pipeline improvement with direct live strategy feedback. Resume v1 done.",
       "geo": "Singapore",
-      "action": "researched"
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Selini Capital careers",
+      "jobUrl": "https://www.selini.capital/careers",
+      "jobSource": "careers page"
     },
     {
       "id": "citadel-citsec",
@@ -1327,7 +1969,13 @@
       "lastSeen": "2026-07-20",
       "notes": "Official Citadel Securities QR/QRA page resurfaced fresh: Singapore-compatible recurring signal with ML/pattern recognition/NLP and live trading signal implementation. Citadel DSG QR is excellent AI/ML + alternative-data fit but official location is New York only, so excluded for SG pipeline. Recurring; no Phase 3.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     },
     {
       "id": "hrt",
@@ -1339,7 +1987,13 @@
       "lastSeen": "2026-06-01",
       "notes": "Official portal loaded but filtered SG/quant role list did not render in browser snapshot. Keep prior status: Algo Developer/QR SG signals active recently; conventional ML/stat rather than LLM-native.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
+      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
+      "jobSource": "cached JD"
     },
     {
       "id": "jane-street-hkg",
@@ -1351,7 +2005,13 @@
       "lastSeen": "2026-04-21",
       "notes": "QR HKG open. SG 없음. Location mismatch.",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Jane Street (HKG) careers",
+      "jobUrl": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "jobSource": "careers page"
     },
     {
       "id": "jump-trading",
@@ -1363,7 +2023,13 @@
       "lastSeen": "2026-07-08",
       "notes": "Fresh official/search-confirmed Quantitative Researcher \\",
       "geo": "Singapore",
-      "action": "verify"
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
+      "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
+      "jobSource": "cached JD"
     }
   ],
   "history": {

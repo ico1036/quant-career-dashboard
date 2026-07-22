@@ -248,6 +248,28 @@
     .researched { color: var(--violet); background: var(--soft-violet); }
     .unknown { color: #475467; background: #eef2f7; }
 
+    .action-cell {
+      display: grid;
+      gap: 4px;
+      min-width: 148px;
+    }
+
+    .action-cell .note {
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .company-link {
+      font-weight: 900;
+    }
+
+    .source-link {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
     .score {
       font-weight: 900;
       white-space: nowrap;
@@ -396,7 +418,7 @@
           <table>
             <thead>
               <tr>
-                <th>Company</th>
+                <th>Company / Posting</th>
                 <th>Score</th>
                 <th>Action</th>
                 <th>Geo</th>
@@ -436,10 +458,10 @@
         <input id="search" placeholder="Search company, status, notes">
         <select id="action-filter">
           <option value="all">All actions</option>
-          <option value="apply">Apply</option>
-          <option value="verify">Verify</option>
+          <option value="apply">Apply now</option>
+          <option value="verify">Verify first</option>
           <option value="watch">Watch</option>
-          <option value="researched">Researched</option>
+          <option value="researched">Already researched</option>
           <option value="hold">Hold</option>
         </select>
         <select id="geo-filter">
@@ -455,7 +477,7 @@
         <table>
           <thead>
             <tr>
-              <th>Company</th>
+              <th>Company / Posting</th>
               <th>Status</th>
               <th>Score</th>
               <th>Action</th>
@@ -535,13 +557,37 @@
   </main>
 
   <script type="module">
-    const actionLabels = {
-      apply: "Apply",
-      verify: "Verify",
-      watch: "Watch",
-      researched: "Researched",
-      hold: "Hold",
-      unknown: "Unknown"
+    const actionMeta = {
+      apply: {
+        label: "Apply now",
+        meaning: "Clean target",
+        next: "Open posting + use paired resume"
+      },
+      verify: {
+        label: "Verify first",
+        meaning: "Good signal, needs check",
+        next: "Confirm JD/location/seniority"
+      },
+      watch: {
+        label: "Watch",
+        meaning: "Track, not urgent",
+        next: "Wait for cleaner opening"
+      },
+      researched: {
+        label: "Already researched",
+        meaning: "Reuse existing work",
+        next: "Refresh only if JD changed"
+      },
+      hold: {
+        label: "Hold",
+        meaning: "Blocked or low fit",
+        next: "Do not spend resume cycle"
+      },
+      unknown: {
+        label: "Review",
+        meaning: "Insufficient signal",
+        next: "Inspect source manually"
+      }
     };
 
     const actionOrder = ["apply", "verify", "watch", "researched", "hold"];
@@ -558,8 +604,30 @@
     }
 
     function actionPill(action) {
-      const normalized = actionLabels[action] ? action : "unknown";
-      return `<span class="pill ${normalized}">${actionLabels[normalized]}</span>`;
+      const normalized = actionMeta[action] ? action : "unknown";
+      return `<span class="pill ${normalized}">${esc(actionMeta[normalized].label)}</span>`;
+    }
+
+    function actionCell(item) {
+      const meta = actionMeta[item.action] ?? actionMeta.unknown;
+      return `
+        <div class="action-cell">
+          ${actionPill(item.action)}
+          <span class="note">${esc(item.actionMeaning ?? meta.meaning)}</span>
+          <span class="note">${esc(item.actionNextStep ?? meta.next)}</span>
+        </div>
+      `;
+    }
+
+    function companyCell(item, showStatus = false) {
+      const source = item.jobSource ? ` · ${item.jobSource}` : "";
+      const title = item.jobTitle ? `<span class="note">${esc(item.jobTitle)}${esc(source)}</span>` : `<span class="note">No linked posting yet</span>`;
+      const company = item.jobUrl
+        ? `<a class="company-link" href="${esc(item.jobUrl)}" target="_blank" rel="noreferrer">${esc(item.company)}</a>`
+        : `<b>${esc(item.company)}</b>`;
+      const status = showStatus ? `<br><span class="note">${esc(item.status)}</span>` : "";
+      const sourceLink = item.jobUrl ? `<br><a class="source-link" href="${esc(item.jobUrl)}" target="_blank" rel="noreferrer">Open posting</a>` : "";
+      return `${company}${status}<br>${title}${sourceLink}`;
     }
 
     function scoreCell(item) {
@@ -606,9 +674,9 @@
     function renderTop(data) {
       document.getElementById("top-table").innerHTML = data.top.map((item) => `
         <tr>
-          <td><b>${esc(item.company)}</b><br><span class="note">${esc(item.status)}</span></td>
+          <td>${companyCell(item, true)}</td>
           <td>${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
-          <td>${actionPill(item.action)}</td>
+          <td>${actionCell(item)}</td>
           <td>${esc(item.geo)}</td>
           <td>${esc(item.lastSeen)}</td>
           <td>${resumeLinks(item.id)}</td>
@@ -631,12 +699,13 @@
           .slice(0, 8);
         return `
           <div class="lane">
-            <h3>${actionLabels[action]} · ${data.companies.filter((item) => item.action === action).length}</h3>
+            <h3>${actionMeta[action].label} · ${data.companies.filter((item) => item.action === action).length}</h3>
             ${items.map((item) => `
               <div class="job-card">
-                <b>${esc(item.company)} · ${item.score === null ? "n/a" : item.score.toFixed(1)}</b>
+                <b>${item.jobUrl ? `<a href="${esc(item.jobUrl)}" target="_blank" rel="noreferrer">${esc(item.company)}</a>` : esc(item.company)} · ${item.score === null ? "n/a" : item.score.toFixed(1)}</b>
                 <span class="note">${esc(item.geo)} · ${esc(item.lastSeen)}</span>
-                <p>${esc(shortNotes(item.notes, 112))}</p>
+                <p>${esc(item.actionMeaning ?? actionMeta[action].meaning)}</p>
+                <p>${esc(shortNotes(item.notes, 100))}</p>
               </div>
             `).join("")}
           </div>
@@ -663,10 +732,10 @@
       document.getElementById("board-count").textContent = `${rows.length} visible / ${state.companies.length} total`;
       document.getElementById("company-table").innerHTML = rows.map((item) => `
         <tr>
-          <td><b>${esc(item.company)}</b></td>
+          <td>${companyCell(item)}</td>
           <td>${esc(item.status)}</td>
           <td>${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
-          <td>${actionPill(item.action)}</td>
+          <td>${actionCell(item)}</td>
           <td>${esc(item.geo)}</td>
           <td>${esc(item.lastSeen)}</td>
           <td>${resumeLinks(item.id, 4)}</td>
