@@ -359,6 +359,10 @@
       font-size: 13px;
     }
 
+    .event-high { color: var(--green); background: var(--soft-green); }
+    .event-medium { color: var(--blue); background: var(--soft-blue); }
+    .event-watch { color: var(--amber); background: var(--soft-amber); }
+
     .hidden {
       display: none;
     }
@@ -398,6 +402,7 @@
       <button data-tab="history">History</button>
       <button data-tab="jd">JD Cache</button>
       <button data-tab="resumes">Resumes</button>
+      <button data-tab="events">Events</button>
     </nav>
 
     <section id="overview">
@@ -538,12 +543,18 @@
           <option value="company tailored">Company Tailored</option>
           <option value="cover letter">Cover Letter</option>
         </select>
+        <select id="resume-layer-filter">
+          <option value="current">Current only</option>
+          <option value="archive">Archive only</option>
+          <option value="all">Current + archive</option>
+        </select>
       </div>
       <div class="table-wrap" style="margin-top: 12px;">
         <table>
           <thead>
             <tr>
               <th>Company</th>
+              <th>Layer</th>
               <th>Type</th>
               <th>File</th>
               <th>Format</th>
@@ -551,6 +562,46 @@
             </tr>
           </thead>
           <tbody id="resume-table"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="tab-pane hidden" data-pane="events">
+      <div class="section-title">
+        <h2>Meetups & Conferences</h2>
+        <span class="note" id="event-count"></span>
+      </div>
+      <div class="filters">
+        <input id="event-search" placeholder="Search event, region, category, notes">
+        <select id="event-region-filter">
+          <option value="all">All regions</option>
+          <option value="Korea">Korea</option>
+          <option value="East Asia">East Asia</option>
+          <option value="Virtual">Virtual / far watch</option>
+          <option value="Fund-hosted">Fund-hosted</option>
+        </select>
+        <select id="event-priority-filter">
+          <option value="all">All priorities</option>
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="watch">Watch</option>
+        </select>
+      </div>
+      <div class="table-wrap" style="margin-top: 12px;">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>Region</th>
+              <th>Priority</th>
+              <th>Category</th>
+              <th>Status</th>
+              <th>Why track</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody id="event-table"></tbody>
         </table>
       </div>
     </section>
@@ -642,7 +693,7 @@
 
     function resumeLinks(companyId, limit = 3) {
       const matches = state.resumes
-        .filter((item) => item.companyId === companyId)
+        .filter((item) => item.companyId === companyId && item.isLatest)
         .sort((a, b) => {
           const rank = { "company tailored": 0, "base quant": 1, "base fde": 2, "base general": 3, "cover letter": 4 };
           return (rank[a.kind] ?? 9) - (rank[b.kind] ?? 9) || a.file.localeCompare(b.file);
@@ -657,7 +708,8 @@
         ["Tracked", data.metrics.trackedCompanies, "companies in target tracker"],
         ["Top", data.metrics.topTargets, "companies scoring 4.0+"],
         ["JD", data.metrics.jdCacheFiles, "cached job descriptions"],
-        ["Resume", data.metrics.resumeFiles, "base and paired resume files"],
+        ["Resume", data.metrics.currentResumeFiles, `current files, ${data.metrics.archivedResumeFiles} archived`],
+        ["Events", data.metrics.upcomingEvents, `${data.metrics.koreaEvents} Korea, ${data.metrics.virtualWatchEvents} virtual/watch`],
         ["Apply", data.metrics.applyFirst, "immediate apply bucket"],
         ["Verify", data.metrics.verify, "needs JD/location check"],
         ["Scans", data.metrics.scansParsed, "recent parsed scan sections"]
@@ -779,22 +831,61 @@
     function filteredResumes() {
       const q = document.getElementById("resume-search").value.trim().toLowerCase();
       const kind = document.getElementById("resume-kind-filter").value;
+      const layer = document.getElementById("resume-layer-filter").value;
       return state.resumes.filter((item) => {
         const haystack = `${item.company} ${item.kind} ${item.file} ${item.format}`.toLowerCase();
-        return (!q || haystack.includes(q)) && (kind === "all" || item.kind === kind);
+        return (!q || haystack.includes(q))
+          && (kind === "all" || item.kind === kind)
+          && (layer === "all" || item.layer === layer);
       });
     }
 
     function renderResumeTable() {
       const rows = filteredResumes();
-      document.getElementById("resume-count").textContent = `${rows.length} visible / ${state.resumes.length} resume files`;
+      const current = state.resumes.filter((item) => item.layer === "current").length;
+      const archive = state.resumes.filter((item) => item.layer === "archive").length;
+      document.getElementById("resume-count").textContent = `${rows.length} visible / ${current} current / ${archive} archived`;
       document.getElementById("resume-table").innerHTML = rows.map((item) => `
         <tr>
           <td><b>${esc(item.company)}</b></td>
+          <td><span class="pill ${item.layer === "current" ? "apply" : "unknown"}">${esc(item.layer)}</span></td>
           <td>${esc(item.kind)}</td>
-          <td>${esc(item.file)}<br><span class="note">${Math.round(item.sizeBytes / 1024)} KB</span></td>
+          <td>${esc(item.file)}<br><span class="note">v${esc(item.version)} · ${Math.round(item.sizeBytes / 1024)} KB · ${esc(new Date(item.modifiedAt).toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" }))}</span></td>
           <td>${esc(item.format.toUpperCase())}</td>
           <td><a href="${esc(item.url)}" target="_blank" rel="noreferrer">open</a></td>
+        </tr>
+      `).join("");
+    }
+
+    function filteredEvents() {
+      const q = document.getElementById("event-search").value.trim().toLowerCase();
+      const region = document.getElementById("event-region-filter").value;
+      const priority = document.getElementById("event-priority-filter").value;
+      return state.events.filter((item) => {
+        const haystack = `${item.title} ${item.region} ${item.location} ${item.category} ${item.fit} ${item.notes}`.toLowerCase();
+        const regionMatch = region === "all" || item.region.includes(region);
+        return (!q || haystack.includes(q)) && regionMatch && (priority === "all" || item.priority === priority);
+      });
+    }
+
+    function dateRange(item) {
+      if (item.startDate === item.endDate) return item.startDate;
+      return `${item.startDate} → ${item.endDate}`;
+    }
+
+    function renderEventTable() {
+      const rows = filteredEvents();
+      document.getElementById("event-count").textContent = `${rows.length} visible / ${state.events.length} tracked, Korea first`;
+      document.getElementById("event-table").innerHTML = rows.map((item) => `
+        <tr>
+          <td><b>${esc(dateRange(item))}</b><br><span class="note">${esc(item.format)}</span></td>
+          <td><b>${esc(item.title)}</b><br><span class="note">${esc(item.location)}</span></td>
+          <td>${esc(item.region)}</td>
+          <td><span class="pill event-${esc(item.priority)}">${esc(item.priority)}</span></td>
+          <td>${esc(item.category)}</td>
+          <td>${esc(item.status)}</td>
+          <td>${esc(item.fit)}<br><span class="note">${esc(item.notes)}</span></td>
+          <td><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.sourceName)}</a></td>
         </tr>
       `).join("");
     }
@@ -823,6 +914,7 @@
       renderHistory(state);
       renderJdTable();
       renderResumeTable();
+      renderEventTable();
 
       document.querySelectorAll(".tabs button").forEach((button) => {
         button.addEventListener("click", () => activateTab(button.dataset.tab));
@@ -831,8 +923,11 @@
         document.getElementById(id).addEventListener("input", renderCompanyTable);
       });
       document.getElementById("jd-search").addEventListener("input", renderJdTable);
-      ["resume-search", "resume-kind-filter"].forEach((id) => {
+      ["resume-search", "resume-kind-filter", "resume-layer-filter"].forEach((id) => {
         document.getElementById(id).addEventListener("input", renderResumeTable);
+      });
+      ["event-search", "event-region-filter", "event-priority-filter"].forEach((id) => {
+        document.getElementById(id).addEventListener("input", renderEventTable);
       });
     }
 

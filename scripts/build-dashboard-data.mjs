@@ -461,6 +461,7 @@ function inferResumeCompany(file) {
 function inferResumeKind(file) {
   const normalized = file.toLowerCase();
   if (normalized.includes("submission-kit") && normalized.includes("quant_base")) return "base quant";
+  if (normalized.includes("quantresearcher_base")) return "base quant";
   if (normalized.includes("fde") || normalized.includes("sonatus") || normalized.includes("openai")) return "base fde";
   if (normalized.includes("coverletter")) return "cover letter";
   if (normalized.includes("master") || normalized.includes("generic")) return "base general";
@@ -487,6 +488,22 @@ function shouldIncludeResume(path) {
   return false;
 }
 
+function resumeVersion(file) {
+  const normalized = file.toLowerCase();
+  const versions = [...normalized.matchAll(/(?:^|[_-])v(\d+)(?:[_\-.]|$)/g)].map((match) => Number(match[1]));
+  return versions.length ? Math.max(...versions) : 0;
+}
+
+function compareResumeFreshness(a, b) {
+  const kindRank = { "company tailored": 5, "base quant": 4, "base fde": 4, "base general": 3, "cover letter": 2 };
+  const av = [kindRank[a.kind] ?? 0, a.version, a.mtimeMs, a.file.length];
+  const bv = [kindRank[b.kind] ?? 0, b.version, b.mtimeMs, b.file.length];
+  for (let i = 0; i < av.length; i += 1) {
+    if (av[i] !== bv[i]) return bv[i] - av[i];
+  }
+  return a.file.localeCompare(b.file);
+}
+
 function parseResumes(companies) {
   const companyIds = new Map(companies.map((item) => [item.company.toLowerCase(), item.id]));
   const files = [...new Set(resumeRoots.flatMap((dir) => walk(dir)).filter(shouldIncludeResume))];
@@ -498,20 +515,36 @@ function parseResumes(companies) {
     const ext = file.split(".").pop() ?? "bin";
     const id = `${companyId}-${file.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
     const stats = statSync(path);
+    const kind = inferResumeKind(path);
     return {
       id,
       file,
       title: file.replace(/\.(docx|md|txt)$/i, "").replace(/[_-]+/g, " "),
       company,
       companyId,
-      kind: inferResumeKind(path),
+      kind,
       format: ext,
       mime: resumeMime(file),
       sizeBytes: stats.size,
+      version: resumeVersion(file),
+      mtimeMs: stats.mtimeMs,
+      modifiedAt: stats.mtime.toISOString(),
       localPath: path,
       url: `/resumes/${id}/${encodeURIComponent(file)}`
     };
   });
+
+  const latestIds = new Set();
+  const groups = new Map();
+  for (const resume of resumes) {
+    const key = `${resume.companyId}::${resume.kind}::${resume.format}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(resume);
+  }
+  for (const group of groups.values()) {
+    group.sort(compareResumeFreshness);
+    if (group[0]) latestIds.add(group[0].id);
+  }
 
   const assets = Object.fromEntries(resumes.map((item) => [
     item.url,
@@ -523,11 +556,45 @@ function parseResumes(companies) {
   ]));
 
   const safeResumes = resumes
-    .map(({ localPath, ...item }) => item)
-    .sort((a, b) => a.company.localeCompare(b.company) || a.kind.localeCompare(b.kind) || a.file.localeCompare(b.file));
+    .map(({ localPath, mtimeMs, ...item }) => ({
+      ...item,
+      layer: latestIds.has(item.id) ? "current" : "archive",
+      isLatest: latestIds.has(item.id)
+    }))
+    .sort((a, b) => {
+      if (a.layer !== b.layer) return a.layer === "current" ? -1 : 1;
+      return a.company.localeCompare(b.company) || a.kind.localeCompare(b.kind) || b.version - a.version || a.file.localeCompare(b.file);
+    });
 
   writeFileSync(join(site, "data", "resume-assets.json"), `${JSON.stringify(assets)}\n`);
   return safeResumes;
+}
+
+function trackedEvents() {
+  return [
+    ["origin-seoul-2026", "ORIGIN SEOUL 2026", "2026-08-31", "2026-09-02", "Korea", "Seoul, Korea", "in-person", "Crypto / Bitcoin", "high", "Korea-first Bitcoin/digital asset market signal before KBW season.", "ORIGIN SEOUL", "https://originseoulbtc.com/", "track", "Bitcoin-only Seoul event; useful for local digital asset market network."],
+    ["korea-global-investment-forum-2026", "Korea Global Investment Forum 2026", "2026-09-09", "2026-09-09", "Korea", "Four Seasons Hotel, Seoul", "invite-only", "Investment / Institutional", "high", "Korean institutional allocator forum with global portfolio managers.", "Institutional Investor", "https://register.institutionalinvestor.com/2026-korea-global-investment-forum", "request access", "Invitation-only; track speakers and possible warm intro paths."],
+    ["cqf-ai-ml-quant-finance-2026", "AI and Machine Learning in Quant Finance Conference", "2026-09-16", "2026-09-16", "Virtual / Global", "Online", "online", "Quant / AI", "high", "Direct AI-native quant research fit; virtual access makes it high ROI.", "CQF Institute", "https://cqfinstitute.org/events/conferences/ai-and-machine-learning-in-quant-finance/", "register", "Online conference; timezone is Europe/London but page supports Seoul timezone selection."],
+    ["kbw-2026", "Korea Blockchain Week 2026", "2026-09-29", "2026-10-01", "Korea", "Seoul, Korea", "in-person", "Crypto / Institutional", "high", "Korea anchor crypto event; institutional adoption, digital assets, AI integration.", "Korea Blockchain Week", "https://koreablockchainweek.com/", "register", "Main Seoul crypto week. Watch side events for funds, exchanges, and trading teams."],
+    ["token2049-singapore-2026", "TOKEN2049 Singapore", "2026-10-07", "2026-10-08", "East Asia / Singapore", "Marina Bay Sands, Singapore", "in-person", "Crypto / Institutional", "high", "Major APAC crypto capital markets event; useful if paired with Singapore target companies.", "TOKEN2049", "https://www.token2049.com/singapore", "consider travel", "Not Korea, but geographically acceptable and directly relevant to crypto trading."],
+    ["icpeai-seoul-2026", "International Conference on Private Equity and Alternative Investments", "2026-10-20", "2026-10-21", "Korea", "Seoul, Korea", "in-person", "Investment / Alternatives", "watch", "Alternative investment angle; lower quant specificity but relevant allocator context.", "Research Fora", "https://www.researchfora.net/event/index.php?id=100830159", "verify quality", "Conference listing quality should be verified before spending time or money."],
+    ["hk-fintech-week-2026", "Hong Kong FinTech Week x StartmeupHK 2026", "2026-11-02", "2026-11-06", "East Asia / Hong Kong", "Hong Kong", "in-person", "Fintech / AI / Web3", "medium", "Asia flagship fintech event; useful for AI finance, digital assets, and HK quant network.", "Hong Kong FinTech Week", "https://www.fintechweek.hk/", "watch", "Track agenda for quant, AI finance, digital asset market structure sessions."],
+    ["devcon-8-2026", "Devcon 8", "2026-11-03", "2026-11-06", "Far / Virtual Watch", "Mumbai, India", "in-person", "Crypto / DeFi Research", "medium", "Farther travel, but strong DeFi/research signal; track streams or recordings if available.", "Ethereum Foundation Devcon", "https://devcon.org/en/", "virtual watch", "Use only if virtual/recorded access is practical or if India trip becomes useful."],
+    ["invest-korea-summit-2026", "Invest KOREA Summit 2026", "2026-11-04", "2026-11-06", "Korea", "Grand InterContinental Seoul Parnas", "in-person", "Investment / Korea Market", "medium", "Macro/investment network for Korea market and global capital flows.", "InvestKOREA", "https://www.investkorea.org/ik-en/cntnts/i-5112/web.do", "watch", "2026 dates are from InvestKOREA public save-the-date posts; official site still mostly describes prior editions."],
+    ["bitcoin-plus-plus-seoul-2026", "bitcoin++ Seoul - Privacy Edition", "2026-11-05", "2026-11-06", "Korea", "Page Project, Seoul", "in-person", "Crypto / Bitcoin Engineering", "medium", "Technical Bitcoin privacy/P2P exchange event; better for protocol and market-structure contacts than general investing.", "bitcoin++", "https://btcpp.dev/seoul", "track", "Co-located with Bitcoin Korea Conference week."],
+    ["bitcoin-korea-conference-2026", "Bitcoin Korea Conference 2026", "2026-11-07", "2026-11-08", "Korea", "COEX, Seoul", "hybrid / online access listed", "Crypto / Bitcoin", "high", "Korea Bitcoin conference with education, workshops, and community network.", "Plan B Academy", "https://planb.academy/events/742dfc51-2ae2-4677-a97b-0e2f246f59ac", "register", "Plan B listing shows access as online; also check official Bitcoin Korea Conference site for side-event details."],
+    ["quantminds-international-2026", "QuantMinds International 2026", "2026-11-16", "2026-11-19", "Far / Virtual Watch", "London, UK", "in-person", "Quant Finance", "medium", "World-scale quant finance conference; far travel, so track virtual/material access first.", "Informa Connect", "https://informaconnect.com/quantminds-international/", "virtual watch", "Relevant for global quant research agenda; only worth travel if networking target is clear."],
+    ["apef-2026", "Asia-Pacific Conference on Economics and Finance 2026", "2026-12-10", "2026-12-11", "East Asia / Singapore", "Singapore", "hybrid", "Finance / Economics", "watch", "Hybrid finance conference; lower trading specificity but easy remote optionality.", "East Asia Research", "https://apef.ear.com.sg/", "virtual watch", "Use as optional academic/professional finance signal, not a top priority."],
+    ["global-ai-finance-research-2026", "Global AI Finance Research Conference", "2026-12-14", "2026-12-15", "East Asia / Taiwan", "Taipei, Taiwan", "in-person", "AI Finance / Research", "medium", "Direct AI finance research angle in East Asia.", "Global AI Finance Research Conference", "https://www.aifinconf.org/", "watch", "Track program/speaker release for quant relevance."],
+    ["jane-street-programs-events", "Jane Street Programs and Events", "2026-12-31", "2026-12-31", "Fund-hosted / Global", "Global / online pages", "rolling", "Fund-hosted / Quant Trading", "high", "Top-tier quant fund event page; includes QTC, Preview, researcher programs, and recruiting events.", "Jane Street", "https://www.janestreet.com/join-jane-street/programs-and-events/", "monitor weekly", "No Korea-specific date surfaced today; keep as direct fund-hosted event watchlist."],
+    ["citadel-securities-programs-events", "Citadel Securities Programs and Events", "2026-12-31", "2026-12-31", "Fund-hosted / Global", "Global / APAC offices", "rolling", "Fund-hosted / Quant Trading", "high", "Top-tier market-maker event page; includes Quant Invitational, Trading Invitational, PhD Summit, Datathons.", "Citadel Securities", "https://www.citadelsecurities.com/", "monitor weekly", "No Korea-specific date surfaced today; monitor APAC/Singapore/HK opportunities directly."],
+    ["optiver-events-2026", "Optiver Recruiting Events", "2026-12-31", "2026-12-31", "Fund-hosted / Global", "Global / event page", "rolling", "Fund-hosted / Quant Trading", "high", "Official event page surfaces trading-floor AI events, recruiting sessions, and conference participation.", "Optiver", "https://www.optiver.com/join-us/events/", "monitor weekly", "Current public event page showed remaining 2026 EMEA events; monitor for APAC/Singapore additions."],
+    ["two-sigma-quant-events-2026", "Two Sigma Quant Research / Data Science Programs", "2026-12-31", "2026-12-31", "Fund-hosted / Global", "Global / online pages", "rolling", "Fund-hosted / Quant Research", "medium", "Official quant research/data science pages mention summits, internships, seminars, and campus connections.", "Two Sigma", "https://www.twosigma.com/careers/quantitative-research-data-science/", "monitor weekly", "Good for research-facing opportunities; less Korea-specific today."],
+    ["imc-programs-events-2026", "IMC Trading Programs and Events", "2026-12-31", "2026-12-31", "Fund-hosted / Global", "Global / APAC careers pages", "rolling", "Fund-hosted / Quant Trading", "medium", "Official programs pages cover trading simulations, coding challenges, and market-making insight programs.", "IMC Trading", "https://www.imc.com/us/careers/students-graduates/programs", "monitor weekly", "Also track APAC careers pages for Singapore/Hong Kong event announcements."],
+    ["jump-research-programs-2026", "Jump Trading Research & Programs", "2026-12-31", "2026-12-31", "Fund-hosted / Global", "Global / online pages", "rolling", "Fund-hosted / Quant Trading", "medium", "Official pages expose travel grants, fellowship program, student/new-grad roles, and research programs.", "Jump Trading", "https://www.jumptrading.com/hr/students-new-grads", "monitor weekly", "Probability Cup already ended in July 2026; keep future programs on watch."]
+  ].map(([id, title, startDate, endDate, region, location, format, category, priority, fit, sourceName, sourceUrl, status, notes]) => ({
+    id, title, startDate, endDate, region, location, format, category, priority, fit, sourceName, sourceUrl, status, notes
+  })).sort((a, b) => a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title));
 }
 
 const history = parseScanHistory();
@@ -535,6 +602,7 @@ const jdCache = parseJdCache();
 const companies = enrichCompanyLinks(parseTargetCompanies(), jdCache);
 const resumes = parseResumes(companies);
 const top = companies.filter((item) => (item.score ?? 0) >= 4).slice(0, 16);
+const events = trackedEvents();
 
 const payload = {
   generatedAt: new Date().toISOString(),
@@ -549,6 +617,11 @@ const payload = {
     topTargets: top.length,
     jdCacheFiles: jdCache.length,
     resumeFiles: resumes.length,
+    currentResumeFiles: resumes.filter((item) => item.layer === "current").length,
+    archivedResumeFiles: resumes.filter((item) => item.layer === "archive").length,
+    upcomingEvents: events.length,
+    koreaEvents: events.filter((item) => item.region === "Korea").length,
+    virtualWatchEvents: events.filter((item) => item.region.includes("Virtual") || item.format.includes("online") || item.format.includes("hybrid")).length,
     scansParsed: history.scans.length,
     applyFirst: companies.filter((item) => item.action === "apply").length,
     verify: companies.filter((item) => item.action === "verify").length,
@@ -560,7 +633,8 @@ const payload = {
   top,
   history,
   jdCache,
-  resumes
+  resumes,
+  events
 };
 
 writeFileSync(join(site, "data", "dashboard.json"), `${JSON.stringify(payload, null, 2)}\n`);
