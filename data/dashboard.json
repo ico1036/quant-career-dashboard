@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T09:06:39.033Z",
+  "generatedAt": "2026-07-22T23:31:55.500Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 95,
     "topTargets": 16,
-    "jdCacheFiles": 99,
+    "jdCacheFiles": 100,
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
@@ -61,15 +61,15 @@
       "fitScoreRaw": "4.6",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-22",
-      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning now cleanly lists London, Singapore. Strong transformer/modern ML, forecasting, noisy structured/unstructured data, scalable production ML pipelines, and research-to-live-production signal. Recurring; no Phase 3 unless requested/resume version bump.",
+      "lastSeen": "2026-07-23",
+      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning remains the strongest DRW target; today also surfaced official Singapore Quantitative Researcher graduate/new-grad page (8014936) with statistical learning, predictive signals, production translation, and autonomous research signals. Recurring; no Phase 3 unless requested/resume version bump.",
       "geo": "Singapore",
       "action": "researched",
       "actionLabel": "Already researched",
       "actionMeaning": "Company has prior research or tailored resume",
       "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
-      "jobTitle": "DRW — Quantitative Researcher - Machine Learning",
-      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/7276024",
+      "jobTitle": "DRW — Quantitative Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/8014936",
       "jobSource": "cached JD"
     },
     {
@@ -1773,15 +1773,15 @@
       "fitScoreRaw": "4.6",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-22",
-      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning now cleanly lists London, Singapore. Strong transformer/modern ML, forecasting, noisy structured/unstructured data, scalable production ML pipelines, and research-to-live-production signal. Recurring; no Phase 3 unless requested/resume version bump.",
+      "lastSeen": "2026-07-23",
+      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning remains the strongest DRW target; today also surfaced official Singapore Quantitative Researcher graduate/new-grad page (8014936) with statistical learning, predictive signals, production translation, and autonomous research signals. Recurring; no Phase 3 unless requested/resume version bump.",
       "geo": "Singapore",
       "action": "researched",
       "actionLabel": "Already researched",
       "actionMeaning": "Company has prior research or tailored resume",
       "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
-      "jobTitle": "DRW — Quantitative Researcher - Machine Learning",
-      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/7276024",
+      "jobTitle": "DRW — Quantitative Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/8014936",
       "jobSource": "cached JD"
     },
     {
@@ -2040,6 +2040,14 @@
   "history": {
     "scans": [
       {
+        "title": "2026-07-23 — Thursday",
+        "date": "2026-07-23",
+        "candidateMentions": 15,
+        "uniqueCompanies": 7,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
         "title": "2026-07-22 — Wednesday",
         "date": "2026-07-22",
         "candidateMentions": 15,
@@ -2222,14 +2230,6 @@
         "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-06-19 (Fri) — Weekly Scan v36",
-        "date": "2026-06-19",
-        "candidateMentions": 33,
-        "uniqueCompanies": 7,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2363,6 +2363,14 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "drw-quantitative-researcher-singapore-2026-07-23.md",
+      "path": "outputs/jd-cache/drw-quantitative-researcher-singapore-2026-07-23.md",
+      "title": "DRW — Quantitative Researcher",
+      "date": "2026-07-23",
+      "url": "https://job-boards.greenhouse.io/drweng/jobs/8014936",
+      "excerpt": "> Collected: 2026-07-23 > Source: https://job-boards.greenhouse.io/drweng/jobs/8014936 > Scope: Singapore primary ## Role Quantitative Researcher — Singapore. ## Extracted Signals - Develop mathematical models using advanced statistical learning methods to bui"
     },
     {
       "file": "crypto-com-quantitative-researcher-prediction-markets-2026-07-22.md",
