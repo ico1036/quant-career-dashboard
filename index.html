@@ -375,6 +375,7 @@
       <button data-tab="board">Candidate Board</button>
       <button data-tab="history">History</button>
       <button data-tab="jd">JD Cache</button>
+      <button data-tab="resumes">Resumes</button>
     </nav>
 
     <section id="overview">
@@ -400,6 +401,7 @@
                 <th>Action</th>
                 <th>Geo</th>
                 <th>Last Seen</th>
+                <th>Resume</th>
                 <th>Notes</th>
               </tr>
             </thead>
@@ -459,6 +461,7 @@
               <th>Action</th>
               <th>Geo</th>
               <th>Last Seen</th>
+              <th>Resume</th>
               <th>Notes</th>
             </tr>
           </thead>
@@ -494,6 +497,38 @@
             </tr>
           </thead>
           <tbody id="jd-table"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="tab-pane hidden" data-pane="resumes">
+      <div class="section-title">
+        <h2>Resume Library</h2>
+        <span class="note" id="resume-count"></span>
+      </div>
+      <div class="filters">
+        <input id="resume-search" placeholder="Search company, resume, format">
+        <select id="resume-kind-filter">
+          <option value="all">All resume types</option>
+          <option value="base quant">Base Quant</option>
+          <option value="base fde">Base FDE</option>
+          <option value="base general">Base General</option>
+          <option value="company tailored">Company Tailored</option>
+          <option value="cover letter">Cover Letter</option>
+        </select>
+      </div>
+      <div class="table-wrap" style="margin-top: 12px;">
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Type</th>
+              <th>File</th>
+              <th>Format</th>
+              <th>Open</th>
+            </tr>
+          </thead>
+          <tbody id="resume-table"></tbody>
         </table>
       </div>
     </section>
@@ -537,11 +572,24 @@
       return notes.length > limit ? `${notes.slice(0, limit - 1)}...` : notes;
     }
 
+    function resumeLinks(companyId, limit = 3) {
+      const matches = state.resumes
+        .filter((item) => item.companyId === companyId)
+        .sort((a, b) => {
+          const rank = { "company tailored": 0, "base quant": 1, "base fde": 2, "base general": 3, "cover letter": 4 };
+          return (rank[a.kind] ?? 9) - (rank[b.kind] ?? 9) || a.file.localeCompare(b.file);
+        })
+        .slice(0, limit);
+      if (!matches.length) return `<span class="note">none</span>`;
+      return matches.map((item) => `<a href="${esc(item.url)}" target="_blank" rel="noreferrer">${esc(item.format.toUpperCase())}</a>`).join(" · ");
+    }
+
     function renderMetrics(data) {
       const metrics = [
         ["Tracked", data.metrics.trackedCompanies, "companies in target tracker"],
         ["Top", data.metrics.topTargets, "companies scoring 4.0+"],
         ["JD", data.metrics.jdCacheFiles, "cached job descriptions"],
+        ["Resume", data.metrics.resumeFiles, "base and paired resume files"],
         ["Apply", data.metrics.applyFirst, "immediate apply bucket"],
         ["Verify", data.metrics.verify, "needs JD/location check"],
         ["Scans", data.metrics.scansParsed, "recent parsed scan sections"]
@@ -563,6 +611,7 @@
           <td>${actionPill(item.action)}</td>
           <td>${esc(item.geo)}</td>
           <td>${esc(item.lastSeen)}</td>
+          <td>${resumeLinks(item.id)}</td>
           <td>${esc(shortNotes(item.notes, 210))}</td>
         </tr>
       `).join("");
@@ -620,6 +669,7 @@
           <td>${actionPill(item.action)}</td>
           <td>${esc(item.geo)}</td>
           <td>${esc(item.lastSeen)}</td>
+          <td>${resumeLinks(item.id, 4)}</td>
           <td>${esc(item.notes)}</td>
         </tr>
       `).join("");
@@ -657,6 +707,29 @@
       `).join("");
     }
 
+    function filteredResumes() {
+      const q = document.getElementById("resume-search").value.trim().toLowerCase();
+      const kind = document.getElementById("resume-kind-filter").value;
+      return state.resumes.filter((item) => {
+        const haystack = `${item.company} ${item.kind} ${item.file} ${item.format}`.toLowerCase();
+        return (!q || haystack.includes(q)) && (kind === "all" || item.kind === kind);
+      });
+    }
+
+    function renderResumeTable() {
+      const rows = filteredResumes();
+      document.getElementById("resume-count").textContent = `${rows.length} visible / ${state.resumes.length} resume files`;
+      document.getElementById("resume-table").innerHTML = rows.map((item) => `
+        <tr>
+          <td><b>${esc(item.company)}</b></td>
+          <td>${esc(item.kind)}</td>
+          <td>${esc(item.file)}<br><span class="note">${Math.round(item.sizeBytes / 1024)} KB</span></td>
+          <td>${esc(item.format.toUpperCase())}</td>
+          <td><a href="${esc(item.url)}" target="_blank" rel="noreferrer">open</a></td>
+        </tr>
+      `).join("");
+    }
+
     function activateTab(tab) {
       document.querySelectorAll(".tabs button").forEach((button) => {
         button.classList.toggle("active", button.dataset.tab === tab);
@@ -680,6 +753,7 @@
       renderCompanyTable();
       renderHistory(state);
       renderJdTable();
+      renderResumeTable();
 
       document.querySelectorAll(".tabs button").forEach((button) => {
         button.addEventListener("click", () => activateTab(button.dataset.tab));
@@ -688,6 +762,9 @@
         document.getElementById(id).addEventListener("input", renderCompanyTable);
       });
       document.getElementById("jd-search").addEventListener("input", renderJdTable);
+      ["resume-search", "resume-kind-filter"].forEach((id) => {
+        document.getElementById(id).addEventListener("input", renderResumeTable);
+      });
     }
 
     boot().catch((error) => {

@@ -1,11 +1,19 @@
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { join, relative } from "node:path";
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
+import { basename, join, relative } from "node:path";
 
 const root = new URL("../../", import.meta.url).pathname;
 const site = new URL("../", import.meta.url).pathname;
 const dataDir = join(root, "data");
 const outputDir = join(root, "outputs");
 const jdDir = join(outputDir, "jd-cache");
+const workspace = "/Users/ryan/.openclaw/workspace";
+const resumeRoots = [
+  join(workspace, "career-vault", "submission-kit"),
+  join(workspace, "career-vault", "base-quant"),
+  join(workspace, "career-vault", "company-research"),
+  join(workspace, "skills", "quant-career-pipeline", "outputs", "company-research"),
+  join(workspace, "skills", "obsidian-resume-brain", "outputs")
+];
 
 function read(path) {
   return readFileSync(path, "utf8");
@@ -183,9 +191,140 @@ function parseJdCache() {
     .sort((a, b) => String(b.date ?? "").localeCompare(String(a.date ?? "")) || a.title.localeCompare(b.title));
 }
 
+function walk(dir, out = []) {
+  if (!existsSync(dir)) return out;
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const path = join(dir, entry.name);
+    if (entry.isDirectory()) {
+      if (!["node_modules", ".git", "dist"].includes(entry.name)) walk(path, out);
+    } else {
+      out.push(path);
+    }
+  }
+  return out;
+}
+
+function resumeMime(file) {
+  if (file.endsWith(".docx")) return "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
+  if (file.endsWith(".md")) return "text/markdown; charset=utf-8";
+  if (file.endsWith(".txt")) return "text/plain; charset=utf-8";
+  return "application/octet-stream";
+}
+
+function inferResumeCompany(file) {
+  const normalized = file.toLowerCase();
+  const aliases = [
+    ["point72-cubist", ["point72", "cubist"]],
+    ["citadel/citsec", ["citadel-securities", "citadel_gqs", "citadel-gqs", "citadel"]],
+    ["goldman sachs", ["goldman"]],
+    ["gic", ["gic"]],
+    ["jump trading", ["jump"]],
+    ["millennium", ["millennium"]],
+    ["bridgewater", ["bridgewater"]],
+    ["binance", ["binance"]],
+    ["imc trading", ["imc"]],
+    ["hrt", ["hrt", "hudson"]],
+    ["optiver", ["optiver"]],
+    ["virtu financial", ["virtu"]],
+    ["xtx markets", ["xtx"]],
+    ["blocktech", ["blocktech"]],
+    ["qcp", ["qcp"]],
+    ["squarepoint capital", ["squarepoint"]],
+    ["balyasny", ["balyasny"]],
+    ["westbury partners", ["westbury"]],
+    ["ms capital", ["ms-capital", "ms_capital"]],
+    ["selini capital", ["selini"]],
+    ["moreton capital partners", ["moreton"]],
+    ["fionics", ["fionics"]],
+    ["worldquant", ["worldquant"]],
+    ["anthropic", ["anthropic"]],
+    ["openai/fde", ["fde", "openai", "sonatus"]]
+  ];
+
+  for (const [company, needles] of aliases) {
+    if (needles.some((needle) => normalized.includes(needle))) return company;
+  }
+  if (normalized.includes("quant_base") || normalized.includes("quantresearcher_base")) return "base quant";
+  if (normalized.includes("master_resume") || normalized.includes("generic")) return "base general";
+  return "unmapped";
+}
+
+function inferResumeKind(file) {
+  const normalized = file.toLowerCase();
+  if (normalized.includes("submission-kit") && normalized.includes("quant_base")) return "base quant";
+  if (normalized.includes("fde") || normalized.includes("sonatus") || normalized.includes("openai")) return "base fde";
+  if (normalized.includes("coverletter")) return "cover letter";
+  if (normalized.includes("master") || normalized.includes("generic")) return "base general";
+  return "company tailored";
+}
+
+function shouldIncludeResume(path) {
+  const file = basename(path).toLowerCase();
+  if (!/\.(docx|md|txt)$/.test(file)) return false;
+  if (!/(resume|cv|coverletter|quantresearcher_base)/.test(file)) return false;
+  if (file.includes("ralph") || file.includes("audit") || file.includes("validation") || file.includes("assessment")) return false;
+
+  const rel = relative(workspace, path);
+  if (rel.startsWith("career-vault/submission-kit")) return true;
+  if (rel.startsWith("career-vault/base-quant")) return true;
+  if (rel.startsWith("career-vault/company-research/docx")) return true;
+  if (rel.startsWith("career-vault/company-research") && file.endsWith(".md")) return true;
+  if (rel.startsWith("skills/quant-career-pipeline/outputs/company-research")) return true;
+
+  if (rel.startsWith("skills/obsidian-resume-brain/outputs")) {
+    return /(master_resume_v3|master_resume_base|resume_gic_v4|resume_gic_v3|resume_jump_v3|resume_point72_v3|resume_bridgewater_v2|resume_worldquant_v1|resume_blocktech_researcher_v2|resume_ms_capital_v1|resume_fionics_v3|resume_generic_v1)/.test(file);
+  }
+
+  return false;
+}
+
+function parseResumes(companies) {
+  const companyIds = new Map(companies.map((item) => [item.company.toLowerCase(), item.id]));
+  const files = [...new Set(resumeRoots.flatMap((dir) => walk(dir)).filter(shouldIncludeResume))];
+
+  const resumes = files.map((path) => {
+    const file = basename(path);
+    const company = inferResumeCompany(path);
+    const companyId = companyIds.get(company.toLowerCase()) ?? company.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    const ext = file.split(".").pop() ?? "bin";
+    const id = `${companyId}-${file.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
+    const stats = statSync(path);
+    return {
+      id,
+      file,
+      title: file.replace(/\.(docx|md|txt)$/i, "").replace(/[_-]+/g, " "),
+      company,
+      companyId,
+      kind: inferResumeKind(path),
+      format: ext,
+      mime: resumeMime(file),
+      sizeBytes: stats.size,
+      localPath: path,
+      url: `/resumes/${id}/${encodeURIComponent(file)}`
+    };
+  });
+
+  const assets = Object.fromEntries(resumes.map((item) => [
+    item.url,
+    {
+      file: item.file,
+      mime: item.mime,
+      base64: readFileSync(item.localPath).toString("base64")
+    }
+  ]));
+
+  const safeResumes = resumes
+    .map(({ localPath, ...item }) => item)
+    .sort((a, b) => a.company.localeCompare(b.company) || a.kind.localeCompare(b.kind) || a.file.localeCompare(b.file));
+
+  writeFileSync(join(site, "data", "resume-assets.json"), `${JSON.stringify(assets)}\n`);
+  return safeResumes;
+}
+
 const companies = parseTargetCompanies();
 const history = parseScanHistory();
 const jdCache = parseJdCache();
+const resumes = parseResumes(companies);
 const top = companies.filter((item) => (item.score ?? 0) >= 4).slice(0, 16);
 
 const payload = {
@@ -200,6 +339,7 @@ const payload = {
     trackedCompanies: companies.length,
     topTargets: top.length,
     jdCacheFiles: jdCache.length,
+    resumeFiles: resumes.length,
     scansParsed: history.scans.length,
     applyFirst: companies.filter((item) => item.action === "apply").length,
     verify: companies.filter((item) => item.action === "verify").length,
@@ -210,8 +350,9 @@ const payload = {
   companies,
   top,
   history,
-  jdCache
+  jdCache,
+  resumes
 };
 
 writeFileSync(join(site, "data", "dashboard.json"), `${JSON.stringify(payload, null, 2)}\n`);
-console.log(`Wrote dashboard data: ${companies.length} companies, ${jdCache.length} JD files`);
+console.log(`Wrote dashboard data: ${companies.length} companies, ${jdCache.length} JD files, ${resumes.length} resumes`);
