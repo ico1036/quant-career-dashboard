@@ -1,7 +1,8 @@
-import { readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const site = new URL("../", import.meta.url).pathname;
+const dist = join(site, "dist");
 const html = readFileSync(join(site, "index.html"), "utf8");
 const data = readFileSync(join(site, "data", "dashboard.json"), "utf8");
 const resumeAssets = readFileSync(join(site, "data", "resume-assets.json"), "utf8");
@@ -46,4 +47,8 @@ export default {
 `;
 
 writeFileSync(join(site, "index.js"), worker);
-console.log("Wrote Sites worker entrypoint: index.js");
+mkdirSync(join(dist, "server"), { recursive: true });
+mkdirSync(join(dist, ".openai"), { recursive: true });
+writeFileSync(join(dist, "server", "index.js"), worker);
+copyFileSync(join(site, ".openai", "hosting.json"), join(dist, ".openai", "hosting.json"));
+console.log("Wrote Sites worker entrypoints: index.js, dist/server/index.js");
