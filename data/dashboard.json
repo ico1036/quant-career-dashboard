@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:40:38.018Z",
+  "generatedAt": "2026-07-22T07:44:18.741Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -5966,7 +5966,8 @@
       "sourceName": "ORIGIN SEOUL",
       "sourceUrl": "https://originseoulbtc.com/",
       "status": "track / register",
-      "notes": "Aug 31 VIP Day is at Bitcoin House Origin; Sep 1 Industry Day and Sep 2 Public Day are at Lotte World Tower SKY31. More Bitcoin ecosystem than Helix-specific quant."
+      "notes": "Aug 31 VIP Day is at Bitcoin House Origin; Sep 1 Industry Day and Sep 2 Public Day are at Lotte World Tower SKY31. More Bitcoin ecosystem than Helix-specific quant.",
+      "focusRank": 99
     },
     {
       "id": "korea-global-investment-forum-2026",
@@ -5982,7 +5983,8 @@
       "sourceName": "Institutional Investor",
       "sourceUrl": "https://register.institutionalinvestor.com/2026-korea-global-investment-forum",
       "status": "request intro",
-      "notes": "Chatham House Rule, closed to press, and invitation-only for senior fund decision-makers. Try AssetPlus / AlphaBridge network before cold registration."
+      "notes": "Chatham House Rule, closed to press, and invitation-only for senior fund decision-makers. Try AssetPlus / AlphaBridge network before cold registration.",
+      "focusRank": 4
     },
     {
       "id": "avcj-private-equity-forum-korea-2026",
@@ -5998,7 +6000,8 @@
       "sourceName": "ION Analytics Community",
       "sourceUrl": "https://community.ionanalytics.com/avcj-private-equity-forum-korea-2026",
       "status": "watch",
-      "notes": "Private equity and credit focus; relevant for allocator/network context rather than quant trading."
+      "notes": "Private equity and credit focus; relevant for allocator/network context rather than quant trading.",
+      "focusRank": 99
     },
     {
       "id": "cqf-ai-ml-quant-finance-2026",
@@ -6014,7 +6017,8 @@
       "sourceName": "CQF Institute",
       "sourceUrl": "https://cqfinstitute.org/events/conferences/ai-and-machine-learning-in-quant-finance/",
       "status": "register now",
-      "notes": "Official schedule is 12:00-18:00 BST, which is Sep 16 20:00 to Sep 17 02:00 KST."
+      "notes": "Official schedule is 12:00-18:00 BST, which is Sep 16 20:00 to Sep 17 02:00 KST.",
+      "focusRank": 2
     },
     {
       "id": "kbw-2026",
@@ -6030,7 +6034,8 @@
       "sourceName": "Korea Blockchain Week",
       "sourceUrl": "https://koreablockchainweek.com/",
       "status": "register + request invite",
-      "notes": "Sep 29 is Upbit Institutional Summit by invitation; public main conference is Sep 30-Oct 1 at Walkerhill Hotels & Resorts."
+      "notes": "Sep 29 is Upbit Institutional Summit by invitation; public main conference is Sep 30-Oct 1 at Walkerhill Hotels & Resorts.",
+      "focusRank": 3
     },
     {
       "id": "token2049-singapore-2026",
@@ -6046,7 +6051,8 @@
       "sourceName": "TOKEN2049",
       "sourceUrl": "https://www.token2049.com/singapore",
       "status": "travel only with meetings",
-      "notes": "Official tickets are on sale. Do not travel just for hallway exposure; bundle with Singapore career/fund meetings."
+      "notes": "Official tickets are on sale. Do not travel just for hallway exposure; bundle with Singapore career/fund meetings.",
+      "focusRank": 5
     },
     {
       "id": "ask-global-conference-2026",
@@ -6062,7 +6068,8 @@
       "sourceName": "KED ASK",
       "sourceUrl": "https://www.kedask.com/",
       "status": "watch",
-      "notes": "Useful Korea allocator-network signal; relevant for hedge fund and multi-asset context."
+      "notes": "Useful Korea allocator-network signal; relevant for hedge fund and multi-asset context.",
+      "focusRank": 99
     },
     {
       "id": "hk-fintech-week-2026",
@@ -6078,7 +6085,8 @@
       "sourceName": "Hong Kong FinTech Week",
       "sourceUrl": "https://www.fintechweek.hk/",
       "status": "travel only with meetings",
-      "notes": "Good only if there are target meetings in Hong Kong or relevant AI/digital-asset sessions. Not a pure quant event."
+      "notes": "Good only if there are target meetings in Hong Kong or relevant AI/digital-asset sessions. Not a pure quant event.",
+      "focusRank": 99
     },
     {
       "id": "devcon-8-2026",
@@ -6094,7 +6102,8 @@
       "sourceName": "Ethereum Foundation Devcon",
       "sourceUrl": "https://devcon.org/en/",
       "status": "track live/recorded",
-      "notes": "Tickets process is underway. Track official live or recorded access; India travel is low priority unless paired with a concrete meeting or speaking reason."
+      "notes": "Tickets process is underway. Track official live or recorded access; India travel is low priority unless paired with a concrete meeting or speaking reason.",
+      "focusRank": 99
     },
     {
       "id": "invest-korea-summit-2026",
@@ -6110,7 +6119,8 @@
       "sourceName": "InvestKOREA",
       "sourceUrl": "https://www.investkorea.org/ik-en/cntnts/i-5169/web.do",
       "status": "apply only if relevant",
-      "notes": "Free but approval-based registration; official registration deadline is Oct 9. Registration page: https://www.investkorea.org/ik-en/cntnts/i-5172/web.do?clickArea=enmain00009"
+      "notes": "Free but approval-based registration; official registration deadline is Oct 9. Registration page: https://www.investkorea.org/ik-en/cntnts/i-5172/web.do?clickArea=enmain00009",
+      "focusRank": 99
     },
     {
       "id": "bitcoin-plus-plus-seoul-2026",
@@ -6126,7 +6136,8 @@
       "sourceName": "bitcoin++",
       "sourceUrl": "https://btcpp.dev/seoul",
       "status": "track",
-      "notes": "Attend if the goal is Bitcoin protocol, privacy, P2P exchange, or market-structure network rather than general investing."
+      "notes": "Attend if the goal is Bitcoin protocol, privacy, P2P exchange, or market-structure network rather than general investing.",
+      "focusRank": 99
     },
     {
       "id": "bitcoin-korea-conference-2026",
@@ -6137,12 +6148,13 @@
       "location": "Nov 7 COEX; Nov 8 Korea Federation of Banks + Community House Masil, Seoul",
       "format": "in-person",
       "category": "Crypto / Bitcoin",
-      "priority": "high",
+      "priority": "medium",
       "fit": "Official offline Bitcoin Korea event focused on Bitcoin education, Lightning market, workshops, and community network.",
       "sourceName": "Bitcoin Korea Conference",
       "sourceUrl": "https://www.bitcoinkoreaconference.com/en/schedule",
-      "status": "register",
-      "notes": "Treat Plan B Academy's Access: Online metadata as likely wrong; official schedule does not confirm livestream access."
+      "status": "register if protocol/network goal",
+      "notes": "Removed hybrid label. Treat Plan B Academy's Access: Online metadata as wrong unless the official schedule later confirms livestream access.",
+      "focusRank": 99
     },
     {
       "id": "quantminds-international-2026",
@@ -6158,7 +6170,8 @@
       "sourceName": "Informa Connect",
       "sourceUrl": "https://informaconnect.com/quantminds-international/",
       "status": "content watch",
-      "notes": "No confirmed live online pass; monitor YouTube/on-demand content. London travel only if paired with speaking, recruiting, or targeted meetings."
+      "notes": "No confirmed live online pass; monitor YouTube/on-demand content. London travel only if paired with speaking, recruiting, or targeted meetings.",
+      "focusRank": 6
     },
     {
       "id": "apef-2026",
@@ -6174,7 +6187,8 @@
       "sourceName": "East Asia Research",
       "sourceUrl": "https://apef.ear.com.sg/",
       "status": "low priority",
-      "notes": "Remote option appears aimed at pre-recorded virtual presenters, not a clear general livestream ticket. Keep behind higher-signal events."
+      "notes": "Remote option appears aimed at pre-recorded virtual presenters, not a clear general livestream ticket. Keep behind higher-signal events.",
+      "focusRank": 99
     },
     {
       "id": "global-ai-finance-research-2026",
@@ -6186,11 +6200,12 @@
       "format": "in-person only",
       "category": "AI Finance / Research",
       "priority": "high",
-      "fit": "Strong Helix paper-submission candidate: AI finance, FinTech, and research-facing audience in East Asia.",
+      "fit": "Highest-priority Helix paper-submission candidate: publish frontier model x harness, evaluation design, repeatability, or post-training comparison without exposing full know-how.",
       "sourceName": "Global AI Finance Research Conference",
       "sourceUrl": "https://www.aifinconf.org/",
       "status": "evaluate paper submission",
-      "notes": "Offline-only. Paper submission deadline is Aug 31; acceptance notification is Sep 30. CFP: https://aifinconf.org/sub/callforpapers.php"
+      "notes": "Offline-only. Paper submission deadline is Aug 31; acceptance notification is Sep 30. CFP: https://aifinconf.org/sub/callforpapers.php",
+      "focusRank": 1
     }
   ],
   "watchSources": [
@@ -6199,48 +6214,66 @@
       "company": "Jane Street",
       "title": "Programs and Events",
       "sourceUrl": "https://www.janestreet.com/join-jane-street/programs-and-events/",
-      "priority": "high",
-      "notes": "Monitor for QTC, Preview, researcher programs, and APAC recruiting events."
+      "type": "watch page",
+      "cadence": "monthly or email alert",
+      "eligibility": "Mostly student programs; HK FTTP Sep 30-Oct 3 is student-targeted. QTC/SEE are mostly undergraduate-oriented.",
+      "priority": "low",
+      "notes": "Use as background monitor; experienced-hire postings are more relevant."
     },
     {
       "id": "citadel-securities-programs-events",
       "company": "Citadel Securities",
       "title": "Programs and Events",
-      "sourceUrl": "https://www.citadelsecurities.com/careers/students/programs-and-events/",
-      "priority": "high",
-      "notes": "Monitor Quant Invitational, Trading Invitational, PhD Summit, Datathons, and APAC postings."
+      "sourceUrl": "https://www.citadelsecurities.com/careers/programs-and-events/",
+      "type": "watch page",
+      "cadence": "monthly or email alert",
+      "eligibility": "Quant Invitational and Trading Invitational skew undergraduate; PhD Summit targets current PhD/postdoc.",
+      "priority": "low",
+      "notes": "Few directly applicable public events for Jiwoong; experienced roles matter more."
     },
     {
       "id": "optiver-events-2026",
       "company": "Optiver",
       "title": "Recruiting Events",
       "sourceUrl": "https://www.optiver.com/join-us/events/",
-      "priority": "high",
-      "notes": "Monitor trading-floor AI events, recruiting sessions, and APAC additions."
+      "type": "watch page",
+      "cadence": "monthly or email alert",
+      "eligibility": "Remaining public events visible today are Amsterdam/London; no confirmed APAC event.",
+      "priority": "low",
+      "notes": "Monitor for APAC additions only."
     },
     {
       "id": "two-sigma-quant-events-2026",
       "company": "Two Sigma",
       "title": "Quant Research / Data Science",
       "sourceUrl": "https://www.twosigma.com/careers/quantitative-research-data-science/",
-      "priority": "medium",
-      "notes": "Monitor research-facing programs, seminars, internships, and campus connections."
+      "type": "watch page",
+      "cadence": "monthly or email alert",
+      "eligibility": "New Seekers Summit is for early undergrads; PhD Symposium/Fellowship target current students.",
+      "priority": "low",
+      "notes": "Experienced-hire postings are more useful than program monitoring."
     },
     {
       "id": "imc-programs-events-2026",
       "company": "IMC Trading",
       "title": "Programs",
       "sourceUrl": "https://www.imc.com/us/careers/students-graduates/programs",
-      "priority": "medium",
-      "notes": "Monitor trading simulations, coding challenges, and APAC careers pages."
+      "type": "watch page",
+      "cadence": "monthly or email alert",
+      "eligibility": "Student/new-grad insight programs; no confirmed APAC public event today.",
+      "priority": "low",
+      "notes": "Keep only for APAC event emergence."
     },
     {
       "id": "jump-research-programs-2026",
       "company": "Jump Trading",
-      "title": "Students and New Grads",
-      "sourceUrl": "https://www.jumptrading.com/hr/students-new-grads",
-      "priority": "medium",
-      "notes": "Monitor future programs; Probability Cup already ended in July 2026."
+      "title": "Signals",
+      "sourceUrl": "https://www.jumptrading.com/signals",
+      "type": "watch page",
+      "cadence": "monthly or email alert",
+      "eligibility": "Probability Cup ended July 19; 2026-27 Fellowship recipients already announced.",
+      "priority": "low",
+      "notes": "Not an ongoing event calendar; monitor lightly."
     }
   ]
 }

@@ -583,24 +583,37 @@ function trackedEvents() {
     ["devcon-8-2026", "Devcon 8", "2026-11-03", "2026-11-06", "Far / Virtual Watch", "Jio World Centre, Mumbai", "in-person", "Crypto / DeFi Research", "medium", "Ethereum Foundation flagship conference; relevant for DeFi research, protocol infrastructure, and crypto market structure.", "Ethereum Foundation Devcon", "https://devcon.org/en/", "track live/recorded", "Tickets process is underway. Track official live or recorded access; India travel is low priority unless paired with a concrete meeting or speaking reason."],
     ["invest-korea-summit-2026", "Invest KOREA Summit 2026", "2026-11-04", "2026-11-06", "Korea", "Grand InterContinental Seoul Parnas", "in-person; approval required", "Investment / Korea Market", "watch", "Korea investment and partnership event; useful for overseas investment attraction or partnerships, not a quant-specific conference.", "InvestKOREA", "https://www.investkorea.org/ik-en/cntnts/i-5169/web.do", "apply only if relevant", "Free but approval-based registration; official registration deadline is Oct 9. Registration page: https://www.investkorea.org/ik-en/cntnts/i-5172/web.do?clickArea=enmain00009"],
     ["bitcoin-plus-plus-seoul-2026", "bitcoin++ Seoul - Privacy Edition", "2026-11-05", "2026-11-06", "Korea", "Page Project, Seoul", "in-person", "Crypto / Bitcoin Engineering", "medium", "Developer and researcher-centered Bitcoin privacy/P2P event; useful for protocol and market-structure contacts.", "bitcoin++", "https://btcpp.dev/seoul", "track", "Attend if the goal is Bitcoin protocol, privacy, P2P exchange, or market-structure network rather than general investing."],
-    ["bitcoin-korea-conference-2026", "Bitcoin Korea Conference 2026", "2026-11-07", "2026-11-08", "Korea", "Nov 7 COEX; Nov 8 Korea Federation of Banks + Community House Masil, Seoul", "in-person", "Crypto / Bitcoin", "high", "Official offline Bitcoin Korea event focused on Bitcoin education, Lightning market, workshops, and community network.", "Bitcoin Korea Conference", "https://www.bitcoinkoreaconference.com/en/schedule", "register", "Treat Plan B Academy's Access: Online metadata as likely wrong; official schedule does not confirm livestream access."],
+    ["bitcoin-korea-conference-2026", "Bitcoin Korea Conference 2026", "2026-11-07", "2026-11-08", "Korea", "Nov 7 COEX; Nov 8 Korea Federation of Banks + Community House Masil, Seoul", "in-person", "Crypto / Bitcoin", "medium", "Official offline Bitcoin Korea event focused on Bitcoin education, Lightning market, workshops, and community network.", "Bitcoin Korea Conference", "https://www.bitcoinkoreaconference.com/en/schedule", "register if protocol/network goal", "Removed hybrid label. Treat Plan B Academy's Access: Online metadata as wrong unless the official schedule later confirms livestream access."],
     ["quantminds-international-2026", "QuantMinds International 2026", "2026-11-16", "2026-11-19", "Far / Virtual Watch", "InterContinental O2, London", "in-person", "Quant Finance", "medium", "Top-tier global quant finance conference; strongest content fit among far-travel events.", "Informa Connect", "https://informaconnect.com/quantminds-international/", "content watch", "No confirmed live online pass; monitor YouTube/on-demand content. London travel only if paired with speaking, recruiting, or targeted meetings."],
     ["apef-2026", "Asia-Pacific Conference on Economics and Finance 2026", "2026-12-10", "2026-12-11", "East Asia / Singapore", "Holiday Inn Singapore Atrium", "hybrid; virtual presenter mainly pre-recorded", "Finance / Economics", "watch", "Economics and finance conference with low Helix/quant specificity.", "East Asia Research", "https://apef.ear.com.sg/", "low priority", "Remote option appears aimed at pre-recorded virtual presenters, not a clear general livestream ticket. Keep behind higher-signal events."],
-    ["global-ai-finance-research-2026", "Global AI Finance Research Conference", "2026-12-14", "2026-12-15", "East Asia / Taiwan", "Howard Civil Service International House, Taipei", "in-person only", "AI Finance / Research", "high", "Strong Helix paper-submission candidate: AI finance, FinTech, and research-facing audience in East Asia.", "Global AI Finance Research Conference", "https://www.aifinconf.org/", "evaluate paper submission", "Offline-only. Paper submission deadline is Aug 31; acceptance notification is Sep 30. CFP: https://aifinconf.org/sub/callforpapers.php"]
-  ].map(([id, title, startDate, endDate, region, location, format, category, priority, fit, sourceName, sourceUrl, status, notes]) => ({
-    id, title, startDate, endDate, region, location, format, category, priority, fit, sourceName, sourceUrl, status, notes
-  })).sort((a, b) => a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title));
+    ["global-ai-finance-research-2026", "Global AI Finance Research Conference", "2026-12-14", "2026-12-15", "East Asia / Taiwan", "Howard Civil Service International House, Taipei", "in-person only", "AI Finance / Research", "high", "Highest-priority Helix paper-submission candidate: publish frontier model x harness, evaluation design, repeatability, or post-training comparison without exposing full know-how.", "Global AI Finance Research Conference", "https://www.aifinconf.org/", "evaluate paper submission", "Offline-only. Paper submission deadline is Aug 31; acceptance notification is Sep 30. CFP: https://aifinconf.org/sub/callforpapers.php"]
+  ].map(([id, title, startDate, endDate, region, location, format, category, priority, fit, sourceName, sourceUrl, status, notes]) => {
+    const focusRanks = {
+      "global-ai-finance-research-2026": 1,
+      "cqf-ai-ml-quant-finance-2026": 2,
+      "kbw-2026": 3,
+      "korea-global-investment-forum-2026": 4,
+      "token2049-singapore-2026": 5,
+      "quantminds-international-2026": 6
+    };
+    return {
+      id, title, startDate, endDate, region, location, format, category, priority, fit, sourceName, sourceUrl, status, notes,
+      focusRank: focusRanks[id] ?? 99
+    };
+  }).sort((a, b) => a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title));
 }
 
 function fundWatchSources() {
   return [
-    ["jane-street-programs-events", "Jane Street", "Programs and Events", "https://www.janestreet.com/join-jane-street/programs-and-events/", "high", "Monitor for QTC, Preview, researcher programs, and APAC recruiting events."],
-    ["citadel-securities-programs-events", "Citadel Securities", "Programs and Events", "https://www.citadelsecurities.com/careers/students/programs-and-events/", "high", "Monitor Quant Invitational, Trading Invitational, PhD Summit, Datathons, and APAC postings."],
-    ["optiver-events-2026", "Optiver", "Recruiting Events", "https://www.optiver.com/join-us/events/", "high", "Monitor trading-floor AI events, recruiting sessions, and APAC additions."],
-    ["two-sigma-quant-events-2026", "Two Sigma", "Quant Research / Data Science", "https://www.twosigma.com/careers/quantitative-research-data-science/", "medium", "Monitor research-facing programs, seminars, internships, and campus connections."],
-    ["imc-programs-events-2026", "IMC Trading", "Programs", "https://www.imc.com/us/careers/students-graduates/programs", "medium", "Monitor trading simulations, coding challenges, and APAC careers pages."],
-    ["jump-research-programs-2026", "Jump Trading", "Students and New Grads", "https://www.jumptrading.com/hr/students-new-grads", "medium", "Monitor future programs; Probability Cup already ended in July 2026."]
-  ].map(([id, company, title, sourceUrl, priority, notes]) => ({ id, company, title, sourceUrl, priority, notes }));
+    ["jane-street-programs-events", "Jane Street", "Programs and Events", "https://www.janestreet.com/join-jane-street/programs-and-events/", "watch page", "monthly or email alert", "Mostly student programs; HK FTTP Sep 30-Oct 3 is student-targeted. QTC/SEE are mostly undergraduate-oriented.", "low", "Use as background monitor; experienced-hire postings are more relevant."],
+    ["citadel-securities-programs-events", "Citadel Securities", "Programs and Events", "https://www.citadelsecurities.com/careers/programs-and-events/", "watch page", "monthly or email alert", "Quant Invitational and Trading Invitational skew undergraduate; PhD Summit targets current PhD/postdoc.", "low", "Few directly applicable public events for Jiwoong; experienced roles matter more."],
+    ["optiver-events-2026", "Optiver", "Recruiting Events", "https://www.optiver.com/join-us/events/", "watch page", "monthly or email alert", "Remaining public events visible today are Amsterdam/London; no confirmed APAC event.", "low", "Monitor for APAC additions only."],
+    ["two-sigma-quant-events-2026", "Two Sigma", "Quant Research / Data Science", "https://www.twosigma.com/careers/quantitative-research-data-science/", "watch page", "monthly or email alert", "New Seekers Summit is for early undergrads; PhD Symposium/Fellowship target current students.", "low", "Experienced-hire postings are more useful than program monitoring."],
+    ["imc-programs-events-2026", "IMC Trading", "Programs", "https://www.imc.com/us/careers/students-graduates/programs", "watch page", "monthly or email alert", "Student/new-grad insight programs; no confirmed APAC public event today.", "low", "Keep only for APAC event emergence."],
+    ["jump-research-programs-2026", "Jump Trading", "Signals", "https://www.jumptrading.com/signals", "watch page", "monthly or email alert", "Probability Cup ended July 19; 2026-27 Fellowship recipients already announced.", "low", "Not an ongoing event calendar; monitor lightly."]
+  ].map(([id, company, title, sourceUrl, type, cadence, eligibility, priority, notes]) => ({
+    id, company, title, sourceUrl, type, cadence, eligibility, priority, notes
+  }));
 }
 
 const history = parseScanHistory();

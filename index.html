@@ -392,6 +392,7 @@
     .event-high { color: var(--green); background: var(--soft-green); }
     .event-medium { color: var(--blue); background: var(--soft-blue); }
     .event-watch { color: var(--amber); background: var(--soft-amber); }
+    .event-low { color: #475467; background: #eef2f7; }
 
     .hidden {
       display: none;
@@ -675,8 +676,10 @@
             <tr>
               <th>Fund</th>
               <th>Page</th>
-              <th>Priority</th>
-              <th>What to watch</th>
+              <th>Type</th>
+              <th>Cadence</th>
+              <th>Eligibility</th>
+              <th>Usefulness</th>
             </tr>
           </thead>
           <tbody id="watch-table"></tbody>
@@ -787,7 +790,8 @@
         .sort((a, b) => (b.score ?? -1) - (a.score ?? -1))
         .slice(0, 3);
       const nextEvents = data.events
-        .filter((item) => item.priority === "high")
+        .filter((item) => item.focusRank <= 6)
+        .sort((a, b) => a.focusRank - b.focusRank || a.startDate.localeCompare(b.startDate))
         .slice(0, 3);
       const currentResumes = data.resumes
         .filter((item) => item.isLatest && ["base quant", "base fde"].includes(item.kind))
@@ -988,8 +992,10 @@
         <tr>
           <td data-label="Fund"><b>${esc(item.company)}</b></td>
           <td data-label="Page"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.title)}</a></td>
-          <td data-label="Priority"><span class="pill event-${esc(item.priority)}">${esc(item.priority)}</span></td>
-          <td data-label="Watch">${esc(item.notes)}</td>
+          <td data-label="Type">${esc(item.type)}</td>
+          <td data-label="Cadence">${esc(item.cadence)}</td>
+          <td data-label="Eligibility">${esc(item.eligibility)}</td>
+          <td data-label="Usefulness"><span class="pill event-${esc(item.priority)}">${esc(item.priority)}</span><br><span class="note">${esc(item.notes)}</span></td>
         </tr>
       `).join("");
     }
