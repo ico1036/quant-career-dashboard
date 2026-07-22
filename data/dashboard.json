@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:37:52.163Z",
+  "generatedAt": "2026-07-22T07:40:38.018Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -15,7 +15,7 @@
     "archivedResumeFiles": 112,
     "upcomingEvents": 15,
     "koreaEvents": 8,
-    "virtualWatchEvents": 5,
+    "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
     "verify": 39,
@@ -6086,15 +6086,15 @@
       "startDate": "2026-11-03",
       "endDate": "2026-11-06",
       "region": "Far / Virtual Watch",
-      "location": "Mumbai, India",
+      "location": "Jio World Centre, Mumbai",
       "format": "in-person",
       "category": "Crypto / DeFi Research",
       "priority": "medium",
-      "fit": "Farther travel, but strong DeFi/research signal; track streams or recordings if available.",
+      "fit": "Ethereum Foundation flagship conference; relevant for DeFi research, protocol infrastructure, and crypto market structure.",
       "sourceName": "Ethereum Foundation Devcon",
       "sourceUrl": "https://devcon.org/en/",
-      "status": "virtual watch",
-      "notes": "Use only if virtual/recorded access is practical or if India trip becomes useful."
+      "status": "track live/recorded",
+      "notes": "Tickets process is underway. Track official live or recorded access; India travel is low priority unless paired with a concrete meeting or speaking reason."
     },
     {
       "id": "invest-korea-summit-2026",
@@ -6103,14 +6103,14 @@
       "endDate": "2026-11-06",
       "region": "Korea",
       "location": "Grand InterContinental Seoul Parnas",
-      "format": "in-person",
+      "format": "in-person; approval required",
       "category": "Investment / Korea Market",
-      "priority": "medium",
-      "fit": "Macro/investment network for Korea market and global capital flows.",
+      "priority": "watch",
+      "fit": "Korea investment and partnership event; useful for overseas investment attraction or partnerships, not a quant-specific conference.",
       "sourceName": "InvestKOREA",
-      "sourceUrl": "https://www.investkorea.org/ik-en/cntnts/i-5112/web.do",
-      "status": "watch",
-      "notes": "2026 dates are from InvestKOREA public save-the-date posts; official site still mostly describes prior editions."
+      "sourceUrl": "https://www.investkorea.org/ik-en/cntnts/i-5169/web.do",
+      "status": "apply only if relevant",
+      "notes": "Free but approval-based registration; official registration deadline is Oct 9. Registration page: https://www.investkorea.org/ik-en/cntnts/i-5172/web.do?clickArea=enmain00009"
     },
     {
       "id": "bitcoin-plus-plus-seoul-2026",
@@ -6122,11 +6122,11 @@
       "format": "in-person",
       "category": "Crypto / Bitcoin Engineering",
       "priority": "medium",
-      "fit": "Technical Bitcoin privacy/P2P exchange event; better for protocol and market-structure contacts than general investing.",
+      "fit": "Developer and researcher-centered Bitcoin privacy/P2P event; useful for protocol and market-structure contacts.",
       "sourceName": "bitcoin++",
       "sourceUrl": "https://btcpp.dev/seoul",
       "status": "track",
-      "notes": "Co-located with Bitcoin Korea Conference week."
+      "notes": "Attend if the goal is Bitcoin protocol, privacy, P2P exchange, or market-structure network rather than general investing."
     },
     {
       "id": "bitcoin-korea-conference-2026",
@@ -6134,15 +6134,15 @@
       "startDate": "2026-11-07",
       "endDate": "2026-11-08",
       "region": "Korea",
-      "location": "COEX Convention & Exhibition Center, Seoul",
-      "format": "conference; online access listed",
+      "location": "Nov 7 COEX; Nov 8 Korea Federation of Banks + Community House Masil, Seoul",
+      "format": "in-person",
       "category": "Crypto / Bitcoin",
       "priority": "high",
-      "fit": "Korea Bitcoin conference focused on Bitcoin education, workshops, Lightning market, and community building.",
-      "sourceName": "Plan B Academy",
-      "sourceUrl": "https://planb.academy/events/742dfc51-2ae2-4677-a97b-0e2f246f59ac",
+      "fit": "Official offline Bitcoin Korea event focused on Bitcoin education, Lightning market, workshops, and community network.",
+      "sourceName": "Bitcoin Korea Conference",
+      "sourceUrl": "https://www.bitcoinkoreaconference.com/en/schedule",
       "status": "register",
-      "notes": "Plan B lists Access as Online; verify whether that means streamed access or online ticketing before assuming virtual attendance."
+      "notes": "Treat Plan B Academy's Access: Online metadata as likely wrong; official schedule does not confirm livestream access."
     },
     {
       "id": "quantminds-international-2026",
@@ -6150,15 +6150,15 @@
       "startDate": "2026-11-16",
       "endDate": "2026-11-19",
       "region": "Far / Virtual Watch",
-      "location": "London, UK",
+      "location": "InterContinental O2, London",
       "format": "in-person",
       "category": "Quant Finance",
       "priority": "medium",
-      "fit": "World-scale quant finance conference; far travel, so track virtual/material access first.",
+      "fit": "Top-tier global quant finance conference; strongest content fit among far-travel events.",
       "sourceName": "Informa Connect",
       "sourceUrl": "https://informaconnect.com/quantminds-international/",
-      "status": "virtual watch",
-      "notes": "Relevant for global quant research agenda; only worth travel if networking target is clear."
+      "status": "content watch",
+      "notes": "No confirmed live online pass; monitor YouTube/on-demand content. London travel only if paired with speaking, recruiting, or targeted meetings."
     },
     {
       "id": "apef-2026",
@@ -6166,15 +6166,15 @@
       "startDate": "2026-12-10",
       "endDate": "2026-12-11",
       "region": "East Asia / Singapore",
-      "location": "Singapore",
-      "format": "hybrid",
+      "location": "Holiday Inn Singapore Atrium",
+      "format": "hybrid; virtual presenter mainly pre-recorded",
       "category": "Finance / Economics",
       "priority": "watch",
-      "fit": "Hybrid economics and finance conference for academics, government, and private-sector finance professionals.",
+      "fit": "Economics and finance conference with low Helix/quant specificity.",
       "sourceName": "East Asia Research",
       "sourceUrl": "https://apef.ear.com.sg/",
-      "status": "virtual watch",
-      "notes": "Optional research/networking signal only; not a quant trading conference."
+      "status": "low priority",
+      "notes": "Remote option appears aimed at pre-recorded virtual presenters, not a clear general livestream ticket. Keep behind higher-signal events."
     },
     {
       "id": "global-ai-finance-research-2026",
@@ -6182,15 +6182,15 @@
       "startDate": "2026-12-14",
       "endDate": "2026-12-15",
       "region": "East Asia / Taiwan",
-      "location": "Taipei, Taiwan",
-      "format": "in-person",
+      "location": "Howard Civil Service International House, Taipei",
+      "format": "in-person only",
       "category": "AI Finance / Research",
-      "priority": "medium",
-      "fit": "Direct AI finance research angle in East Asia.",
+      "priority": "high",
+      "fit": "Strong Helix paper-submission candidate: AI finance, FinTech, and research-facing audience in East Asia.",
       "sourceName": "Global AI Finance Research Conference",
       "sourceUrl": "https://www.aifinconf.org/",
-      "status": "watch",
-      "notes": "Track program/speaker release for quant relevance."
+      "status": "evaluate paper submission",
+      "notes": "Offline-only. Paper submission deadline is Aug 31; acceptance notification is Sep 30. CFP: https://aifinconf.org/sub/callforpapers.php"
     }
   ],
   "watchSources": [
