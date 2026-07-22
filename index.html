@@ -85,10 +85,14 @@
     }
 
     .tabs {
+      position: sticky;
+      top: 0;
+      z-index: 5;
       margin-bottom: 14px;
       overflow-x: auto;
       flex-wrap: nowrap;
-      padding-bottom: 2px;
+      padding: 10px 0 8px;
+      background: var(--bg);
     }
 
     button, input, select {
@@ -179,6 +183,32 @@
     .metric span {
       color: var(--muted);
       font-size: 12px;
+    }
+
+    .priority-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .priority-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfe;
+      padding: 12px;
+      min-height: 120px;
+    }
+
+    .priority-card b {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .priority-card p {
+      margin: 6px 0 0;
+      color: #344054;
+      font-size: 13px;
     }
 
     .layout {
@@ -368,7 +398,7 @@
     }
 
     @media (max-width: 1100px) {
-      .metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .metrics, .priority-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
       .layout, .kanban { grid-template-columns: 1fr; }
       .history-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .updated { text-align: left; min-width: 0; }
@@ -376,11 +406,42 @@
     }
 
     @media (max-width: 720px) {
-      .metrics, .history-grid { grid-template-columns: 1fr; }
-      main, .topbar-inner { width: min(100% - 20px, 1480px); }
+      .metrics, .priority-grid, .history-grid { grid-template-columns: 1fr; }
+      main, .topbar-inner { width: min(100% - 16px, 1480px); }
+      .topbar-inner { padding: 14px 0; gap: 8px; }
+      h1 { font-size: 20px; }
+      .subtitle { display: none; }
+      .updated { font-size: 11px; }
       section { padding: 14px; }
-      .table-wrap { max-height: none; overflow-x: auto; }
-      table { min-width: 860px; }
+      .tabs { gap: 6px; margin-left: -8px; margin-right: -8px; padding-left: 8px; padding-right: 8px; }
+      button { min-height: 38px; padding: 7px 10px; }
+      input, select { width: 100%; }
+      .filters { align-items: stretch; }
+      .table-wrap { max-height: none; overflow: visible; border: 0; }
+      table, thead, tbody, tr, td { display: block; width: 100%; }
+      table { min-width: 0; }
+      thead { display: none; }
+      tr {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        padding: 10px 12px;
+        margin-bottom: 10px;
+      }
+      td {
+        border-bottom: 0;
+        padding: 7px 0;
+      }
+      td::before {
+        content: attr(data-label);
+        display: block;
+        margin-bottom: 2px;
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      tr:hover td { background: transparent; }
     }
   </style>
 </head>
@@ -399,18 +460,18 @@
     <nav class="tabs" aria-label="Dashboard views">
       <button class="active" data-tab="overview">Overview</button>
       <button data-tab="board">Candidate Board</button>
-      <button data-tab="history">History</button>
-      <button data-tab="jd">JD Cache</button>
-      <button data-tab="resumes">Resumes</button>
       <button data-tab="events">Events</button>
+      <button data-tab="resumes">Resumes</button>
+      <button data-tab="jd">JD Cache</button>
+      <button data-tab="history">History</button>
     </nav>
 
     <section id="overview">
       <div class="section-title">
-        <h2>Pipeline Metrics</h2>
-        <span class="note" id="source-note"></span>
+        <h2>Focus</h2>
+        <span class="note">open the thing, decide, move</span>
       </div>
-      <div class="metrics" id="metrics"></div>
+      <div class="priority-grid" id="priority-grid"></div>
     </section>
 
     <div class="layout tab-pane" data-pane="overview">
@@ -439,17 +500,17 @@
 
       <section>
         <div class="section-title">
-          <h2>Latest Scope Brief</h2>
-          <span class="note">from 2026-07-21 expansion brief</span>
+          <h2>Next Events</h2>
+          <span class="note">Korea first, virtual when far</span>
         </div>
-        <ul class="brief-list" id="brief-list"></ul>
+        <ul class="brief-list" id="overview-events"></ul>
       </section>
     </div>
 
     <section class="tab-pane" data-pane="overview">
       <div class="section-title">
         <h2>Action Board</h2>
-        <span class="note">derived from score, status, and tracker notes</span>
+        <span class="note">work queue</span>
       </div>
       <div class="kanban" id="kanban"></div>
     </section>
@@ -703,43 +764,61 @@
       return matches.map((item) => `<a href="${esc(item.url)}" target="_blank" rel="noreferrer">${esc(item.format.toUpperCase())}</a>`).join(" · ");
     }
 
-    function renderMetrics(data) {
-      const metrics = [
-        ["Tracked", data.metrics.trackedCompanies, "companies in target tracker"],
-        ["Top", data.metrics.topTargets, "companies scoring 4.0+"],
-        ["JD", data.metrics.jdCacheFiles, "cached job descriptions"],
-        ["Resume", data.metrics.currentResumeFiles, `current files, ${data.metrics.archivedResumeFiles} archived`],
-        ["Events", data.metrics.upcomingEvents, `${data.metrics.koreaEvents} Korea, ${data.metrics.virtualWatchEvents} virtual/watch`],
-        ["Apply", data.metrics.applyFirst, "immediate apply bucket"],
-        ["Verify", data.metrics.verify, "needs JD/location check"],
-        ["Scans", data.metrics.scansParsed, "recent parsed scan sections"]
-      ];
+    function renderPriorityGrid(data) {
+      const applyTargets = data.companies
+        .filter((item) => item.action === "apply")
+        .sort((a, b) => (b.score ?? -1) - (a.score ?? -1))
+        .slice(0, 3);
+      const nextEvents = data.events
+        .filter((item) => item.priority === "high" && item.startDate !== "2026-12-31")
+        .slice(0, 3);
+      const currentResumes = data.resumes
+        .filter((item) => item.isLatest && ["base quant", "base fde"].includes(item.kind))
+        .slice(0, 3);
 
-      document.getElementById("metrics").innerHTML = metrics.map(([label, value, note]) => `
-        <div class="metric">
-          <b>${esc(value)}</b>
-          <span>${esc(label)} · ${esc(note)}</span>
-        </div>
-      `).join("");
+      document.getElementById("priority-grid").innerHTML = [
+        `
+          <div class="priority-card">
+            <b>Apply lane</b>
+            ${applyTargets.map((item) => `<p><a href="${esc(item.jobUrl)}" target="_blank" rel="noreferrer">${esc(item.company)}</a><br><span class="note">${esc(item.actionNextStep)}</span></p>`).join("")}
+          </div>
+        `,
+        `
+          <div class="priority-card">
+            <b>Upcoming events</b>
+            ${nextEvents.map((item) => `<p><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.title)}</a><br><span class="note">${esc(dateRange(item))} · ${esc(item.location)}</span></p>`).join("")}
+          </div>
+        `,
+        `
+          <div class="priority-card">
+            <b>Resume layer</b>
+            ${currentResumes.map((item) => `<p><a href="${esc(item.url)}" target="_blank" rel="noreferrer">${esc(item.kind)}</a><br><span class="note">${esc(item.file)}</span></p>`).join("")}
+            <p><span class="note">Archive is hidden unless selected.</span></p>
+          </div>
+        `
+      ].join("");
     }
 
     function renderTop(data) {
       document.getElementById("top-table").innerHTML = data.top.map((item) => `
         <tr>
-          <td>${companyCell(item, true)}</td>
-          <td>${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
-          <td>${actionCell(item)}</td>
-          <td>${esc(item.geo)}</td>
-          <td>${esc(item.lastSeen)}</td>
-          <td>${resumeLinks(item.id)}</td>
-          <td>${esc(shortNotes(item.notes, 210))}</td>
+          <td data-label="Company">${companyCell(item, true)}</td>
+          <td data-label="Score">${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
+          <td data-label="Action">${actionCell(item)}</td>
+          <td data-label="Geo">${esc(item.geo)}</td>
+          <td data-label="Last Seen">${esc(item.lastSeen)}</td>
+          <td data-label="Resume">${resumeLinks(item.id)}</td>
+          <td data-label="Notes">${esc(shortNotes(item.notes, 210))}</td>
         </tr>
       `).join("");
     }
 
-    function renderBrief(data) {
-      document.getElementById("brief-list").innerHTML = data.latestBrief.scope.map((line) => `
-        <li>${esc(line)}</li>
+    function renderOverviewEvents(data) {
+      document.getElementById("overview-events").innerHTML = data.events
+        .filter((item) => item.startDate !== "2026-12-31")
+        .slice(0, 6)
+        .map((item) => `
+        <li><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.title)}</a><br><span class="note">${esc(dateRange(item))} · ${esc(item.location)} · ${esc(item.status)}</span></li>
       `).join("");
     }
 
@@ -751,7 +830,7 @@
           .slice(0, 8);
         return `
           <div class="lane">
-            <h3>${actionMeta[action].label} · ${data.companies.filter((item) => item.action === action).length}</h3>
+            <h3>${actionMeta[action].label}</h3>
             ${items.map((item) => `
               <div class="job-card">
                 <b>${item.jobUrl ? `<a href="${esc(item.jobUrl)}" target="_blank" rel="noreferrer">${esc(item.company)}</a>` : esc(item.company)} · ${item.score === null ? "n/a" : item.score.toFixed(1)}</b>
@@ -781,17 +860,17 @@
 
     function renderCompanyTable() {
       const rows = filteredCompanies();
-      document.getElementById("board-count").textContent = `${rows.length} visible / ${state.companies.length} total`;
+      document.getElementById("board-count").textContent = "Filter, open posting, use current resume";
       document.getElementById("company-table").innerHTML = rows.map((item) => `
         <tr>
-          <td>${companyCell(item)}</td>
-          <td>${esc(item.status)}</td>
-          <td>${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
-          <td>${actionCell(item)}</td>
-          <td>${esc(item.geo)}</td>
-          <td>${esc(item.lastSeen)}</td>
-          <td>${resumeLinks(item.id, 4)}</td>
-          <td>${esc(item.notes)}</td>
+          <td data-label="Company">${companyCell(item)}</td>
+          <td data-label="Status">${esc(item.status)}</td>
+          <td data-label="Score">${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
+          <td data-label="Action">${actionCell(item)}</td>
+          <td data-label="Geo">${esc(item.geo)}</td>
+          <td data-label="Last Seen">${esc(item.lastSeen)}</td>
+          <td data-label="Resume">${resumeLinks(item.id, 4)}</td>
+          <td data-label="Notes">${esc(item.notes)}</td>
         </tr>
       `).join("");
     }
@@ -817,13 +896,13 @@
 
     function renderJdTable() {
       const rows = filteredJds();
-      document.getElementById("jd-count").textContent = `${rows.length} visible / ${state.jdCache.length} cached files`;
+      document.getElementById("jd-count").textContent = "Source evidence and original postings";
       document.getElementById("jd-table").innerHTML = rows.map((item) => `
         <tr>
-          <td><b>${esc(item.title)}</b><br><span class="note">${esc(item.file)}</span></td>
-          <td>${esc(item.date ?? "n/a")}</td>
-          <td>${item.url ? `<a href="${esc(item.url)}" target="_blank" rel="noreferrer">source</a>` : `<span class="note">${esc(item.path)}</span>`}</td>
-          <td>${esc(item.excerpt)}</td>
+          <td data-label="JD"><b>${esc(item.title)}</b><br><span class="note">${esc(item.file)}</span></td>
+          <td data-label="Date">${esc(item.date ?? "n/a")}</td>
+          <td data-label="Source">${item.url ? `<a href="${esc(item.url)}" target="_blank" rel="noreferrer">source</a>` : `<span class="note">${esc(item.path)}</span>`}</td>
+          <td data-label="Excerpt">${esc(item.excerpt)}</td>
         </tr>
       `).join("");
     }
@@ -842,17 +921,15 @@
 
     function renderResumeTable() {
       const rows = filteredResumes();
-      const current = state.resumes.filter((item) => item.layer === "current").length;
-      const archive = state.resumes.filter((item) => item.layer === "archive").length;
-      document.getElementById("resume-count").textContent = `${rows.length} visible / ${current} current / ${archive} archived`;
+      document.getElementById("resume-count").textContent = "Current layer is the working set; archive stays hidden by default";
       document.getElementById("resume-table").innerHTML = rows.map((item) => `
         <tr>
-          <td><b>${esc(item.company)}</b></td>
-          <td><span class="pill ${item.layer === "current" ? "apply" : "unknown"}">${esc(item.layer)}</span></td>
-          <td>${esc(item.kind)}</td>
-          <td>${esc(item.file)}<br><span class="note">v${esc(item.version)} · ${Math.round(item.sizeBytes / 1024)} KB · ${esc(new Date(item.modifiedAt).toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" }))}</span></td>
-          <td>${esc(item.format.toUpperCase())}</td>
-          <td><a href="${esc(item.url)}" target="_blank" rel="noreferrer">open</a></td>
+          <td data-label="Company"><b>${esc(item.company)}</b></td>
+          <td data-label="Layer"><span class="pill ${item.layer === "current" ? "apply" : "unknown"}">${esc(item.layer)}</span></td>
+          <td data-label="Type">${esc(item.kind)}</td>
+          <td data-label="File">${esc(item.file)}<br><span class="note">v${esc(item.version)} · ${Math.round(item.sizeBytes / 1024)} KB · ${esc(new Date(item.modifiedAt).toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" }))}</span></td>
+          <td data-label="Format">${esc(item.format.toUpperCase())}</td>
+          <td data-label="Open"><a href="${esc(item.url)}" target="_blank" rel="noreferrer">open</a></td>
         </tr>
       `).join("");
     }
@@ -875,17 +952,17 @@
 
     function renderEventTable() {
       const rows = filteredEvents();
-      document.getElementById("event-count").textContent = `${rows.length} visible / ${state.events.length} tracked, Korea first`;
+      document.getElementById("event-count").textContent = "Korea first, East Asia next, far events only if virtual or exceptional";
       document.getElementById("event-table").innerHTML = rows.map((item) => `
         <tr>
-          <td><b>${esc(dateRange(item))}</b><br><span class="note">${esc(item.format)}</span></td>
-          <td><b>${esc(item.title)}</b><br><span class="note">${esc(item.location)}</span></td>
-          <td>${esc(item.region)}</td>
-          <td><span class="pill event-${esc(item.priority)}">${esc(item.priority)}</span></td>
-          <td>${esc(item.category)}</td>
-          <td>${esc(item.status)}</td>
-          <td>${esc(item.fit)}<br><span class="note">${esc(item.notes)}</span></td>
-          <td><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.sourceName)}</a></td>
+          <td data-label="Date"><b>${esc(dateRange(item))}</b><br><span class="note">${esc(item.format)}</span></td>
+          <td data-label="Event"><b>${esc(item.title)}</b><br><span class="note">${esc(item.location)}</span></td>
+          <td data-label="Region">${esc(item.region)}</td>
+          <td data-label="Priority"><span class="pill event-${esc(item.priority)}">${esc(item.priority)}</span></td>
+          <td data-label="Category">${esc(item.category)}</td>
+          <td data-label="Status">${esc(item.status)}</td>
+          <td data-label="Why">${esc(item.fit)}<br><span class="note">${esc(item.notes)}</span></td>
+          <td data-label="Source"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.sourceName)}</a></td>
         </tr>
       `).join("");
     }
@@ -903,12 +980,11 @@
       const response = await fetch("./data/dashboard.json", { cache: "no-store" });
       state = await response.json();
 
-      document.getElementById("updated").textContent = `Generated ${new Date(state.generatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })} KST`;
-      document.getElementById("source-note").textContent = `Sources: ${Object.values(state.sourceFiles).join(" · ")}`;
+      document.getElementById("updated").textContent = `Updated ${new Date(state.generatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })} KST`;
 
-      renderMetrics(state);
+      renderPriorityGrid(state);
       renderTop(state);
-      renderBrief(state);
+      renderOverviewEvents(state);
       renderKanban(state);
       renderCompanyTable();
       renderHistory(state);
