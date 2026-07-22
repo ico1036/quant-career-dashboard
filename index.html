@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quant Career Pipeline Dashboard</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --panel: #ffffff;
+      --ink: #17202a;
+      --muted: #667085;
+      --line: #d7dde6;
+      --head: #202833;
+      --green: #14745a;
+      --blue: #215f9a;
+      --amber: #9a640d;
+      --red: #a33b34;
+      --violet: #6654a8;
+      --soft-green: #e8f4ef;
+      --soft-blue: #eaf2fb;
+      --soft-amber: #fff4df;
+      --soft-red: #faeeee;
+      --soft-violet: #f0eef9;
+      --soft-gray: #f8fafc;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+      line-height: 1.45;
+    }
+
+    .topbar {
+      background: var(--head);
+      color: #fff;
+      border-bottom: 1px solid #111820;
+    }
+
+    .topbar-inner {
+      width: min(1480px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 18px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 1.18;
+    }
+
+    .subtitle {
+      margin: 4px 0 0;
+      color: #c9d3df;
+      font-size: 13px;
+    }
+
+    .updated {
+      text-align: right;
+      color: #c9d3df;
+      font-size: 12px;
+      min-width: 220px;
+    }
+
+    main {
+      width: min(1480px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 18px 0 44px;
+    }
+
+    .tabs, .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .tabs {
+      margin-bottom: 14px;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      padding-bottom: 2px;
+    }
+
+    button, input, select {
+      font: inherit;
+    }
+
+    button {
+      flex: 0 0 auto;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: #344054;
+      border-radius: 7px;
+      padding: 7px 11px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    button.active {
+      background: var(--head);
+      color: #fff;
+      border-color: var(--head);
+    }
+
+    input, select {
+      min-height: 36px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      border-radius: 7px;
+      padding: 7px 10px;
+    }
+
+    input {
+      width: min(420px, 100%);
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin: 14px 0;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: var(--soft-gray);
+      min-height: 86px;
+    }
+
+    .metric b {
+      display: block;
+      font-size: 25px;
+      line-height: 1;
+      margin-bottom: 7px;
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 14px;
+      align-items: start;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f1f4f8;
+      color: #344054;
+      font-size: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    tr:hover td {
+      background: #fbfdff;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .table-wrap {
+      max-height: 620px;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 22px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .apply { color: var(--green); background: var(--soft-green); }
+    .verify { color: var(--amber); background: var(--soft-amber); }
+    .watch { color: var(--blue); background: var(--soft-blue); }
+    .hold { color: var(--red); background: var(--soft-red); }
+    .researched { color: var(--violet); background: var(--soft-violet); }
+    .unknown { color: #475467; background: #eef2f7; }
+
+    .score {
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .score.elite, .score.strong { color: var(--green); }
+    .score.watch { color: var(--amber); }
+    .score.low { color: var(--red); }
+
+    .kanban {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .lane {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfe;
+      min-height: 260px;
+      overflow: hidden;
+    }
+
+    .lane h3 {
+      margin: 0;
+      padding: 10px 12px;
+      font-size: 13px;
+      border-bottom: 1px solid var(--line);
+      background: #f1f4f8;
+      letter-spacing: 0;
+    }
+
+    .job-card {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .job-card:last-child {
+      border-bottom: 0;
+    }
+
+    .job-card b {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 13px;
+    }
+
+    .job-card p {
+      margin: 5px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .history-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .history-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fbfcfe;
+      min-height: 108px;
+    }
+
+    .history-item b {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .brief-list {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .brief-list li {
+      border-left: 4px solid var(--blue);
+      background: #f8fafc;
+      padding: 9px 11px;
+      color: #344054;
+      font-size: 13px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 1100px) {
+      .metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .layout, .kanban { grid-template-columns: 1fr; }
+      .history-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .updated { text-align: left; min-width: 0; }
+      .topbar-inner { flex-direction: column; align-items: flex-start; }
+    }
+
+    @media (max-width: 720px) {
+      .metrics, .history-grid { grid-template-columns: 1fr; }
+      main, .topbar-inner { width: min(100% - 20px, 1480px); }
+      section { padding: 14px; }
+      .table-wrap { max-height: none; overflow-x: auto; }
+      table { min-width: 860px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div>
+        <h1>Quant Career Pipeline</h1>
+        <p class="subtitle">Singapore primary, SG-compatible remote, and Texas/Dallas expansion. Built from existing scan history, target tracker, and JD cache.</p>
+      </div>
+      <div class="updated" id="updated">Loading...</div>
+    </div>
+  </header>
+
+  <main>
+    <nav class="tabs" aria-label="Dashboard views">
+      <button class="active" data-tab="overview">Overview</button>
+      <button data-tab="board">Candidate Board</button>
+      <button data-tab="history">History</button>
+      <button data-tab="jd">JD Cache</button>
+    </nav>
+
+    <section id="overview">
+      <div class="section-title">
+        <h2>Pipeline Metrics</h2>
+        <span class="note" id="source-note"></span>
+      </div>
+      <div class="metrics" id="metrics"></div>
+    </section>
+
+    <div class="layout tab-pane" data-pane="overview">
+      <section>
+        <div class="section-title">
+          <h2>Top Targets</h2>
+          <span class="note">score >= 4.0</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Score</th>
+                <th>Action</th>
+                <th>Geo</th>
+                <th>Last Seen</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody id="top-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">
+          <h2>Latest Scope Brief</h2>
+          <span class="note">from 2026-07-21 expansion brief</span>
+        </div>
+        <ul class="brief-list" id="brief-list"></ul>
+      </section>
+    </div>
+
+    <section class="tab-pane" data-pane="overview">
+      <div class="section-title">
+        <h2>Action Board</h2>
+        <span class="note">derived from score, status, and tracker notes</span>
+      </div>
+      <div class="kanban" id="kanban"></div>
+    </section>
+
+    <section class="tab-pane hidden" data-pane="board">
+      <div class="section-title">
+        <h2>Candidate Board</h2>
+        <span class="note" id="board-count"></span>
+      </div>
+      <div class="filters">
+        <input id="search" placeholder="Search company, status, notes">
+        <select id="action-filter">
+          <option value="all">All actions</option>
+          <option value="apply">Apply</option>
+          <option value="verify">Verify</option>
+          <option value="watch">Watch</option>
+          <option value="researched">Researched</option>
+          <option value="hold">Hold</option>
+        </select>
+        <select id="geo-filter">
+          <option value="all">All geos</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Texas/Dallas">Texas/Dallas</option>
+          <option value="Remote">Remote</option>
+          <option value="APAC">APAC</option>
+          <option value="Location blocked">Location blocked</option>
+        </select>
+      </div>
+      <div class="table-wrap" style="margin-top: 12px;">
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Status</th>
+              <th>Score</th>
+              <th>Action</th>
+              <th>Geo</th>
+              <th>Last Seen</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody id="company-table"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="tab-pane hidden" data-pane="history">
+      <div class="section-title">
+        <h2>Scan History</h2>
+        <span class="note">latest parsed markdown sections</span>
+      </div>
+      <div class="history-grid" id="history-grid"></div>
+    </section>
+
+    <section class="tab-pane hidden" data-pane="jd">
+      <div class="section-title">
+        <h2>JD Cache</h2>
+        <span class="note" id="jd-count"></span>
+      </div>
+      <div class="filters">
+        <input id="jd-search" placeholder="Search cached JD title, file, excerpt">
+      </div>
+      <div class="table-wrap" style="margin-top: 12px;">
+        <table>
+          <thead>
+            <tr>
+              <th>Cached JD</th>
+              <th>Date</th>
+              <th>Source</th>
+              <th>Excerpt</th>
+            </tr>
+          </thead>
+          <tbody id="jd-table"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script type="module">
+    const actionLabels = {
+      apply: "Apply",
+      verify: "Verify",
+      watch: "Watch",
+      researched: "Researched",
+      hold: "Hold",
+      unknown: "Unknown"
+    };
+
+    const actionOrder = ["apply", "verify", "watch", "researched", "hold"];
+    let state = null;
+
+    function esc(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "\"": "&quot;",
+        "'": "&#039;"
+      })[char]);
+    }
+
+    function actionPill(action) {
+      const normalized = actionLabels[action] ? action : "unknown";
+      return `<span class="pill ${normalized}">${actionLabels[normalized]}</span>`;
+    }
+
+    function scoreCell(item) {
+      const score = item.score === null ? "n/a" : item.score.toFixed(1);
+      return `<span class="score ${esc(item.scoreBucket)}">${score}</span>`;
+    }
+
+    function shortNotes(notes, limit = 160) {
+      if (!notes) return "";
+      return notes.length > limit ? `${notes.slice(0, limit - 1)}...` : notes;
+    }
+
+    function renderMetrics(data) {
+      const metrics = [
+        ["Tracked", data.metrics.trackedCompanies, "companies in target tracker"],
+        ["Top", data.metrics.topTargets, "companies scoring 4.0+"],
+        ["JD", data.metrics.jdCacheFiles, "cached job descriptions"],
+        ["Apply", data.metrics.applyFirst, "immediate apply bucket"],
+        ["Verify", data.metrics.verify, "needs JD/location check"],
+        ["Scans", data.metrics.scansParsed, "recent parsed scan sections"]
+      ];
+
+      document.getElementById("metrics").innerHTML = metrics.map(([label, value, note]) => `
+        <div class="metric">
+          <b>${esc(value)}</b>
+          <span>${esc(label)} · ${esc(note)}</span>
+        </div>
+      `).join("");
+    }
+
+    function renderTop(data) {
+      document.getElementById("top-table").innerHTML = data.top.map((item) => `
+        <tr>
+          <td><b>${esc(item.company)}</b><br><span class="note">${esc(item.status)}</span></td>
+          <td>${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
+          <td>${actionPill(item.action)}</td>
+          <td>${esc(item.geo)}</td>
+          <td>${esc(item.lastSeen)}</td>
+          <td>${esc(shortNotes(item.notes, 210))}</td>
+        </tr>
+      `).join("");
+    }
+
+    function renderBrief(data) {
+      document.getElementById("brief-list").innerHTML = data.latestBrief.scope.map((line) => `
+        <li>${esc(line)}</li>
+      `).join("");
+    }
+
+    function renderKanban(data) {
+      const lanes = actionOrder.map((action) => {
+        const items = data.companies
+          .filter((item) => item.action === action)
+          .sort((a, b) => (b.score ?? -1) - (a.score ?? -1))
+          .slice(0, 8);
+        return `
+          <div class="lane">
+            <h3>${actionLabels[action]} · ${data.companies.filter((item) => item.action === action).length}</h3>
+            ${items.map((item) => `
+              <div class="job-card">
+                <b>${esc(item.company)} · ${item.score === null ? "n/a" : item.score.toFixed(1)}</b>
+                <span class="note">${esc(item.geo)} · ${esc(item.lastSeen)}</span>
+                <p>${esc(shortNotes(item.notes, 112))}</p>
+              </div>
+            `).join("")}
+          </div>
+        `;
+      });
+      document.getElementById("kanban").innerHTML = lanes.join("");
+    }
+
+    function filteredCompanies() {
+      const q = document.getElementById("search").value.trim().toLowerCase();
+      const action = document.getElementById("action-filter").value;
+      const geo = document.getElementById("geo-filter").value;
+
+      return state.companies.filter((item) => {
+        const haystack = `${item.company} ${item.status} ${item.notes} ${item.geo}`.toLowerCase();
+        return (!q || haystack.includes(q))
+          && (action === "all" || item.action === action)
+          && (geo === "all" || item.geo === geo);
+      });
+    }
+
+    function renderCompanyTable() {
+      const rows = filteredCompanies();
+      document.getElementById("board-count").textContent = `${rows.length} visible / ${state.companies.length} total`;
+      document.getElementById("company-table").innerHTML = rows.map((item) => `
+        <tr>
+          <td><b>${esc(item.company)}</b></td>
+          <td>${esc(item.status)}</td>
+          <td>${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
+          <td>${actionPill(item.action)}</td>
+          <td>${esc(item.geo)}</td>
+          <td>${esc(item.lastSeen)}</td>
+          <td>${esc(item.notes)}</td>
+        </tr>
+      `).join("");
+    }
+
+    function renderHistory(data) {
+      document.getElementById("history-grid").innerHTML = data.history.scans.map((scan) => `
+        <div class="history-item">
+          <b>${esc(scan.date)}</b>
+          <div class="note">${esc(scan.title)}</div>
+          <p>mentions: ${esc(scan.candidateMentions)} · companies: ${esc(scan.uniqueCompanies)}</p>
+          <p>scores: ${esc(scan.scoreCount)} · max: ${esc(scan.maxScore ?? "n/a")}</p>
+        </div>
+      `).join("");
+    }
+
+    function filteredJds() {
+      const q = document.getElementById("jd-search").value.trim().toLowerCase();
+      return state.jdCache.filter((item) => {
+        const haystack = `${item.title} ${item.file} ${item.excerpt}`.toLowerCase();
+        return !q || haystack.includes(q);
+      });
+    }
+
+    function renderJdTable() {
+      const rows = filteredJds();
+      document.getElementById("jd-count").textContent = `${rows.length} visible / ${state.jdCache.length} cached files`;
+      document.getElementById("jd-table").innerHTML = rows.map((item) => `
+        <tr>
+          <td><b>${esc(item.title)}</b><br><span class="note">${esc(item.file)}</span></td>
+          <td>${esc(item.date ?? "n/a")}</td>
+          <td>${item.url ? `<a href="${esc(item.url)}" target="_blank" rel="noreferrer">source</a>` : `<span class="note">${esc(item.path)}</span>`}</td>
+          <td>${esc(item.excerpt)}</td>
+        </tr>
+      `).join("");
+    }
+
+    function activateTab(tab) {
+      document.querySelectorAll(".tabs button").forEach((button) => {
+        button.classList.toggle("active", button.dataset.tab === tab);
+      });
+      document.querySelectorAll(".tab-pane").forEach((pane) => {
+        pane.classList.toggle("hidden", pane.dataset.pane !== tab);
+      });
+    }
+
+    async function boot() {
+      const response = await fetch("./data/dashboard.json", { cache: "no-store" });
+      state = await response.json();
+
+      document.getElementById("updated").textContent = `Generated ${new Date(state.generatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })} KST`;
+      document.getElementById("source-note").textContent = `Sources: ${Object.values(state.sourceFiles).join(" · ")}`;
+
+      renderMetrics(state);
+      renderTop(state);
+      renderBrief(state);
+      renderKanban(state);
+      renderCompanyTable();
+      renderHistory(state);
+      renderJdTable();
+
+      document.querySelectorAll(".tabs button").forEach((button) => {
+        button.addEventListener("click", () => activateTab(button.dataset.tab));
+      });
+      ["search", "action-filter", "geo-filter"].forEach((id) => {
+        document.getElementById(id).addEventListener("input", renderCompanyTable);
+      });
+      document.getElementById("jd-search").addEventListener("input", renderJdTable);
+    }
+
+    boot().catch((error) => {
+      document.getElementById("updated").textContent = "Failed to load dashboard data";
+      console.error(error);
+    });
+  </script>
+</body>
+</html>

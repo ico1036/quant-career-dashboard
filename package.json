@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build:data": "node scripts/build-dashboard-data.mjs",
+    "build": "npm run build:data && vite build",
+    "dev": "npm run build:data && vite --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}

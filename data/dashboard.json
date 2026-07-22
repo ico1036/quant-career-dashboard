@@ -1,0 +1,2432 @@
+{
+  "generatedAt": "2026-07-22T02:40:51.130Z",
+  "sourceFiles": {
+    "targetCompanies": "data/target-companies.md",
+    "scanHistory": "outputs/scan-history.md",
+    "jdCache": "outputs/jd-cache/*.md",
+    "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
+  },
+  "metrics": {
+    "trackedCompanies": 95,
+    "topTargets": 16,
+    "jdCacheFiles": 99,
+    "scansParsed": 24,
+    "applyFirst": 3,
+    "verify": 39,
+    "watch": 25,
+    "researched": 7
+  },
+  "latestBrief": {
+    "title": "# Quant Job Pipeline Brief — 2026-07-21",
+    "scope": [
+      "Existing pipeline was Singapore-first: SG roles, SG-compatible remote, and APAC-compatible AI-native quant signals.",
+      "As of 2026-07-21, scope is expanded to Texas/Dallas (\"Y'all Street\").",
+      "Dallas/Texas roles are no longer discarded as US-only. Mark them texas-expanded, score normally, and add relocation/timezone notes.",
+      "GIC — AI Alpha Group QPM / Quantitative Analyst: 4.8. Strongest recurring SG fit: GenAI-powered fundamental investment process, portfolio construction, AI alpha ownership.",
+      "DRW — Singapore QR/ML watch: 4.6 prior. Very strong fit from cached QR/ML evidence; latest portal check confirmed Singapore openings but did not cleanly expose the QR JD.",
+      "Citadel / Citadel Securities — QR/QRA and GQS QR: 4.2-4.45. Official SG-compatible recurring roles; ML/NLP, unconventional data, live signal implementation, multi-asset predictive modeling.",
+      "Goldman Sachs — Senior AI/ML Quant Research Engineer VP: 4.4. Official Singapore Applied AI role; LLM/RL/XAI/MLOps and trading-signal production, but sell-side/platform context.",
+      "Schonfeld — Quantitative Researcher: 4.3 location-conditional. ML alphas, NLP/LLM, distributed research pipelines, live signal deployment; needs SG authorization/location verification."
+    ]
+  },
+  "companies": [
+    {
+      "id": "gic",
+      "company": "GIC",
+      "status": "scored",
+      "fitScoreRaw": "4.8",
+      "score": 4.8,
+      "scoreBucket": "elite",
+      "lastSeen": "2026-07-14",
+      "notes": "AI Alpha Group remains strongest active fit. Official Quantitative Portfolio Manager and Quantitative Analyst AI Alpha pages/snippets remain active; proprietary Gen AI-powered fundamental investment process and portfolio construction signal. GIC Phase 3 eligible on demand.",
+      "geo": "Singapore",
+      "action": "apply"
+    },
+    {
+      "id": "drw",
+      "company": "DRW",
+      "status": "scored",
+      "fitScoreRaw": "4.6",
+      "score": 4.6,
+      "scoreBucket": "elite",
+      "lastSeen": "2026-07-22",
+      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning now cleanly lists London, Singapore. Strong transformer/modern ML, forecasting, noisy structured/unstructured data, scalable production ML pipelines, and research-to-live-production signal. Recurring; no Phase 3 unless requested/resume version bump.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "citadel-gqs-qr-experienced",
+      "company": "Citadel GQS QR (Experienced)",
+      "status": "new",
+      "fitScoreRaw": "4.45",
+      "score": 4.45,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-05-05",
+      "notes": "⭐ Experienced QR in GQS Asia. Predictive models, multi-asset portfolio optimization. SG confirmed. High autonomy + depth. Already tracked Citadel so no Phase 3.",
+      "geo": "Singapore",
+      "action": "apply"
+    },
+    {
+      "id": "goldman-sachs",
+      "company": "Goldman Sachs",
+      "status": "scored",
+      "fitScoreRaw": "4.4",
+      "score": 4.4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-30",
+      "notes": "Official Foundation Engineering Applied AI Senior AI/ML Quant Research Engineer VP Singapore role active. Very strong AI/ML, LLM, RL, XAI, MLOps, production trading signal; sell-side/platform setting keeps it just under Phase 3 auto-urgency.",
+      "geo": "Singapore",
+      "action": "apply"
+    },
+    {
+      "id": "kronos-research",
+      "company": "Kronos Research",
+      "status": "watching",
+      "fitScoreRaw": "4.4 prior",
+      "score": 4.4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-24",
+      "notes": "⚠️ Greenhouse board deactivated as of 2026-06-24. Prior roles: ML Researcher SG + Exp Quant Trader Remote/SG. Monitor for board reactivation.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "moreton-capital-partners",
+      "company": "Moreton Capital Partners",
+      "status": "researched",
+      "fitScoreRaw": "4.4",
+      "score": 4.4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-01",
+      "notes": "NEW prediction-markets quant analyst role. Agentic AI + quantitative modelling + alpha signal ownership; partial JD extraction but official Workable/company careers/news signals align. Phase 3 completed; resume v1 uploaded to Drive.",
+      "geo": "Unspecified",
+      "action": "researched"
+    },
+    {
+      "id": "point72-cubist",
+      "company": "Point72 Cubist",
+      "status": "researched",
+      "fitScoreRaw": "4.4",
+      "score": 4.4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-21",
+      "notes": "Official Greenhouse/Careers Cubist Quantitative Researcher Singapore active (7046019002): experienced alpha research, original signal research, backtesting, portfolio analysis, production code, direct investment-decision impact. Researched historically; no Phase 3.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "binance",
+      "company": "Binance",
+      "status": "scored",
+      "fitScoreRaw": "4.3",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-29",
+      "notes": "Official/search-confirmed Data Scientist, NLP & Trading Strategies remains active in Singapore/remote surfaces; strongest Binance AI-quant signal. QR/Junior QR also recurring on Lever.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "bridgewater",
+      "company": "Bridgewater",
+      "status": "researched",
+      "fitScoreRaw": "4.3",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-29",
+      "notes": "NEW official Equity Quantitative Research Associate for New York City & Singapore: PM-led APAC systematic macro/L/S equity pod, end-to-end alpha, alternative data, new tech adoption. Strong but junior-mid; already researched historically.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "imc-trading",
+      "company": "IMC Trading",
+      "status": "researched",
+      "fitScoreRaw": "4.3 cond.",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-12",
+      "notes": "APAC experienced QR/ML page active; current visible roles in HK/Sydney/Seoul, no Singapore QR role this pass. Strong large-model/GPU/ML role-family signal; Phase 3 already complete historically.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "schonfeld",
+      "company": "Schonfeld",
+      "status": "scored",
+      "fitScoreRaw": "4.3 location-conditional",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-15",
+      "notes": "Official Greenhouse Quantitative Researcher role still active: systematic trading, ML alphas, NLP/LLM, distributed research pipelines, live signal deployment. Page header remains Hong Kong but application asks Hong Kong/Singapore authorization; watch/verify SG transfer before Phase 3.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "selini-capital",
+      "company": "Selini Capital",
+      "status": "researched",
+      "fitScoreRaw": "4.3",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-05-21",
+      "notes": "Experienced Quantitative Researcher (London/Singapore) on Greenhouse. Crypto HFT/systematic trading; research-heavy feature/model/pipeline improvement with direct live strategy feedback. Resume v1 done.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "citadel-citsec",
+      "company": "Citadel/CitSec",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-20",
+      "notes": "Official Citadel Securities QR/QRA page resurfaced fresh: Singapore-compatible recurring signal with ML/pattern recognition/NLP and live trading signal implementation. Citadel DSG QR is excellent AI/ML + alternative-data fit but official location is New York only, so excluded for SG pipeline. Recurring; no Phase 3.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "hrt",
+      "company": "HRT",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-01",
+      "notes": "Official portal loaded but filtered SG/quant role list did not render in browser snapshot. Keep prior status: Algo Developer/QR SG signals active recently; conventional ML/stat rather than LLM-native.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "jane-street-hkg",
+      "company": "Jane Street (HKG)",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-04-21",
+      "notes": "QR HKG open. SG 없음. Location mismatch.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "jump-trading",
+      "company": "Jump Trading",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-08",
+      "notes": "Fresh official/search-confirmed Quantitative Researcher \\",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "optiver",
+      "company": "Optiver",
+      "status": "scored",
+      "fitScoreRaw": "4.2 conditional",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-16",
+      "notes": "Careers page currently shows SG Data Center Engineer only in first-page extract; no SG QR/AI role surfaced today. Prior AI Researcher remains Shanghai-only/SG-ineligible.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "worldquant",
+      "company": "WorldQuant",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-15",
+      "notes": "Official Greenhouse/search surfaces continue to list Singapore Quantitative Researcher / intern role family, including \"Quantitative Research Intern (LLMs & AI Agents)\" in APAC. Strong but recurring; internship/junior surfaces are not ideal for immediate application.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "xtx-deep-learning-forecasting",
+      "company": "XTX Deep Learning / Forecasting",
+      "status": "watching",
+      "fitScoreRaw": "4.2 location-mismatch",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-14",
+      "notes": "New search surface for deep learning forecasting researcher is highly aligned technically, but London-only / non-SG compatibility in today's pass.",
+      "geo": "Location blocked",
+      "action": "verify"
+    },
+    {
+      "id": "blocktech",
+      "company": "BlockTech",
+      "status": "researched",
+      "fitScoreRaw": "4.1",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-13",
+      "notes": "Official Ashby/company surfaces show Senior Quantitative Researcher Singapore active; experienced ownership in crypto derivatives/spot algorithmic trading. Resume v1+v2 already done, so no Phase 3.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "citi",
+      "company": "Citi",
+      "status": "scored",
+      "fitScoreRaw": "4.1",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-04-21",
+      "notes": "Agentic AI Architect VP. Multi-agent + RAG.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "g-research-nlp-researcher",
+      "company": "G-Research NLP Researcher",
+      "status": "scored",
+      "fitScoreRaw": "4.1 technical / location blocked",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-22",
+      "notes": "NLP Researcher. Strong AI signal: LLMs, domain-adaptive pretraining, instruction tuning, LoRA, quantisation, vLLM/PyTorch, finance text prediction. Official role location is London; Dallas appears as office/company presence, not clean role location. Watch for Dallas opening.",
+      "geo": "Texas/Dallas",
+      "action": "verify"
+    },
+    {
+      "id": "millennium",
+      "company": "Millennium",
+      "status": "scored",
+      "fitScoreRaw": "4.1",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-10",
+      "notes": "QR Equity SG/HK remains prior good fit. Today surfaced Systematic Macro QR official MLP role, but official location is New York only despite search noise; no SG Phase 3.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "platinum-partners-recruiter",
+      "company": "Platinum & Partners (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "4.1 provisional",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-03",
+      "notes": "Anonymous systematic hedge fund QR role in Singapore: APAC equities/FX/rates alpha, ML models, alternative/news data, live trading strategies. Good fit but recruiter/anonymous client, so no Phase 3 until direct employer is identified.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "aquatic-capital-management",
+      "company": "Aquatic Capital Management",
+      "status": "watching",
+      "fitScoreRaw": "4.0 location-mismatch",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-14",
+      "notes": "Official/search surfaced quantitative researcher role with ML/statistical research and live trading relevance, but current visible locations skew US/Chicago rather than Singapore/APAC.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "balyasny-bam",
+      "company": "Balyasny (BAM)",
+      "status": "scored",
+      "fitScoreRaw": "4.0",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-04-21",
+      "notes": "SG expansion. $225-275k base.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "ilex-capital",
+      "company": "Ilex Capital",
+      "status": "new",
+      "fitScoreRaw": "4.0",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-04-23",
+      "notes": "Quant Researcher. Ex-Balyasny team expansion. SG connection via London+SG strategies.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "jain-global",
+      "company": "Jain Global",
+      "status": "withdrawn",
+      "fitScoreRaw": "4.0",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-04-30",
+      "notes": "⚠️ CONFIRMED: Returning investor cash, exclusively managing Millennium money (Bloomberg 27 Apr). Hiring uncertain/likely paused.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "paragon-alpha-recruiter",
+      "company": "Paragon Alpha (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "4.0 provisional",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-04",
+      "notes": "AI Research Scientist / QR ML posting surfaced. Strong AI language but anonymous client/location ambiguity; no Phase 3 unless direct employer/SG compatibility verified.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "seven-research",
+      "company": "Seven Research",
+      "status": "watching",
+      "fitScoreRaw": "4.0 provisional",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-14",
+      "notes": "Search surfaced AI Research Engineer for crypto trading research; strong AI-native signal, but location/SG compatibility and official JD detail need verification before Phase 3.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "citadel-phd-graduate-asia",
+      "company": "Citadel PhD Graduate (Asia)",
+      "status": "new",
+      "fitScoreRaw": "3.9",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-05-04",
+      "notes": "QR PhD Graduate — HK/Singapore. PhD-specific, high depth, moderate AI signal. Recurring Citadel but this PhD Asia role is NEW.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "grasshopper",
+      "company": "Grasshopper",
+      "status": "scored",
+      "fitScoreRaw": "3.9",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-06",
+      "notes": "Official Greenhouse Quantitative Researcher Singapore role active. New trading-team role with founding-team autonomy, market microstructure, ML/statistical predictive models, production code/live systems; good practical/culture fit but weak LLM/AI-native signal keeps it below Phase 3.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "helix-ai-capital",
+      "company": "Helix AI Capital",
+      "status": "suspicious",
+      "fitScoreRaw": "3.9 provisional",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-10",
+      "notes": "LinkedIn-only Crypto Quantitative Researcher Singapore: crypto spot/derivatives/DeFi, order books, funding/open interest, on-chain data, predictive signals and research pipelines. Strong but company/direct JD verification incomplete.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "metabit-technology-llc",
+      "company": "Metabit Technology LLC",
+      "status": "scored",
+      "fitScoreRaw": "3.9",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-03",
+      "notes": "Official Greenhouse remains active with SG Senior QR Intraday Equities Alpha and NEW Senior QR Monetization across HK/NY/SG. Strong alpha-to-live-PnL/portfolio-optimization signal, but role-level AI-native signal remains weak. Below Phase 3.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "rock-bund-capital",
+      "company": "Rock Bund Capital",
+      "status": "new",
+      "fitScoreRaw": "3.9",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-05-19",
+      "notes": "NEW Singapore MFT QR posting on Greenhouse. Strong alpha/ML/portfolio-construction signal but crypto/MFT execution-heavy; below Phase 3 threshold.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "selby-jennings-recruiter",
+      "company": "Selby Jennings (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "3.9 provisional",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-03",
+      "notes": "Quant Researcher/Trader Systematic Strategies Singapore surfaced; anonymous global trading firm, traditional+digital systematic expansion. Recruiter-only and limited company verification.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "squarepoint-capital",
+      "company": "Squarepoint Capital",
+      "status": "scored",
+      "fitScoreRaw": "3.9",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-06-16",
+      "notes": "Official Junior QR / ML Alpha still active: time-series + ML/NLP alpha research, deploy/monitor trading-signal models. Strong content, but junior framing creates overqualification risk.",
+      "geo": "Unspecified",
+      "action": "watch"
+    },
+    {
+      "id": "tower-research-capital",
+      "company": "Tower Research Capital",
+      "status": "scored",
+      "fitScoreRaw": "3.9",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-06-01",
+      "notes": "Official portal shell loaded but job list did not render in browser snapshot. Keep prior status: ML Engineer HK/Shanghai/SG and SG trader/dev roles recently visible; engineering-platform-heavy, below Phase 3 threshold.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "xtx-markets",
+      "company": "XTX Markets",
+      "status": "new",
+      "fitScoreRaw": "3.9",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-21",
+      "notes": "Research Director SG — ML focus. Senior (L7+) role.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "augmentti-recruiter",
+      "company": "Augmentti (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "3.8 provisional",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-10",
+      "notes": "LinkedIn-only Quant Researcher - Options MM Singapore; recruiter-mediated, C++/Python, production code, options/systematic background. Anonymous client; below Phase 3.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "bah-partners-recruiter",
+      "company": "BAH Partners (recruiter)",
+      "status": "new",
+      "fitScoreRaw": "3.8",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-24",
+      "notes": "QR/Jr QR for unnamed crypto prop (HFT digital assets). $200-500k. Anonymous client.",
+      "geo": "Unspecified",
+      "action": "watch"
+    },
+    {
+      "id": "citadel-gqs-qre",
+      "company": "Citadel GQS QRE",
+      "status": "scored",
+      "fitScoreRaw": "3.8",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-30",
+      "notes": "NEW role: Quantitative Research Engineer. QR-QRE hybrid. SG available.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "douro-labs",
+      "company": "Douro Labs",
+      "status": "suspicious",
+      "fitScoreRaw": "3.8 provisional",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-06-03",
+      "notes": "Remote Quantitative Researcher / Financial Engineer snippets for Pyth Pro pricing/market-data role; official career page not recovered, Europe/remote not SG-primary. Watch only, no Phase 3.",
+      "geo": "Remote",
+      "action": "verify"
+    },
+    {
+      "id": "ellwood-consulting-recruiter",
+      "company": "Ellwood Consulting (recruiter)",
+      "status": "new",
+      "fitScoreRaw": "~3.8 est.",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-27",
+      "notes": "Sr QR for anonymous multi-strat HF, SG. Suspicious (anonymous client).",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "fionics",
+      "company": "Fionics",
+      "status": "scored",
+      "fitScoreRaw": "3.8",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-16",
+      "notes": "Small SG systematic fund. AI-native angle possible.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "mlp-group-millennium",
+      "company": "MLP Group (Millennium)",
+      "status": "new",
+      "fitScoreRaw": "3.8",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-30",
+      "notes": "24 SG roles across quant/ML. Pod model. career.mlp.com.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "tudor-investment-xantium",
+      "company": "Tudor Investment / Xantium",
+      "status": "scored",
+      "fitScoreRaw": "3.8",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-06",
+      "notes": "Official Greenhouse Medium Frequency Quantitative Researcher lists NYC/London/Singapore. Systematic futures alpha, ownership, Python/R, advanced degree preference; strong traditional quant but weak AI-native/LLM signal.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "virtu-financial",
+      "company": "Virtu Financial",
+      "status": "scored",
+      "fitScoreRaw": "3.8",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-08",
+      "notes": "Official Singapore Options Quantitative Strategist active: volatility signals, predictive models, options pricing, strategy calibration, live infra integration. ML Researcher remains 4.5-quality but NY-only; watch for SG/remote variant.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "westbury-partners",
+      "company": "Westbury Partners",
+      "status": "scored",
+      "fitScoreRaw": "3.8",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-28",
+      "notes": "QR Systematic Trading Strategies SG + HK. eFC posting active 27 Apr.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "citadel-securities-qd-re",
+      "company": "Citadel Securities QD/RE",
+      "status": "new",
+      "fitScoreRaw": "3.7",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-05-08",
+      "notes": "Quant Dev/Research Engineer. SG listed. Dev-heavy QR-QE hybrid. Below 4.0 threshold.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "crypto-com",
+      "company": "Crypto.com",
+      "status": "scored",
+      "fitScoreRaw": "3.7",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-21",
+      "notes": "Options quant + VP trader historically. New 2026-07-21 Texas-expanded/US-remote Quantitative Researcher - Prediction Markets official Lever role surfaced; hands-on pricing, market-making, and risk models. Secondary watch, not top apply target.",
+      "geo": "Texas/Dallas",
+      "action": "verify"
+    },
+    {
+      "id": "deeter-analytics",
+      "company": "Deeter Analytics",
+      "status": "suspicious",
+      "fitScoreRaw": "3.7 provisional",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-14",
+      "notes": "Search surfaced Quantitative Researcher / Financial Engineer, remote-friendly crypto analytics/DeFi role. Interesting on-chain + AI/tooling angle, but company verification and SG compatibility are incomplete.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "hudson-river-trading",
+      "company": "Hudson River Trading",
+      "status": "scored",
+      "fitScoreRaw": "3.7 active / ghost 2026 PhD",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-20",
+      "notes": "2027 Grads role remains the clean Singapore-compatible official JD but is junior/new-grad. 2026 PhDs search result resurfaced, but official HRT URL returned 404/Page not found on 2026-07-20, so treat that PhD page as ghost until reopened.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "polymer-capital",
+      "company": "Polymer Capital",
+      "status": "scored",
+      "fitScoreRaw": "3.7",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-01",
+      "notes": "Quant Researcher/Trader Singapore appears on Workable/JobStreet/Grapevine; official Polymer Freshteam currently shows HK in extracted text, so SG signal is partial. Execution/TCA/microstructure/CRB strategy fit, weak AI-native signal.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "squarepoint-sr-qr-volatility",
+      "company": "Squarepoint Sr QR Volatility",
+      "status": "new",
+      "fitScoreRaw": "3.7",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-05-05",
+      "notes": "Senior QR Volatility. SG listed on Greenhouse. Traditional vol, limited AI signal.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "xantium-tudor-investment",
+      "company": "Xantium/Tudor Investment",
+      "status": "scored",
+      "fitScoreRaw": "3.7",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-06-18",
+      "notes": "Tudor Low Latency QR official Greenhouse active with Singapore listed; automated futures signals and ownership, but traditional low-latency focus and weak AI-native signal.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "akuna-capital",
+      "company": "Akuna Capital",
+      "status": "scored",
+      "fitScoreRaw": "3.6",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-15",
+      "notes": "Official Akuna page confirms Quantitative Researcher and Junior Quantitative Researcher - Prediction Markets surfaces; ML/predictive-model signal is relevant, but SG compatibility and junior/sports framing keep it below Phase 3.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "anonymous-systematic-equities-efc",
+      "company": "Anonymous Systematic Equities (eFC)",
+      "status": "new",
+      "fitScoreRaw": "3.6",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-28",
+      "notes": "QR Systematic Equities SG. MFT strategies. Mid-frequency. Senior signal.",
+      "geo": "Unspecified",
+      "action": "watch"
+    },
+    {
+      "id": "arrowpoint-investment-partners",
+      "company": "Arrowpoint Investment Partners",
+      "status": "scored",
+      "fitScoreRaw": "3.6",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-01",
+      "notes": "Official careers page lists Quantitative Developer plus Quantitative/ML Intern Singapore. Multi-strategy hedge fund and financial time-series/deep-learning signal, but senior full-time QR signal not recovered today.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "engineers-gate-eg",
+      "company": "Engineers Gate (EG)",
+      "status": "scored",
+      "fitScoreRaw": "3.6",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-06-09",
+      "notes": "ML Quantitative Researcher URL now closed/removed (ghost). Current official Greenhouse has QR Hong Kong and QR U.S. telecommuting only; no SG-compatible QR today.",
+      "geo": "APAC",
+      "action": "hold"
+    },
+    {
+      "id": "midpoint-markets",
+      "company": "Midpoint Markets",
+      "status": "scored",
+      "fitScoreRaw": "3.6",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-06",
+      "notes": "Official Greenhouse QR lists Singapore among broad global locations but says in-person San Francisco preferred. Crypto/DeFi quant with ML/statistics; SG compatibility and research depth uncertain.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "alveria-capital",
+      "company": "Alveria Capital",
+      "status": "suspicious",
+      "fitScoreRaw": "3.5 provisional",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-09",
+      "notes": "JobStreet-only Quantitative Researcher C++ Singapore signal; trading-team wording but sparse JD and no official portal recovered.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "anonymous-us-hf-efc",
+      "company": "Anonymous US HF (eFC)",
+      "status": "new",
+      "fitScoreRaw": "3.5",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-28",
+      "notes": "FI Quant Researcher, systematic macro. Asia expansion. Suspicious (anonymous).",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "b2c2-sbi",
+      "company": "B2C2 (SBI)",
+      "status": "scored",
+      "fitScoreRaw": "3.5",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-29",
+      "notes": "Quantitative Trader, SG. Crypto market maker. Execution-heavy, not pure research.",
+      "geo": "Unspecified",
+      "action": "watch"
+    },
+    {
+      "id": "brew-labs",
+      "company": "Brew Labs",
+      "status": "new",
+      "fitScoreRaw": "3.5",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-23",
+      "notes": "Quant Researcher (HF). Crypto. Suspicious — needs verification.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "g-research",
+      "company": "G-Research",
+      "status": "watching",
+      "fitScoreRaw": "3.5",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-22",
+      "notes": "Dallas office/company presence confirmed, but official vacancies still list quant research / ML / NLP roles as London. Keep re-scanning Dallas/Texas under Y'all Street scope, but do not count current London-only roles as Dallas-actionable.",
+      "geo": "Texas/Dallas",
+      "action": "verify"
+    },
+    {
+      "id": "mwam-marshall-wace",
+      "company": "MWAM (Marshall Wace)",
+      "status": "new",
+      "fitScoreRaw": "3.5 est.",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-06-24",
+      "notes": "Quant Associate Programme (Research & Implementation). London-based, no SG confirmed. Systematic investment team.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "qcp",
+      "company": "QCP",
+      "status": "scored",
+      "fitScoreRaw": "3.5",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-16",
+      "notes": "Head of Quant — leadership level.",
+      "geo": "Unspecified",
+      "action": "watch"
+    },
+    {
+      "id": "quantedge",
+      "company": "Quantedge",
+      "status": "new",
+      "fitScoreRaw": "3.5",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-04-21",
+      "notes": "Summer intern only. SG systematic macro fund.",
+      "geo": "Singapore",
+      "action": "watch"
+    },
+    {
+      "id": "bright-point-capital",
+      "company": "Bright Point Capital",
+      "status": "suspicious",
+      "fitScoreRaw": "3.4 provisional",
+      "score": 3.4,
+      "scoreBucket": "low",
+      "lastSeen": "2026-07-09",
+      "notes": "JobStreet-only Singapore QR signal: systematic trading model research/validation, salary $6k-$9k/month. Needs company verification/direct JD before serious pipeline work.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "graviton-research-capital",
+      "company": "Graviton Research Capital",
+      "status": "scored",
+      "fitScoreRaw": "3.4",
+      "score": 3.4,
+      "scoreBucket": "low",
+      "lastSeen": "2026-06-18",
+      "notes": "Official Greenhouse QR Singapore JD verified active; startup culture and SG role, but junior/mid C++ traditional HFT with weak AI-native signal.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "qrt-qube",
+      "company": "QRT/Qube",
+      "status": "scored",
+      "fitScoreRaw": "3.4",
+      "score": 3.4,
+      "scoreBucket": "low",
+      "lastSeen": "2026-06-18",
+      "notes": "Portal active: Crypto Quant Trader Singapore visible; most research/quant roles are non-SG/intern/engineering. Trader-heavy, below Phase 3 threshold.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "quantbox-research",
+      "company": "Quantbox Research",
+      "status": "scored",
+      "fitScoreRaw": "3.4",
+      "score": 3.4,
+      "scoreBucket": "low",
+      "lastSeen": "2026-05-19",
+      "notes": "Experienced QR + Junior QR active on Greenhouse; verified but HFT/MM-heavy, limited AI-native signal.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "acheron-trading",
+      "company": "Acheron Trading",
+      "status": "scored",
+      "fitScoreRaw": "3.3",
+      "score": 3.3,
+      "scoreBucket": "low",
+      "lastSeen": "2026-07-10",
+      "notes": "Official careers page lists Singapore Quantitative Trading Research Intern: on-chain latency/flow and DeFi market-making primitives. Interesting crypto research signal but internship/junior level.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "bluecrest-capital-management",
+      "company": "BlueCrest Capital Management",
+      "status": "scored",
+      "fitScoreRaw": "3.3",
+      "score": 3.3,
+      "scoreBucket": "low",
+      "lastSeen": "2026-06-30",
+      "notes": "Official Greenhouse Quant Researcher Singapore JD active, but Front Office Technology / pricing-risk analytics / C# C++ delivery focus with weak AI-native alpha signal.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "alphagrep-securities",
+      "company": "AlphaGrep Securities",
+      "status": "scored",
+      "fitScoreRaw": "3.2",
+      "score": 3.2,
+      "scoreBucket": "low",
+      "lastSeen": "2026-06-18",
+      "notes": "Portal active: Singapore role remains Trading Ops; Quantitative Analyst multiple-location and QR Shanghai. SG research fit weak/partial.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "crypto-com-trading-analytics",
+      "company": "Crypto.com Trading Analytics",
+      "status": "new",
+      "fitScoreRaw": "3.2",
+      "score": 3.2,
+      "scoreBucket": "low",
+      "lastSeen": "2026-05-04",
+      "notes": "Trading Analytics Developer, SG. LangGraph/LangChain AI signal. Dev-heavy, skip.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "flashflow",
+      "company": "Flashflow",
+      "status": "suspicious",
+      "fitScoreRaw": "3.2 provisional",
+      "score": 3.2,
+      "scoreBucket": "low",
+      "lastSeen": "2026-07-09",
+      "notes": "JobStreet-only Quantitative Researcher Singapore signal, early applicant, \"technical consulting team\" wording. Weak employer/JD specificity and no direct official careers page recovered in this pass.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "wintermute-graduate-qr",
+      "company": "Wintermute Graduate QR",
+      "status": "new",
+      "fitScoreRaw": "3.2",
+      "score": 3.2,
+      "scoreBucket": "low",
+      "lastSeen": "2026-05-08",
+      "notes": "Graduate QR Summer 2026. London crypto MM. Graduate level, limited SG signal.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "mercuria",
+      "company": "Mercuria",
+      "status": "scored",
+      "fitScoreRaw": "3.0",
+      "score": 3,
+      "scoreBucket": "low",
+      "lastSeen": "2026-04-21",
+      "notes": "Quant Strategist, SG. Commodity-focused.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "abundance-apoorva-mehta",
+      "company": "Abundance (Apoorva Mehta)",
+      "status": "watching",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-29",
+      "notes": "Agentic AI hedge fund, Palo Alto, $100M seed. No SG, no public postings. Highest AI-native signal.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "anson-mccade-recruiter",
+      "company": "Anson McCade (recruiter)",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-05-08",
+      "notes": "2 QR postings ($175-200k + $96k) on eFC. Anonymous clients. Suspicious.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "aptitude-asia-recruiter",
+      "company": "Aptitude Asia (recruiter)",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-24",
+      "notes": "2 QR postings SG. $100-160k range. Anonymous client.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "charterhouse-recruiter",
+      "company": "Charterhouse (recruiter)",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-24",
+      "notes": "QR SG $150-220k hybrid. Anonymous client.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "eastspring",
+      "company": "Eastspring",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-16",
+      "notes": "AI Researcher, Quant Strategies.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "fenghe-fund-management",
+      "company": "FengHe Fund Management",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-27",
+      "notes": "SG L/S equity fund. 27% net 2025. Fundamental-focused, no QR posting. Monitor.",
+      "geo": "Singapore",
+      "action": "hold"
+    },
+    {
+      "id": "julius-baer",
+      "company": "Julius Baer",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-15",
+      "notes": "Private banking quant.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "lumenai-investments",
+      "company": "Lumenai Investments",
+      "status": "watching",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-29",
+      "notes": "Fully agentic AI hedge fund, Stamford CT. No SG, no public postings. WATCH.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "monad-foundation",
+      "company": "Monad Foundation",
+      "status": "ghost",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-07-10",
+      "notes": "Official Ashby/Monad ecosystem QR page surfaced, but secondary official ecosystem page says no longer accepting applications. Do not pursue unless reopened.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "oxford-knight-recruiter",
+      "company": "Oxford Knight (recruiter)",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-24",
+      "notes": "QR SG. Anonymous client.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "peak-legal",
+      "company": "PEAK Legal",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-15",
+      "notes": "\"Quant Agent Developer\" — most AI-native title.",
+      "geo": "Unspecified",
+      "action": "hold"
+    },
+    {
+      "id": "standard-signal-yc-s26",
+      "company": "Standard Signal (YC S26)",
+      "status": "watching",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-06-24",
+      "notes": "\"First hedge fund where AI does the trading.\" Michael Royzen. YC Summer 2026. No public postings yet. Highest AI-native signal alongside Abundance/Lumenai. WATCH.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "starx-capital-markets",
+      "company": "StarX Capital Markets",
+      "status": "suspicious",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-06-18",
+      "notes": "LinkedIn-only Quantitative Strategist (Machine Learning, AI); weak company verification/no official JD; do not Phase 3 unless verified.",
+      "geo": "Unspecified",
+      "action": "verify"
+    },
+    {
+      "id": "voleon-group",
+      "company": "Voleon Group",
+      "status": "ghost",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-06-01",
+      "notes": "Quantitative Trading Strategist looked relevant in search snippets (ML/stat trading), but official Lever URL returned 404. Senior Research Engineer snippet unverified/location unknown; monitor only if official active APAC/remote role appears.",
+      "geo": "Remote",
+      "action": "hold"
+    },
+    {
+      "id": "westbury-partners",
+      "company": "Westbury Partners",
+      "status": "new",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-04-17",
+      "notes": "Small systematic fund.",
+      "geo": "Unspecified",
+      "action": "hold"
+    }
+  ],
+  "top": [
+    {
+      "id": "gic",
+      "company": "GIC",
+      "status": "scored",
+      "fitScoreRaw": "4.8",
+      "score": 4.8,
+      "scoreBucket": "elite",
+      "lastSeen": "2026-07-14",
+      "notes": "AI Alpha Group remains strongest active fit. Official Quantitative Portfolio Manager and Quantitative Analyst AI Alpha pages/snippets remain active; proprietary Gen AI-powered fundamental investment process and portfolio construction signal. GIC Phase 3 eligible on demand.",
+      "geo": "Singapore",
+      "action": "apply"
+    },
+    {
+      "id": "drw",
+      "company": "DRW",
+      "status": "scored",
+      "fitScoreRaw": "4.6",
+      "score": 4.6,
+      "scoreBucket": "elite",
+      "lastSeen": "2026-07-22",
+      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning now cleanly lists London, Singapore. Strong transformer/modern ML, forecasting, noisy structured/unstructured data, scalable production ML pipelines, and research-to-live-production signal. Recurring; no Phase 3 unless requested/resume version bump.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "citadel-gqs-qr-experienced",
+      "company": "Citadel GQS QR (Experienced)",
+      "status": "new",
+      "fitScoreRaw": "4.45",
+      "score": 4.45,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-05-05",
+      "notes": "⭐ Experienced QR in GQS Asia. Predictive models, multi-asset portfolio optimization. SG confirmed. High autonomy + depth. Already tracked Citadel so no Phase 3.",
+      "geo": "Singapore",
+      "action": "apply"
+    },
+    {
+      "id": "goldman-sachs",
+      "company": "Goldman Sachs",
+      "status": "scored",
+      "fitScoreRaw": "4.4",
+      "score": 4.4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-30",
+      "notes": "Official Foundation Engineering Applied AI Senior AI/ML Quant Research Engineer VP Singapore role active. Very strong AI/ML, LLM, RL, XAI, MLOps, production trading signal; sell-side/platform setting keeps it just under Phase 3 auto-urgency.",
+      "geo": "Singapore",
+      "action": "apply"
+    },
+    {
+      "id": "kronos-research",
+      "company": "Kronos Research",
+      "status": "watching",
+      "fitScoreRaw": "4.4 prior",
+      "score": 4.4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-24",
+      "notes": "⚠️ Greenhouse board deactivated as of 2026-06-24. Prior roles: ML Researcher SG + Exp Quant Trader Remote/SG. Monitor for board reactivation.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "moreton-capital-partners",
+      "company": "Moreton Capital Partners",
+      "status": "researched",
+      "fitScoreRaw": "4.4",
+      "score": 4.4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-01",
+      "notes": "NEW prediction-markets quant analyst role. Agentic AI + quantitative modelling + alpha signal ownership; partial JD extraction but official Workable/company careers/news signals align. Phase 3 completed; resume v1 uploaded to Drive.",
+      "geo": "Unspecified",
+      "action": "researched"
+    },
+    {
+      "id": "point72-cubist",
+      "company": "Point72 Cubist",
+      "status": "researched",
+      "fitScoreRaw": "4.4",
+      "score": 4.4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-21",
+      "notes": "Official Greenhouse/Careers Cubist Quantitative Researcher Singapore active (7046019002): experienced alpha research, original signal research, backtesting, portfolio analysis, production code, direct investment-decision impact. Researched historically; no Phase 3.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "binance",
+      "company": "Binance",
+      "status": "scored",
+      "fitScoreRaw": "4.3",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-29",
+      "notes": "Official/search-confirmed Data Scientist, NLP & Trading Strategies remains active in Singapore/remote surfaces; strongest Binance AI-quant signal. QR/Junior QR also recurring on Lever.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "bridgewater",
+      "company": "Bridgewater",
+      "status": "researched",
+      "fitScoreRaw": "4.3",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-29",
+      "notes": "NEW official Equity Quantitative Research Associate for New York City & Singapore: PM-led APAC systematic macro/L/S equity pod, end-to-end alpha, alternative data, new tech adoption. Strong but junior-mid; already researched historically.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "imc-trading",
+      "company": "IMC Trading",
+      "status": "researched",
+      "fitScoreRaw": "4.3 cond.",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-12",
+      "notes": "APAC experienced QR/ML page active; current visible roles in HK/Sydney/Seoul, no Singapore QR role this pass. Strong large-model/GPU/ML role-family signal; Phase 3 already complete historically.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "schonfeld",
+      "company": "Schonfeld",
+      "status": "scored",
+      "fitScoreRaw": "4.3 location-conditional",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-15",
+      "notes": "Official Greenhouse Quantitative Researcher role still active: systematic trading, ML alphas, NLP/LLM, distributed research pipelines, live signal deployment. Page header remains Hong Kong but application asks Hong Kong/Singapore authorization; watch/verify SG transfer before Phase 3.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "selini-capital",
+      "company": "Selini Capital",
+      "status": "researched",
+      "fitScoreRaw": "4.3",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-05-21",
+      "notes": "Experienced Quantitative Researcher (London/Singapore) on Greenhouse. Crypto HFT/systematic trading; research-heavy feature/model/pipeline improvement with direct live strategy feedback. Resume v1 done.",
+      "geo": "Singapore",
+      "action": "researched"
+    },
+    {
+      "id": "citadel-citsec",
+      "company": "Citadel/CitSec",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-20",
+      "notes": "Official Citadel Securities QR/QRA page resurfaced fresh: Singapore-compatible recurring signal with ML/pattern recognition/NLP and live trading signal implementation. Citadel DSG QR is excellent AI/ML + alternative-data fit but official location is New York only, so excluded for SG pipeline. Recurring; no Phase 3.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "hrt",
+      "company": "HRT",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-01",
+      "notes": "Official portal loaded but filtered SG/quant role list did not render in browser snapshot. Keep prior status: Algo Developer/QR SG signals active recently; conventional ML/stat rather than LLM-native.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "jane-street-hkg",
+      "company": "Jane Street (HKG)",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-04-21",
+      "notes": "QR HKG open. SG 없음. Location mismatch.",
+      "geo": "Singapore",
+      "action": "verify"
+    },
+    {
+      "id": "jump-trading",
+      "company": "Jump Trading",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-08",
+      "notes": "Fresh official/search-confirmed Quantitative Researcher \\",
+      "geo": "Singapore",
+      "action": "verify"
+    }
+  ],
+  "history": {
+    "scans": [
+      {
+        "title": "2026-07-22 — Wednesday",
+        "date": "2026-07-22",
+        "candidateMentions": 15,
+        "uniqueCompanies": 6,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-21 — Tuesday Evening Manual Screen + HTML Dashboard",
+        "date": "2026-07-21",
+        "candidateMentions": 23,
+        "uniqueCompanies": 10,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-20 — Monday",
+        "date": "2026-07-20",
+        "candidateMentions": 14,
+        "uniqueCompanies": 4,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-17 — Friday",
+        "date": "2026-07-17",
+        "candidateMentions": 10,
+        "uniqueCompanies": 5,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-16 — Thursday",
+        "date": "2026-07-16",
+        "candidateMentions": 14,
+        "uniqueCompanies": 4,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-15 — Wednesday",
+        "date": "2026-07-15",
+        "candidateMentions": 20,
+        "uniqueCompanies": 8,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-14 — Tuesday",
+        "date": "2026-07-14",
+        "candidateMentions": 25,
+        "uniqueCompanies": 10,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-13 — Monday",
+        "date": "2026-07-13",
+        "candidateMentions": 23,
+        "uniqueCompanies": 9,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-10 — Friday",
+        "date": "2026-07-10",
+        "candidateMentions": 23,
+        "uniqueCompanies": 9,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-09 — Thursday",
+        "date": "2026-07-09",
+        "candidateMentions": 24,
+        "uniqueCompanies": 13,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-08 — Wednesday",
+        "date": "2026-07-08",
+        "candidateMentions": 23,
+        "uniqueCompanies": 9,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-07 — Tuesday",
+        "date": "2026-07-07",
+        "candidateMentions": 17,
+        "uniqueCompanies": 3,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-06 — Monday",
+        "date": "2026-07-06",
+        "candidateMentions": 26,
+        "uniqueCompanies": 9,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-03 — Friday",
+        "date": "2026-07-03",
+        "candidateMentions": 22,
+        "uniqueCompanies": 8,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-02 — Thursday",
+        "date": "2026-07-02",
+        "candidateMentions": 18,
+        "uniqueCompanies": 6,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-07-01 — Wednesday",
+        "date": "2026-07-01",
+        "candidateMentions": 17,
+        "uniqueCompanies": 6,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-06-30 — Tuesday",
+        "date": "2026-06-30",
+        "candidateMentions": 18,
+        "uniqueCompanies": 7,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-06-29 — Monday",
+        "date": "2026-06-29",
+        "candidateMentions": 15,
+        "uniqueCompanies": 6,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-06-26 — Friday",
+        "date": "2026-06-26",
+        "candidateMentions": 20,
+        "uniqueCompanies": 7,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-06-25 — Thursday",
+        "date": "2026-06-25",
+        "candidateMentions": 17,
+        "uniqueCompanies": 6,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-06-24 — Tuesday",
+        "date": "2026-06-24",
+        "candidateMentions": 22,
+        "uniqueCompanies": 15,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-06-23 — Tuesday",
+        "date": "2026-06-23",
+        "candidateMentions": 26,
+        "uniqueCompanies": 9,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-06-22 — Monday",
+        "date": "2026-06-22",
+        "candidateMentions": 11,
+        "uniqueCompanies": 6,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-06-19 (Fri) — Weekly Scan v36",
+        "date": "2026-06-19",
+        "candidateMentions": 33,
+        "uniqueCompanies": 7,
+        "scoreCount": 0,
+        "maxScore": null
+      }
+    ],
+    "summaryRows": [
+      {
+        "dateLabel": "2026-05-15 (Fri)",
+        "sgQuant": "8건 unique",
+        "aiNative": "2 changed/new recurring roles (GIC QPM ⭐, WorldQuant AI Implementation)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-05-11 (Mon)",
+        "sgQuant": "6건 (all recurring)",
+        "aiNative": "1 new (Optiver AI Researcher Shanghai — location mismatch)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-05-06 (Wed)",
+        "sgQuant": "10건 unique",
+        "aiNative": "4 new (Top: Virtu ML Researcher ⭐ 4.35, Engineers Gate ML QR 3.7, Graviton QT 2.85)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-05-05 (Tue)",
+        "sgQuant": "5건",
+        "aiNative": "2건 (Top: Citadel GQS QR (Asia) ⭐NEW, Squarepoint Sr QR Volatility)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-05-04 (Mon)",
+        "sgQuant": "6건",
+        "aiNative": "3건 (Top: Citadel QR PhD Graduate Asia ⭐, Balyasny hiring $250k, Crypto.com LangGraph)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-04-24 (Fri)",
+        "sgQuant": "6건",
+        "aiNative": "3건 (Top: Balyasny Sr QR ML Stat Arb, BAH crypto prop)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-04-22 (Wed)",
+        "sgQuant": "5건",
+        "aiNative": "2건 (Top: Squarepoint Convex Optimization ⭐)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-04-21 (v3 test)",
+        "sgQuant": "6건",
+        "aiNative": "3건 (Top: Jump Trading Deep Learning Researcher ⭐)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-04-21 (v2)",
+        "sgQuant": "6건",
+        "aiNative": "5건 (Top: IMC GPU/large models ⭐, HRT 2026 Grads, Quantbox, Optiver Shanghai)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-04-21 (Tue)",
+        "sgQuant": "5건",
+        "aiNative": "4건 (Top: Citadel New Grad, Citi Agentic AI, GIC 재확인)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-04-20 (Mon)",
+        "sgQuant": "5건",
+        "aiNative": "약함 (간접시그널만)",
+        "remote": "❌ None"
+      },
+      {
+        "dateLabel": "2026-04-17 (Fri)",
+        "sgQuant": "5건",
+        "aiNative": "5건 (Top: Jump Trading, Binance LLM, GIC VP×2, Westbury)",
+        "remote": "⏱️ Timeout"
+      }
+    ]
+  },
+  "jdCache": [
+    {
+      "file": "graviton-quantitative-researcher-sg-4114667002.md",
+      "path": "outputs/jd-cache/graviton-quantitative-researcher-sg-4114667002.md",
+      "title": "Graviton Research Capital — Quantitative Researcher (Singapore)",
+      "date": "41146670",
+      "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
+      "excerpt": "URL: https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002 Location: Singapore Source verified: Browser snapshot 2026-05-20 Key JD evidence: - Privately funded quantitative trading firm seeking QR for Singapore team. - Trad"
+    },
+    {
+      "file": "binance-quantitative-researcher-20260612.md",
+      "path": "outputs/jd-cache/binance-quantitative-researcher-20260612.md",
+      "title": "Binance — Quantitative Researcher",
+      "date": "20260612",
+      "url": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "excerpt": "> Cached: 2026-06-12 > Source: https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354 > Status: official Lever active; recurring company Location: Asia / Taiwan, Taipei / South East Asia / UAE, Dubai / Eastern Europe / Hong Kong — Remote Team: Quan"
+    },
+    {
+      "file": "graviton-careers-20260612.md",
+      "path": "outputs/jd-cache/graviton-careers-20260612.md",
+      "title": "Graviton Research Capital — Careers Page",
+      "date": "20260612",
+      "url": "https://www.gravitontrading.com/careers.html",
+      "excerpt": "> Cached: 2026-06-12 > Source: https://www.gravitontrading.com/careers.html > Status: official careers page loaded; no specific job list rendered in this pass Signals: - Proprietary quantitative trading firm in global financial markets. - Offices listed: Mumba"
+    },
+    {
+      "file": "imc-apac-quant-research-20260612.md",
+      "path": "outputs/jd-cache/imc-apac-quant-research-20260612.md",
+      "title": "IMC — APAC Quant Research / Experienced Roles",
+      "date": "20260612",
+      "url": "https://www.imc.com/ap/careers/experienced-roles/quant-research",
+      "excerpt": "> Cached: 2026-06-12 > Source: https://www.imc.com/ap/careers/experienced-roles/quant-research > Status: official page active; no Singapore QR role visible this pass Key signals: - Quant researchers build and maintain algorithms, quantitative strategies, and m"
+    },
+    {
+      "file": "qube-board-sg-quant-signals-20260612.md",
+      "path": "outputs/jd-cache/qube-board-sg-quant-signals-20260612.md",
+      "title": "Qube Research & Technologies — Board SG Quant Signals",
+      "date": "20260612",
+      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies",
+      "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/quberesearchandtechnologies > Status: official Greenhouse board active; recurring company Visible relevant roles: - 2026 Internship/Graduate - Quantitative Research/Trading — Hong Kong, Singapore,"
+    },
+    {
+      "file": "worldquant-brain-researcher-singapore-20260612.md",
+      "path": "outputs/jd-cache/worldquant-brain-researcher-singapore-20260612.md",
+      "title": "WorldQuant — BRAIN Researcher (Singapore)",
+      "date": "20260612",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4250853006",
+      "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4250853006 > Status: official Greenhouse active, marked New on board; recurring company but new role signal About BRAIN: - BRAIN is a group within WorldQuant similar to a tradition"
+    },
+    {
+      "file": "worldquant-quantitative-researcher-singapore-20260612.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-researcher-singapore-20260612.md",
+      "title": "WorldQuant — Quantitative Researcher (Singapore)",
+      "date": "20260612",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "crypto-com-quantitative-researcher-prediction-markets-2026-07-22.md",
+      "path": "outputs/jd-cache/crypto-com-quantitative-researcher-prediction-markets-2026-07-22.md",
+      "title": "Crypto.com — Quantitative Researcher - Prediction Markets, Quant Trading",
+      "date": "2026-07-22",
+      "url": "https://jobs.lever.co/crypto/5e8ddb0f-c326-41d3-be2e-382be2b5a3e0",
+      "excerpt": "> Cached: 2026-07-22 > Source: https://jobs.lever.co/crypto/5e8ddb0f-c326-41d3-be2e-382be2b5a3e0 ## Snapshot - Location: United States - Workplace: Remote - Search surface: Dallas, Texas location filter also lists this role - Employer: Crypto.com - Department:"
+    },
+    {
+      "file": "drw-quantitative-researcher-machine-learning-2026-07-22.md",
+      "path": "outputs/jd-cache/drw-quantitative-researcher-machine-learning-2026-07-22.md",
+      "title": "DRW — Quantitative Researcher - Machine Learning",
+      "date": "2026-07-22",
+      "url": "https://job-boards.greenhouse.io/drweng/jobs/7276024",
+      "excerpt": "> Cached: 2026-07-22 > Source: https://job-boards.greenhouse.io/drweng/jobs/7276024 ## Snapshot - Location: London, Singapore - Employer: DRW - Department/surface: Greenhouse direct employer job board ## Extracted JD Signals DRW describes the role as a Machine"
+    },
+    {
+      "file": "gresearch-natural-language-processing-researcher-2026-07-22.md",
+      "path": "outputs/jd-cache/gresearch-natural-language-processing-researcher-2026-07-22.md",
+      "title": "G-Research — Natural Language Processing Researcher",
+      "date": "2026-07-22",
+      "url": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
+      "excerpt": "> Cached: 2026-07-22 > Source: https://www.gresearch.com/vacancies/natural-language-processing-researcher/ ## Snapshot - Location: London - Employer: G-Research - Team: Quantitative Research ## Extracted JD Signals G-Research is seeking an NLP Researcher to jo"
+    },
+    {
+      "file": "2026-07-09-jobstreet-new-sg-qr-signals.partial.md",
+      "path": "outputs/jd-cache/2026-07-09-jobstreet-new-sg-qr-signals.partial.md",
+      "title": "JobStreet — New Singapore QR Signals",
+      "date": "2026-07-09",
+      "url": "https://sg.jobstreet.com/quantitative-researcher-jobs",
+      "excerpt": "> Cached: 2026-07-09 > Source: https://sg.jobstreet.com/quantitative-researcher-jobs > Status: partial / job-board snippets only ## Signals - Flashflow Pte. Ltd. — Quantitative Researcher, Central Region, early applicant, listed 2 days ago. Snippet says the ro"
+    },
+    {
+      "file": "2026-07-09-schonfeld-quantitative-researcher.md",
+      "path": "outputs/jd-cache/2026-07-09-schonfeld-quantitative-researcher.md",
+      "title": "Schonfeld — Quantitative Researcher",
+      "date": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7624691",
+      "excerpt": "> Cached: 2026-07-09 > Source: https://job-boards.greenhouse.io/schonfeld/jobs/7624691 > Status: official Greenhouse, location-conditional ## Extracted JD Signals - Title: Quantitative Researcher - Listed location: Hong Kong, Hong Kong - Team: dynamic systemat"
+    },
+    {
+      "file": "2026-07-08-goldman-sachs-senior-ai-ml-quant-research-engineer-vp.md",
+      "path": "outputs/jd-cache/2026-07-08-goldman-sachs-senior-ai-ml-quant-research-engineer-vp.md",
+      "title": "Goldman Sachs — Senior AI/ML Quant Research Engineer, VP",
+      "date": "2026-07-08",
+      "url": "https://higher.gs.com/roles/162208",
+      "excerpt": "> Cached: 2026-07-08 > Source: https://higher.gs.com/roles/162208 > Status: official careers / Singapore / full extraction ## Extracted Signals Applied AI team operates at the intersection of artificial intelligence, quantitative finance, and technology. Manda"
+    },
+    {
+      "file": "2026-07-08-jump-trading-quantitative-researcher-trading-team.md",
+      "path": "outputs/jd-cache/2026-07-08-jump-trading-quantitative-researcher-trading-team.md",
+      "title": "Jump Trading — Quantitative Researcher | Trading Team",
+      "date": "2026-07-08",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
+      "excerpt": "> Cached: 2026-07-08 > Source: https://www.jumptrading.com/hr/job?gh_jid=7294191 > Status: official direct employer / Singapore / partial official extraction + search snippets ## Extracted Signals - Location: Singapore. - Job type: Full-time. - Official Jump p"
+    },
+    {
+      "file": "2026-07-08-virtu-options-quantitative-strategist-singapore.md",
+      "path": "outputs/jd-cache/2026-07-08-virtu-options-quantitative-strategist-singapore.md",
+      "title": "Virtu Financial — Options Quantitative Strategist",
+      "date": "2026-07-08",
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
+      "excerpt": "> Cached: 2026-07-08 > Source: https://job-boards.greenhouse.io/virtu/jobs/5360031002 > Status: official Greenhouse / Singapore / full extraction ## Extracted JD Virtu is a market maker using technology, trading strategies, and risk management systems to drive"
+    },
+    {
+      "file": "2026-07-02-hrt-careers-singapore-filter.md",
+      "path": "outputs/jd-cache/2026-07-02-hrt-careers-singapore-filter.md",
+      "title": "Hudson River Trading — Singapore Careers Snapshot",
+      "date": "2026-07-02",
+      "url": "https://www.hudsonrivertrading.com/careers/",
+      "excerpt": "> Cached: 2026-07-02 > Source: https://www.hudsonrivertrading.com/careers/ ## Extracted Signals - Official HRT careers page lists Singapore as an APAC office. - The page text indicates HRT develops automated trading algorithms and advanced computing environmen"
+    },
+    {
+      "file": "2026-07-02-schonfeld-quantitative-researcher.md",
+      "path": "outputs/jd-cache/2026-07-02-schonfeld-quantitative-researcher.md",
+      "title": "Schonfeld — Quantitative Researcher",
+      "date": "2026-07-02",
+      "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7624691",
+      "excerpt": "> Cached: 2026-07-02 > Source: https://job-boards.greenhouse.io/schonfeld/jobs/7624691 ## Role Quantitative Researcher — Hong Kong, Hong Kong. ## Extracted JD Signals - Systematic trading team role working with quantitative PMs, developers, and researchers. - "
+    },
+    {
+      "file": "2026-07-01-drw-quantitative-researcher-machine-learning.md",
+      "path": "outputs/jd-cache/2026-07-01-drw-quantitative-researcher-machine-learning.md",
+      "title": "DRW — Quantitative Researcher - Machine Learning",
+      "date": "2026-07-01",
+      "url": "https://www.drw.com/work-at-drw/listings/quantitative-researcher-machine-learning-3256559",
+      "excerpt": "> Cached: 2026-07-01 > Source: https://www.drw.com/work-at-drw/listings/quantitative-researcher-machine-learning-3256559 ## Role Facts - Location: Singapore - Employment type: Regular - Targeted start date: Immediate - Team/context: DRW, diversified proprietar"
+    },
+    {
+      "file": "2026-07-01-moreton-quantitative-analyst-prediction-markets.md",
+      "path": "outputs/jd-cache/2026-07-01-moreton-quantitative-analyst-prediction-markets.md",
+      "title": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
+      "date": "2026-07-01",
+      "url": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "excerpt": "> Cached: 2026-07-01 > Sources: > - https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/ > - https://moretoncp.com/careers > - Search snippets from Workable/Indeed/Teal/FN London ## Role Facts - Location: Singapore signal via Workable/Indeed/searc"
+    },
+    {
+      "file": "2026-06-29-bridgewater-equity-quantitative-research-associate.md",
+      "path": "outputs/jd-cache/2026-06-29-bridgewater-equity-quantitative-research-associate.md",
+      "title": "Bridgewater — Equity Quantitative Research Associate",
+      "date": "2026-06-29",
+      "url": "https://job-boards.greenhouse.io/bridgewater89/jobs/8406845002",
+      "excerpt": "> Cached: 2026-06-29 > Source: https://job-boards.greenhouse.io/bridgewater89/jobs/8406845002 > Status: official Greenhouse, active Location: New York City & Singapore ## JD Extract Bridgewater is seeking a quantitative researcher for a PM-led pod focused on s"
+    },
+    {
+      "file": "2026-06-29-metabit-senior-quantitative-researcher-intraday-equities-alpha.md",
+      "path": "outputs/jd-cache/2026-06-29-metabit-senior-quantitative-researcher-intraday-equities-alpha.md",
+      "title": "Metabit Technology LLC — Senior Quantitative Researcher, Intraday Equities Alpha",
+      "date": "2026-06-29",
+      "url": "https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009",
+      "excerpt": "> Cached: 2026-06-29 > Source: https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009 > Status: official Greenhouse, active Location: Singapore ## JD Extract Metabit is seeking a senior quantitative researcher to lead its intraday equities alpha"
+    },
+    {
+      "file": "2026-06-18-binance-qr.md",
+      "path": "outputs/jd-cache/2026-06-18-binance-qr.md",
+      "title": "Binance — Quantitative Researcher",
+      "date": "2026-06-18",
+      "url": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "excerpt": "> Cached: 2026-06-18 KST > Source: https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354 Location: Remote — Asia / Taiwan / South East Asia / UAE / Eastern Europe / Hong Kong Team: Quantitative Strategy Key JD evidence: - Pricing, risk management,"
+    },
+    {
+      "file": "2026-06-18-citsec-phd-qr-asia.md",
+      "path": "outputs/jd-cache/2026-06-18-citsec-phd-qr-asia.md",
+      "title": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "date": "2026-06-18",
+      "url": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "excerpt": "> Cached: 2026-06-18 KST > Source: https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/ Location: Hong Kong, Singapore Key JD evidence: - Quant researchers model markets and develop/test automated quant trading strategie"
+    },
+    {
+      "file": "2026-06-18-gic-ai-alpha.md",
+      "path": "outputs/jd-cache/2026-06-18-gic-ai-alpha.md",
+      "title": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
+      "date": "2026-06-18",
+      "url": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
+      "excerpt": "> Cached: 2026-06-18 KST > Source: https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/ Location: Singapore, SG Job Type: Permanent | Req ID: 16924 Key JD evidence: - Newly formed AI-native investment team using adva"
+    },
+    {
+      "file": "2026-06-18-graviton-qr-sg.md",
+      "path": "outputs/jd-cache/2026-06-18-graviton-qr-sg.md",
+      "title": "Graviton Research Capital — Quantitative Researcher (Singapore)",
+      "date": "2026-06-18",
+      "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002",
+      "excerpt": "> Cached: 2026-06-18 KST > Source: https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002 Location: Singapore | Entity: Graviton Research Capital (Singapore) Pte. Ltd Key JD evidence: - Research across asset classes and venues using time seri"
+    },
+    {
+      "file": "2026-06-18-point72-ml-qr.md",
+      "path": "outputs/jd-cache/2026-06-18-point72-ml-qr.md",
+      "title": "Point72 — Quantitative Researcher, Machine Learning",
+      "date": "2026-06-18",
+      "url": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+      "excerpt": "> Cached: 2026-06-18 KST > Source: https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002 Location: New York, London, or Hong Kong (preferred work location options: New York, Hong Kong, London) Key JD evidence: - Internal Alpha Capture team"
+    },
+    {
+      "file": "2026-06-18-tudor-low-latency-qr.md",
+      "path": "outputs/jd-cache/2026-06-18-tudor-low-latency-qr.md",
+      "title": "Tudor Investment Corporation — Low Latency Quantitative Researcher",
+      "date": "2026-06-18",
+      "url": "https://job-boards.greenhouse.io/tudorgroup/jobs/5358163",
+      "excerpt": "> Cached: 2026-06-18 KST > Source: https://job-boards.greenhouse.io/tudorgroup/jobs/5358163 Location: New York City, London, Singapore Key JD evidence: - Macro Pipeline team; low-latency trading models in liquid futures. - Research and implement fully automate"
+    },
+    {
+      "file": "2026-06-18-xr-trading-ml-qr-ghost.md",
+      "path": "outputs/jd-cache/2026-06-18-xr-trading-ml-qr-ghost.md",
+      "title": "XR Trading — Quantitative Researcher: Machine Learning (Entry Level)",
+      "date": "2026-06-18",
+      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3550177",
+      "excerpt": "> Cached: 2026-06-18 KST > Search source: https://recruiting.paylocity.com/Recruiting/Jobs/Details/3550177 Search snippet suggested XR Trading has employees in Singapore and a ML QR entry-level role. Official Paylocity page returned: \"We're sorry, that job doe"
+    },
+    {
+      "file": "2026-06-16-efc-systematic-trading-strategies.partial-suspicious.md",
+      "path": "outputs/jd-cache/2026-06-16-efc-systematic-trading-strategies.partial-suspicious.md",
+      "title": "Anonymous / eFinancialCareers — Quantitative Researcher – Systematic Trading Strategies",
+      "date": "2026-06-16",
+      "url": "https://www.efinancialcareers.sg/jobs-Singapore-Singapore-Quantitative_Researcher_%E2%80%93_Systematic_Trading_Strategies.id23371327",
+      "excerpt": "> Cached: 2026-06-16 > Source: https://www.efinancialcareers.sg/jobs-Singapore-Singapore-Quantitative_Researcher_%E2%80%93_Systematic_Trading_Strategies.id23371327 > Status: partial + suspicious; eFinancialCareers page returned scheduled maintenance in browser"
+    },
+    {
+      "file": "2026-06-16-binance-quantitative-researcher.md",
+      "path": "outputs/jd-cache/2026-06-16-binance-quantitative-researcher.md",
+      "title": "Binance — Quantitative Researcher",
+      "date": "2026-06-16",
+      "url": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "excerpt": "> Cached: 2026-06-16 > Source: https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354 > Status: official active Location: Asia / Taiwan, Taipei / South East Asia / UAE, Dubai / Eastern Europe / Hong Kong Team: Quantitative Strategy Work type: Remot"
+    },
+    {
+      "file": "2026-06-16-citadel-securities-phd-graduate-asia.partial.md",
+      "path": "outputs/jd-cache/2026-06-16-citadel-securities-phd-graduate-asia.partial.md",
+      "title": "Citadel Securities — Quantitative Researcher - PhD Graduate (Asia)",
+      "date": "2026-06-16",
+      "url": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "excerpt": "> Cached: 2026-06-16 > Source: https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/ > Status: official URL surfaced in search, browser Cloudflare-blocked; partial via search snippets Search evidence: - Published/re-surfa"
+    },
+    {
+      "file": "2026-06-16-gic-ai-alpha-quantitative-analyst.md",
+      "path": "outputs/jd-cache/2026-06-16-gic-ai-alpha-quantitative-analyst.md",
+      "title": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
+      "date": "2026-06-16",
+      "url": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
+      "excerpt": "> Cached: 2026-06-16 > Source: https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/ > Status: official active Location: Singapore, SG Job Type: Permanent Req ID: 16924 The Artificial Intelligence Alpha Group (AAG) is"
+    },
+    {
+      "file": "2026-06-16-kronos-machine-learning-researcher.md",
+      "path": "outputs/jd-cache/2026-06-16-kronos-machine-learning-researcher.md",
+      "title": "Kronos Research — Machine Learning Researcher",
+      "date": "2026-06-16",
+      "url": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
+      "excerpt": "> Cached: 2026-06-16 > Source: https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003 > Status: official active Location: Singapore Role Overview: Seeking highly motivated and curious individuals to join the Machine Learning team. Bridge advanced deep"
+    },
+    {
+      "file": "2026-06-16-squarepoint-junior-quant-researcher-ml-alpha.md",
+      "path": "outputs/jd-cache/2026-06-16-squarepoint-junior-quant-researcher-ml-alpha.md",
+      "title": "Squarepoint Capital — Junior Quant Researcher - ML Alpha Research",
+      "date": "2026-06-16",
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=squarepointcapital&token=6069464",
+      "excerpt": "> Cached: 2026-06-16 > Source: https://job-boards.greenhouse.io/embed/job_app?for=squarepointcapital&token=6069464 > Status: official active Locations: London, New York, Singapore, Boston, Paris, Zug, Geneva, Hong Kong, Bangalore Position Overview: - Research "
+    },
+    {
+      "file": "2026-06-16-worldquant-brain-researcher-singapore.md",
+      "path": "outputs/jd-cache/2026-06-16-worldquant-brain-researcher-singapore.md",
+      "title": "WorldQuant — BRAIN Researcher",
+      "date": "2026-06-16",
+      "url": "https://www.worldquant.com/career-listing/?id=4250853006",
+      "excerpt": "> Cached: 2026-06-16 > Source: https://www.worldquant.com/career-listing/?id=4250853006 > Status: official active Location: Singapore About BRAIN: BRAIN is a group within WorldQuant similar to a traditional B2C fintech setup. Mission: simplify quant finance to"
+    },
+    {
+      "file": "2026-06-16-worldquant-quantitative-researcher-singapore.md",
+      "path": "outputs/jd-cache/2026-06-16-worldquant-quantitative-researcher-singapore.md",
+      "title": "WorldQuant — Quantitative Researcher",
+      "date": "2026-06-16",
+      "url": "https://www.worldquant.com/career-listing/?id=4070746006",
+      "excerpt": "> Cached: 2026-06-16 > Source: https://www.worldquant.com/career-listing/?id=4070746006 > Status: official active Location: Singapore WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. The firm seeks high-q"
+    },
+    {
+      "file": "kronos-machine-learning-researcher-sg-2026-06-15.md",
+      "path": "outputs/jd-cache/kronos-machine-learning-researcher-sg-2026-06-15.md",
+      "title": "Kronos Research — Machine Learning Researcher (Singapore)",
+      "date": "2026-06-15",
+      "url": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
+      "excerpt": "URL: https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003 Captured: 2026-06-15 Source: official Greenhouse ## Role Overview We are seeking highly motivated and curious individuals to join our Machine Learning team at Kronos Research. In this role, y"
+    },
+    {
+      "file": "2026-06-10-binance-quantitative-researcher.md",
+      "path": "outputs/jd-cache/2026-06-10-binance-quantitative-researcher.md",
+      "title": "Binance — Quantitative Researcher",
+      "date": "2026-06-10",
+      "url": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "excerpt": "Source: https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354 Fetched: 2026-06-10 Responsibilities: pricing, risk management and agency trading strategies ideation, design, back-testing, implementation; interact with development team; participate "
+    },
+    {
+      "file": "2026-06-10-graviton-quantitative-researcher-singapore.md",
+      "path": "outputs/jd-cache/2026-06-10-graviton-quantitative-researcher-singapore.md",
+      "title": "Graviton Research Capital — Quantitative Researcher (Singapore)",
+      "date": "2026-06-10",
+      "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002",
+      "excerpt": "Source: https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002 Fetched: 2026-06-10 Description: Singapore QR team trades across multiple asset classes and venues using time series analysis, filtering, classification, stochastic models, patter"
+    },
+    {
+      "file": "2026-06-10-squarepoint-junior-quant-researcher-ml-alpha.md",
+      "path": "outputs/jd-cache/2026-06-10-squarepoint-junior-quant-researcher-ml-alpha.md",
+      "title": "Squarepoint Capital — Junior Quant Researcher / ML Alpha Research",
+      "date": "2026-06-10",
+      "url": "https://boards.greenhouse.io/embed/job_app?token=6069464",
+      "excerpt": "Source: https://boards.greenhouse.io/embed/job_app?token=6069464 Fetched: 2026-06-10 Position: research statistical techniques such as time-series methods, machine learning and NLP to extract value from data; analyze large datasets with advanced statistical an"
+    },
+    {
+      "file": "jump-trading-ai-research-scientist-rd-2026-06-08.md",
+      "path": "outputs/jd-cache/jump-trading-ai-research-scientist-rd-2026-06-08.md",
+      "title": "Jump Trading — AI Research Scientist | Research & Development",
+      "date": "2026-06-08",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=4982814",
+      "excerpt": "URL: https://www.jumptrading.com/hr/job?gh_jid=4982814 Location: New York, London, Singapore Source: official Jump careers / Greenhouse iframe snapshot, 2026-06-08 ## Extracted JD Notes Jump says its AI team is an R&D group of quantitative researchers, enginee"
+    },
+    {
+      "file": "jump-trading-deep-learning-researcher-trading-team-2026-06-08.md",
+      "path": "outputs/jd-cache/jump-trading-deep-learning-researcher-trading-team-2026-06-08.md",
+      "title": "Jump Trading — Deep Learning Researcher | Trading Team",
+      "date": "2026-06-08",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=6603013",
+      "excerpt": "URL: https://www.jumptrading.com/hr/job?gh_jid=6603013 Location: Shanghai, Singapore, Hong Kong Source: official Jump careers list snapshot, 2026-06-08 ## Extracted JD Notes The official experienced-candidates portal lists Deep Learning Researcher | Trading Te"
+    },
+    {
+      "file": "worldquant-quantitative-researcher-singapore-2026-06-08.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-researcher-singapore-2026-06-08.md",
+      "title": "WorldQuant — Quantitative Researcher",
+      "date": "2026-06-08",
+      "url": "https://www.worldquant.com/career-listing/?id=4070746006",
+      "excerpt": "URL: https://www.worldquant.com/career-listing/?id=4070746006 Location: Singapore Source: official WorldQuant careers snapshot, 2026-06-08 ## Extracted JD Notes WorldQuant develops and deploys systematic financial strategies across asset classes and global mar"
+    },
+    {
+      "file": "binance-quantitative-researcher-remote-asia-2026-06-05.md",
+      "path": "outputs/jd-cache/binance-quantitative-researcher-remote-asia-2026-06-05.md",
+      "title": "Binance — Quantitative Researcher (Remote Asia/Taipei/SEA/UAE/HK)",
+      "date": "2026-06-05",
+      "url": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "excerpt": "URL: https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354 Captured: 2026-06-05 Responsibilities: pricing, risk management and agency trading strategies ideation/design/backtesting/implementation; work with development team for agile trading platf"
+    },
+    {
+      "file": "kronos-machine-learning-researcher-singapore-2026-06-05.md",
+      "path": "outputs/jd-cache/kronos-machine-learning-researcher-singapore-2026-06-05.md",
+      "title": "Kronos Research — Machine Learning Researcher (Singapore)",
+      "date": "2026-06-05",
+      "url": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
+      "excerpt": "URL: https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003 Captured: 2026-06-05 Role Overview: bridge advanced deep learning and financial markets; design robust models for medium/high-frequency systematic trading strategies; full ML lifecycle from n"
+    },
+    {
+      "file": "worldquant-singapore-board-2026-06-05.md",
+      "path": "outputs/jd-cache/worldquant-singapore-board-2026-06-05.md",
+      "title": "WorldQuant — Singapore board snapshot",
+      "date": "2026-06-05",
+      "url": "https://job-boards.greenhouse.io/worldquant",
+      "excerpt": "URL: https://job-boards.greenhouse.io/worldquant Captured: 2026-06-05 Active Singapore/Singapore-compatible roles found on official Greenhouse board: - Quantitative Researcher — Singapore (https://job-boards.greenhouse.io/worldquant/jobs/4070746006) - Experien"
+    },
+    {
+      "file": "jump-trading-ai-research-scientist-2026-06-04.md",
+      "path": "outputs/jd-cache/jump-trading-ai-research-scientist-2026-06-04.md",
+      "title": "Jump Trading — AI Research Scientist | Research & Development",
+      "date": "2026-06-04",
+      "url": "https://www-webflow.jumptrading.com/hr/job?gh_jid=4982814",
+      "excerpt": "> Cached: 2026-06-04 > Source: official portal > URL: https://www-webflow.jumptrading.com/hr/job?gh_jid=4982814 > Location: New York, London, Singapore Jump Trading Group is committed to world class research. The AI team is an R&D group of quantitative researc"
+    },
+    {
+      "file": "jump-trading-deep-learning-researcher-2026-06-04.md",
+      "path": "outputs/jd-cache/jump-trading-deep-learning-researcher-2026-06-04.md",
+      "title": "Jump Trading — Deep Learning Researcher | Trading Team",
+      "date": "2026-06-04",
+      "url": "https://www-webflow.jumptrading.com/hr/job?gh_jid=6603013",
+      "excerpt": "> Cached: 2026-06-04 > Source: official portal > URL: https://www-webflow.jumptrading.com/hr/job?gh_jid=6603013 > Location: Shanghai, Singapore, Hong Kong Trading teams examine global markets and use statistical analysis, machine learning, and deep learning to"
+    },
+    {
+      "file": "jump-trading-quantitative-researcher-sg-2026-06-04.md",
+      "path": "outputs/jd-cache/jump-trading-quantitative-researcher-sg-2026-06-04.md",
+      "title": "Jump Trading — Quantitative Researcher | Trading Team",
+      "date": "2026-06-04",
+      "url": "https://www-webflow.jumptrading.com/hr/job?gh_jid=5870589",
+      "excerpt": "> Cached: 2026-06-04 > Source: official portal > URL: https://www-webflow.jumptrading.com/hr/job?gh_jid=5870589 > Location: Singapore Trading teams are groups of traders, quantitative researchers, and engineers examining global markets and traded products/exch"
+    },
+    {
+      "file": "qube-alphagrep-portal-partial-2026-06-04.md",
+      "path": "outputs/jd-cache/qube-alphagrep-portal-partial-2026-06-04.md",
+      "title": "Qube / AlphaGrep — Portal Partial Cache",
+      "date": "2026-06-04",
+      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies",
+      "excerpt": "> Cached: 2026-06-04 > Sources: official Greenhouse boards ## Qube Research & Technologies URL: https://job-boards.greenhouse.io/quberesearchandtechnologies Visible SG-compatible roles: - 2026 Internship/Graduate - Quantitative Research/Trading — Hong Kong, Si"
+    },
+    {
+      "file": "squarepoint-sg-quant-family-2026-06-04.md",
+      "path": "outputs/jd-cache/squarepoint-sg-quant-family-2026-06-04.md",
+      "title": "Squarepoint Capital — Singapore Quant Role Family",
+      "date": "2026-06-04",
+      "url": "https://www.squarepoint-capital.com/open-opportunities",
+      "excerpt": "> Cached: 2026-06-04 > Source: official portal listing > URL: https://www.squarepoint-capital.com/open-opportunities > Status: partial JD cache; detail pages did not render body in browser this run Official open-opportunities page showed SG-compatible Investme"
+    },
+    {
+      "file": "worldquant-quantitative-researcher-sg-2026-06-04.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-researcher-sg-2026-06-04.md",
+      "title": "WorldQuant — Quantitative Researcher",
+      "date": "2026-06-04",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "excerpt": "> Cached: 2026-06-04 > Source: official Greenhouse > URL: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Location: Singapore WorldQuant develops systematic financial strategies across asset classes and global markets, seeking predictive signals/"
+    },
+    {
+      "file": "douro-labs-quantitative-researcher-remote-partial-2026-06-03.md",
+      "path": "outputs/jd-cache/douro-labs-quantitative-researcher-remote-partial-2026-06-03.md",
+      "title": "Douro Labs — Quantitative Researcher / Financial Engineer (Remote, partial)",
+      "date": "2026-06-03",
+      "url": "https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs",
+      "excerpt": "> Collected: 2026-06-03 > Source: web_search snippets only; no official career page recovered this pass > URLs surfaced: https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs ; https://lensa.com/job-v1/douro-labs/remote/quantitative-rese"
+    },
+    {
+      "file": "jump-ai-research-scientist-rd-2026-06-03.md",
+      "path": "outputs/jd-cache/jump-ai-research-scientist-rd-2026-06-03.md",
+      "title": "Jump Trading — AI Research Scientist | Research & Development",
+      "date": "2026-06-03",
+      "url": "https://www-webflow.jumptrading.com/hr/job?gh_jid=4982814",
+      "excerpt": "> Scraped: 2026-06-03 > Source: official Jump careers / Greenhouse iframe > URL: https://www-webflow.jumptrading.com/hr/job?gh_jid=4982814 ## Location / Type - New York, London, Singapore - Full-Time ## JD Extract Jump's AI team is an R&D group of quantitative"
+    },
+    {
+      "file": "jump-quantamental-research-analyst-2026-06-03.md",
+      "path": "outputs/jd-cache/jump-quantamental-research-analyst-2026-06-03.md",
+      "title": "Jump Trading — Quantamental Research Analyst",
+      "date": "2026-06-03",
+      "url": "https://www-webflow.jumptrading.com/hr/job?gh_jid=7460950",
+      "excerpt": "> Scraped: 2026-06-03 > Source: official Jump careers / Greenhouse iframe > URL: https://www-webflow.jumptrading.com/hr/job?gh_jid=7460950 ## Location / Type - Singapore - Full-Time ## JD Extract Jump Trading Group is committed to world class research. The tra"
+    },
+    {
+      "file": "worldquant-quantitative-researcher-singapore-2026-06-03.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-researcher-singapore-2026-06-03.md",
+      "title": "WorldQuant — Quantitative Researcher",
+      "date": "2026-06-03",
+      "url": "https://www.worldquant.com/career-listing/?id=4070746006",
+      "excerpt": "> Scraped: 2026-06-03 > Source: official WorldQuant careers > URL: https://www.worldquant.com/career-listing/?id=4070746006 ## Location - Singapore ## JD Extract WorldQuant develops and deploys systematic financial strategies across a broad range of asset clas"
+    },
+    {
+      "file": "imc-apac-quant-research-roles-2026-06-01.md",
+      "path": "outputs/jd-cache/imc-apac-quant-research-roles-2026-06-01.md",
+      "title": "IMC APAC — Quant Research / ML roles",
+      "date": "2026-06-01",
+      "url": "https://www.imc.com/ap/careers/experienced-roles/quant-research",
+      "excerpt": "> Cached: 2026-06-01 > URL: https://www.imc.com/ap/careers/experienced-roles/quant-research Observed active roles on page: - Quantitative Microstructure Analyst — Sydney - Quantitative Researcher - Modeller — Hong Kong, Sydney - Quantitative Researcher (Crypto"
+    },
+    {
+      "file": "jump-ai-research-scientist-2026-06-01.md",
+      "path": "outputs/jd-cache/jump-ai-research-scientist-2026-06-01.md",
+      "title": "Jump Trading — AI Research Scientist | Research & Development",
+      "date": "2026-06-01",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=4982814",
+      "excerpt": "> Cached: 2026-06-01 > URL: https://www.jumptrading.com/hr/job?gh_jid=4982814 Location: New York, London, Singapore Job Type: Full-Time Key JD text extracted by browser: - AI team is an R&D group of quantitative researchers, engineers, and ML experts leading L"
+    },
+    {
+      "file": "jump-deep-learning-researcher-trading-team-2026-06-01.md",
+      "path": "outputs/jd-cache/jump-deep-learning-researcher-trading-team-2026-06-01.md",
+      "title": "Jump Trading — Deep Learning Researcher | Trading Team",
+      "date": "2026-06-01",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=6603013",
+      "excerpt": "> Cached: 2026-06-01 > URL: https://www.jumptrading.com/hr/job?gh_jid=6603013 Location: Shanghai, Singapore, Hong Kong Job Type: Full-Time Key JD text extracted by browser: - Quantitative trading teams probe global markets using statistical analysis, machine l"
+    },
+    {
+      "file": "worldquant-portal-sg-agentic-2026-06-01.md",
+      "path": "outputs/jd-cache/worldquant-portal-sg-agentic-2026-06-01.md",
+      "title": "WorldQuant — Portal scan SG/Agentic roles",
+      "date": "2026-06-01",
+      "url": "https://boards.greenhouse.io/worldquant",
+      "excerpt": "> Cached: 2026-06-01 > URL: https://boards.greenhouse.io/worldquant Observed on official Greenhouse portal: - Book Portfolio Manager — Singapore OR Sydney - Experienced Quantitative Strategist — Singapore OR Sydney - Independent Portfolio Manager — Hong Kong O"
+    },
+    {
+      "file": "hrt-algo-developer-singapore-2026-05-29.md",
+      "path": "outputs/jd-cache/hrt-algo-developer-singapore-2026-05-29.md",
+      "title": "HRT — Algo Developer (New York / Singapore)",
+      "date": "2026-05-29",
+      "url": "https://www.hudsonrivertrading.com/hrt-job/algo-developer/",
+      "excerpt": "> Cached: 2026-05-29 > URL: https://www.hudsonrivertrading.com/hrt-job/algo-developer/ Algo Developers build and maintain the models that drive trading. Typical work includes rigorous statistical analysis on vast market/financial datasets to produce predictive"
+    },
+    {
+      "file": "tower-research-machine-learning-engineer-hk-shanghai-singapore-2026-05-29.md",
+      "path": "outputs/jd-cache/tower-research-machine-learning-engineer-hk-shanghai-singapore-2026-05-29.md",
+      "title": "Tower Research Capital — Machine Learning Engineer (Hong Kong / Shanghai / Singapore)",
+      "date": "2026-05-29",
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7714667",
+      "excerpt": "> Cached: 2026-05-29 > URL: https://www.tower-research.com/open-positions/?gh_jid=7714667 Responsibilities: - Architect and develop next generation ML research platform with scalability, reliability, observability, reproducibility. - Build infrastructure for l"
+    },
+    {
+      "file": "worldquant-quantitative-execution-strategist-singapore-2026-05-29.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-execution-strategist-singapore-2026-05-29.md",
+      "title": "WorldQuant — Quantitative Execution Strategist (Singapore)",
+      "date": "2026-05-29",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4665468006",
+      "excerpt": "> Cached: 2026-05-29 > URL: https://job-boards.greenhouse.io/worldquant/jobs/4665468006 Role: Execution Researcher in the Quantitative Execution team, based in Singapore, refining execution capabilities across cash and derivative products. Responsibilities: - "
+    },
+    {
+      "file": "worldquant-quantitative-researcher-singapore-2026-05-29.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-researcher-singapore-2026-05-29.md",
+      "title": "WorldQuant — Quantitative Researcher (Singapore)",
+      "date": "2026-05-29",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "excerpt": "> Cached: 2026-05-29 > URL: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 WorldQuant develops and deploys systematic financial strategies across asset classes/global markets and seeks high-quality predictive signals (alphas) through a proprietary"
+    },
+    {
+      "file": "jump-trading-ai-research-scientist-2026-05-27.md",
+      "path": "outputs/jd-cache/jump-trading-ai-research-scientist-2026-05-27.md",
+      "title": "Jump Trading — AI Research Scientist | Research & Development",
+      "date": "2026-05-27",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=4982814",
+      "excerpt": "> Cached: 2026-05-27 > Source: https://www.jumptrading.com/hr/job?gh_jid=4982814 Location: New York, London, Singapore Job Type: Full-Time ## Extracted JD signals Jump Trading describes the AI team as an R&D group of quantitative researchers, engineers, and ML"
+    },
+    {
+      "file": "graviton-machine-learning-researcher-2026-05-26.md",
+      "path": "outputs/jd-cache/graviton-machine-learning-researcher-2026-05-26.md",
+      "title": "Graviton Research Capital — Machine Learning Researcher",
+      "date": "2026-05-26",
+      "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8456543002?gh_jid=8456543002",
+      "excerpt": "> Cached: 2026-05-26 > Source: https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8456543002?gh_jid=8456543002 > Location: Gurugram, Haryana, India ## JD Evidence Graviton is a privately funded quantitative trading firm. The role applies machine lea"
+    },
+    {
+      "file": "point72-quantitative-researcher-machine-learning-2026-05-26.md",
+      "path": "outputs/jd-cache/point72-quantitative-researcher-machine-learning-2026-05-26.md",
+      "title": "Point72 — Quantitative Researcher - Machine Learning",
+      "date": "2026-05-26",
+      "url": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+      "excerpt": "> Cached: 2026-05-26 > Source: https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002 > Location: New York, London, or Hong Kong ## JD Evidence Internal Alpha Capture (IAC), Point72 is developing AI-driven equity trading signals using rigor"
+    },
+    {
+      "file": "squarepoint-junior-quant-researcher-ml-alpha-2026-05-26.md",
+      "path": "outputs/jd-cache/squarepoint-junior-quant-researcher-ml-alpha-2026-05-26.md",
+      "title": "Squarepoint Capital — Junior Quant Researcher - ML Alpha Research",
+      "date": "2026-05-26",
+      "url": "https://boards.greenhouse.io/embed/job_app?token=6069464",
+      "excerpt": "> Cached: 2026-05-26 > Source: https://boards.greenhouse.io/embed/job_app?token=6069464 > Location: London, New York, Singapore, Boston, Paris, Zug, Geneva, Hong Kong, Bangalore ## JD Evidence Position Overview: - Research statistical techniques such as time-s"
+    },
+    {
+      "file": "jump-ai-research-scientist-rd-2026-05-25.md",
+      "path": "outputs/jd-cache/jump-ai-research-scientist-rd-2026-05-25.md",
+      "title": "Jump Trading — AI Research Scientist | Research & Development",
+      "date": "2026-05-25",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=4982814",
+      "excerpt": "> Cached: 2026-05-25 (Mon) 08:30 Asia/Seoul > URL: https://www.jumptrading.com/hr/job?gh_jid=4982814 Location: New York, London, Singapore Job Type: Full-Time Jump Trading Group is committed to world class research. The AI team is an R&D group of quantitative "
+    },
+    {
+      "file": "jump-quantamental-research-analyst-2026-05-25.md",
+      "path": "outputs/jd-cache/jump-quantamental-research-analyst-2026-05-25.md",
+      "title": "Jump Trading — Quantamental Research Analyst",
+      "date": "2026-05-25",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=7460950",
+      "excerpt": "> Cached: 2026-05-25 (Mon) 08:30 Asia/Seoul > URL: https://www.jumptrading.com/hr/job?gh_jid=7460950 Location: Singapore Job Type: Full-Time Trading teams include traders, quantitative researchers, and engineers. Role seeks a Quantamental Research Analyst with"
+    },
+    {
+      "file": "worldquant-quantitative-developer-ai-implementation-2026-05-25.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-developer-ai-implementation-2026-05-25.md",
+      "title": "WorldQuant — Quantitative Developer - AI Implementation",
+      "date": "2026-05-25",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4565597006",
+      "excerpt": "> Cached: 2026-05-25 (Mon) 08:30 Asia/Seoul > URL: https://job-boards.greenhouse.io/worldquant/jobs/4565597006 Location: Chicago OR London OR Miami OR New York OR Old Greenwich OR San Francisco OR West Palm Beach OR Singapore Project: integrate Large Language "
+    },
+    {
+      "file": "gic-ai-alpha-qpm-2026-05-22.md",
+      "path": "outputs/jd-cache/gic-ai-alpha-qpm-2026-05-22.md",
+      "title": "GIC — AVP/VP, AI Alpha Group, Quantitative Portfolio Manager",
+      "date": "2026-05-22",
+      "url": "https://careers.gic.com.sg/job/Singapore-AVPVP%2C-AI-Alpha-Group%2C-Quantitative-Portfolio-Manager/1361346066/",
+      "excerpt": "> Cached: 2026-05-22 | Source: https://careers.gic.com.sg/job/Singapore-AVPVP%2C-AI-Alpha-Group%2C-Quantitative-Portfolio-Manager/1361346066/ Location: Singapore | Req ID: 17157 | Permanent The AI Alpha Group is a newly formed, AI-native investment team buildi"
+    },
+    {
+      "file": "gic-ai-alpha-quantitative-portfolio-manager-17157-2026-05-19.md",
+      "path": "outputs/jd-cache/gic-ai-alpha-quantitative-portfolio-manager-17157-2026-05-19.md",
+      "title": "GIC — AVP/VP, AI Alpha Group, Quantitative Portfolio Manager (17157)",
+      "date": "2026-05-19",
+      "url": "https://career10.successfactors.com/career?career_ns=job_listing&company=gicprivate&career_job_req_id=17157",
+      "excerpt": "> Cached: 2026-05-19 > Source: https://career10.successfactors.com/career?career_ns=job_listing&company=gicprivate&career_job_req_id=17157 Location: Singapore Job Type: Permanent The AI Alpha Group (AAG) is a newly formed, AI-native investment team building an"
+    },
+    {
+      "file": "graviton-quantitative-researcher-singapore-2026-05-19.md",
+      "path": "outputs/jd-cache/graviton-quantitative-researcher-singapore-2026-05-19.md",
+      "title": "Graviton Research Capital — Quantitative Researcher (Singapore)",
+      "date": "2026-05-19",
+      "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002",
+      "excerpt": "> Cached: 2026-05-19 > Source: https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002 Privately funded quantitative trading firm seeking Quantitative Researcher in Singapore. Responsibilities: - Develop new or improve existing trading models "
+    },
+    {
+      "file": "paragon-alpha-ai-research-scientist-partial-2026-05-19.md",
+      "path": "outputs/jd-cache/paragon-alpha-ai-research-scientist-partial-2026-05-19.md",
+      "title": "Paragon Alpha — AI Research Scientist Hedge Fund / Quantitative Researcher Machine Learning (partial)",
+      "date": "2026-05-19",
+      "url": "https://www.paragonalpha.com/jobs",
+      "excerpt": "> Cached: 2026-05-19 > Source: web_search + https://www.paragonalpha.com/jobs Search result showed: AI Research Scientist Hedge Fund, New York/Singapore/Greenwich, partnering with hedge funds applying AI/ML/quantitative research to global markets. Another snip"
+    },
+    {
+      "file": "quantbox-experienced-quantitative-researcher-2026-05-19.md",
+      "path": "outputs/jd-cache/quantbox-experienced-quantitative-researcher-2026-05-19.md",
+      "title": "Quantbox Research — Experienced Quantitative Researcher",
+      "date": "2026-05-19",
+      "url": "https://job-boards.eu.greenhouse.io/quantboxresearchpte/jobs/4001033101",
+      "excerpt": "> Cached: 2026-05-19 > Source: https://job-boards.eu.greenhouse.io/quantboxresearchpte/jobs/4001033101 Technology-driven proprietary trading firm specializing in systematic alpha research and electronic market-making. Experienced QR researches and develops sys"
+    },
+    {
+      "file": "rock-bund-quantitative-researcher-mft-strategies-2026-05-19.md",
+      "path": "outputs/jd-cache/rock-bund-quantitative-researcher-mft-strategies-2026-05-19.md",
+      "title": "Rock Bund Capital — Quantitative Researcher - MFT Strategies (Crypto / TradFi)",
+      "date": "2026-05-19",
+      "url": "https://job-boards.eu.greenhouse.io/rockbund/jobs/4868807101",
+      "excerpt": "> Cached: 2026-05-19 > Source: https://job-boards.eu.greenhouse.io/rockbund/jobs/4868807101 Location: Singapore. New posting. Role: develop/enhance mid-frequency intraday systematic trading strategies across crypto markets (CEX spot/perp/futures) or traditiona"
+    },
+    {
+      "file": "gic-ai-alpha-quantitative-portfolio-manager-2026-05-15.md",
+      "path": "outputs/jd-cache/gic-ai-alpha-quantitative-portfolio-manager-2026-05-15.md",
+      "title": "GIC — AVP/VP, AI Alpha Group, Quantitative Portfolio Manager",
+      "date": "2026-05-15",
+      "url": "https://careers.gic.com.sg/job/Singapore-AVPVP%2C-AI-Alpha-Group%2C-Quantitative-Portfolio-Manager/1361346066/",
+      "excerpt": "URL: https://careers.gic.com.sg/job/Singapore-AVPVP%2C-AI-Alpha-Group%2C-Quantitative-Portfolio-Manager/1361346066/ Location: Singapore, SG Type: Permanent Req ID: 17157 Captured: 2026-05-15 ## JD Extract The AI Alpha Group (AAG) is a newly formed, AI-native i"
+    },
+    {
+      "file": "hrt-algorithm-developer-quant-researcher-2026-phds-2026-05-15.md",
+      "path": "outputs/jd-cache/hrt-algorithm-developer-quant-researcher-2026-phds-2026-05-15.md",
+      "title": "HRT — Algorithm Developer (Quant Researcher) – 2026 PhDs",
+      "date": "2026-05-15",
+      "url": "https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-researcher-2026-phds/",
+      "excerpt": "URL: https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-researcher-2026-phds/ Location: London | New York | Singapore Type: Full-time Job ID: 518 Captured: 2026-05-15 ## JD Extract HRT seeks exceptional full-time PhD students for Algorithm De"
+    },
+    {
+      "file": "squarepoint-junior-quant-researcher-ml-alpha-2026-05-15.md",
+      "path": "outputs/jd-cache/squarepoint-junior-quant-researcher-ml-alpha-2026-05-15.md",
+      "title": "Squarepoint — Junior Quant Researcher - ML Alpha Research",
+      "date": "2026-05-15",
+      "url": "https://boards.greenhouse.io/embed/job_app?token=6069464",
+      "excerpt": "URL: https://boards.greenhouse.io/embed/job_app?token=6069464 Location: London, New York, Singapore, Boston, Paris, Zug, Geneva, Hong Kong, Bangalore Captured: 2026-05-15 ## JD Extract Position Overview: - Research statistical techniques such as time-series me"
+    },
+    {
+      "file": "worldquant-quantitative-developer-ai-implementation-2026-05-15.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-developer-ai-implementation-2026-05-15.md",
+      "title": "WorldQuant — Quantitative Developer - AI Implementation",
+      "date": "2026-05-15",
+      "url": "https://www.worldquant.com/career-listing/?id=4565597006",
+      "excerpt": "URL: https://www.worldquant.com/career-listing/?id=4565597006 Location: Singapore + multiple global locations Captured: 2026-05-15 ## JD Extract Project integrates Large Language Models (LLMs) with WorldQuant's proprietary strategy management tools. Aims to pr"
+    },
+    {
+      "file": "worldquant-quantitative-researcher-singapore-2026-05-15.md",
+      "path": "outputs/jd-cache/worldquant-quantitative-researcher-singapore-2026-05-15.md",
+      "title": "WorldQuant — Quantitative Researcher",
+      "date": "2026-05-15",
+      "url": "https://www.worldquant.com/career-listing/?id=4070746006",
+      "excerpt": "URL: https://www.worldquant.com/career-listing/?id=4070746006 Location: Singapore Captured: 2026-05-15 ## JD Extract WorldQuant develops and deploys systematic financial strategies across asset classes and global markets, seeking high-quality predictive signal"
+    },
+    {
+      "file": "citadel-qra-university-graduate-asia-2026-05-14.md",
+      "path": "outputs/jd-cache/citadel-qra-university-graduate-asia-2026-05-14.md",
+      "title": "Citadel — Quantitative Research Analyst – University Graduate (Asia)",
+      "date": "2026-05-14",
+      "url": "https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-asia/",
+      "excerpt": "URL: https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-asia/ Cached: 2026-05-14 Location: Hong Kong, Singapore ## JD Extract Our mission is to be the most successful investment team in the world. Quantitative Researcher "
+    },
+    {
+      "file": "graviton-quantitative-researcher-singapore-2026-05-14.md",
+      "path": "outputs/jd-cache/graviton-quantitative-researcher-singapore-2026-05-14.md",
+      "title": "Graviton Research Capital — Quantitative Researcher (Singapore)",
+      "date": "2026-05-14",
+      "url": "https://boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
+      "excerpt": "URL: https://boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002 Cached: 2026-05-14 Location: Graviton Research Capital (Singapore) Pte. Ltd / Singapore ## Portal Extract Graviton is a quantitative investment firm established in 2014"
+    },
+    {
+      "file": "hrt-algorithm-developer-quant-researcher-2026-phds-2026-05-14.md",
+      "path": "outputs/jd-cache/hrt-algorithm-developer-quant-researcher-2026-phds-2026-05-14.md",
+      "title": "HRT — Algorithm Developer (Quant Researcher) – 2026 PhDs",
+      "date": "2026-05-14",
+      "url": "https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-researcher-2026-phds/",
+      "excerpt": "URL: https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-researcher-2026-phds/ Cached: 2026-05-14 Location: London, New York, Singapore Function: Strategy Development Type: Full-Time ## JD Extract Portal listing confirms active role in careers"
+    },
+    {
+      "file": "squarepoint-desk-quant-analyst-2026-05-14.md",
+      "path": "outputs/jd-cache/squarepoint-desk-quant-analyst-2026-05-14.md",
+      "title": "Squarepoint Capital — Desk Quant Analyst",
+      "date": "2026-05-14",
+      "url": "https://www.squarepoint-capital.com/opportunity-details?id=2546549",
+      "excerpt": "URL: https://www.squarepoint-capital.com/opportunity-details?id=2546549 Cached: 2026-05-14 Location: London, Madrid, Montreal, Bangalore, Singapore, Hong Kong, Warsaw ## JD Extract Three-year Desk Quant Analyst program for highly motivated graduates/early-care"
+    },
+    {
+      "file": "gic-ai-alpha-qpm-1361346066.md",
+      "path": "outputs/jd-cache/gic-ai-alpha-qpm-1361346066.md",
+      "title": "GIC — AVP/VP, AI Alpha Group, Quantitative Portfolio Manager",
+      "date": "13613460",
+      "url": "https://careers.gic.com.sg/job/Singapore-AVPVP%2C-AI-Alpha-Group%2C-Quantitative-Portfolio-Manager/1361346066/",
+      "excerpt": "URL: https://careers.gic.com.sg/job/Singapore-AVPVP%2C-AI-Alpha-Group%2C-Quantitative-Portfolio-Manager/1361346066/ Location: Singapore Req ID: 17157 Type: Permanent Source verified: Browser snapshot 2026-05-20 Key JD evidence: - AI Alpha Group is a newly form"
+    },
+    {
+      "file": "akuna-mlops-engineer-sg-7936692.md",
+      "path": "outputs/jd-cache/akuna-mlops-engineer-sg-7936692.md",
+      "title": "Akuna Capital — MLOps Engineer",
+      "date": null,
+      "url": "https://www.akunacapital.com/careers/job/7936692/?gh_jid=7936692",
+      "excerpt": "URL: https://www.akunacapital.com/careers/job/7936692/?gh_jid=7936692 Location: Singapore Source verified: Browser snapshot 2026-05-20 Key JD evidence: - Akuna is a proprietary options market maker with low-latency technologies, trading strategies, mathematica"
+    },
+    {
+      "file": "bridgewater-research-associate-data-engineer-apac.md",
+      "path": "outputs/jd-cache/bridgewater-research-associate-data-engineer-apac.md",
+      "title": "Bridgewater — Research Associate, Data Engineer (APAC)",
+      "date": null,
+      "url": "https://job-boards.greenhouse.io/bridgewater89/jobs/8419121002",
+      "excerpt": "> Captured: 2026-06-11 KST > URL: https://job-boards.greenhouse.io/bridgewater89/jobs/8419121002 Source excerpt: Asia Strategies department; PM-led pod focused on systematic macro and long/short equity strategies in APAC. Embedded with portfolio manager, quant"
+    },
+    {
+      "file": "citadel-qra-university-graduate-asia.md",
+      "path": "outputs/jd-cache/citadel-qra-university-graduate-asia.md",
+      "title": "Citadel — Quantitative Research Analyst – University Graduate (Asia)",
+      "date": null,
+      "url": "https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-asia/",
+      "excerpt": "URL: https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-asia/ Location: Hong Kong, Singapore Fetched: 2026-05-13 Quantitative Researcher Analysts develop next-generation models and trading approaches for a range of invest"
+    },
+    {
+      "file": "drw-quant-ai-strategist-location-mismatch.md",
+      "path": "outputs/jd-cache/drw-quant-ai-strategist-location-mismatch.md",
+      "title": "DRW — Quantitative AI Strategist",
+      "date": null,
+      "url": "https://job-boards.greenhouse.io/drweng/jobs/7701691",
+      "excerpt": "URLs: https://job-boards.greenhouse.io/drweng/jobs/7701691 and /7707233 Location: New York / London only on official portal Status: official Greenhouse listing verified 2026-05-28; location mismatch for SG target Portal excerpt: DRW lists Quantitative AI Strat"
+    },
+    {
+      "file": "hrt-algorithm-developer-qr-2026-phds.md",
+      "path": "outputs/jd-cache/hrt-algorithm-developer-qr-2026-phds.md",
+      "title": "HRT — Algorithm Developer (Quant Researcher) – 2026 PhDs",
+      "date": null,
+      "url": "https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-researcher-2026-phds/",
+      "excerpt": "URL: https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-researcher-2026-phds/ Location: London | New York | Singapore Status: official portal verified 2026-05-28 JD excerpt: Algorithm Developers build and maintain models that drive trading, a"
+    },
+    {
+      "file": "jump-ai-research-scientist-rd.md",
+      "path": "outputs/jd-cache/jump-ai-research-scientist-rd.md",
+      "title": "Jump Trading — AI Research Scientist | Research & Development",
+      "date": null,
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=4982814",
+      "excerpt": "URL: https://www.jumptrading.com/hr/job?gh_jid=4982814 Location: New York, London, Singapore Status: official portal verified 2026-05-28 JD excerpt: Jump AI team is an R&D group of quantitative researchers, engineers, and ML experts leading LLM research and ap"
+    },
+    {
+      "file": "jump-campus-aiml-researcher-7282220.md",
+      "path": "outputs/jd-cache/jump-campus-aiml-researcher-7282220.md",
+      "title": "Jump Trading — Campus AI/ML Researcher (Spring 2026 / Fall 2026)",
+      "date": null,
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=7282220",
+      "excerpt": "URL: https://www.jumptrading.com/hr/job?gh_jid=7282220 Location: Shanghai; Singapore; Hong Kong Type: Intern Source verified: Browser snapshot 2026-05-20 Key JD evidence: - Jump empowers exceptional talent in Mathematics, Physics, and Computer Science to apply"
+    },
+    {
+      "file": "jump-deep-learning-researcher-trading-team.md",
+      "path": "outputs/jd-cache/jump-deep-learning-researcher-trading-team.md",
+      "title": "Jump Trading — Deep Learning Researcher | Trading Team",
+      "date": null,
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=6603013",
+      "excerpt": "URL: https://www.jumptrading.com/hr/job?gh_jid=6603013 Location: Shanghai, Singapore, Hong Kong Status: official portal verified 2026-05-28 JD excerpt: Quantitative trading teams examine global markets and use statistical analysis, ML and deep learning to make"
+    },
+    {
+      "file": "jump-quantamental-research-analyst.md",
+      "path": "outputs/jd-cache/jump-quantamental-research-analyst.md",
+      "title": "Jump Trading — Quantamental Research Analyst",
+      "date": null,
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=7460950",
+      "excerpt": "> Cached: 2026-05-22 | Source: https://www.jumptrading.com/hr/job?gh_jid=7460950 Location: Singapore Job Type: Full-Time Trading teams comprise traders, quantitative researchers, and engineers examining global markets, leveraging statistical analysis and data "
+    },
+    {
+      "file": "optiver-graduate-qr-phd-2026.md",
+      "path": "outputs/jd-cache/optiver-graduate-qr-phd-2026.md",
+      "title": "Optiver — Graduate Quantitative Researcher, PhD (2026 Start)",
+      "date": null,
+      "url": "https://optiver.com/working-at-optiver/career-opportunities/8053587002/",
+      "excerpt": "URL: https://optiver.com/working-at-optiver/career-opportunities/8053587002/ Location: New York (not SG; SG office noted but this JD is US) Fetched: 2026-05-13 Develop, refine and implement algorithmic trading strategies. Use statistical models and machine lea"
+    },
+    {
+      "file": "qube-intern-grad-quant-research-trading-apac.md",
+      "path": "outputs/jd-cache/qube-intern-grad-quant-research-trading-apac.md",
+      "title": "Qube Research & Technologies — 2026 Internship/Graduate - Quantitative Research/Trading",
+      "date": null,
+      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8021267002",
+      "excerpt": "URL: https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8021267002 Location: Hong Kong, Singapore, Shanghai Status: official Greenhouse listing verified 2026-05-28 Portal excerpt: 2026 Internship/Graduate - Quantitative Research/Trading, APAC lo"
+    },
+    {
+      "file": "worldquant-quant-dev-ai-implementation.md",
+      "path": "outputs/jd-cache/worldquant-quant-dev-ai-implementation.md",
+      "title": "WorldQuant — Quantitative Developer - AI Implementation",
+      "date": null,
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4565597006",
+      "excerpt": "URL: https://job-boards.greenhouse.io/worldquant/jobs/4565597006 Location: Chicago/London/Miami/New York/Old Greenwich/San Francisco/West Palm Beach/Singapore Status: official Greenhouse verified 2026-05-28 JD excerpt: Project integrates LLMs with WorldQuant p"
+    }
+  ]
+}
