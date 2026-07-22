@@ -661,6 +661,10 @@
           <option value="medium">Medium</option>
           <option value="watch">Watch</option>
         </select>
+        <select id="event-sort">
+          <option value="priority">Priority first</option>
+          <option value="date">Date order</option>
+        </select>
         <div class="export-actions" aria-label="Event table export">
           <button id="copy-events" type="button">Copy table</button>
           <button id="download-events-md" type="button">Download MD</button>
@@ -977,10 +981,18 @@
       const q = document.getElementById("event-search").value.trim().toLowerCase();
       const region = document.getElementById("event-region-filter").value;
       const priority = document.getElementById("event-priority-filter").value;
+      const sort = document.getElementById("event-sort").value;
+      const priorityValue = { high: 0, medium: 1, watch: 2, low: 3 };
       return state.events.filter((item) => {
         const haystack = `${item.title} ${item.region} ${item.location} ${item.category} ${item.fit} ${item.notes}`.toLowerCase();
         const regionMatch = region === "all" || item.region.includes(region);
         return (!q || haystack.includes(q)) && regionMatch && (priority === "all" || item.priority === priority);
+      }).sort((a, b) => {
+        if (sort === "date") return a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title);
+        return (a.focusRank ?? 99) - (b.focusRank ?? 99)
+          || (priorityValue[a.priority] ?? 9) - (priorityValue[b.priority] ?? 9)
+          || a.startDate.localeCompare(b.startDate)
+          || a.title.localeCompare(b.title);
       });
     }
 
@@ -1078,7 +1090,7 @@
 
     function renderEventTable() {
       const rows = filteredEvents();
-      document.getElementById("event-count").textContent = "Korea first, East Asia next, far events only if virtual or exceptional";
+      document.getElementById("event-count").textContent = "Priority first by default; switch to date order when planning calendar";
       document.getElementById("event-table").innerHTML = rows.map((item) => `
         <tr>
           <td data-label="Date"><b>${esc(dateRange(item))}</b><br><span class="note">${esc(item.format)}</span></td>
@@ -1148,7 +1160,7 @@
       ["resume-search", "resume-kind-filter", "resume-layer-filter"].forEach((id) => {
         document.getElementById(id).addEventListener("input", renderResumeTable);
       });
-      ["event-search", "event-region-filter", "event-priority-filter"].forEach((id) => {
+      ["event-search", "event-region-filter", "event-priority-filter", "event-sort"].forEach((id) => {
         document.getElementById(id).addEventListener("input", renderEventTable);
       });
       document.getElementById("copy-events").addEventListener("click", () => {
