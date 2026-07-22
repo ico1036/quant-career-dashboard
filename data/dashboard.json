@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T08:14:22.572Z",
+  "generatedAt": "2026-07-22T08:29:09.668Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -6272,14 +6272,14 @@
       "priority": "high",
       "fit": "Highest-priority Helix paper-submission candidate: publish frontier model x harness, evaluation design, repeatability, or post-training comparison without exposing full know-how.",
       "sourceName": "Global AI Finance Research Conference",
-      "sourceUrl": "https://www.aifinconf.org/",
+      "sourceUrl": "https://www.conftool.net/aifinconf2026/register.php",
       "status": "evaluate paper submission",
-      "notes": "Offline-only. Paper submission deadline is Aug 31; acceptance notification is Sep 30. CFP: https://aifinconf.org/sub/callforpapers.php",
+      "notes": "Offline-only. Paper submission deadline is Aug 31; acceptance notification is Sep 30. Use the working ConfTool registration page; the aifinconf.org root/CFP URLs were unreachable in link verification on 2026-07-22.",
       "focusRank": 1,
       "verification": {
         "checkedAt": "2026-07-22",
         "sourceType": "official organizer source",
-        "summary": "official/search-visible CFP confirms Dec 14-15 Taipei, Aug 31 submission deadline, Sep 30 notification"
+        "summary": "official ConfTool page opens and identifies the 2026 Global AI Finance Research Conference; original aifinconf.org root was unreachable during link check"
       }
     }
   ],

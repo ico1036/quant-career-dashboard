@@ -3,6 +3,7 @@
   "scripts": {
     "build:data": "node scripts/build-dashboard-data.mjs",
     "validate:data": "node scripts/validate-dashboard-data.mjs",
+    "verify:links": "node scripts/verify-dashboard-links.mjs",
     "build:worker": "node scripts/build-worker.mjs",
     "build": "npm run build:data && npm run validate:data && vite build && npm run build:worker",
     "dev": "npm run build:data && vite --host 0.0.0.0"
