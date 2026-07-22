@@ -660,7 +660,7 @@
               <th>Category</th>
               <th>Status</th>
               <th>Why track</th>
-              <th>Source</th>
+              <th>Source / Verification</th>
             </tr>
           </thead>
           <tbody id="event-table"></tbody>
@@ -982,7 +982,10 @@
           <td data-label="Category">${esc(item.category)}</td>
           <td data-label="Status">${esc(item.status)}</td>
           <td data-label="Why">${esc(item.fit)}<br><span class="note">${esc(item.notes)}</span></td>
-          <td data-label="Source"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.sourceName)}</a></td>
+          <td data-label="Source / Verification">
+            <a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.sourceName)}</a>
+            <br><span class="note">${esc(item.verification?.checkedAt ?? "")} · ${esc(item.verification?.summary ?? "")}</span>
+          </td>
         </tr>
       `).join("");
     }
@@ -991,7 +994,10 @@
       document.getElementById("watch-table").innerHTML = state.watchSources.map((item) => `
         <tr>
           <td data-label="Fund"><b>${esc(item.company)}</b></td>
-          <td data-label="Page"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.title)}</a></td>
+          <td data-label="Page">
+            <a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">${esc(item.title)}</a>
+            <br><span class="note">${esc(item.verification?.checkedAt ?? "")} · ${esc(item.verification?.summary ?? "")}</span>
+          </td>
           <td data-label="Type">${esc(item.type)}</td>
           <td data-label="Cadence">${esc(item.cadence)}</td>
           <td data-label="Eligibility">${esc(item.eligibility)}</td>

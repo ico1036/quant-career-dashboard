@@ -596,9 +596,31 @@ function trackedEvents() {
       "token2049-singapore-2026": 5,
       "quantminds-international-2026": 6
     };
+    const verification = {
+      "origin-seoul-2026": "official page confirms Aug 31-Sep 2 and Bitcoin-only Seoul positioning",
+      "korea-global-investment-forum-2026": "official registration page confirms Sep 9, Four Seasons Seoul, invitation-only senior decision-maker access",
+      "avcj-private-equity-forum-korea-2026": "official organizer/community page, added as a better Korea alternatives signal after removing bad ResearchFora listing",
+      "cqf-ai-ml-quant-finance-2026": "official CQF page confirms Sep 16 online session, 12:00-18:00 BST",
+      "kbw-2026": "official KBW page confirms Sep 29 Upbit Institutional Summit invite-only and Sep 30-Oct 1 main conference at Walkerhill",
+      "token2049-singapore-2026": "official TOKEN2049 page confirms Oct 7-8 at Marina Bay Sands",
+      "ask-global-conference-2026": "official KED ASK page; keep as Korea allocator-network watch, not quant-specific",
+      "hk-fintech-week-2026": "official page confirms Nov 2-6 at HKCEC and multiple venues; main conference vs side events must not be collapsed",
+      "devcon-8-2026": "official Ethereum Foundation page confirms Mumbai, Nov 3-6; livestream/recording access still needs monitoring",
+      "invest-korea-summit-2026": "official InvestKOREA pages confirm Nov 4-6 Seoul and approval-based registration",
+      "bitcoin-plus-plus-seoul-2026": "official bitcoin++ page confirms Nov 5-6 Seoul privacy edition",
+      "bitcoin-korea-conference-2026": "official schedule confirms Nov 7 COEX and Nov 8 bank/community venues; no official livestream confirmation",
+      "quantminds-international-2026": "official Informa page confirms Nov 16-19 London; no confirmed live online attendee pass",
+      "apef-2026": "official APEF page confirms hybrid Singapore conference, but remote mode is mainly virtual presenter/pre-recorded",
+      "global-ai-finance-research-2026": "official/search-visible CFP confirms Dec 14-15 Taipei, Aug 31 submission deadline, Sep 30 notification"
+    };
     return {
       id, title, startDate, endDate, region, location, format, category, priority, fit, sourceName, sourceUrl, status, notes,
-      focusRank: focusRanks[id] ?? 99
+      focusRank: focusRanks[id] ?? 99,
+      verification: {
+        checkedAt: "2026-07-22",
+        sourceType: "official organizer source",
+        summary: verification[id] ?? "official source checked"
+      }
     };
   }).sort((a, b) => a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title));
 }
@@ -612,7 +634,12 @@ function fundWatchSources() {
     ["imc-programs-events-2026", "IMC Trading", "Programs", "https://www.imc.com/us/careers/students-graduates/programs", "watch page", "monthly or email alert", "Student/new-grad insight programs; no confirmed APAC public event today.", "low", "Keep only for APAC event emergence."],
     ["jump-research-programs-2026", "Jump Trading", "Signals", "https://www.jumptrading.com/signals", "watch page", "monthly or email alert", "Probability Cup ended July 19; 2026-27 Fellowship recipients already announced.", "low", "Not an ongoing event calendar; monitor lightly."]
   ].map(([id, company, title, sourceUrl, type, cadence, eligibility, priority, notes]) => ({
-    id, company, title, sourceUrl, type, cadence, eligibility, priority, notes
+    id, company, title, sourceUrl, type, cadence, eligibility, priority, notes,
+    verification: {
+      checkedAt: "2026-07-22",
+      sourceType: "official company page",
+      summary: "monitor as a company page, not a dated event"
+    }
   }));
 }
 
