@@ -117,6 +117,20 @@
       border-color: var(--head);
     }
 
+    .sort-header {
+      min-height: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      padding: 0;
+      font-size: inherit;
+      font-weight: inherit;
+    }
+
+    .sort-header:hover {
+      text-decoration: underline;
+    }
+
     input, select {
       min-height: 36px;
       border: 1px solid var(--line);
@@ -663,7 +677,12 @@
         </select>
         <select id="event-sort">
           <option value="priority">Priority first</option>
-          <option value="date">Date order</option>
+          <option value="date">Sort by date</option>
+          <option value="event">Sort by event</option>
+          <option value="region">Sort by region</option>
+          <option value="category">Sort by category</option>
+          <option value="status">Sort by action</option>
+          <option value="source">Sort by source</option>
         </select>
         <div class="export-actions" aria-label="Event table export">
           <button id="copy-events" type="button">Copy table</button>
@@ -676,14 +695,14 @@
         <table>
           <thead>
             <tr>
-              <th>Date</th>
-              <th>Event</th>
-              <th>Region</th>
-              <th>Priority</th>
-              <th>Category</th>
-              <th>Status</th>
-              <th>Why track</th>
-              <th>Source / Verification</th>
+              <th><button class="sort-header" data-event-sort="date" type="button">Date</button></th>
+              <th><button class="sort-header" data-event-sort="event" type="button">Event</button></th>
+              <th><button class="sort-header" data-event-sort="region" type="button">Region</button></th>
+              <th><button class="sort-header" data-event-sort="priority" type="button">Priority</button></th>
+              <th><button class="sort-header" data-event-sort="category" type="button">Category</button></th>
+              <th><button class="sort-header" data-event-sort="status" type="button">Status</button></th>
+              <th><button class="sort-header" data-event-sort="why" type="button">Why track</button></th>
+              <th><button class="sort-header" data-event-sort="source" type="button">Source / Verification</button></th>
             </tr>
           </thead>
           <tbody id="event-table"></tbody>
@@ -747,6 +766,7 @@
 
     const actionOrder = ["apply", "verify", "watch", "researched", "hold"];
     let state = null;
+    let eventSort = { key: "priority", dir: "asc" };
 
     function esc(value) {
       return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -981,19 +1001,42 @@
       const q = document.getElementById("event-search").value.trim().toLowerCase();
       const region = document.getElementById("event-region-filter").value;
       const priority = document.getElementById("event-priority-filter").value;
-      const sort = document.getElementById("event-sort").value;
       const priorityValue = { high: 0, medium: 1, watch: 2, low: 3 };
       return state.events.filter((item) => {
         const haystack = `${item.title} ${item.region} ${item.location} ${item.category} ${item.fit} ${item.notes}`.toLowerCase();
         const regionMatch = region === "all" || item.region.includes(region);
         return (!q || haystack.includes(q)) && regionMatch && (priority === "all" || item.priority === priority);
       }).sort((a, b) => {
-        if (sort === "date") return a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title);
-        return (a.focusRank ?? 99) - (b.focusRank ?? 99)
-          || (priorityValue[a.priority] ?? 9) - (priorityValue[b.priority] ?? 9)
-          || a.startDate.localeCompare(b.startDate)
-          || a.title.localeCompare(b.title);
+        let result = 0;
+        if (eventSort.key === "priority") {
+          result = (a.focusRank ?? 99) - (b.focusRank ?? 99)
+            || (priorityValue[a.priority] ?? 9) - (priorityValue[b.priority] ?? 9);
+        } else if (eventSort.key === "date") {
+          result = a.startDate.localeCompare(b.startDate);
+        } else {
+          const values = {
+            event: [a.title, b.title],
+            region: [a.region, b.region],
+            category: [a.category, b.category],
+            status: [a.status, b.status],
+            why: [a.fit, b.fit],
+            source: [a.sourceName, b.sourceName]
+          }[eventSort.key] ?? [a.title, b.title];
+          result = String(values[0]).localeCompare(String(values[1]));
+        }
+        const direction = eventSort.dir === "desc" ? -1 : 1;
+        return result * direction || a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title);
       });
+    }
+
+    function setEventSort(key, toggle = false) {
+      if (toggle && eventSort.key === key) {
+        eventSort = { key, dir: eventSort.dir === "asc" ? "desc" : "asc" };
+      } else {
+        eventSort = { key, dir: "asc" };
+      }
+      document.getElementById("event-sort").value = key;
+      renderEventTable();
     }
 
     function dateRange(item) {
@@ -1090,7 +1133,7 @@
 
     function renderEventTable() {
       const rows = filteredEvents();
-      document.getElementById("event-count").textContent = "Priority first by default; switch to date order when planning calendar";
+      document.getElementById("event-count").textContent = `Sorted by ${eventSort.key}${eventSort.dir === "desc" ? " desc" : ""}; click a column header to sort`;
       document.getElementById("event-table").innerHTML = rows.map((item) => `
         <tr>
           <td data-label="Date"><b>${esc(dateRange(item))}</b><br><span class="note">${esc(item.format)}</span></td>
@@ -1160,8 +1203,14 @@
       ["resume-search", "resume-kind-filter", "resume-layer-filter"].forEach((id) => {
         document.getElementById(id).addEventListener("input", renderResumeTable);
       });
-      ["event-search", "event-region-filter", "event-priority-filter", "event-sort"].forEach((id) => {
+      ["event-search", "event-region-filter", "event-priority-filter"].forEach((id) => {
         document.getElementById(id).addEventListener("input", renderEventTable);
+      });
+      document.getElementById("event-sort").addEventListener("input", (event) => {
+        setEventSort(event.target.value);
+      });
+      document.querySelectorAll("[data-event-sort]").forEach((button) => {
+        button.addEventListener("click", () => setEventSort(button.dataset.eventSort, true));
       });
       document.getElementById("copy-events").addEventListener("click", () => {
         copyEventsTable().catch(() => setExportStatus("Copy failed"));
