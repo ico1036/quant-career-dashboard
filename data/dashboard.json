@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T23:31:55.500Z",
+  "generatedAt": "2026-07-23T23:32:32.210Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -61,8 +61,8 @@
       "fitScoreRaw": "4.6",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-23",
-      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning remains the strongest DRW target; today also surfaced official Singapore Quantitative Researcher graduate/new-grad page (8014936) with statistical learning, predictive signals, production translation, and autonomous research signals. Recurring; no Phase 3 unless requested/resume version bump.",
+      "lastSeen": "2026-07-24",
+      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning remains the strongest DRW target. Today again surfaced official Singapore Quantitative Researcher graduate/new-grad page (8014936) with statistical learning, predictive signals, production translation, and autonomous research signals. Recurring; no Phase 3 unless requested/resume version bump.",
       "geo": "Singapore",
       "action": "researched",
       "actionLabel": "Already researched",
@@ -271,6 +271,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "g-research",
+      "company": "G-Research",
+      "status": "watching",
+      "fitScoreRaw": "4.2 technical / location blocked",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-24",
+      "notes": "Dallas office/company presence confirmed and retained under texas-expanded scope. Official Quantitative Researcher - Postgraduate page has excellent pure research + state-of-the-art ML fit, but the role location is London. Keep re-scanning Dallas/Texas under Y'all Street scope; do not count current London-only roles as Dallas-actionable.",
+      "geo": "Texas/Dallas",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "G-Research — Natural Language Processing Researcher",
+      "jobUrl": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "hrt",
       "company": "HRT",
       "status": "scored",
@@ -349,8 +367,8 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-15",
-      "notes": "Official Greenhouse/search surfaces continue to list Singapore Quantitative Researcher / intern role family, including \"Quantitative Research Intern (LLMs & AI Agents)\" in APAC. Strong but recurring; internship/junior surfaces are not ideal for immediate application.",
+      "lastSeen": "2026-07-24",
+      "notes": "Official Greenhouse/search surfaces continue to list Singapore Quantitative Researcher / intern role family. Current verified page is Quantitative Research Intern (July/August to December 2026): alpha/platform language, Python, ML/linear algebra coursework, but internship/junior level is not ideal for immediate application.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -691,9 +709,9 @@
       "fitScoreRaw": "3.9",
       "score": 3.9,
       "scoreBucket": "watch",
-      "lastSeen": "2026-06-16",
-      "notes": "Official Junior QR / ML Alpha still active: time-series + ML/NLP alpha research, deploy/monitor trading-signal models. Strong content, but junior framing creates overqualification risk.",
-      "geo": "Unspecified",
+      "lastSeen": "2026-07-24",
+      "notes": "Official Junior QR / ML Alpha still surfaces via Greenhouse/Squarepoint careers redirect and search snippets across Singapore-compatible location family. Strong time-series + ML/NLP alpha content historically, but junior framing creates overqualification risk.",
+      "geo": "Singapore",
       "action": "watch",
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
@@ -1204,24 +1222,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Douro Labs — Quantitative Researcher / Financial Engineer (Remote, partial)",
       "jobUrl": "https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "g-research",
-      "company": "G-Research",
-      "status": "watching",
-      "fitScoreRaw": "3.5",
-      "score": 3.5,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-07-22",
-      "notes": "Dallas office/company presence confirmed, but official vacancies still list quant research / ML / NLP roles as London. Keep re-scanning Dallas/Texas under Y'all Street scope, but do not count current London-only roles as Dallas-actionable.",
-      "geo": "Texas/Dallas",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — Natural Language Processing Researcher",
-      "jobUrl": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
       "jobSource": "cached JD"
     },
     {
@@ -1773,8 +1773,8 @@
       "fitScoreRaw": "4.6",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-23",
-      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning remains the strongest DRW target; today also surfaced official Singapore Quantitative Researcher graduate/new-grad page (8014936) with statistical learning, predictive signals, production translation, and autonomous research signals. Recurring; no Phase 3 unless requested/resume version bump.",
+      "lastSeen": "2026-07-24",
+      "notes": "Official Greenhouse Quantitative Researcher - Machine Learning remains the strongest DRW target. Today again surfaced official Singapore Quantitative Researcher graduate/new-grad page (8014936) with statistical learning, predictive signals, production translation, and autonomous research signals. Recurring; no Phase 3 unless requested/resume version bump.",
       "geo": "Singapore",
       "action": "researched",
       "actionLabel": "Already researched",
@@ -1983,6 +1983,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "g-research",
+      "company": "G-Research",
+      "status": "watching",
+      "fitScoreRaw": "4.2 technical / location blocked",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-24",
+      "notes": "Dallas office/company presence confirmed and retained under texas-expanded scope. Official Quantitative Researcher - Postgraduate page has excellent pure research + state-of-the-art ML fit, but the role location is London. Keep re-scanning Dallas/Texas under Y'all Street scope; do not count current London-only roles as Dallas-actionable.",
+      "geo": "Texas/Dallas",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "G-Research — Natural Language Processing Researcher",
+      "jobUrl": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "hrt",
       "company": "HRT",
       "status": "scored",
@@ -2017,28 +2035,18 @@
       "jobTitle": "Jane Street (HKG) careers",
       "jobUrl": "https://www.janestreet.com/join-jane-street/open-roles/",
       "jobSource": "careers page"
-    },
-    {
-      "id": "jump-trading",
-      "company": "Jump Trading",
-      "status": "scored",
-      "fitScoreRaw": "4.2",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-07-08",
-      "notes": "Fresh official/search-confirmed Quantitative Researcher \\",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
-      "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
-      "jobSource": "cached JD"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-07-24 — Friday",
+        "date": "2026-07-24",
+        "candidateMentions": 18,
+        "uniqueCompanies": 7,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-07-23 — Thursday",
         "date": "2026-07-23",
@@ -2220,14 +2228,6 @@
         "date": "2026-06-23",
         "candidateMentions": 26,
         "uniqueCompanies": 9,
-        "scoreCount": 0,
-        "maxScore": null
-      },
-      {
-        "title": "2026-06-22 — Monday",
-        "date": "2026-06-22",
-        "candidateMentions": 11,
-        "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
       }
