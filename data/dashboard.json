@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T23:33:48.011Z",
+  "generatedAt": "2026-07-28T23:32:29.600Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -43,8 +43,8 @@
       "fitScoreRaw": "4.8",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-28",
-      "notes": "AI Alpha Group remains strongest active fit. Official AVP/VP Quantitative Analyst AI Alpha page crawled today; proprietary Gen AI-powered fundamental investment process, quantitative portfolio construction, and risk-management-to-investment-outcome signal. GIC Phase 3 eligible on demand.",
+      "lastSeen": "2026-07-29",
+      "notes": "AI Alpha Group remains strongest active fit. Fresh news/search context reinforces GIC's hedge-fund and AI push; official AVP/VP Quantitative Analyst AI Alpha page remains the key tracked JD. GIC Phase 3 eligible on demand.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -277,8 +277,8 @@
       "fitScoreRaw": "4.2 technical / location blocked",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-28",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official NLP Researcher page remains excellent for LLM/NLP financial text prediction but role location is still London-only. Keep re-scanning Dallas/Texas under Y'all Street scope; do not count current London-only roles as Dallas-actionable.",
+      "lastSeen": "2026-07-29",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official NLP Researcher page remains excellent for LLM/NLP financial text prediction and confirms London/Dallas company presence, but current role location is still London-only. Keep re-scanning Dallas/Texas under Y'all Street scope; do not count current London-only roles as Dallas-actionable.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -367,8 +367,8 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-24",
-      "notes": "Official Greenhouse/search surfaces continue to list Singapore Quantitative Researcher / intern role family. Current verified page is Quantitative Research Intern (July/August to December 2026): alpha/platform language, Python, ML/linear algebra coursework, but internship/junior level is not ideal for immediate application.",
+      "lastSeen": "2026-07-29",
+      "notes": "Official WorldQuant careers page confirmed Singapore Quantitative Researcher and BRAIN Researcher today. QR page has alpha generation, predictive signals, ML/AI, Python/Unix, and research-scientist mindset; BRAIN adds AI/ML quant platform/crowdsourcing angle. Recurring; no Phase 3.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -439,7 +439,7 @@
       "fitScoreRaw": "4.1 technical / location blocked",
       "score": 4.1,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-28",
+      "lastSeen": "2026-07-29",
       "notes": "NLP Researcher. Strong AI signal: very large text corpora, latest NLP techniques, state-of-the-art LLMs, and finance text prediction. Official role location is London; Dallas appears as office/company presence, not clean role location. Watch for Dallas opening.",
       "geo": "Texas/Dallas",
       "action": "verify",
@@ -1755,8 +1755,8 @@
       "fitScoreRaw": "4.8",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-28",
-      "notes": "AI Alpha Group remains strongest active fit. Official AVP/VP Quantitative Analyst AI Alpha page crawled today; proprietary Gen AI-powered fundamental investment process, quantitative portfolio construction, and risk-management-to-investment-outcome signal. GIC Phase 3 eligible on demand.",
+      "lastSeen": "2026-07-29",
+      "notes": "AI Alpha Group remains strongest active fit. Fresh news/search context reinforces GIC's hedge-fund and AI push; official AVP/VP Quantitative Analyst AI Alpha page remains the key tracked JD. GIC Phase 3 eligible on demand.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -1989,8 +1989,8 @@
       "fitScoreRaw": "4.2 technical / location blocked",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-28",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official NLP Researcher page remains excellent for LLM/NLP financial text prediction but role location is still London-only. Keep re-scanning Dallas/Texas under Y'all Street scope; do not count current London-only roles as Dallas-actionable.",
+      "lastSeen": "2026-07-29",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official NLP Researcher page remains excellent for LLM/NLP financial text prediction and confirms London/Dallas company presence, but current role location is still London-only. Keep re-scanning Dallas/Texas under Y'all Street scope; do not count current London-only roles as Dallas-actionable.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2039,6 +2039,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-07-29 — Wednesday",
+        "date": "2026-07-29",
+        "candidateMentions": 23,
+        "uniqueCompanies": 10,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-07-28 — Tuesday",
         "date": "2026-07-28",
@@ -2220,14 +2228,6 @@
         "date": "2026-06-26",
         "candidateMentions": 20,
         "uniqueCompanies": 7,
-        "scoreCount": 0,
-        "maxScore": null
-      },
-      {
-        "title": "2026-06-25 — Thursday",
-        "date": "2026-06-25",
-        "candidateMentions": 17,
-        "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
       }
