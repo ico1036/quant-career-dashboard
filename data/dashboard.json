@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T23:32:29.600Z",
+  "generatedAt": "2026-07-29T23:32:26.609Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 95,
     "topTargets": 16,
-    "jdCacheFiles": 100,
+    "jdCacheFiles": 101,
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
@@ -19,8 +19,8 @@
     "scansParsed": 24,
     "applyFirst": 3,
     "verify": 39,
-    "watch": 25,
-    "researched": 7
+    "watch": 24,
+    "researched": 8
   },
   "latestBrief": {
     "title": "# Quant Job Pipeline Brief — 2026-07-21",
@@ -97,8 +97,8 @@
       "fitScoreRaw": "4.4",
       "score": 4.4,
       "scoreBucket": "strong",
-      "lastSeen": "2026-06-30",
-      "notes": "Official Foundation Engineering Applied AI Senior AI/ML Quant Research Engineer VP Singapore role active. Very strong AI/ML, LLM, RL, XAI, MLOps, production trading signal; sell-side/platform setting keeps it just under Phase 3 auto-urgency.",
+      "lastSeen": "2026-07-30",
+      "notes": "Official Foundation Engineering Applied AI Senior AI/ML Quant Research Engineer VP Singapore role remains active. Very strong AI/ML, predictive financial time-series, DL/RL/state-space, and production trading signal; sell-side/platform setting keeps it just under Phase 3 auto-urgency.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -274,11 +274,11 @@
       "id": "g-research",
       "company": "G-Research",
       "status": "watching",
-      "fitScoreRaw": "4.2 technical / location blocked",
+      "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-29",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official NLP Researcher page remains excellent for LLM/NLP financial text prediction and confirms London/Dallas company presence, but current role location is still London-only. Keep re-scanning Dallas/Texas under Y'all Street scope; do not count current London-only roles as Dallas-actionable.",
+      "lastSeen": "2026-07-30",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies/company pages remain active, but no clean Dallas/Texas quant/AI research JD surfaced today. Keep re-scanning Dallas/Texas under Y'all Street scope; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -439,8 +439,8 @@
       "fitScoreRaw": "4.1 technical / location blocked",
       "score": 4.1,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-29",
-      "notes": "NLP Researcher. Strong AI signal: very large text corpora, latest NLP techniques, state-of-the-art LLMs, and finance text prediction. Official role location is London; Dallas appears as office/company presence, not clean role location. Watch for Dallas opening.",
+      "lastSeen": "2026-07-30",
+      "notes": "NLP Researcher. Strong AI signal: very large text corpora, latest NLP techniques, state-of-the-art LLMs, and finance text prediction. Current actionable role remains non-Dallas; Dallas appears as office/company presence, not a clean role location. Watch for Dallas opening.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -454,19 +454,37 @@
       "id": "millennium",
       "company": "Millennium",
       "status": "scored",
-      "fitScoreRaw": "4.1",
+      "fitScoreRaw": "4.1 provisional",
       "score": 4.1,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-10",
-      "notes": "QR Equity SG/HK remains prior good fit. Today surfaced Systematic Macro QR official MLP role, but official location is New York only despite search noise; no SG Phase 3.",
+      "lastSeen": "2026-07-30",
+      "notes": "Official MLP/Eightfold page surfaced Quantitative Researcher, Equity in Singapore/Hong Kong. Legitimate and useful, but full JD body extraction is partial; no auto Phase 3 because Millennium is already tracked/researched historically.",
+      "geo": "Singapore",
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Millennium — Quantitative Researcher, Equity",
+      "jobUrl": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "mlp-group-millennium",
+      "company": "MLP Group (Millennium)",
+      "status": "scored",
+      "fitScoreRaw": "4.1 provisional",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-30",
+      "notes": "career.mlp.com official Equity QR Singapore/Hong Kong page recovered. Treat together with Millennium tracker row; partial JD body, strong portfolio/alpha fit.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Millennium careers",
-      "jobUrl": "https://www.mlp.com/careers/",
-      "jobSource": "careers page"
+      "jobTitle": "Millennium — Quantitative Researcher, Equity",
+      "jobUrl": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
+      "jobSource": "cached JD"
     },
     {
       "id": "platinum-partners-recruiter",
@@ -863,24 +881,6 @@
       "jobTitle": "Fionics careers",
       "jobUrl": "https://www.fionics.com/jobs",
       "jobSource": "careers page"
-    },
-    {
-      "id": "mlp-group-millennium",
-      "company": "MLP Group (Millennium)",
-      "status": "new",
-      "fitScoreRaw": "3.8",
-      "score": 3.8,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-04-30",
-      "notes": "24 SG roles across quant/ML. Pod model. career.mlp.com.",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
-      "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
-      "jobSource": "cached JD"
     },
     {
       "id": "tudor-investment-xantium",
@@ -1809,8 +1809,8 @@
       "fitScoreRaw": "4.4",
       "score": 4.4,
       "scoreBucket": "strong",
-      "lastSeen": "2026-06-30",
-      "notes": "Official Foundation Engineering Applied AI Senior AI/ML Quant Research Engineer VP Singapore role active. Very strong AI/ML, LLM, RL, XAI, MLOps, production trading signal; sell-side/platform setting keeps it just under Phase 3 auto-urgency.",
+      "lastSeen": "2026-07-30",
+      "notes": "Official Foundation Engineering Applied AI Senior AI/ML Quant Research Engineer VP Singapore role remains active. Very strong AI/ML, predictive financial time-series, DL/RL/state-space, and production trading signal; sell-side/platform setting keeps it just under Phase 3 auto-urgency.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -1986,11 +1986,11 @@
       "id": "g-research",
       "company": "G-Research",
       "status": "watching",
-      "fitScoreRaw": "4.2 technical / location blocked",
+      "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-29",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official NLP Researcher page remains excellent for LLM/NLP financial text prediction and confirms London/Dallas company presence, but current role location is still London-only. Keep re-scanning Dallas/Texas under Y'all Street scope; do not count current London-only roles as Dallas-actionable.",
+      "lastSeen": "2026-07-30",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies/company pages remain active, but no clean Dallas/Texas quant/AI research JD surfaced today. Keep re-scanning Dallas/Texas under Y'all Street scope; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2039,6 +2039,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-07-30 — Thursday",
+        "date": "2026-07-30",
+        "candidateMentions": 21,
+        "uniqueCompanies": 11,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-07-29 — Wednesday",
         "date": "2026-07-29",
@@ -2222,14 +2230,6 @@
         "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-06-26 — Friday",
-        "date": "2026-06-26",
-        "candidateMentions": 20,
-        "uniqueCompanies": 7,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2363,6 +2363,14 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-07-30-millennium-quantitative-researcher-equity-singapore.md",
+      "path": "outputs/jd-cache/2026-07-30-millennium-quantitative-researcher-equity-singapore.md",
+      "title": "Millennium — Quantitative Researcher, Equity",
+      "date": "2026-07-30",
+      "url": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
+      "excerpt": "> Cached: 2026-07-30 > Source: https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore > Status: official direct-employer page, active in Singapore/Hong Kong ## Extracted Signals - Company: Millennium / MLP - Title: Q"
     },
     {
       "file": "drw-quantitative-researcher-singapore-2026-07-23.md",
