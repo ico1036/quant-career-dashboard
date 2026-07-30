@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T23:32:26.609Z",
+  "generatedAt": "2026-07-30T23:33:01.565Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,7 +7,7 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 95,
+    "trackedCompanies": 97,
     "topTargets": 16,
     "jdCacheFiles": 101,
     "resumeFiles": 178,
@@ -18,8 +18,8 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 39,
-    "watch": 24,
+    "verify": 40,
+    "watch": 25,
     "researched": 8
   },
   "latestBrief": {
@@ -43,8 +43,8 @@
       "fitScoreRaw": "4.8",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-29",
-      "notes": "AI Alpha Group remains strongest active fit. Fresh news/search context reinforces GIC's hedge-fund and AI push; official AVP/VP Quantitative Analyst AI Alpha page remains the key tracked JD. GIC Phase 3 eligible on demand.",
+      "lastSeen": "2026-07-31",
+      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group page crawled today. Still the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. GIC Phase 3 eligible on demand.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -199,6 +199,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "jump-trading",
+      "company": "Jump Trading",
+      "status": "scored",
+      "fitScoreRaw": "4.3",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-31",
+      "notes": "Official AI Research Scientist R&D page surfaced again. AI team consists of quantitative researchers, engineers, and ML experts leading LLM research/applications at Jump. Location not Singapore in today's snippet, so keep as recurring high-fit AI-native watch rather than SG-actionable.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
+      "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "schonfeld",
       "company": "Schonfeld",
       "status": "scored",
@@ -277,8 +295,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-30",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies/company pages remain active, but no clean Dallas/Texas quant/AI research JD surfaced today. Keep re-scanning Dallas/Texas under Y'all Street scope; do not exclude as US-only.",
+      "lastSeen": "2026-07-31",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies surfaced ML Researcher, NLP Researcher, ML Engineer, ML Workflow Engineer, Quantitative Developer, and postgraduate QR pages, but current actionable research roles still appear London-centered rather than Dallas. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -323,24 +341,6 @@
       "jobTitle": "Jane Street (HKG) careers",
       "jobUrl": "https://www.janestreet.com/join-jane-street/open-roles/",
       "jobSource": "careers page"
-    },
-    {
-      "id": "jump-trading",
-      "company": "Jump Trading",
-      "status": "scored",
-      "fitScoreRaw": "4.2",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-07-08",
-      "notes": "Fresh official/search-confirmed Quantitative Researcher \\",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
-      "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
-      "jobSource": "cached JD"
     },
     {
       "id": "optiver",
@@ -457,8 +457,8 @@
       "fitScoreRaw": "4.1 provisional",
       "score": 4.1,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-30",
-      "notes": "Official MLP/Eightfold page surfaced Quantitative Researcher, Equity in Singapore/Hong Kong. Legitimate and useful, but full JD body extraction is partial; no auto Phase 3 because Millennium is already tracked/researched historically.",
+      "lastSeen": "2026-07-31",
+      "notes": "Official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong remains the cleanest current Millennium surface, but full JD body extraction remains partial. No auto Phase 3 because Millennium is already tracked/researched historically.",
       "geo": "Singapore",
       "action": "researched",
       "actionLabel": "Already researched",
@@ -539,6 +539,24 @@
       "jobTitle": "Balyasny (BAM) careers",
       "jobUrl": "https://www.bamfunds.com/careers/",
       "jobSource": "careers page"
+    },
+    {
+      "id": "hrt-austin-mid-freq",
+      "company": "HRT Austin Mid-Freq",
+      "status": "watching",
+      "fitScoreRaw": "4.0 technical / texas-expanded",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-31",
+      "notes": "Official HRT careers surfaced Quantitative Researcher (Mid-Freq) with Austin/Texas company location signal. Treat as texas-expanded watch: technical fit is relevant, but role actionability/location details are not yet as clean as Singapore direct JDs.",
+      "geo": "Texas/Dallas",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
+      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
+      "jobSource": "cached JD"
     },
     {
       "id": "ilex-capital",
@@ -881,6 +899,24 @@
       "jobTitle": "Fionics careers",
       "jobUrl": "https://www.fionics.com/jobs",
       "jobSource": "careers page"
+    },
+    {
+      "id": "j-p-morgan",
+      "company": "J.P. Morgan",
+      "status": "scored",
+      "fitScoreRaw": "3.8",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-07-31",
+      "notes": "NEW official Oracle/JPMC Singapore Commodities Quantitative Research Associate surface. Legitimate direct-employer role with systematic/commodities quant research signal, but bank/commodities desk setting and weak AI-native signal keep it below Phase 3.",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "J.P. Morgan careers",
+      "jobUrl": "https://www.google.com/search?q=J.P.%20Morgan%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "tudor-investment-xantium",
@@ -1755,8 +1791,8 @@
       "fitScoreRaw": "4.8",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-29",
-      "notes": "AI Alpha Group remains strongest active fit. Fresh news/search context reinforces GIC's hedge-fund and AI push; official AVP/VP Quantitative Analyst AI Alpha page remains the key tracked JD. GIC Phase 3 eligible on demand.",
+      "lastSeen": "2026-07-31",
+      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group page crawled today. Still the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. GIC Phase 3 eligible on demand.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -1911,6 +1947,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "jump-trading",
+      "company": "Jump Trading",
+      "status": "scored",
+      "fitScoreRaw": "4.3",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-31",
+      "notes": "Official AI Research Scientist R&D page surfaced again. AI team consists of quantitative researchers, engineers, and ML experts leading LLM research/applications at Jump. Location not Singapore in today's snippet, so keep as recurring high-fit AI-native watch rather than SG-actionable.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
+      "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "schonfeld",
       "company": "Schonfeld",
       "status": "scored",
@@ -1989,8 +2043,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-30",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies/company pages remain active, but no clean Dallas/Texas quant/AI research JD surfaced today. Keep re-scanning Dallas/Texas under Y'all Street scope; do not exclude as US-only.",
+      "lastSeen": "2026-07-31",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies surfaced ML Researcher, NLP Researcher, ML Engineer, ML Workflow Engineer, Quantitative Developer, and postgraduate QR pages, but current actionable research roles still appear London-centered rather than Dallas. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2017,28 +2071,18 @@
       "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
       "jobUrl": "https://www.hudsonrivertrading.com/careers/",
       "jobSource": "cached JD"
-    },
-    {
-      "id": "jane-street-hkg",
-      "company": "Jane Street (HKG)",
-      "status": "scored",
-      "fitScoreRaw": "4.2",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-04-21",
-      "notes": "QR HKG open. SG 없음. Location mismatch.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Jane Street (HKG) careers",
-      "jobUrl": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "jobSource": "careers page"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-07-31 — Friday",
+        "date": "2026-07-31",
+        "candidateMentions": 26,
+        "uniqueCompanies": 8,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-07-30 — Thursday",
         "date": "2026-07-30",
@@ -2220,14 +2264,6 @@
         "date": "2026-06-30",
         "candidateMentions": 18,
         "uniqueCompanies": 7,
-        "scoreCount": 0,
-        "maxScore": null
-      },
-      {
-        "title": "2026-06-29 — Monday",
-        "date": "2026-06-29",
-        "candidateMentions": 15,
-        "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
       }
