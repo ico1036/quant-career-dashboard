@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T23:33:01.565Z",
+  "generatedAt": "2026-08-02T23:32:42.749Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 97,
+    "trackedCompanies": 98,
     "topTargets": 16,
-    "jdCacheFiles": 101,
+    "jdCacheFiles": 105,
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
@@ -223,7 +223,7 @@
       "fitScoreRaw": "4.3 location-conditional",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-28",
+      "lastSeen": "2026-08-03",
       "notes": "Official Greenhouse Quantitative Researcher role still active: systematic trading, ML alphas, NLP/LLM, distributed research pipelines, live signal deployment. Page header remains Hong Kong; watch/verify Singapore authorization or transfer path before Phase 3.",
       "geo": "Singapore",
       "action": "verify",
@@ -259,9 +259,9 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-28",
-      "notes": "Search surfaces still show Quantitative Researcher - Option remote and Asia/South East Asia compatibility. Broad AI/LLM role-family signal remains active, keeping Binance SG-compatible remote rather than Singapore-onsite.",
-      "geo": "Singapore",
+      "lastSeen": "2026-08-03",
+      "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, and AI product roles. Keep as SG-compatible remote.",
+      "geo": "Remote",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
@@ -295,15 +295,15 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-31",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies surfaced ML Researcher, NLP Researcher, ML Engineer, ML Workflow Engineer, Quantitative Developer, and postgraduate QR pages, but current actionable research roles still appear London-centered rather than Dallas. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
+      "lastSeen": "2026-08-03",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies still surface ML Researcher, NLP Researcher, ML internships, Quantitative Analyst, experienced/postgraduate QR, and related pages; direct Dallas/Texas research role not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — Natural Language Processing Researcher",
-      "jobUrl": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
+      "jobTitle": "G-Research — NLP / ML Research Family, Texas-Expanded Watch",
+      "jobUrl": "https://www.gresearch.com/vacancies/",
       "jobSource": "cached JD"
     },
     {
@@ -439,15 +439,15 @@
       "fitScoreRaw": "4.1 technical / location blocked",
       "score": 4.1,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-30",
-      "notes": "NLP Researcher. Strong AI signal: very large text corpora, latest NLP techniques, state-of-the-art LLMs, and finance text prediction. Current actionable role remains non-Dallas; Dallas appears as office/company presence, not a clean role location. Watch for Dallas opening.",
+      "lastSeen": "2026-08-03",
+      "notes": "NLP Researcher official page remains active in search cache. Strong AI signal: very large text corpora, latest NLP techniques, state-of-the-art LLMs, and finance text prediction. Current actionable role remains non-Dallas; Dallas appears as office/company presence, not a clean role location. Watch for Dallas opening.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — Natural Language Processing Researcher",
-      "jobUrl": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
+      "jobTitle": "G-Research — NLP / ML Research Family, Texas-Expanded Watch",
+      "jobUrl": "https://www.gresearch.com/vacancies/",
       "jobSource": "cached JD"
     },
     {
@@ -824,8 +824,8 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
-      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "jobTitle": "MIO Partners — Senior Quantitative Research Manager",
+      "jobUrl": "https://job-boards.greenhouse.io/miopartners/jobs/4904027008",
       "jobSource": "cached JD"
     },
     {
@@ -1657,6 +1657,24 @@
       "jobSource": "job search"
     },
     {
+      "id": "mio-partners",
+      "company": "MIO Partners",
+      "status": "ghost",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-08-03",
+      "notes": "Official Greenhouse Senior Quantitative Research Manager has strong LLM-assisted quant research leadership signal, but explicitly requires US work authorization without sponsorship. Excluded from SG-compatible/Texas-expanded action pipeline.",
+      "geo": "Texas/Dallas",
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "MIO Partners — Senior Quantitative Research Manager",
+      "jobUrl": "https://job-boards.greenhouse.io/miopartners/jobs/4904027008",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "monad-foundation",
       "company": "Monad Foundation",
       "status": "ghost",
@@ -1778,8 +1796,8 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
-      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
+      "jobTitle": "MIO Partners — Senior Quantitative Research Manager",
+      "jobUrl": "https://job-boards.greenhouse.io/miopartners/jobs/4904027008",
       "jobSource": "cached JD"
     }
   ],
@@ -1971,7 +1989,7 @@
       "fitScoreRaw": "4.3 location-conditional",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-28",
+      "lastSeen": "2026-08-03",
       "notes": "Official Greenhouse Quantitative Researcher role still active: systematic trading, ML alphas, NLP/LLM, distributed research pipelines, live signal deployment. Page header remains Hong Kong; watch/verify Singapore authorization or transfer path before Phase 3.",
       "geo": "Singapore",
       "action": "verify",
@@ -2007,9 +2025,9 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-28",
-      "notes": "Search surfaces still show Quantitative Researcher - Option remote and Asia/South East Asia compatibility. Broad AI/LLM role-family signal remains active, keeping Binance SG-compatible remote rather than Singapore-onsite.",
-      "geo": "Singapore",
+      "lastSeen": "2026-08-03",
+      "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, and AI product roles. Keep as SG-compatible remote.",
+      "geo": "Remote",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
@@ -2043,15 +2061,15 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-31",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies surfaced ML Researcher, NLP Researcher, ML Engineer, ML Workflow Engineer, Quantitative Developer, and postgraduate QR pages, but current actionable research roles still appear London-centered rather than Dallas. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
+      "lastSeen": "2026-08-03",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies still surface ML Researcher, NLP Researcher, ML internships, Quantitative Analyst, experienced/postgraduate QR, and related pages; direct Dallas/Texas research role not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — Natural Language Processing Researcher",
-      "jobUrl": "https://www.gresearch.com/vacancies/natural-language-processing-researcher/",
+      "jobTitle": "G-Research — NLP / ML Research Family, Texas-Expanded Watch",
+      "jobUrl": "https://www.gresearch.com/vacancies/",
       "jobSource": "cached JD"
     },
     {
@@ -2075,6 +2093,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-03 — Monday",
+        "date": "2026-08-03",
+        "candidateMentions": 25,
+        "uniqueCompanies": 11,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-07-31 — Friday",
         "date": "2026-07-31",
@@ -2258,14 +2284,6 @@
         "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-06-30 — Tuesday",
-        "date": "2026-06-30",
-        "candidateMentions": 18,
-        "uniqueCompanies": 7,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2399,6 +2417,38 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "binance-qr-ai-family-2026-08-03.md",
+      "path": "outputs/jd-cache/binance-qr-ai-family-2026-08-03.md",
+      "title": "Binance — Quantitative Researcher / AI Role Family",
+      "date": "2026-08-03",
+      "url": "https://jobs.lever.co/binance",
+      "excerpt": "> Cached: 2026-08-03 > Source: https://jobs.lever.co/binance ## Role Surfaces - Quantitative Researcher - Option — Remote, Asia / Taiwan / South East Asia / UAE / Eastern Europe / Hong Kong. - Quantitative Researcher (Fresh STEM PhD graduates are welcome) — Re"
+    },
+    {
+      "file": "gresearch-nlp-ml-family-texas-expanded-2026-08-03.md",
+      "path": "outputs/jd-cache/gresearch-nlp-ml-family-texas-expanded-2026-08-03.md",
+      "title": "G-Research — NLP / ML Research Family, Texas-Expanded Watch",
+      "date": "2026-08-03",
+      "url": "https://www.gresearch.com/vacancies/",
+      "excerpt": "> Cached: 2026-08-03 > Source: https://www.gresearch.com/vacancies/ ## Role Surfaces Official vacancies page still surfaces: - Natural Language Processing Researcher - Machine Learning Researcher - Machine Learning Research Internship - Natural Language Proces"
+    },
+    {
+      "file": "mio-partners-senior-quant-manager-ghost-2026-08-03.md",
+      "path": "outputs/jd-cache/mio-partners-senior-quant-manager-ghost-2026-08-03.md",
+      "title": "MIO Partners — Senior Quantitative Research Manager",
+      "date": "2026-08-03",
+      "url": "https://job-boards.greenhouse.io/miopartners/jobs/4904027008",
+      "excerpt": "> Cached: 2026-08-03 > Source: https://job-boards.greenhouse.io/miopartners/jobs/4904027008 ## Extract Official Greenhouse role has strong technical surface: - 8-12 years of total professional experience as a quantitative researcher and manager. - Experience b"
+    },
+    {
+      "file": "schonfeld-quantitative-researcher-2026-08-03.md",
+      "path": "outputs/jd-cache/schonfeld-quantitative-researcher-2026-08-03.md",
+      "title": "Schonfeld — Quantitative Researcher",
+      "date": "2026-08-03",
+      "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7624691",
+      "excerpt": "> Cached: 2026-08-03 > Source: https://job-boards.greenhouse.io/schonfeld/jobs/7624691 ## Extract Official Greenhouse role remains active. The JD describes a systematic trading-team Quantitative Researcher working with quantitative PMs, developers, and researc"
     },
     {
       "file": "2026-07-30-millennium-quantitative-researcher-equity-singapore.md",
