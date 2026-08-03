@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T23:32:42.749Z",
+  "generatedAt": "2026-08-03T23:34:00.190Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 98,
     "topTargets": 16,
-    "jdCacheFiles": 105,
+    "jdCacheFiles": 106,
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
@@ -19,8 +19,8 @@
     "scansParsed": 24,
     "applyFirst": 3,
     "verify": 40,
-    "watch": 25,
-    "researched": 8
+    "watch": 24,
+    "researched": 9
   },
   "latestBrief": {
     "title": "# Quant Job Pipeline Brief — 2026-07-21",
@@ -199,6 +199,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "j-p-morgan",
+      "company": "J.P. Morgan",
+      "status": "scored",
+      "fitScoreRaw": "4.3 provisional",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-04",
+      "notes": "NEW official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate surface. Stronger AI-native signal than prior Commodities QR role; full JD body still partial, so re-scrape before resume tailoring.",
+      "geo": "Singapore",
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "J.P. Morgan — Quantitative Trading and Research - AI Machine Learning Researcher - Associate",
+      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210775735/",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "jump-trading",
       "company": "Jump Trading",
       "status": "scored",
@@ -259,7 +277,7 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-03",
+      "lastSeen": "2026-08-04",
       "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, and AI product roles. Keep as SG-compatible remote.",
       "geo": "Remote",
       "action": "verify",
@@ -295,7 +313,7 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-03",
+      "lastSeen": "2026-08-04",
       "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies still surface ML Researcher, NLP Researcher, ML internships, Quantitative Analyst, experienced/postgraduate QR, and related pages; direct Dallas/Texas research role not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
@@ -367,8 +385,8 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-29",
-      "notes": "Official WorldQuant careers page confirmed Singapore Quantitative Researcher and BRAIN Researcher today. QR page has alpha generation, predictive signals, ML/AI, Python/Unix, and research-scientist mindset; BRAIN adds AI/ML quant platform/crowdsourcing angle. Recurring; no Phase 3.",
+      "lastSeen": "2026-08-04",
+      "notes": "Official WorldQuant Greenhouse Singapore Quantitative Researcher page remains active with ML/AI and research-scientist signal. Recurring; no Phase 3.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -899,24 +917,6 @@
       "jobTitle": "Fionics careers",
       "jobUrl": "https://www.fionics.com/jobs",
       "jobSource": "careers page"
-    },
-    {
-      "id": "j-p-morgan",
-      "company": "J.P. Morgan",
-      "status": "scored",
-      "fitScoreRaw": "3.8",
-      "score": 3.8,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-07-31",
-      "notes": "NEW official Oracle/JPMC Singapore Commodities Quantitative Research Associate surface. Legitimate direct-employer role with systematic/commodities quant research signal, but bank/commodities desk setting and weak AI-native signal keep it below Phase 3.",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "J.P. Morgan careers",
-      "jobUrl": "https://www.google.com/search?q=J.P.%20Morgan%20careers%20quant%20jobs",
-      "jobSource": "job search"
     },
     {
       "id": "tudor-investment-xantium",
@@ -1965,6 +1965,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "j-p-morgan",
+      "company": "J.P. Morgan",
+      "status": "scored",
+      "fitScoreRaw": "4.3 provisional",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-04",
+      "notes": "NEW official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate surface. Stronger AI-native signal than prior Commodities QR role; full JD body still partial, so re-scrape before resume tailoring.",
+      "geo": "Singapore",
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "J.P. Morgan — Quantitative Trading and Research - AI Machine Learning Researcher - Associate",
+      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210775735/",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "jump-trading",
       "company": "Jump Trading",
       "status": "scored",
@@ -2025,7 +2043,7 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-03",
+      "lastSeen": "2026-08-04",
       "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, and AI product roles. Keep as SG-compatible remote.",
       "geo": "Remote",
       "action": "verify",
@@ -2061,7 +2079,7 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-03",
+      "lastSeen": "2026-08-04",
       "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies still surface ML Researcher, NLP Researcher, ML internships, Quantitative Analyst, experienced/postgraduate QR, and related pages; direct Dallas/Texas research role not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
@@ -2071,28 +2089,18 @@
       "jobTitle": "G-Research — NLP / ML Research Family, Texas-Expanded Watch",
       "jobUrl": "https://www.gresearch.com/vacancies/",
       "jobSource": "cached JD"
-    },
-    {
-      "id": "hrt",
-      "company": "HRT",
-      "status": "scored",
-      "fitScoreRaw": "4.2",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-06-01",
-      "notes": "Official portal loaded but filtered SG/quant role list did not render in browser snapshot. Keep prior status: Algo Developer/QR SG signals active recently; conventional ML/stat rather than LLM-native.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
-      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
-      "jobSource": "cached JD"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-04 — Tuesday",
+        "date": "2026-08-04",
+        "candidateMentions": 25,
+        "uniqueCompanies": 11,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-03 — Monday",
         "date": "2026-08-03",
@@ -2276,14 +2284,6 @@
         "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-01 — Wednesday",
-        "date": "2026-07-01",
-        "candidateMentions": 17,
-        "uniqueCompanies": 6,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2417,6 +2417,14 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-04-jpmorgan-ai-machine-learning-researcher-associate.partial.md",
+      "path": "outputs/jd-cache/2026-08-04-jpmorgan-ai-machine-learning-researcher-associate.partial.md",
+      "title": "J.P. Morgan — Quantitative Trading and Research - AI Machine Learning Researcher - Associate",
+      "date": "2026-08-04",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210775735/",
+      "excerpt": "> Cached: 2026-08-04 > Status: partial official/search cache > URL: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210775735/ ## Extracted Signals - Official J.P. Morgan / Oracle candidate experience page surfaced for Quantitati"
     },
     {
       "file": "binance-qr-ai-family-2026-08-03.md",
