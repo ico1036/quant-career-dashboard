@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:34:00.190Z",
+  "generatedAt": "2026-08-04T23:32:24.474Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 98,
     "topTargets": 16,
-    "jdCacheFiles": 106,
+    "jdCacheFiles": 107,
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
@@ -205,8 +205,8 @@
       "fitScoreRaw": "4.3 provisional",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-04",
-      "notes": "NEW official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate surface. Stronger AI-native signal than prior Commodities QR role; full JD body still partial, so re-scrape before resume tailoring.",
+      "lastSeen": "2026-08-05",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate surface remains the newest clean Singapore AI-native signal. Full JD body still partial, so re-scrape before resume tailoring.",
       "geo": "Singapore",
       "action": "researched",
       "actionLabel": "Already researched",
@@ -277,8 +277,8 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-04",
-      "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, and AI product roles. Keep as SG-compatible remote.",
+      "lastSeen": "2026-08-05",
+      "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, AI product roles, and quant-trading product roles. Keep as SG-compatible remote.",
       "geo": "Remote",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -313,8 +313,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-04",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies still surface ML Researcher, NLP Researcher, ML internships, Quantitative Analyst, experienced/postgraduate QR, and related pages; direct Dallas/Texas research role not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
+      "lastSeen": "2026-08-05",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official site still positions the firm around machine learning, AI, and advanced analytics for quant research, but direct Dallas/Texas research role was not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -359,24 +359,6 @@
       "jobTitle": "Jane Street (HKG) careers",
       "jobUrl": "https://www.janestreet.com/join-jane-street/open-roles/",
       "jobSource": "careers page"
-    },
-    {
-      "id": "optiver",
-      "company": "Optiver",
-      "status": "scored",
-      "fitScoreRaw": "4.2 conditional",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-06-16",
-      "notes": "Careers page currently shows SG Data Center Engineer only in first-page extract; no SG QR/AI role surfaced today. Prior AI Researcher remains Shanghai-only/SG-ineligible.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Optiver — Graduate Quantitative Researcher, PhD (2026 Start)",
-      "jobUrl": "https://optiver.com/working-at-optiver/career-opportunities/8053587002/",
-      "jobSource": "cached JD"
     },
     {
       "id": "worldquant",
@@ -502,6 +484,24 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Millennium — Quantitative Researcher, Equity",
       "jobUrl": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "optiver",
+      "company": "Optiver",
+      "status": "scored",
+      "fitScoreRaw": "4.1 technical / texas-expanded",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-05",
+      "notes": "NEW official Austin Quantitative Researcher - HFT Futures/Equities page recovered. ML-powered fully automated trading, alpha/signal/feature research, prediction models, and direct trading impact. Keep as texas-expanded watch rather than excluding as US-only; no auto Phase 3 because not SG-compatible or Dallas-clean and HFT futures/equities experience is specific.",
+      "geo": "Texas/Dallas",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Optiver — Quantitative Researcher – HFT Futures/Equities",
+      "jobUrl": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/austin/quantitative-researcher-hft-futures-equities/",
       "jobSource": "cached JD"
     },
     {
@@ -1971,8 +1971,8 @@
       "fitScoreRaw": "4.3 provisional",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-04",
-      "notes": "NEW official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate surface. Stronger AI-native signal than prior Commodities QR role; full JD body still partial, so re-scrape before resume tailoring.",
+      "lastSeen": "2026-08-05",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate surface remains the newest clean Singapore AI-native signal. Full JD body still partial, so re-scrape before resume tailoring.",
       "geo": "Singapore",
       "action": "researched",
       "actionLabel": "Already researched",
@@ -2043,8 +2043,8 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-04",
-      "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, and AI product roles. Keep as SG-compatible remote.",
+      "lastSeen": "2026-08-05",
+      "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, AI product roles, and quant-trading product roles. Keep as SG-compatible remote.",
       "geo": "Remote",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2079,8 +2079,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-04",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies still surface ML Researcher, NLP Researcher, ML internships, Quantitative Analyst, experienced/postgraduate QR, and related pages; direct Dallas/Texas research role not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
+      "lastSeen": "2026-08-05",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official site still positions the firm around machine learning, AI, and advanced analytics for quant research, but direct Dallas/Texas research role was not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2093,6 +2093,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-05 — Wednesday",
+        "date": "2026-08-05",
+        "candidateMentions": 20,
+        "uniqueCompanies": 10,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-04 — Tuesday",
         "date": "2026-08-04",
@@ -2276,14 +2284,6 @@
         "uniqueCompanies": 8,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-02 — Thursday",
-        "date": "2026-07-02",
-        "candidateMentions": 18,
-        "uniqueCompanies": 6,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2417,6 +2417,14 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-05-optiver-quantitative-researcher-hft-futures-equities-austin.md",
+      "path": "outputs/jd-cache/2026-08-05-optiver-quantitative-researcher-hft-futures-equities-austin.md",
+      "title": "Optiver — Quantitative Researcher – HFT Futures/Equities",
+      "date": "2026-08-05",
+      "url": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/austin/quantitative-researcher-hft-futures-equities/",
+      "excerpt": "> Cached: 2026-08-05 > Source: https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/austin/quantitative-researcher-hft-futures-equities/ > Scope: texas-expanded ## Role - Title: Quantitative Researcher – HFT Futures/Equities - Level:"
     },
     {
       "file": "2026-08-04-jpmorgan-ai-machine-learning-researcher-associate.partial.md",
