@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T23:32:24.474Z",
+  "generatedAt": "2026-08-05T23:32:28.708Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 98,
     "topTargets": 16,
-    "jdCacheFiles": 107,
+    "jdCacheFiles": 108,
     "resumeFiles": 178,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 112,
@@ -18,8 +18,8 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 40,
-    "watch": 24,
+    "verify": 41,
+    "watch": 23,
     "researched": 9
   },
   "latestBrief": {
@@ -106,24 +106,6 @@
       "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
       "jobTitle": "Goldman Sachs — Senior AI/ML Quant Research Engineer, VP",
       "jobUrl": "https://higher.gs.com/roles/162208",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "kronos-research",
-      "company": "Kronos Research",
-      "status": "watching",
-      "fitScoreRaw": "4.4 prior",
-      "score": 4.4,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-06-24",
-      "notes": "⚠️ Greenhouse board deactivated as of 2026-06-24. Prior roles: ML Researcher SG + Exp Quant Trader Remote/SG. Monitor for board reactivation.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Kronos Research — Machine Learning Researcher",
-      "jobUrl": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
       "jobSource": "cached JD"
     },
     {
@@ -277,7 +259,7 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-05",
+      "lastSeen": "2026-08-06",
       "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, AI product roles, and quant-trading product roles. Keep as SG-compatible remote.",
       "geo": "Remote",
       "action": "verify",
@@ -811,6 +793,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "akuna-capital",
+      "company": "Akuna Capital",
+      "status": "scored",
+      "fitScoreRaw": "3.8 location-mismatch",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-06",
+      "notes": "Official Akuna Quantitative Researcher page is active with statistical/ML trading strategies, predictive models, feature research, and scalable research workflows. Location is Chicago despite Akuna's Singapore office, so keep as location-mismatch watch rather than SG/Texas action target.",
+      "geo": "Texas/Dallas",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Akuna Capital — Quantitative Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/akunacapital/jobs/7496416",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "augmentti-recruiter",
       "company": "Augmentti (recruiter)",
       "status": "suspicious",
@@ -917,6 +917,24 @@
       "jobTitle": "Fionics careers",
       "jobUrl": "https://www.fionics.com/jobs",
       "jobSource": "careers page"
+    },
+    {
+      "id": "hudson-river-trading",
+      "company": "Hudson River Trading",
+      "status": "scored",
+      "fitScoreRaw": "3.8 active / ghost 2026 PhD",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-06",
+      "notes": "Official Mid-Freq Quantitative Researcher page is active but lists New York; HRT offices include Singapore and Austin, so retain as SG/Texas watch but not action-ready. 2027 Grads remains junior/new-grad; 2026 PhDs page was previously ghost.",
+      "geo": "Texas/Dallas",
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
+      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
+      "jobSource": "cached JD"
     },
     {
       "id": "tudor-investment-xantium",
@@ -1027,24 +1045,6 @@
       "jobSource": "job search"
     },
     {
-      "id": "hudson-river-trading",
-      "company": "Hudson River Trading",
-      "status": "scored",
-      "fitScoreRaw": "3.7 active / ghost 2026 PhD",
-      "score": 3.7,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-07-20",
-      "notes": "2027 Grads role remains the clean Singapore-compatible official JD but is junior/new-grad. 2026 PhDs search result resurfaced, but official HRT URL returned 404/Page not found on 2026-07-20, so treat that PhD page as ghost until reopened.",
-      "geo": "Singapore",
-      "action": "hold",
-      "actionLabel": "Hold",
-      "actionMeaning": "Low fit, blocked, stale, or suspicious",
-      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
-      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "polymer-capital",
       "company": "Polymer Capital",
       "status": "scored",
@@ -1099,24 +1099,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "akuna-capital",
-      "company": "Akuna Capital",
-      "status": "scored",
-      "fitScoreRaw": "3.6",
-      "score": 3.6,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-07-15",
-      "notes": "Official Akuna page confirms Quantitative Researcher and Junior Quantitative Researcher - Prediction Markets surfaces; ML/predictive-model signal is relevant, but SG compatibility and junior/sports framing keep it below Phase 3.",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Akuna Capital — MLOps Engineer",
-      "jobUrl": "https://www.akunacapital.com/careers/job/7936692/?gh_jid=7936692",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "anonymous-systematic-equities-efc",
       "company": "Anonymous Systematic Equities (eFC)",
       "status": "new",
@@ -1168,6 +1150,24 @@
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
       "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
       "jobUrl": "https://www-webflow.jumptrading.com/hr/job?gh_jid=5870589",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "kronos-research",
+      "company": "Kronos Research",
+      "status": "watching",
+      "fitScoreRaw": "3.6 current / 4.4 prior",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-06",
+      "notes": "Greenhouse board appears active again in search cache with Experienced / SMA Trader (Systematic Strategies) Remote; Singapore and Quantitative Research Graduate Program (2026) Taiwan. Treat as reactivated watch, but current visible Singapore role is trader/program framing rather than clean ML QR.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Kronos Research — Machine Learning Researcher",
+      "jobUrl": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
       "jobSource": "cached JD"
     },
     {
@@ -1875,24 +1875,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "kronos-research",
-      "company": "Kronos Research",
-      "status": "watching",
-      "fitScoreRaw": "4.4 prior",
-      "score": 4.4,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-06-24",
-      "notes": "⚠️ Greenhouse board deactivated as of 2026-06-24. Prior roles: ML Researcher SG + Exp Quant Trader Remote/SG. Monitor for board reactivation.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Kronos Research — Machine Learning Researcher",
-      "jobUrl": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "moreton-capital-partners",
       "company": "Moreton Capital Partners",
       "status": "researched",
@@ -2043,7 +2025,7 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-05",
+      "lastSeen": "2026-08-06",
       "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, AI product roles, and quant-trading product roles. Keep as SG-compatible remote.",
       "geo": "Remote",
       "action": "verify",
@@ -2089,10 +2071,36 @@
       "jobTitle": "G-Research — NLP / ML Research Family, Texas-Expanded Watch",
       "jobUrl": "https://www.gresearch.com/vacancies/",
       "jobSource": "cached JD"
+    },
+    {
+      "id": "hrt",
+      "company": "HRT",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-06-01",
+      "notes": "Official portal loaded but filtered SG/quant role list did not render in browser snapshot. Keep prior status: Algo Developer/QR SG signals active recently; conventional ML/stat rather than LLM-native.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
+      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
+      "jobSource": "cached JD"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-06 — Thursday",
+        "date": "2026-08-06",
+        "candidateMentions": 26,
+        "uniqueCompanies": 12,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-05 — Wednesday",
         "date": "2026-08-05",
@@ -2276,14 +2284,6 @@
         "uniqueCompanies": 9,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-03 — Friday",
-        "date": "2026-07-03",
-        "candidateMentions": 22,
-        "uniqueCompanies": 8,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2417,6 +2417,14 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-06-akuna-quantitative-researcher-chicago-location-mismatch.md",
+      "path": "outputs/jd-cache/2026-08-06-akuna-quantitative-researcher-chicago-location-mismatch.md",
+      "title": "Akuna Capital — Quantitative Researcher",
+      "date": "2026-08-06",
+      "url": "https://job-boards.greenhouse.io/akunacapital/jobs/7496416",
+      "excerpt": "> Cached: 2026-08-06 > Source: https://job-boards.greenhouse.io/akunacapital/jobs/7496416 > Status: official / active / location-mismatch ## Role - Title: Quantitative Researcher - Location: Chicago - Department: Quant Research - Level signal: experienced / 3+"
     },
     {
       "file": "2026-08-05-optiver-quantitative-researcher-hft-futures-equities-austin.md",
