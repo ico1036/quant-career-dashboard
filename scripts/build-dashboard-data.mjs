@@ -453,15 +453,15 @@ function inferResumeCompany(file) {
   for (const [company, needles] of aliases) {
     if (needles.some((needle) => normalized.includes(needle))) return company;
   }
-  if (normalized.includes("quant_base") || normalized.includes("quantresearcher_base")) return "base quant";
+  if (normalized.includes("quant_base") || normalized.includes("base_quant") || normalized.includes("quantresearcher_base")) return "base quant";
   if (normalized.includes("master_resume") || normalized.includes("generic")) return "base general";
   return "unmapped";
 }
 
 function inferResumeKind(file) {
   const normalized = file.toLowerCase();
-  if (normalized.includes("submission-kit") && normalized.includes("quant_base")) return "base quant";
-  if (normalized.includes("quantresearcher_base")) return "base quant";
+  if (normalized.includes("submission-kit") && (normalized.includes("quant_base") || normalized.includes("base_quant"))) return "base quant";
+  if (normalized.includes("quant_base") || normalized.includes("base_quant") || normalized.includes("quantresearcher_base")) return "base quant";
   if (normalized.includes("fde") || normalized.includes("sonatus") || normalized.includes("openai")) return "base fde";
   if (normalized.includes("coverletter")) return "cover letter";
   if (normalized.includes("master") || normalized.includes("generic")) return "base general";
