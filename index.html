@@ -983,7 +983,7 @@
       });
     }
 
-    function downloadResume(url, filename) {
+    window.downloadResume = function downloadResume(url, filename) {
       const asset = resumeAssets && resumeAssets[url];
       if (!asset || !asset.base64) { alert("No file data available for download"); return; }
       const byteStr = atob(asset.base64);
