@@ -647,7 +647,7 @@
               <th>Type</th>
               <th>File</th>
               <th>Format</th>
-              <th>Open</th>
+              <th>Download</th>
             </tr>
           </thead>
           <tbody id="resume-table"></tbody>
@@ -766,6 +766,7 @@
 
     const actionOrder = ["apply", "verify", "watch", "researched", "hold"];
     let state = null;
+    let resumeAssets = null;
     let eventSort = { key: "priority", dir: "asc" };
 
     function esc(value) {
@@ -982,19 +983,38 @@
       });
     }
 
+    function downloadResume(url, filename) {
+      const asset = resumeAssets && resumeAssets[url];
+      if (!asset || !asset.base64) { alert("No file data available for download"); return; }
+      const byteStr = atob(asset.base64);
+      const bytes = new Uint8Array(byteStr.length);
+      for (let i = 0; i < byteStr.length; i++) bytes[i] = byteStr.charCodeAt(i);
+      const blob = new Blob([bytes], { type: asset.mime || "application/octet-stream" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+    }
+
     function renderResumeTable() {
       const rows = filteredResumes();
       document.getElementById("resume-count").textContent = "Current layer is the working set; archive stays hidden by default";
-      document.getElementById("resume-table").innerHTML = rows.map((item) => `
-        <tr>
+      document.getElementById("resume-table").innerHTML = rows.map((item) => {
+        const hasAsset = resumeAssets && resumeAssets[item.url] && resumeAssets[item.url].base64;
+        const dlBtn = hasAsset
+          ? `<a href="#" onclick="downloadResume('${esc(item.url)}','${esc(item.file)}');return false;" title="Download ${esc(item.file)}">⬇ download</a>`
+          : `<span class="note">n/a</span>`;
+        return `<tr>
           <td data-label="Company"><b>${esc(item.company)}</b></td>
           <td data-label="Layer"><span class="pill ${item.layer === "current" ? "apply" : "unknown"}">${esc(item.layer)}</span></td>
           <td data-label="Type">${esc(item.kind)}</td>
           <td data-label="File">${esc(item.file)}<br><span class="note">v${esc(item.version)} · ${Math.round(item.sizeBytes / 1024)} KB · ${esc(new Date(item.modifiedAt).toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" }))}</span></td>
           <td data-label="Format">${esc(item.format.toUpperCase())}</td>
-          <td data-label="Open"><a href="${esc(item.url)}" target="_blank" rel="noreferrer">open</a></td>
-        </tr>
-      `).join("");
+          <td data-label="Download">${dlBtn}</td>
+        </tr>`;
+      }).join("");
     }
 
     function filteredEvents() {
@@ -1177,8 +1197,12 @@
     }
 
     async function boot() {
-      const response = await fetch("./data/dashboard.json", { cache: "no-store" });
-      state = await response.json();
+      const [dashRes, assetRes] = await Promise.all([
+        fetch("./data/dashboard.json", { cache: "no-store" }),
+        fetch("./data/resume-assets.json", { cache: "no-store" }).catch(() => null)
+      ]);
+      state = await dashRes.json();
+      if (assetRes && assetRes.ok) resumeAssets = await assetRes.json();
 
       document.getElementById("updated").textContent = `Updated ${new Date(state.generatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })} KST`;
 
