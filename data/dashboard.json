@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T23:32:53.366Z",
+  "generatedAt": "2026-08-07T00:45:29.162Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -10,9 +10,9 @@
     "trackedCompanies": 101,
     "topTargets": 16,
     "jdCacheFiles": 108,
-    "resumeFiles": 179,
+    "resumeFiles": 180,
     "currentResumeFiles": 66,
-    "archivedResumeFiles": 113,
+    "archivedResumeFiles": 114,
     "upcomingEvents": 23,
     "koreaEvents": 8,
     "virtualWatchEvents": 4,
@@ -3371,9 +3371,9 @@
       "kind": "base quant",
       "format": "md",
       "mime": "text/markdown; charset=utf-8",
-      "sizeBytes": 2799,
+      "sizeBytes": 3349,
       "version": 2,
-      "modifiedAt": "2026-08-06T04:04:01.798Z",
+      "modifiedAt": "2026-08-07T00:45:04.421Z",
       "url": "/resumes/base-quant-resume-base-quant-v2-md/resume_base_quant_v2.md",
       "layer": "current",
       "isLatest": true
@@ -5567,6 +5567,22 @@
       "version": 1,
       "modifiedAt": "2026-05-21T09:24:49.163Z",
       "url": "/resumes/openai-fde-jiwoong-kim-openai-ai-deployment-engineer-startups-resume-v1-md/JIWOONG_KIM_OpenAI_AI_Deployment_Engineer_Startups_Resume_v1.md",
+      "layer": "archive",
+      "isLatest": false
+    },
+    {
+      "id": "openai-fde-resume-base-ai-fde-v1-md",
+      "file": "resume_base_ai_fde_v1.md",
+      "title": "resume base ai fde v1",
+      "company": "openai/fde",
+      "companyId": "openai-fde",
+      "kind": "base fde",
+      "format": "md",
+      "mime": "text/markdown; charset=utf-8",
+      "sizeBytes": 6676,
+      "version": 1,
+      "modifiedAt": "2026-08-07T00:45:13.320Z",
+      "url": "/resumes/openai-fde-resume-base-ai-fde-v1-md/resume_base_ai_fde_v1.md",
       "layer": "archive",
       "isLatest": false
     },
