@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:21:57.572Z",
+  "generatedAt": "2026-08-09T23:35:43.574Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 101,
+    "trackedCompanies": 104,
     "topTargets": 16,
-    "jdCacheFiles": 108,
+    "jdCacheFiles": 113,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 41,
+    "verify": 43,
     "watch": 23,
     "researched": 9
   },
@@ -295,8 +295,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-05",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official site still positions the firm around machine learning, AI, and advanced analytics for quant research, but direct Dallas/Texas research role was not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
+      "lastSeen": "2026-08-10",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official site/vacancy pages still position the firm around machine learning, AI, advanced analytics, deep exploration, and quant finance; current recovered research openings are London/internship-centered rather than clean Dallas-actionable. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -500,9 +500,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
-      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
-      "jobSource": "cached JD"
+      "jobTitle": "Platinum & Partners (recruiter) careers",
+      "jobUrl": "https://www.google.com/search?q=Platinum%20%26%20Partners%20(recruiter)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "aquatic-capital-management",
@@ -518,9 +518,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
-      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
-      "jobSource": "cached JD"
+      "jobTitle": "Aquatic Capital Management careers",
+      "jobUrl": "https://www.google.com/search?q=Aquatic%20Capital%20Management%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "balyasny-bam",
@@ -673,8 +673,8 @@
       "fitScoreRaw": "3.9",
       "score": 3.9,
       "scoreBucket": "watch",
-      "lastSeen": "2026-07-06",
-      "notes": "Official Greenhouse Quantitative Researcher Singapore role active. New trading-team role with founding-team autonomy, market microstructure, ML/statistical predictive models, production code/live systems; good practical/culture fit but weak LLM/AI-native signal keeps it below Phase 3.",
+      "lastSeen": "2026-08-10",
+      "notes": "Official Greenhouse Quantitative Researcher Singapore role active again in today's crawl. New trading-team role with founding-team autonomy, market microstructure, ML/statistical predictive models, production code/live systems; good practical/culture fit but weak LLM/AI-native signal keeps it below Phase 3.",
       "geo": "Singapore",
       "action": "watch",
       "actionLabel": "Watch",
@@ -718,6 +718,24 @@
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
       "jobTitle": "Metabit Technology LLC — Senior Quantitative Researcher, Intraday Equities Alpha",
       "jobUrl": "https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "options-group-internal-recruiter",
+      "company": "Options Group Internal (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "3.9 provisional",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-10",
+      "notes": "Singapore Senior Quantitative Researcher / Associate PM job-board signal surfaced with 5+ years Asia FICC quant strategies/execution. Potentially relevant, but recruiter/internal anonymous-client surface blocks Phase 3 until employer is identified.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Options Group Internal — Senior Quantitative Researcher / Associate PM",
+      "jobUrl": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
       "jobSource": "cached JD"
     },
     {
@@ -860,9 +878,9 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "MIO Partners — Senior Quantitative Research Manager",
-      "jobUrl": "https://job-boards.greenhouse.io/miopartners/jobs/4904027008",
-      "jobSource": "cached JD"
+      "jobTitle": "BAH Partners (recruiter) careers",
+      "jobUrl": "https://www.google.com/search?q=BAH%20Partners%20(recruiter)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "citadel-gqs-qre",
@@ -986,9 +1004,9 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Moreton Capital Partners — Quantitative Analyst - Prediction Markets",
-      "jobUrl": "https://apply.workable.com/moreton-capital-partners/j/8F5C5CCFB8/",
-      "jobSource": "cached JD"
+      "jobTitle": "Westbury Partners careers",
+      "jobUrl": "https://www.google.com/search?q=Westbury%20Partners%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "citadel-securities-qd-re",
@@ -1130,9 +1148,9 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
-      "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
-      "jobSource": "cached JD"
+      "jobTitle": "Arrowpoint Investment Partners careers",
+      "jobUrl": "https://www.google.com/search?q=Arrowpoint%20Investment%20Partners%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "engineers-gate-eg",
@@ -1315,6 +1333,24 @@
       "jobSource": "careers page"
     },
     {
+      "id": "smartkarma",
+      "company": "Smartkarma",
+      "status": "partial",
+      "fitScoreRaw": "3.5 provisional",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-10",
+      "notes": "Remote-in-Singapore Independent Quantitative Analyst job-board signal surfaced. Proprietary track record, datasets/models/tooling, factor/risk premia/alpha research; independent/network model and partial JD make it a watch, not an auto target.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Smartkarma — Independent Quantitative Analyst",
+      "jobUrl": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "bright-point-capital",
       "company": "Bright Point Capital",
       "status": "suspicious",
@@ -1348,6 +1384,24 @@
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
       "jobTitle": "Graviton Research Capital — Quantitative Researcher (Singapore)",
       "jobUrl": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "kredens-capital-management-kcm",
+      "company": "Kredens Capital Management (KCM)",
+      "status": "partial",
+      "fitScoreRaw": "3.4 provisional",
+      "score": 3.4,
+      "scoreBucket": "low",
+      "lastSeen": "2026-08-10",
+      "notes": "Singapore Quantitative Research Analysts job-board signal still visible via Indeed. Full snippet mentions independent quantitative research, statistical/predictive models, prototyping, backtesting, Python/SQL/C++, large datasets, and small-team work. Direct employer JD still needed; AI-native signal remains weak.",
+      "geo": "Singapore",
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Indeed Singapore — Quant Hedge Fund Signals",
+      "jobUrl": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
       "jobSource": "cached JD"
     },
     {
@@ -1418,9 +1472,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
-      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
-      "jobSource": "cached JD"
+      "jobTitle": "BlueCrest Capital Management careers",
+      "jobUrl": "https://www.google.com/search?q=BlueCrest%20Capital%20Management%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "golden-horse-fund-management",
@@ -1436,8 +1490,26 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
-      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
+      "jobTitle": "Graviton Research Capital — Quantitative Researcher (Singapore)",
+      "jobUrl": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "vulpes-investment-management",
+      "company": "Vulpes Investment Management",
+      "status": "partial",
+      "fitScoreRaw": "3.3 provisional",
+      "score": 3.3,
+      "scoreBucket": "low",
+      "lastSeen": "2026-08-10",
+      "notes": "Singapore Trading & Quantitative Analyst job-board signal surfaced via Indeed. Derivatives trading plus quantitative research exposure; likely traditional trading/analyst framing and direct employer JD needed before serious pipeline work.",
+      "geo": "Singapore",
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "Vulpes Investment Management — Trading & Quantitative Analyst",
+      "jobUrl": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
       "jobSource": "cached JD"
     },
     {
@@ -1528,24 +1600,6 @@
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
       "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
       "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "kredens-capital-management-kcm",
-      "company": "Kredens Capital Management (KCM)",
-      "status": "partial",
-      "fitScoreRaw": "3.1 provisional",
-      "score": 3.1,
-      "scoreBucket": "low",
-      "lastSeen": "2026-08-07",
-      "notes": "Singapore Quantitative Research Analysts job-board signal surfaced via Indeed. Sparse details and weak AI-native signal; monitor only if official JD appears.",
-      "geo": "Singapore",
-      "action": "hold",
-      "actionLabel": "Hold",
-      "actionMeaning": "Low fit, blocked, stale, or suspicious",
-      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
-      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
       "jobSource": "cached JD"
     },
     {
@@ -1670,8 +1724,8 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Virtu Financial — Options Quantitative Strategist",
-      "jobUrl": "https://job-boards.greenhouse.io/virtu/jobs/5360031002",
+      "jobTitle": "Graviton Research Capital — Quantitative Researcher (Singapore)",
+      "jobUrl": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
       "jobSource": "cached JD"
     },
     {
@@ -1832,9 +1886,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
-      "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
-      "jobSource": "cached JD"
+      "jobTitle": "Voleon Group careers",
+      "jobUrl": "https://www.google.com/search?q=Voleon%20Group%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "westbury-partners",
@@ -1850,9 +1904,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "MIO Partners — Senior Quantitative Research Manager",
-      "jobUrl": "https://job-boards.greenhouse.io/miopartners/jobs/4904027008",
-      "jobSource": "cached JD"
+      "jobTitle": "Westbury Partners careers",
+      "jobUrl": "https://www.google.com/search?q=Westbury%20Partners%20careers%20quant%20jobs",
+      "jobSource": "job search"
     }
   ],
   "top": [
@@ -2115,8 +2169,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-05",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official site still positions the firm around machine learning, AI, and advanced analytics for quant research, but direct Dallas/Texas research role was not cleanly recovered today. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
+      "lastSeen": "2026-08-10",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official site/vacancy pages still position the firm around machine learning, AI, advanced analytics, deep exploration, and quant finance; current recovered research openings are London/internship-centered rather than clean Dallas-actionable. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2147,6 +2201,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-10 — Monday",
+        "date": "2026-08-10",
+        "candidateMentions": 29,
+        "uniqueCompanies": 14,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-07 — Friday",
         "date": "2026-08-07",
@@ -2330,14 +2392,6 @@
         "uniqueCompanies": 9,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-07 — Tuesday",
-        "date": "2026-07-07",
-        "candidateMentions": 17,
-        "uniqueCompanies": 3,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2471,6 +2525,46 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-10-indeed-sg-quant-hedge-fund-signals.partial.md",
+      "path": "outputs/jd-cache/2026-08-10-indeed-sg-quant-hedge-fund-signals.partial.md",
+      "title": "Indeed Singapore — Quant Hedge Fund Signals",
+      "date": "2026-08-10",
+      "url": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
+      "excerpt": "> Cached: 2026-08-10 > Source: https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html > Status: partial / job-board snippets only ## Signals - Kredens Capital Management (KCM) — Quantitative Research Analysts, Singapore 079333. Snippet says independent quan"
+    },
+    {
+      "file": "2026-08-10-kredens-quantitative-research-analysts.partial.md",
+      "path": "outputs/jd-cache/2026-08-10-kredens-quantitative-research-analysts.partial.md",
+      "title": "Kredens Capital Management — Quantitative Research Analysts",
+      "date": "2026-08-10",
+      "url": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
+      "excerpt": "> Cached: 2026-08-10 > Source: https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html > Status: partial / job-board snippet Singapore job-board surface. Snippet says independent quantitative research in global financial markets, statistical and predictive m"
+    },
+    {
+      "file": "2026-08-10-options-group-senior-quantitative-researcher-associate-pm.partial.md",
+      "path": "outputs/jd-cache/2026-08-10-options-group-senior-quantitative-researcher-associate-pm.partial.md",
+      "title": "Options Group Internal — Senior Quantitative Researcher / Associate PM",
+      "date": "2026-08-10",
+      "url": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
+      "excerpt": "> Cached: 2026-08-10 > Source: https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html > Status: suspicious / recruiter / anonymous-client job-board snippet Singapore job-board surface. Snippet says 5+ years of quantitative research experience with Asia FICC"
+    },
+    {
+      "file": "2026-08-10-smartkarma-independent-quantitative-analyst.partial.md",
+      "path": "outputs/jd-cache/2026-08-10-smartkarma-independent-quantitative-analyst.partial.md",
+      "title": "Smartkarma — Independent Quantitative Analyst",
+      "date": "2026-08-10",
+      "url": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
+      "excerpt": "> Cached: 2026-08-10 > Source: https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html > Status: partial / job-board snippet Remote-in-Singapore job-board surface. Snippet says demonstrated quantitative track record and evidence of proprietary work including"
+    },
+    {
+      "file": "2026-08-10-vulpes-trading-quantitative-analyst.partial.md",
+      "path": "outputs/jd-cache/2026-08-10-vulpes-trading-quantitative-analyst.partial.md",
+      "title": "Vulpes Investment Management — Trading & Quantitative Analyst",
+      "date": "2026-08-10",
+      "url": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
+      "excerpt": "> Cached: 2026-08-10 > Source: https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html > Status: partial / job-board snippet Singapore job-board surface. Snippet says strong analytical and quantitative capabilities with direct exposure to derivatives trading"
     },
     {
       "file": "2026-08-06-akuna-quantitative-researcher-chicago-location-mismatch.md",

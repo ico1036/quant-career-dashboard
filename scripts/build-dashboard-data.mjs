@@ -165,7 +165,8 @@ const companyAliasRules = [
   ["quantedge", ["quantedge"]],
   ["moreton capital partners", ["moreton"]],
   ["fionics", ["fionics"]],
-  ["ms capital", ["ms capital", "ms-capital"]]
+  ["ms capital", ["ms capital", "ms-capital"]],
+  ["options group internal", ["options group internal"]]
 ];
 
 const careersFallback = new Map([
@@ -220,7 +221,23 @@ function companyNeedles(company) {
     normalized
       .replace(/[^a-z0-9]+/g, " ")
       .split(/\s+/)
-      .filter((token) => token.length >= 3 && !["research", "capital", "trading", "experienced", "quant", "street", "jobs", "careers"].includes(token))
+      .filter((token) => token.length >= 3 && ![
+        "research",
+        "capital",
+        "trading",
+        "experienced",
+        "quant",
+        "street",
+        "jobs",
+        "careers",
+        "group",
+        "internal",
+        "recruiter",
+        "management",
+        "investment",
+        "partners",
+        "options"
+      ].includes(token))
   );
 
   for (const [canonical, aliases] of companyAliasRules) {
