@@ -7,6 +7,11 @@ const html = readFileSync(join(site, "index.html"), "utf8");
 const data = readFileSync(join(site, "data", "dashboard.json"), "utf8");
 const resumeAssets = readFileSync(join(site, "data", "resume-assets.json"), "utf8");
 
+function inlineData(htmlInput) {
+  const payload = `<script>window.__DASHBOARD_DATA__=${data};window.__RESUME_ASSETS__=${resumeAssets};</script>`;
+  return htmlInput.replace("</body>", `${payload}\n</body>`);
+}
+
 const worker = `const html = ${JSON.stringify(html)};
 const data = ${JSON.stringify(data)};
 const resumeAssets = ${resumeAssets};
@@ -50,6 +55,7 @@ writeFileSync(join(site, "index.js"), worker);
 mkdirSync(join(dist, "server"), { recursive: true });
 mkdirSync(join(dist, ".openai"), { recursive: true });
 mkdirSync(join(dist, "data"), { recursive: true });
+writeFileSync(join(dist, "index.html"), inlineData(readFileSync(join(dist, "index.html"), "utf8")));
 writeFileSync(join(dist, "server", "index.js"), worker);
 copyFileSync(join(site, "data", "dashboard.json"), join(dist, "data", "dashboard.json"));
 copyFileSync(join(site, "data", "resume-assets.json"), join(dist, "data", "resume-assets.json"));

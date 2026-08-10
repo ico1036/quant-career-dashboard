@@ -1197,12 +1197,17 @@
     }
 
     async function boot() {
-      const [dashRes, assetRes] = await Promise.all([
-        fetch("./data/dashboard.json", { cache: "no-store" }),
-        fetch("./data/resume-assets.json", { cache: "no-store" }).catch(() => null)
-      ]);
-      state = await dashRes.json();
-      if (assetRes && assetRes.ok) resumeAssets = await assetRes.json();
+      if (window.__DASHBOARD_DATA__) {
+        state = window.__DASHBOARD_DATA__;
+        resumeAssets = window.__RESUME_ASSETS__ ?? null;
+      } else {
+        const [dashRes, assetRes] = await Promise.all([
+          fetch("./data/dashboard.json", { cache: "no-store" }),
+          fetch("./data/resume-assets.json", { cache: "no-store" }).catch(() => null)
+        ]);
+        state = await dashRes.json();
+        if (assetRes && assetRes.ok) resumeAssets = await assetRes.json();
+      }
 
       document.getElementById("updated").textContent = `Updated ${new Date(state.generatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })} KST`;
 
