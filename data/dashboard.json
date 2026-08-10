@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T15:09:01.331Z",
+  "generatedAt": "2026-08-10T23:33:19.782Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 104,
+    "trackedCompanies": 108,
     "topTargets": 16,
-    "jdCacheFiles": 114,
+    "jdCacheFiles": 117,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,8 +18,8 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 43,
-    "watch": 23,
+    "verify": 45,
+    "watch": 25,
     "researched": 8
   },
   "latestBrief": {
@@ -313,8 +313,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-10",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official site/vacancy pages still position the firm around machine learning, AI, advanced analytics, deep exploration, and quant finance; current recovered research openings are London/internship-centered rather than clean Dallas-actionable. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
+      "lastSeen": "2026-08-11",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancy pages still list London research roles while describing London and Dallas offices plus ML/AI, advanced analytics, deep exploration, and quant finance. No clean Dallas-actionable research JD today; keep re-scanning and do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -397,6 +397,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "anson-mccade-recruiter",
+      "company": "Anson McCade (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "4.1 provisional",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-11",
+      "notes": "Fresh ML Data Scientist - Global Quant Hedge Fund Singapore surface appeared on eFinancialCareers/LinkedIn, with anonymous-client wording and Asia data-science-team expansion. Strong ML quant signal but recruiter/anonymous status blocks Phase 3 until employer is identified.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Anson McCade — ML Data Scientist, Global Quant Hedge Fund (partial / suspicious)",
+      "jobUrl": "https://www.efinancialcareers.sg/jobs-Singapore-Singapore-ML_Data_Scientist_-_Global_Quant_Hedge_Fund.id24639722",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "citi",
       "company": "Citi",
       "status": "scored",
@@ -475,8 +493,8 @@
       "fitScoreRaw": "4.1 technical / texas-expanded",
       "score": 4.1,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-05",
-      "notes": "NEW official Austin Quantitative Researcher - HFT Futures/Equities page recovered. ML-powered fully automated trading, alpha/signal/feature research, prediction models, and direct trading impact. Keep as texas-expanded watch rather than excluding as US-only; no auto Phase 3 because not SG-compatible or Dallas-clean and HFT futures/equities experience is specific.",
+      "lastSeen": "2026-08-11",
+      "notes": "Official Austin Quantitative Researcher - HFT Futures/Equities remains active on the QR/ML board, and the Austin office page reinforces ML, research infrastructure, big data computing, systematic trading systems, and live-market deployment. Keep as texas-expanded rather than excluding as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -1009,6 +1027,24 @@
       "jobSource": "job search"
     },
     {
+      "id": "albert-bow-recruiter",
+      "company": "Albert Bow (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "3.7 provisional",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-11",
+      "notes": "LinkedIn related-results surface shows Quantitative Researcher Singapore around 1-2 weeks old. Recruiter-mediated and direct employer unknown, so no Phase 3.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Albert Bow (recruiter) careers",
+      "jobUrl": "https://www.google.com/search?q=Albert%20Bow%20(recruiter)%20careers%20quant%20jobs",
+      "jobSource": "job search"
+    },
+    {
       "id": "citadel-securities-qd-re",
       "company": "Citadel Securities QD/RE",
       "status": "new",
@@ -1189,6 +1225,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "meridian-saturn-capital-ms-capital-singapore",
+      "company": "Meridian & Saturn Capital / MS Capital Singapore",
+      "status": "partial",
+      "fitScoreRaw": "3.6 provisional",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-11",
+      "notes": "MyCareersFuture surfaced Quantitative Researcher, AI Engineer, Quantitative Developer, and Data Engineer roles posted 5 days ago. AI Engineer snippets mention agentic systems, LLM integration, and trading/research automation, but the QR role appears junior/no-exp and Foundit says one QR surface is no longer accepting applications. Needs direct/current employer verification.",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Meridian & Saturn Capital / MS Capital Singapore — QR + AI role family (partial)",
+      "jobUrl": "https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "midpoint-markets",
       "company": "Midpoint Markets",
       "status": "scored",
@@ -1276,6 +1330,24 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Douro Labs — Quantitative Researcher / Financial Engineer (Remote, partial)",
       "jobUrl": "https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "dv-trading-llc",
+      "company": "DV Trading LLC",
+      "status": "partial",
+      "fitScoreRaw": "3.5 provisional",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-11",
+      "notes": "LinkedIn related-results surface shows Quantitative Researcher Singapore around 1 week old. Direct employer JD not recovered today; likely relevant if official SG page appears.",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Metabit Technology LLC — Senior Quantitative Researcher, Intraday Equities Alpha",
+      "jobUrl": "https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009",
       "jobSource": "cached JD"
     },
     {
@@ -1439,6 +1511,24 @@
       "jobTitle": "Quantbox Research — Experienced Quantitative Researcher",
       "jobUrl": "https://job-boards.eu.greenhouse.io/quantboxresearchpte/jobs/4001033101",
       "jobSource": "cached JD"
+    },
+    {
+      "id": "sryantra-capital",
+      "company": "Sryantra Capital",
+      "status": "partial",
+      "fitScoreRaw": "3.4 provisional",
+      "score": 3.4,
+      "scoreBucket": "low",
+      "lastSeen": "2026-08-11",
+      "notes": "LinkedIn related-results surface shows Quantitative Researcher Singapore posted 2-4 days ago. No direct JD recovered in this pass, so keep as partial watch only.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Sryantra Capital careers",
+      "jobUrl": "https://www.google.com/search?q=Sryantra%20Capital%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "acheron-trading",
@@ -1637,24 +1727,6 @@
       "jobTitle": "Abundance (Apoorva Mehta) careers",
       "jobUrl": "https://www.google.com/search?q=Abundance%20(Apoorva%20Mehta)%20careers%20quant%20jobs",
       "jobSource": "job search"
-    },
-    {
-      "id": "anson-mccade-recruiter",
-      "company": "Anson McCade (recruiter)",
-      "status": "new",
-      "fitScoreRaw": "—",
-      "score": null,
-      "scoreBucket": "unknown",
-      "lastSeen": "2026-05-08",
-      "notes": "2 QR postings ($175-200k + $96k) on eFC. Anonymous clients. Suspicious.",
-      "geo": "Unspecified",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Anson McCade (recruiter) careers",
-      "jobUrl": "https://www.ansonmccade.com/jobs/",
-      "jobSource": "careers page"
     },
     {
       "id": "aptitude-asia-recruiter",
@@ -2187,8 +2259,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-10",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official site/vacancy pages still position the firm around machine learning, AI, advanced analytics, deep exploration, and quant finance; current recovered research openings are London/internship-centered rather than clean Dallas-actionable. Keep re-scanning Dallas/Texas; do not exclude as US-only.",
+      "lastSeen": "2026-08-11",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancy pages still list London research roles while describing London and Dallas offices plus ML/AI, advanced analytics, deep exploration, and quant finance. No clean Dallas-actionable research JD today; keep re-scanning and do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2201,6 +2273,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-11 — Tuesday",
+        "date": "2026-08-11",
+        "candidateMentions": 32,
+        "uniqueCompanies": 16,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-10 — Monday",
         "date": "2026-08-10",
@@ -2384,14 +2464,6 @@
         "uniqueCompanies": 13,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-08 — Wednesday",
-        "date": "2026-07-08",
-        "candidateMentions": 23,
-        "uniqueCompanies": 9,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2533,6 +2605,30 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-11-anson-mccade-ml-data-scientist-global-quant-hf.partial-suspicious.md",
+      "path": "outputs/jd-cache/2026-08-11-anson-mccade-ml-data-scientist-global-quant-hf.partial-suspicious.md",
+      "title": "Anson McCade — ML Data Scientist, Global Quant Hedge Fund (partial / suspicious)",
+      "date": "2026-08-11",
+      "url": "https://www.efinancialcareers.sg/jobs-Singapore-Singapore-ML_Data_Scientist_-_Global_Quant_Hedge_Fund.id24639722",
+      "excerpt": "> Collected: 2026-08-11 ## Source URLs - https://www.efinancialcareers.sg/jobs-Singapore-Singapore-ML_Data_Scientist_-_Global_Quant_Hedge_Fund.id24639722 - https://sg.linkedin.com/jobs/view/ml-data-scientist-global-quant-hedge-fund-at-anson-mccade-4448025886 #"
+    },
+    {
+      "file": "2026-08-11-meridian-saturn-ms-capital-qr-ai-family.partial.md",
+      "path": "outputs/jd-cache/2026-08-11-meridian-saturn-ms-capital-qr-ai-family.partial.md",
+      "title": "Meridian & Saturn Capital / MS Capital Singapore — QR + AI role family (partial)",
+      "date": "2026-08-11",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a",
+      "excerpt": "> Collected: 2026-08-11 ## Source URLs - https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a - https://www.mycareersfuture.gov.sg/job/banking-finance/ai-engineer-meridian-satur"
+    },
+    {
+      "file": "2026-08-11-optiver-austin-qr-ml-board-texas-expanded.md",
+      "path": "outputs/jd-cache/2026-08-11-optiver-austin-qr-ml-board-texas-expanded.md",
+      "title": "Optiver — Austin QR/ML board (texas-expanded)",
+      "date": "2026-08-11",
+      "url": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/",
+      "excerpt": "> Collected: 2026-08-11 ## Source URLs - https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/ - https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/austin/quantitative-researcher-hft-futures-equities/ - h"
     },
     {
       "file": "2026-08-10-indeed-sg-quant-hedge-fund-signals.partial.md",
