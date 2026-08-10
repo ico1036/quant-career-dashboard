@@ -49,6 +49,9 @@ export default {
 writeFileSync(join(site, "index.js"), worker);
 mkdirSync(join(dist, "server"), { recursive: true });
 mkdirSync(join(dist, ".openai"), { recursive: true });
+mkdirSync(join(dist, "data"), { recursive: true });
 writeFileSync(join(dist, "server", "index.js"), worker);
+copyFileSync(join(site, "data", "dashboard.json"), join(dist, "data", "dashboard.json"));
+copyFileSync(join(site, "data", "resume-assets.json"), join(dist, "data", "resume-assets.json"));
 copyFileSync(join(site, ".openai", "hosting.json"), join(dist, ".openai", "hosting.json"));
-console.log("Wrote Sites worker entrypoints: index.js, dist/server/index.js");
+console.log("Wrote Sites worker entrypoints and static data files");
