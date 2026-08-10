@@ -507,7 +507,8 @@ function shouldIncludeResume(path) {
 
 function resumeVersion(file) {
   const normalized = file.toLowerCase();
-  const versions = [...normalized.matchAll(/(?:^|[_-])v(\d+)(?:[_\-.]|$)/g)].map((match) => Number(match[1]));
+  const versions = [...normalized.matchAll(/(?:^|[^a-z0-9])v(\d+)(?=[^a-z0-9]|$)|v(\d+)(?=[^a-z0-9]|$)/g)]
+    .map((match) => Number(match[1] ?? match[2]));
   return versions.length ? Math.max(...versions) : 0;
 }
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T01:01:08.711Z",
+  "generatedAt": "2026-08-10T01:10:58.692Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -4033,6 +4033,22 @@
       "isLatest": true
     },
     {
+      "id": "openai-fde-jiwoong-kim-ax-fde-openai-sonatusv11-resume-docx",
+      "file": "JIWOONG_KIM_AX_FDE_OpenAI_SonatusV11_Resume.docx",
+      "title": "JIWOONG KIM AX FDE OpenAI SonatusV11 Resume",
+      "company": "openai/fde",
+      "companyId": "openai-fde",
+      "kind": "base fde",
+      "format": "docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sizeBytes": 201238,
+      "version": 11,
+      "modifiedAt": "2026-05-24T09:23:46.899Z",
+      "url": "/resumes/openai-fde-jiwoong-kim-ax-fde-openai-sonatusv11-resume-docx/JIWOONG_KIM_AX_FDE_OpenAI_SonatusV11_Resume.docx",
+      "layer": "current",
+      "isLatest": true
+    },
+    {
       "id": "openai-fde-jiwoong-kim-sonatus-forward-deployed-ai-resume-v9-md",
       "file": "JIWOONG_KIM_Sonatus_Forward_Deployed_AI_Resume_v9.md",
       "title": "JIWOONG KIM Sonatus Forward Deployed AI Resume v9",
@@ -4045,22 +4061,6 @@
       "version": 9,
       "modifiedAt": "2026-05-12T23:21:12.229Z",
       "url": "/resumes/openai-fde-jiwoong-kim-sonatus-forward-deployed-ai-resume-v9-md/JIWOONG_KIM_Sonatus_Forward_Deployed_AI_Resume_v9.md",
-      "layer": "current",
-      "isLatest": true
-    },
-    {
-      "id": "openai-fde-jiwoong-kim-ax-fde-openai-sonatusv11-resume-docx",
-      "file": "JIWOONG_KIM_AX_FDE_OpenAI_SonatusV11_Resume.docx",
-      "title": "JIWOONG KIM AX FDE OpenAI SonatusV11 Resume",
-      "company": "openai/fde",
-      "companyId": "openai-fde",
-      "kind": "base fde",
-      "format": "docx",
-      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "sizeBytes": 201238,
-      "version": 0,
-      "modifiedAt": "2026-05-24T09:23:46.899Z",
-      "url": "/resumes/openai-fde-jiwoong-kim-ax-fde-openai-sonatusv11-resume-docx/JIWOONG_KIM_AX_FDE_OpenAI_SonatusV11_Resume.docx",
       "layer": "current",
       "isLatest": true
     },
