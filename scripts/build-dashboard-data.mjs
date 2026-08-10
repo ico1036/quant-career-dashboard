@@ -191,7 +191,7 @@ const careersFallback = new Map([
   ["optiver", "https://optiver.com/working-at-optiver/career-opportunities/"],
   ["virtu financial", "https://www.virtu.com/careers/"],
   ["xtx markets", "https://www.xtxmarkets.com/careers/"],
-  ["blocktech", "https://www.blocktech.com/careers"],
+  ["blocktech", "https://www.block-tech.io/careers"],
   ["citi", "https://jobs.citi.com/"],
   ["selini capital", "https://www.selini.capital/careers"],
   ["grasshopper", "https://www.grasshopperasia.com/careers"],
