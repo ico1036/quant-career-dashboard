@@ -60,7 +60,9 @@ function scoreBucket(score) {
 }
 
 function inferAction(status, score, notes) {
+  const statusText = `${status}`.toLowerCase();
   const text = `${status} ${notes}`.toLowerCase();
+  if (statusText.includes("applied")) return "applied";
   if (text.includes("researched") || text.includes("resume")) return "researched";
   if (text.includes("ghost")) return "hold";
   if (text.includes("suspicious") || text.includes("watch")) return "verify";
@@ -72,6 +74,11 @@ function inferAction(status, score, notes) {
 
 function actionDetails(action) {
   const details = {
+    applied: {
+      label: "Applied",
+      meaning: "Application submitted",
+      nextStep: "Track response and prepare follow-up if no reply"
+    },
     apply: {
       label: "Apply now",
       meaning: "Clean high-priority target",

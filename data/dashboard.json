@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T15:03:26.658Z",
+  "generatedAt": "2026-08-10T15:09:01.331Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -20,7 +20,7 @@
     "applyFirst": 3,
     "verify": 43,
     "watch": 23,
-    "researched": 9
+    "researched": 8
   },
   "latestBrief": {
     "title": "# Quant Job Pipeline Brief — 2026-07-21",
@@ -93,17 +93,17 @@
     {
       "id": "blocktech",
       "company": "BlockTech",
-      "status": "researched",
+      "status": "applied",
       "fitScoreRaw": "4.4",
       "score": 4.4,
       "scoreBucket": "strong",
       "lastSeen": "2026-08-11",
-      "notes": "Official BlockTech/Webflow + Ashby Senior Quantitative Researcher Singapore pages active. Strong production ML quant loop: crypto derivatives/spot, hypothesis-to-live-PnL ownership, feature engineering, model training, backtesting, deployment, monitoring, iteration, and fund buy-in upside. LLM-agent signal is weak, but applyability is high; resume v2 already done.",
+      "notes": "Applied to official BlockTech Senior Quantitative Researcher Singapore role. Strong production ML quant loop: crypto derivatives/spot, hypothesis-to-live-PnL ownership, feature engineering, model training, backtesting, deployment, monitoring, iteration, and fund buy-in upside. LLM-agent signal is weak, but applyability is high; resume v2 used. Next step: track response/follow-up.",
       "geo": "Singapore",
-      "action": "researched",
-      "actionLabel": "Already researched",
-      "actionMeaning": "Company has prior research or tailored resume",
-      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "action": "applied",
+      "actionLabel": "Applied",
+      "actionMeaning": "Application submitted",
+      "actionNextStep": "Track response and prepare follow-up if no reply",
       "jobTitle": "BlockTech — Senior Quantitative Researcher, Singapore",
       "jobUrl": "https://www.block-tech.io/jobs/senior-quantitative-researcher-singapore",
       "jobSource": "cached JD"
@@ -1967,17 +1967,17 @@
     {
       "id": "blocktech",
       "company": "BlockTech",
-      "status": "researched",
+      "status": "applied",
       "fitScoreRaw": "4.4",
       "score": 4.4,
       "scoreBucket": "strong",
       "lastSeen": "2026-08-11",
-      "notes": "Official BlockTech/Webflow + Ashby Senior Quantitative Researcher Singapore pages active. Strong production ML quant loop: crypto derivatives/spot, hypothesis-to-live-PnL ownership, feature engineering, model training, backtesting, deployment, monitoring, iteration, and fund buy-in upside. LLM-agent signal is weak, but applyability is high; resume v2 already done.",
+      "notes": "Applied to official BlockTech Senior Quantitative Researcher Singapore role. Strong production ML quant loop: crypto derivatives/spot, hypothesis-to-live-PnL ownership, feature engineering, model training, backtesting, deployment, monitoring, iteration, and fund buy-in upside. LLM-agent signal is weak, but applyability is high; resume v2 used. Next step: track response/follow-up.",
       "geo": "Singapore",
-      "action": "researched",
-      "actionLabel": "Already researched",
-      "actionMeaning": "Company has prior research or tailored resume",
-      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "action": "applied",
+      "actionLabel": "Applied",
+      "actionMeaning": "Application submitted",
+      "actionNextStep": "Track response and prepare follow-up if no reply",
       "jobTitle": "BlockTech — Senior Quantitative Researcher, Singapore",
       "jobUrl": "https://www.block-tech.io/jobs/senior-quantitative-researcher-singapore",
       "jobSource": "cached JD"
