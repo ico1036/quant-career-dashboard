@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T23:33:19.782Z",
+  "generatedAt": "2026-08-11T05:57:45.394Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -17,9 +17,9 @@
     "koreaEvents": 8,
     "virtualWatchEvents": 4,
     "scansParsed": 24,
-    "applyFirst": 3,
+    "applyFirst": 4,
     "verify": 45,
-    "watch": 25,
+    "watch": 24,
     "researched": 8
   },
   "latestBrief": {
@@ -70,6 +70,24 @@
       "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
       "jobTitle": "DRW — Quantitative Researcher",
       "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/8014936",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "meridian-saturn-capital-ms-capital-singapore",
+      "company": "Meridian & Saturn Capital / MS Capital Singapore",
+      "status": "scored",
+      "fitScoreRaw": "4.5 provisional",
+      "score": 4.5,
+      "scoreBucket": "elite",
+      "lastSeen": "2026-08-11",
+      "notes": "LinkedIn job 4444320462 surfaced a clean direct-employer Senior Quantitative Researcher Singapore role: strategy modelling, trading system/platform development, AI/ML-centered technology arm, data-driven quantitative strategies with continuous iteration, market microstructure/trading/fundamentals/events pattern extraction, Python/C++, 3+ years hedge-fund/similar QR, and big-data/AI-ML quant plus points. MAS CMS fund-management licence confirmed. Phase 3 eligible on demand.",
+      "geo": "Singapore",
+      "action": "apply",
+      "actionLabel": "Apply now",
+      "actionMeaning": "Clean high-priority target",
+      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
+      "jobTitle": "Meridian & Saturn Capital / MS Capital Singapore — QR + AI role family (partial)",
+      "jobUrl": "https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a",
       "jobSource": "cached JD"
     },
     {
@@ -1225,24 +1243,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "meridian-saturn-capital-ms-capital-singapore",
-      "company": "Meridian & Saturn Capital / MS Capital Singapore",
-      "status": "partial",
-      "fitScoreRaw": "3.6 provisional",
-      "score": 3.6,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-08-11",
-      "notes": "MyCareersFuture surfaced Quantitative Researcher, AI Engineer, Quantitative Developer, and Data Engineer roles posted 5 days ago. AI Engineer snippets mention agentic systems, LLM integration, and trading/research automation, but the QR role appears junior/no-exp and Foundit says one QR surface is no longer accepting applications. Needs direct/current employer verification.",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Meridian & Saturn Capital / MS Capital Singapore — QR + AI role family (partial)",
-      "jobUrl": "https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "midpoint-markets",
       "company": "Midpoint Markets",
       "status": "scored",
@@ -2019,6 +2019,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "meridian-saturn-capital-ms-capital-singapore",
+      "company": "Meridian & Saturn Capital / MS Capital Singapore",
+      "status": "scored",
+      "fitScoreRaw": "4.5 provisional",
+      "score": 4.5,
+      "scoreBucket": "elite",
+      "lastSeen": "2026-08-11",
+      "notes": "LinkedIn job 4444320462 surfaced a clean direct-employer Senior Quantitative Researcher Singapore role: strategy modelling, trading system/platform development, AI/ML-centered technology arm, data-driven quantitative strategies with continuous iteration, market microstructure/trading/fundamentals/events pattern extraction, Python/C++, 3+ years hedge-fund/similar QR, and big-data/AI-ML quant plus points. MAS CMS fund-management licence confirmed. Phase 3 eligible on demand.",
+      "geo": "Singapore",
+      "action": "apply",
+      "actionLabel": "Apply now",
+      "actionMeaning": "Clean high-priority target",
+      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
+      "jobTitle": "Meridian & Saturn Capital / MS Capital Singapore — QR + AI role family (partial)",
+      "jobUrl": "https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "citadel-gqs-qr-experienced",
       "company": "Citadel GQS QR (Experienced)",
       "status": "new",
@@ -2251,28 +2269,18 @@
       "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
       "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
       "jobSource": "cached JD"
-    },
-    {
-      "id": "g-research",
-      "company": "G-Research",
-      "status": "watching",
-      "fitScoreRaw": "4.2 technical / texas-expanded watch",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-11",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancy pages still list London research roles while describing London and Dallas offices plus ML/AI, advanced analytics, deep exploration, and quant finance. No clean Dallas-actionable research JD today; keep re-scanning and do not exclude as US-only.",
-      "geo": "Texas/Dallas",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — NLP / ML Research Family, Texas-Expanded Watch",
-      "jobUrl": "https://www.gresearch.com/vacancies/",
-      "jobSource": "cached JD"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-11 — Ad-hoc MS Capital LinkedIn Senior QR Deep Dive",
+        "date": "2026-08-11",
+        "candidateMentions": 0,
+        "uniqueCompanies": 0,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-11 — Tuesday",
         "date": "2026-08-11",
@@ -2456,14 +2464,6 @@
         "uniqueCompanies": 9,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-09 — Thursday",
-        "date": "2026-07-09",
-        "candidateMentions": 24,
-        "uniqueCompanies": 13,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2620,7 +2620,7 @@
       "title": "Meridian & Saturn Capital / MS Capital Singapore — QR + AI role family (partial)",
       "date": "2026-08-11",
       "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a",
-      "excerpt": "> Collected: 2026-08-11 ## Source URLs - https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a - https://www.mycareersfuture.gov.sg/job/banking-finance/ai-engineer-meridian-satur"
+      "excerpt": "> Collected: 2026-08-11 > Updated: 2026-08-11 with LinkedIn job 4444320462 ## Source URLs - https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-meridian-saturn-capital-fd02bbb8f8460fbb598de2190fb69e9a - https://www.mycareersfuture.go"
     },
     {
       "file": "2026-08-11-optiver-austin-qr-ml-board-texas-expanded.md",
