@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T03:24:38.097Z",
+  "generatedAt": "2026-08-12T07:31:31.855Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,7 +7,7 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 120,
+    "trackedCompanies": 121,
     "topTargets": 16,
     "jdCacheFiles": 125,
     "resumeFiles": 180,
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 54,
+    "verify": 55,
     "watch": 27,
     "researched": 6
   },
@@ -593,6 +593,24 @@
       "jobTitle": "OKX — Deep Learning Quant Researcher (web3.career Watch)",
       "jobUrl": "https://www.okx.com/en-us/join-us/openings",
       "jobSource": "cached JD"
+    },
+    {
+      "id": "quadeye",
+      "company": "Quadeye",
+      "status": "verify",
+      "fitScoreRaw": "4.05 heavy-interview",
+      "score": 4.05,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-12",
+      "notes": "Official Quadeye careers/Zoho board is active and lists multiple quant roles with Singapore-compatible locations, including Quantitative Strategist - APAC & EMEA (Hong Kong/Singapore/South Korea), Quantitative Strategist - All Asset Classes (Gurugram/Singapore/New York), Derivatives and Crypto, Equities/index options/futures, and Derivatives. Company describes itself as India's leading proprietary trading firm / algorithmic trading firm across global markets. Fit is strong for HFT/systematic trading and crypto/options/derivatives, but this is not lightweight: official site explicitly asks for challenging Maths & Programming, LinkedIn/search snippets show DSA/OOP/C++/Linux aptitude, and interview reports indicate programming, probability, puzzles, and technical rounds. Also note Japan SESC 2024 administrative monetary penalty recommendation for high-speed trading misconduct by Quadeye Trading LLC as a diligence risk.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Quadeye careers",
+      "jobUrl": "https://www.google.com/search?q=Quadeye%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "aquatic-capital-management",
@@ -2490,6 +2508,14 @@
   "history": {
     "scans": [
       {
+        "title": "2026-08-12 — Ad-hoc Company Deep Search: Quadeye",
+        "date": "2026-08-12",
+        "candidateMentions": 2,
+        "uniqueCompanies": 2,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
         "title": "2026-08-12 — Ad-hoc Remote/Global Web3.career Source Expansion",
         "date": "2026-08-12",
         "candidateMentions": 6,
@@ -2670,14 +2696,6 @@
         "date": "2026-07-17",
         "candidateMentions": 10,
         "uniqueCompanies": 5,
-        "scoreCount": 0,
-        "maxScore": null
-      },
-      {
-        "title": "2026-07-16 — Thursday",
-        "date": "2026-07-16",
-        "candidateMentions": 14,
-        "uniqueCompanies": 4,
         "scoreCount": 0,
         "maxScore": null
       }
