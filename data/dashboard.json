@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T02:31:39.206Z",
+  "generatedAt": "2026-08-12T02:57:33.172Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 116,
+    "trackedCompanies": 120,
     "topTargets": 16,
-    "jdCacheFiles": 121,
+    "jdCacheFiles": 125,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 51,
+    "verify": 55,
     "watch": 27,
     "researched": 6
   },
@@ -428,9 +428,27 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Kronos Research — Machine Learning Researcher",
-      "jobUrl": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
+      "jobTitle": "OKX — Deep Learning Quant Researcher (web3.career Watch)",
+      "jobUrl": "https://www.okx.com/en-us/join-us/openings",
       "jobSource": "cached JD"
+    },
+    {
+      "id": "dv-trading",
+      "company": "DV Trading",
+      "status": "verify",
+      "fitScoreRaw": "4.15 remote-expanded",
+      "score": 4.15,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-12",
+      "notes": "web3.career surfaced a fresh Remote Quantitative Researcher row 9h old, and official DV Trading pages confirm active QR surfaces: signal/model/strategy research, statistical evaluation, AI/ML models in the Bahamas page, and DV's prop-trading/market-making/investment-adviser structure. Treat as the best new web3.career find, but verify exact remote/visa route because official pages show Bahamas/NY variants while web3.career marks Remote/Anywhere.",
+      "geo": "Remote",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "DV Trading careers",
+      "jobUrl": "https://dvtrading.co/join-dv/",
+      "jobSource": "careers page"
     },
     {
       "id": "anson-mccade-recruiter",
@@ -575,6 +593,24 @@
       "jobTitle": "MONOLITH careers",
       "jobUrl": "https://www.google.com/search?q=MONOLITH%20careers%20quant%20jobs",
       "jobSource": "job search"
+    },
+    {
+      "id": "okx-deep-learning-quant",
+      "company": "OKX Deep Learning Quant",
+      "status": "watch",
+      "fitScoreRaw": "4.05 technical / stale",
+      "score": 4.05,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-12",
+      "notes": "web3.career surfaces Deep Learning Quant Researcher remote with strong neural-network predictive-trading language and $140k-300k, but the row is ~6mo old and official OKX openings page needs direct role confirmation. Keep as high-technical watch, not immediate apply, until official OKX posting is recovered.",
+      "geo": "Remote",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "OKX — Deep Learning Quant Researcher (web3.career Watch)",
+      "jobUrl": "https://www.okx.com/en-us/join-us/openings",
+      "jobSource": "cached JD"
     },
     {
       "id": "aquatic-capital-management",
@@ -737,6 +773,24 @@
       "jobTitle": "Seven Research careers",
       "jobUrl": "https://www.google.com/search?q=Seven%20Research%20careers%20quant%20jobs",
       "jobSource": "job search"
+    },
+    {
+      "id": "keyrock",
+      "company": "Keyrock",
+      "status": "watch",
+      "fitScoreRaw": "3.95 remote-expanded / EMEA",
+      "score": 3.95,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-12",
+      "notes": "web3.career and external boards surface Quantitative Researcher / HFT QR remote-possible EMEA: algorithmic market making, alpha signals, statistical/ML frameworks, P&L contribution, and remote-first setup. Strong crypto MM fit, but Europe/core-region constraint and stale age keep it below DV/Binance/SCM.",
+      "geo": "Remote",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Keyrock — Quantitative Researcher / HFT Quant Remote-Possible EMEA",
+      "jobUrl": "https://jobs.ashbyhq.com/keyrock",
+      "jobSource": "cached JD"
     },
     {
       "id": "citadel-phd-graduate-asia",
@@ -986,9 +1040,9 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "BAH Partners (recruiter) careers",
-      "jobUrl": "https://www.google.com/search?q=BAH%20Partners%20(recruiter)%20careers%20quant%20jobs",
-      "jobSource": "job search"
+      "jobTitle": "DV Trading — Remote Quantitative Researcher (web3.career Discovery)",
+      "jobUrl": "https://dvtrading.co/job-post/quantitative-researcher-bahamas-ny/",
+      "jobSource": "cached JD"
     },
     {
       "id": "citadel-gqs-qre",
@@ -1436,8 +1490,8 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Douro Labs — Quantitative Researcher / Financial Engineer (Remote, partial)",
-      "jobUrl": "https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs",
+      "jobTitle": "Wormhole Labs — Quantitative Researcher (Stale web3.career Row)",
+      "jobUrl": "https://jobs.ashbyhq.com/wormholelabs",
       "jobSource": "cached JD"
     },
     {
@@ -1835,6 +1889,24 @@
       "jobTitle": "Mercuria careers",
       "jobUrl": "https://mercuria.com/careers/",
       "jobSource": "careers page"
+    },
+    {
+      "id": "wormhole-labs",
+      "company": "Wormhole Labs",
+      "status": "hold",
+      "fitScoreRaw": "stale web3.career-only",
+      "score": 3,
+      "scoreBucket": "low",
+      "lastSeen": "2026-08-12",
+      "notes": "web3.career has an old Quantitative Researcher remote row for cross-chain intents/trading infrastructure, but current Wormhole Labs Ashby board did not show that QR opening. Keep as stale/on-chain thesis watch only.",
+      "geo": "Remote",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Wormhole Labs — Quantitative Researcher (Stale web3.career Row)",
+      "jobUrl": "https://jobs.ashbyhq.com/wormholelabs",
+      "jobSource": "cached JD"
     },
     {
       "id": "abundance-apoorva-mehta",
@@ -2418,6 +2490,14 @@
   "history": {
     "scans": [
       {
+        "title": "2026-08-12 — Ad-hoc Remote/Global Web3.career Source Expansion",
+        "date": "2026-08-12",
+        "candidateMentions": 6,
+        "uniqueCompanies": 6,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
         "title": "2026-08-12 — Ad-hoc LinkedIn Job Deep Search: Nurp 4452474647",
         "date": "2026-08-12",
         "candidateMentions": 2,
@@ -2600,14 +2680,6 @@
         "uniqueCompanies": 4,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-15 — Wednesday",
-        "date": "2026-07-15",
-        "candidateMentions": 20,
-        "uniqueCompanies": 8,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2751,6 +2823,14 @@
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
     },
     {
+      "file": "2026-08-12-dv-trading-remote-quantitative-researcher-web3career.md",
+      "path": "outputs/jd-cache/2026-08-12-dv-trading-remote-quantitative-researcher-web3career.md",
+      "title": "DV Trading — Remote Quantitative Researcher (web3.career Discovery)",
+      "date": "2026-08-12",
+      "url": "https://dvtrading.co/job-post/quantitative-researcher-bahamas-ny/",
+      "excerpt": "> Collected: 2026-08-12 KST > Source: official DV Trading https://dvtrading.co/job-post/quantitative-researcher-bahamas-ny/ and https://dvtrading.co/job-post/quantitative-researcher-bahamas/ + web3.career https://web3.career/quantitative-researcher-dvtrading/1"
+    },
+    {
       "file": "2026-08-12-gresearch-ml-nlp-research-family-texas-expanded-watch.md",
       "path": "outputs/jd-cache/2026-08-12-gresearch-ml-nlp-research-family-texas-expanded-watch.md",
       "title": "G-Research — ML / NLP / Quant Research Family, Dallas Watch",
@@ -2767,6 +2847,14 @@
       "excerpt": "> Collected: 2026-08-12 KST > Source: LinkedIn Singapore, Built In, JPMC Oracle search result > Status: partial; official Oracle body located in search but not fully scraped ## Location / Scope - Singapore. - Hybrid / front-office commodities quant trading sur"
     },
     {
+      "file": "2026-08-12-keyrock-quantitative-researcher-emea-remote-web3career-watch.md",
+      "path": "outputs/jd-cache/2026-08-12-keyrock-quantitative-researcher-emea-remote-web3career-watch.md",
+      "title": "Keyrock — Quantitative Researcher / HFT Quant Remote-Possible EMEA",
+      "date": "2026-08-12",
+      "url": "https://jobs.ashbyhq.com/keyrock",
+      "excerpt": "> Collected: 2026-08-12 KST > Source: Keyrock Ashby careers https://jobs.ashbyhq.com/keyrock + web3.career https://web3.career/quantitative-researcher-keyrock/143915 > Status: remote-expanded watch; likely EMEA/core-region constrained ## Recovered Signals - Al"
+    },
+    {
       "file": "2026-08-12-nurp-ai-ml-quant-alpha-discovery.md",
       "path": "outputs/jd-cache/2026-08-12-nurp-ai-ml-quant-alpha-discovery.md",
       "title": "Nurp — AI ML Quantitative Researcher - Alpha Discovery (Hybrid)",
@@ -2775,12 +2863,28 @@
       "excerpt": "> Collected: 2026-08-12 KST > Source: official Nurp Rippling ATS https://nurp.rippling-ats.com/job/977094/ai-ml-quantitative-researcher-alpha-discovery-hybrid + LinkedIn https://www.linkedin.com/jobs/view/4452474647/ > Status: official active; Miami hybrid; co"
     },
     {
+      "file": "2026-08-12-okx-deep-learning-quant-researcher-web3career-watch.md",
+      "path": "outputs/jd-cache/2026-08-12-okx-deep-learning-quant-researcher-web3career-watch.md",
+      "title": "OKX — Deep Learning Quant Researcher (web3.career Watch)",
+      "date": "2026-08-12",
+      "url": "https://www.okx.com/en-us/join-us/openings",
+      "excerpt": "> Collected: 2026-08-12 KST > Source: official OKX openings https://www.okx.com/en-us/join-us/openings + web3.career https://web3.career/deep-learning-quant-researcher-okx/145463 > Status: technical watch; web3.career row stale; direct official role needs reco"
+    },
+    {
       "file": "2026-08-12-presto-quantitative-researcher-singapore.partial.md",
       "path": "outputs/jd-cache/2026-08-12-presto-quantitative-researcher-singapore.partial.md",
       "title": "Presto — Quantitative Researcher, Singapore (partial)",
       "date": "2026-08-12",
       "url": null,
       "excerpt": "> Collected: 2026-08-12 KST > Source: LinkedIn Singapore search result + Presto official company site > Status: partial; direct JD body not fully recovered ## Location / Scope - Singapore. - Treat as Singapore primary, not remote. ## Recovered JD Signals - Rol"
+    },
+    {
+      "file": "2026-08-12-wormhole-labs-quantitative-researcher-stale-web3career.md",
+      "path": "outputs/jd-cache/2026-08-12-wormhole-labs-quantitative-researcher-stale-web3career.md",
+      "title": "Wormhole Labs — Quantitative Researcher (Stale web3.career Row)",
+      "date": "2026-08-12",
+      "url": "https://jobs.ashbyhq.com/wormholelabs",
+      "excerpt": "> Collected: 2026-08-12 KST > Source: Wormhole Labs Ashby careers https://jobs.ashbyhq.com/wormholelabs + web3.career https://web3.career/quantitative-researcher-wormholelabs/138820 > Status: stale; do not promote unless official QR role reappears ## Recovered"
     },
     {
       "file": "2026-08-11-anson-mccade-ml-data-scientist-global-quant-hf.partial-suspicious.md",

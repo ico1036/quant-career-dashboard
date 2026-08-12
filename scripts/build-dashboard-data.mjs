@@ -221,7 +221,11 @@ const careersFallback = new Map([
   ["balyasny", "https://www.bamfunds.com/careers/"],
   ["schonfeld", "https://www.schonfeld.com/careers/"],
   ["g-research", "https://www.gresearch.com/vacancies/"],
-  ["nurp", "https://nurp.rippling-ats.com/"]
+  ["nurp", "https://nurp.rippling-ats.com/"],
+  ["dv trading", "https://dvtrading.co/join-dv/"],
+  ["okx", "https://www.okx.com/en-us/join-us/openings"],
+  ["keyrock", "https://jobs.ashbyhq.com/keyrock"],
+  ["wormhole labs", "https://jobs.ashbyhq.com/wormholelabs"]
 ]);
 
 function companyNeedles(company) {
