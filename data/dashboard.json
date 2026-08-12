@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T02:57:33.172Z",
+  "generatedAt": "2026-08-12T03:24:38.097Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 55,
+    "verify": 54,
     "watch": 27,
     "researched": 6
   },
@@ -574,24 +574,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Platinum & Partners (recruiter) careers",
       "jobUrl": "https://www.google.com/search?q=Platinum%20%26%20Partners%20(recruiter)%20careers%20quant%20jobs",
-      "jobSource": "job search"
-    },
-    {
-      "id": "monolith",
-      "company": "MONOLITH",
-      "status": "verify",
-      "fitScoreRaw": "4.05 provisional lightweight",
-      "score": 4.05,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-12",
-      "notes": "Gmail LinkedIn alert and web snippets confirm a Singapore/remote Prediction Markets Trader/Analyst surface at a small crypto investment fund focused on DeFi, prediction markets, and on-chain ecosystems. Responsibilities are market monitoring, thesis building, internal insight writing, dashboard/on-chain analytics, and optional prediction-market/perps trading. Keep as lightweight apply/ping candidate, but verify company quality and compensation before deeper work.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "MONOLITH careers",
-      "jobUrl": "https://www.google.com/search?q=MONOLITH%20careers%20quant%20jobs",
       "jobSource": "job search"
     },
     {
@@ -2087,6 +2069,24 @@
       "jobTitle": "Monad Foundation careers",
       "jobUrl": "https://www.monad.xyz/careers",
       "jobSource": "careers page"
+    },
+    {
+      "id": "monolith",
+      "company": "MONOLITH",
+      "status": "closed",
+      "fitScoreRaw": "—",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-08-12",
+      "notes": "LinkedIn job 4451540693 / Prediction Markets Trader surfaced via Gmail LinkedIn alert and initially looked like a lightweight Singapore/remote prediction-market candidate, but the user confirmed the LinkedIn posting is already closed. Remove from active lightweight/apply list; keep only as stale signal for similar future prediction-market roles.",
+      "geo": "Singapore",
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "MONOLITH careers",
+      "jobUrl": "https://www.google.com/search?q=MONOLITH%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "oxford-knight-recruiter",
