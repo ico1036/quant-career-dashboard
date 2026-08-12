@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:31:31.855Z",
+  "generatedAt": "2026-08-12T09:15:19.339Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -597,12 +597,12 @@
     {
       "id": "quadeye",
       "company": "Quadeye",
-      "status": "verify",
+      "status": "screening-submitted",
       "fitScoreRaw": "4.05 heavy-interview",
       "score": 4.05,
       "scoreBucket": "strong",
       "lastSeen": "2026-08-12",
-      "notes": "Official Quadeye careers/Zoho board is active and lists multiple quant roles with Singapore-compatible locations, including Quantitative Strategist - APAC & EMEA (Hong Kong/Singapore/South Korea), Quantitative Strategist - All Asset Classes (Gurugram/Singapore/New York), Derivatives and Crypto, Equities/index options/futures, and Derivatives. Company describes itself as India's leading proprietary trading firm / algorithmic trading firm across global markets. Fit is strong for HFT/systematic trading and crypto/options/derivatives, but this is not lightweight: official site explicitly asks for challenging Maths & Programming, LinkedIn/search snippets show DSA/OOP/C++/Linux aptitude, and interview reports indicate programming, probability, puzzles, and technical rounds. Also note Japan SESC 2024 administrative monetary penalty recommendation for high-speed trading misconduct by Quadeye Trading LLC as a diligence risk.",
+      "notes": "HR inbound questionnaire submitted by user on 2026-08-12. Official Quadeye careers/Zoho board is active and lists multiple quant roles with Singapore-compatible locations, including Quantitative Strategist - APAC & EMEA (Hong Kong/Singapore/South Korea), Quantitative Strategist - All Asset Classes (Gurugram/Singapore/New York), Derivatives and Crypto, Equities/index options/futures, and Derivatives. Fit is strong for HFT/systematic trading and crypto/options/derivatives, but this is not lightweight: official site asks for challenging Maths & Programming, and interview/search signals suggest DSA/OOP/C++/Linux, probability, puzzles, and technical rounds. Next step: wait for HR response and prepare PnL/volume/automation/POD-positioning answers without overclaiming. Also note Japan SESC 2024 administrative monetary penalty recommendation for high-speed trading misconduct by Quadeye Trading LLC as diligence risk.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
