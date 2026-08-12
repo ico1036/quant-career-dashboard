@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T01:13:42.385Z",
+  "generatedAt": "2026-08-12T01:46:20.440Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,7 +7,7 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 116,
+    "trackedCompanies": 115,
     "topTargets": 16,
     "jdCacheFiles": 120,
     "resumeFiles": 180,
@@ -18,8 +18,8 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 50,
-    "watch": 28,
+    "verify": 51,
+    "watch": 26,
     "researched": 6
   },
   "latestBrief": {
@@ -1063,24 +1063,6 @@
       "jobSource": "careers page"
     },
     {
-      "id": "fionics",
-      "company": "Fionics",
-      "status": "scored",
-      "fitScoreRaw": "3.8",
-      "score": 3.8,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-04-16",
-      "notes": "Small SG systematic fund. AI-native angle possible.",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Fionics careers",
-      "jobUrl": "https://www.fionics.com/jobs",
-      "jobSource": "careers page"
-    },
-    {
       "id": "invesco",
       "company": "Invesco",
       "status": "partial",
@@ -1241,24 +1223,6 @@
       "jobTitle": "Deeter Analytics careers",
       "jobUrl": "https://www.google.com/search?q=Deeter%20Analytics%20careers%20quant%20jobs",
       "jobSource": "job search"
-    },
-    {
-      "id": "fionics",
-      "company": "Fionics",
-      "status": "partial",
-      "fitScoreRaw": "3.7 provisional title-only",
-      "score": 3.7,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-08-12",
-      "notes": "Gmail LinkedIn alert surfaced Prediction Markets Trader. Potentially adjacent to quant alpha, but direct JD/location need verification.",
-      "geo": "Unspecified",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Fionics careers",
-      "jobUrl": "https://www.fionics.com/jobs",
-      "jobSource": "careers page"
     },
     {
       "id": "polymer-capital",
@@ -1943,6 +1907,24 @@
       "jobTitle": "Graviton Research Capital — Quantitative Researcher (Singapore)",
       "jobUrl": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
       "jobSource": "cached JD"
+    },
+    {
+      "id": "fionics",
+      "company": "Fionics",
+      "status": "archived",
+      "fitScoreRaw": "prior applied / no response",
+      "score": null,
+      "scoreBucket": "unknown",
+      "lastSeen": "2026-08-12",
+      "notes": "User clarified Fionics is an HR/recruiting company and a prior application received no response. Do not treat new LinkedIn alerts as fresh direct-employer opportunities; keep only as low-priority archive/watch unless a clearly direct client/company JD appears.",
+      "geo": "Unspecified",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Fionics careers",
+      "jobUrl": "https://www.fionics.com/jobs",
+      "jobSource": "careers page"
     },
     {
       "id": "julius-baer",
