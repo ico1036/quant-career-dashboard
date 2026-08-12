@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T09:15:19.339Z",
+  "generatedAt": "2026-08-12T09:22:54.312Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,7 +7,7 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 121,
+    "trackedCompanies": 122,
     "topTargets": 16,
     "jdCacheFiles": 125,
     "resumeFiles": 180,
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 55,
+    "verify": 56,
     "watch": 27,
     "researched": 6
   },
@@ -448,6 +448,24 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "DV Trading careers",
       "jobUrl": "https://dvtrading.co/join-dv/",
+      "jobSource": "careers page"
+    },
+    {
+      "id": "second-foundation",
+      "company": "Second Foundation",
+      "status": "scored",
+      "fitScoreRaw": "4.15 energy-quant / active Tokyo",
+      "score": 4.15,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-12",
+      "notes": "LinkedIn job 4416968206 maps to Second Foundation Quantitative Research Analyst in Greater Tokyo. Official Greenhouse sfweb board has Quantitative Research Analyst Tokyo, Japan active with application form/Submit application visible. Role is physical electricity / algorithmic energy trading: improve predictive models, develop new strategies across countries/exchanges, enhance autonomous trading strategies, work with data/DevOps/developers/traders, and integrate strategies with physical assets. Strong fit for ML/data science/Python/research automation and ambiguous real-world market problems. Not lightweight: interview signals mention difficult interviews and probability/math questions; expect coding + probability + model reasoning, though likely less brainteaser-prop-shop than Quadeye/Optiver style. Location is Tokyo, with flexible hours/home-office options in JD, not global remote.",
+      "geo": "Tokyo / Japan",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Second Foundation careers",
+      "jobUrl": "https://job-boards.eu.greenhouse.io/sfweb/jobs/4631230101",
       "jobSource": "careers page"
     },
     {

@@ -133,6 +133,7 @@ function inferGeo(text, company = "") {
   if (lower.includes("dallas") || lower.includes("texas") || lower.includes("y'all")) return "Texas/Dallas";
   if (lower.includes("miami")) return "Miami hybrid";
   if (lower.includes("singapore") || lower.includes(" sg ") || lower.endsWith(" sg")) return "Singapore";
+  if (lower.includes("tokyo") || lower.includes("japan")) return "Tokyo / Japan";
   if (lower.includes("remote")) return "Remote";
   if (lower.includes("hong kong") || lower.includes("hk")) return "APAC";
   if (lower.includes("london") || lower.includes("new york") || lower.includes("chicago")) return "Location blocked";
@@ -225,7 +226,8 @@ const careersFallback = new Map([
   ["dv trading", "https://dvtrading.co/join-dv/"],
   ["okx", "https://www.okx.com/en-us/join-us/openings"],
   ["keyrock", "https://jobs.ashbyhq.com/keyrock"],
-  ["wormhole labs", "https://jobs.ashbyhq.com/wormholelabs"]
+  ["wormhole labs", "https://jobs.ashbyhq.com/wormholelabs"],
+  ["second foundation", "https://job-boards.eu.greenhouse.io/sfweb/jobs/4631230101"]
 ]);
 
 function companyNeedles(company) {
