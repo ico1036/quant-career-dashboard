@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T01:46:20.440Z",
+  "generatedAt": "2026-08-12T01:55:41.557Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -18,8 +18,8 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 51,
-    "watch": 26,
+    "verify": 50,
+    "watch": 27,
     "researched": 6
   },
   "latestBrief": {
@@ -176,6 +176,24 @@
       "actionLabel": "Already researched",
       "actionMeaning": "Company has prior research or tailored resume",
       "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
+      "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "canvas-fundamental-research-group-point72-cubist",
+      "company": "Canvas Fundamental Research Group / Point72 Cubist",
+      "status": "verify",
+      "fitScoreRaw": "4.35 provisional",
+      "score": 4.35,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-12",
+      "notes": "Deep search confirmed Canvas is Point72's proprietary/internal fundamental research platform, while the Singapore Quantitative Alpha Researcher JD body maps to Cubist Systematic Strategies: original alpha signal research, data analysis, backtesting, portfolio analysis, production code, new datasets, and PhD/MS quantitative background. Promote from title-only to high-priority direct-employer verification; likely not lightweight interview-wise, but very real and high fit.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
       "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
       "jobSource": "cached JD"
@@ -433,24 +451,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "canvas-fundamental-research-group",
-      "company": "Canvas Fundamental Research Group",
-      "status": "partial",
-      "fitScoreRaw": "4.1 provisional title-only",
-      "score": 4.1,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-12",
-      "notes": "Gmail LinkedIn alert surfaced Quantitative Alpha Researcher under the quant researcher alert. Title is highly aligned, but employer/location/direct JD still need verification before Phase 3.",
-      "geo": "Unspecified",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Canvas Fundamental Research Group careers",
-      "jobUrl": "https://www.google.com/search?q=Canvas%20Fundamental%20Research%20Group%20careers%20quant%20jobs",
-      "jobSource": "job search"
-    },
-    {
       "id": "citi",
       "company": "Citi",
       "status": "scored",
@@ -556,6 +556,24 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Platinum & Partners (recruiter) careers",
       "jobUrl": "https://www.google.com/search?q=Platinum%20%26%20Partners%20(recruiter)%20careers%20quant%20jobs",
+      "jobSource": "job search"
+    },
+    {
+      "id": "monolith",
+      "company": "MONOLITH",
+      "status": "verify",
+      "fitScoreRaw": "4.05 provisional lightweight",
+      "score": 4.05,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-12",
+      "notes": "Gmail LinkedIn alert and web snippets confirm a Singapore/remote Prediction Markets Trader/Analyst surface at a small crypto investment fund focused on DeFi, prediction markets, and on-chain ecosystems. Responsibilities are market monitoring, thesis building, internal insight writing, dashboard/on-chain analytics, and optional prediction-market/perps trading. Keep as lightweight apply/ping candidate, but verify company quality and compensation before deeper work.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "MONOLITH careers",
+      "jobUrl": "https://www.google.com/search?q=MONOLITH%20careers%20quant%20jobs",
       "jobSource": "job search"
     },
     {
@@ -667,24 +685,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "monolith",
-      "company": "MONOLITH",
-      "status": "partial",
-      "fitScoreRaw": "4.0 provisional title-only",
-      "score": 4,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-12",
-      "notes": "Gmail LinkedIn alert surfaced Prediction Markets Trader. Potentially relevant to the prediction-market/alpha thesis, but direct JD, company verification, and location need checking.",
-      "geo": "Unspecified",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "MONOLITH careers",
-      "jobUrl": "https://www.google.com/search?q=MONOLITH%20careers%20quant%20jobs",
-      "jobSource": "job search"
-    },
-    {
       "id": "paragon-alpha-recruiter",
       "company": "Paragon Alpha (recruiter)",
       "status": "suspicious",
@@ -718,24 +718,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Presto careers",
       "jobUrl": "https://www.google.com/search?q=Presto%20careers%20quant%20jobs",
-      "jobSource": "job search"
-    },
-    {
-      "id": "randstad-singapore-recruiter",
-      "company": "Randstad Singapore (recruiter)",
-      "status": "suspicious",
-      "fitScoreRaw": "4.0 provisional title-only",
-      "score": 4,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-12",
-      "notes": "Gmail LinkedIn alert surfaced Head of Algo Quant Trading in Singapore. Recruiter-mediated/anonymous-client status blocks Phase 3 until employer is identified.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Randstad Singapore (recruiter) careers",
-      "jobUrl": "https://www.google.com/search?q=Randstad%20Singapore%20(recruiter)%20careers%20quant%20jobs",
       "jobSource": "job search"
     },
     {
@@ -991,24 +973,6 @@
       "jobSource": "job search"
     },
     {
-      "id": "blackrock",
-      "company": "BlackRock",
-      "status": "partial",
-      "fitScoreRaw": "3.8 provisional title-only",
-      "score": 3.8,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-08-12",
-      "notes": "Gmail LinkedIn alerts surfaced Quant Associate and Quant Research Associate. Likely asset-management quant roles; location and AI-native fit need verification.",
-      "geo": "Unspecified",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "BlackRock careers",
-      "jobUrl": "https://www.google.com/search?q=BlackRock%20careers%20quant%20jobs",
-      "jobSource": "job search"
-    },
-    {
       "id": "citadel-gqs-qre",
       "company": "Citadel GQS QRE",
       "status": "scored",
@@ -1061,24 +1025,6 @@
       "jobTitle": "Ellwood Consulting (recruiter) careers",
       "jobUrl": "https://www.ellwoodconsulting.com/jobs/",
       "jobSource": "careers page"
-    },
-    {
-      "id": "invesco",
-      "company": "Invesco",
-      "status": "partial",
-      "fitScoreRaw": "3.8 provisional title-only",
-      "score": 3.8,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-08-12",
-      "notes": "Gmail LinkedIn alert surfaced Quant Researcher, Trading. Asset-manager/trading quant signal; direct JD and Singapore/APAC compatibility need verification.",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Invesco careers",
-      "jobUrl": "https://www.google.com/search?q=Invesco%20careers%20quant%20jobs",
-      "jobSource": "job search"
     },
     {
       "id": "tudor-investment-xantium",
@@ -1240,6 +1186,24 @@
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
       "jobTitle": "Polymer Capital careers",
       "jobUrl": "https://www.google.com/search?q=Polymer%20Capital%20careers%20quant%20jobs",
+      "jobSource": "job search"
+    },
+    {
+      "id": "randstad-singapore-recruiter",
+      "company": "Randstad Singapore (recruiter)",
+      "status": "info-ping",
+      "fitScoreRaw": "3.7 recruiter-mediated",
+      "score": 3.7,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-12",
+      "notes": "Official Randstad page confirms Head of Algo Quant Trading in Singapore, S$20k-40k/month, permanent, anonymous reputable technology company, 5 days in office, Chinese required, C++/Rust, market microstructure/liquidity/execution algorithms, and IC-to-team-lead path. Also a Quant Researcher HFT/ML role exists. Use only as recruiter info ping to identify client; do not spend Phase 3 until employer is known.",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Randstad Singapore (recruiter) careers",
+      "jobUrl": "https://www.google.com/search?q=Randstad%20Singapore%20(recruiter)%20careers%20quant%20jobs",
       "jobSource": "job search"
     },
     {
@@ -1423,6 +1387,24 @@
       "jobSource": "careers page"
     },
     {
+      "id": "blackrock",
+      "company": "BlackRock",
+      "status": "location-mismatch",
+      "fitScoreRaw": "3.5 location-mismatch",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-12",
+      "notes": "Gmail LinkedIn alerts for Quant Associate / Quant Research Associate resolved to New York, with related official BlackRock research pages showing New York/London Systematic Active Equity quant roles and no clean local quant action surface today. Good asset-manager quant brand, but not a lightweight local candidate right now.",
+      "geo": "Location blocked",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "BlackRock careers",
+      "jobUrl": "https://www.google.com/search?q=BlackRock%20careers%20quant%20jobs",
+      "jobSource": "job search"
+    },
+    {
       "id": "brew-labs",
       "company": "Brew Labs",
       "status": "new",
@@ -1457,6 +1439,24 @@
       "jobTitle": "Metabit Technology LLC — Senior Quantitative Researcher, Intraday Equities Alpha",
       "jobUrl": "https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009",
       "jobSource": "cached JD"
+    },
+    {
+      "id": "invesco",
+      "company": "Invesco",
+      "status": "location-mismatch",
+      "fitScoreRaw": "3.5 location-mismatch",
+      "score": 3.5,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-12",
+      "notes": "Gmail LinkedIn alert for Quant Researcher, Trading resolved to New York, not APAC-actionable. Invesco has regional APAC presence and a Big Data/Risk/Quant career area, but no clean current local quant role surfaced in this deep dive. Track only for a future APAC-compatible opening.",
+      "geo": "Location blocked",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Invesco careers",
+      "jobUrl": "https://www.google.com/search?q=Invesco%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "mwam-marshall-wace",
@@ -2253,6 +2253,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "canvas-fundamental-research-group-point72-cubist",
+      "company": "Canvas Fundamental Research Group / Point72 Cubist",
+      "status": "verify",
+      "fitScoreRaw": "4.35 provisional",
+      "score": 4.35,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-12",
+      "notes": "Deep search confirmed Canvas is Point72's proprietary/internal fundamental research platform, while the Singapore Quantitative Alpha Researcher JD body maps to Cubist Systematic Strategies: original alpha signal research, data analysis, backtesting, portfolio analysis, production code, new datasets, and PhD/MS quantitative background. Promote from title-only to high-priority direct-employer verification; likely not lightweight interview-wise, but very real and high fit.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
+      "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "bridgewater",
       "company": "Bridgewater",
       "status": "researched",
@@ -2377,28 +2395,18 @@
       "jobTitle": "Binance — Quantitative Researcher",
       "jobUrl": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
       "jobSource": "cached JD"
-    },
-    {
-      "id": "citadel-citsec",
-      "company": "Citadel/CitSec",
-      "status": "scored",
-      "fitScoreRaw": "4.2",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-07-20",
-      "notes": "Official Citadel Securities QR/QRA page resurfaced fresh: Singapore-compatible recurring signal with ML/pattern recognition/NLP and live trading signal implementation. Citadel DSG QR is excellent AI/ML + alternative-data fit but official location is New York only, so excluded for SG pipeline. Recurring; no Phase 3.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
-      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
-      "jobSource": "cached JD"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-12 — Ad-hoc Lightweight Candidate Deep Search",
+        "date": "2026-08-12",
+        "candidateMentions": 6,
+        "uniqueCompanies": 6,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-12 — Wednesday",
         "date": "2026-08-12",
@@ -2580,14 +2588,6 @@
         "date": "2026-07-14",
         "candidateMentions": 25,
         "uniqueCompanies": 10,
-        "scoreCount": 0,
-        "maxScore": null
-      },
-      {
-        "title": "2026-07-13 — Monday",
-        "date": "2026-07-13",
-        "candidateMentions": 23,
-        "uniqueCompanies": 9,
         "scoreCount": 0,
         "maxScore": null
       }
