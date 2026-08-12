@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T09:22:54.312Z",
+  "generatedAt": "2026-08-12T23:33:14.011Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 122,
     "topTargets": 16,
-    "jdCacheFiles": 125,
+    "jdCacheFiles": 127,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -17,8 +17,8 @@
     "koreaEvents": 8,
     "virtualWatchEvents": 4,
     "scansParsed": 24,
-    "applyFirst": 5,
-    "verify": 56,
+    "applyFirst": 4,
+    "verify": 57,
     "watch": 27,
     "researched": 6
   },
@@ -52,24 +52,6 @@
       "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
       "jobTitle": "GIC — AVP/VP, Quantitative Analyst, AI Alpha Group",
       "jobUrl": "https://careers.gic.com.sg/job/Singapore-AVPVP,-Quantitative-Analyst,-AI-Alpha-Group/1356216466/",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "drw",
-      "company": "DRW",
-      "status": "scored",
-      "fitScoreRaw": "4.6",
-      "score": 4.6,
-      "scoreBucket": "elite",
-      "lastSeen": "2026-08-12",
-      "notes": "Official DRW page resurfaced earlier confirming Quantitative Researcher - Machine Learning in Singapore with immediate start. Gmail LinkedIn alert on 2026-08-10 also surfaced Quantitative AI Strategist, which may be more aligned than the graduate-timed public QR page; direct JD verification is now a high-priority follow-up.",
-      "geo": "Singapore",
-      "action": "apply",
-      "actionLabel": "Apply now",
-      "actionMeaning": "Clean high-priority target",
-      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
-      "jobTitle": "DRW — Quantitative Researcher",
-      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/8014936",
       "jobSource": "cached JD"
     },
     {
@@ -238,18 +220,18 @@
       "id": "j-p-morgan",
       "company": "J.P. Morgan",
       "status": "scored",
-      "fitScoreRaw": "4.3 provisional AI ML / 3.8 commodities",
+      "fitScoreRaw": "4.3 provisional AI ML / 3.9 commodities research",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-12",
-      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate remains the best AI-native JPMC signal. New/recurring commodities quant trading analyst/associate surfaces are clean Singapore roles with algorithmic execution, backtesting, low-latency tooling, and TCA, but they are more execution/trading than AI-native research.",
+      "lastSeen": "2026-08-13",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate remains the best AI-native JPMC signal. Official Oracle metadata also confirms Commodities Quantitative Research - Associate with quantitative models, trading-team collaboration, and financial-engineering innovation; still below AI ML Researcher because it is more commodities/front-office quant than AI-native alpha research.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "J.P. Morgan — Quantitative Trading and Research - AI Machine Learning Researcher - Associate",
-      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210775735/",
+      "jobTitle": "J.P. Morgan — Commodities Quantitative Research, Associate",
+      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210750305/",
       "jobSource": "cached JD"
     },
     {
@@ -349,8 +331,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-12",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancy pages still list London research roles while describing London and Dallas offices plus ML/AI, NLP/LLM, advanced analytics, deep exploration, and quant finance. No clean Dallas-actionable research JD today; keep re-scanning and do not exclude as US-only.",
+      "lastSeen": "2026-08-13",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies/search still surface NLP/ML/QR research family, with London-centered current research openings and Dallas engineering/company presence. No clean Dallas-actionable full-time research JD today; keep re-scanning and do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -430,6 +412,24 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "OKX — Deep Learning Quant Researcher (web3.career Watch)",
       "jobUrl": "https://www.okx.com/en-us/join-us/openings",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "drw",
+      "company": "DRW",
+      "status": "scored",
+      "fitScoreRaw": "4.15 current / 4.6 prior ML",
+      "score": 4.15,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-13",
+      "notes": "Official Greenhouse Singapore Quantitative Researcher page is still active and published 2026-07-13, with statistical learning, cutting-edge ML, predictive signals, production handoff, execution/risk optimization, and algorithmic trade prototyping. Current page is graduate-timed (Dec 2026-Aug 2027), so treat as recurring active but less immediately actionable than the prior experienced ML QR / Quantitative AI Strategist surface.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "DRW — Quantitative Researcher, Singapore",
+      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/8014936",
       "jobSource": "cached JD"
     },
     {
@@ -2253,24 +2253,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "drw",
-      "company": "DRW",
-      "status": "scored",
-      "fitScoreRaw": "4.6",
-      "score": 4.6,
-      "scoreBucket": "elite",
-      "lastSeen": "2026-08-12",
-      "notes": "Official DRW page resurfaced earlier confirming Quantitative Researcher - Machine Learning in Singapore with immediate start. Gmail LinkedIn alert on 2026-08-10 also surfaced Quantitative AI Strategist, which may be more aligned than the graduate-timed public QR page; direct JD verification is now a high-priority follow-up.",
-      "geo": "Singapore",
-      "action": "apply",
-      "actionLabel": "Apply now",
-      "actionMeaning": "Clean high-priority target",
-      "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
-      "jobTitle": "DRW — Quantitative Researcher",
-      "jobUrl": "https://job-boards.greenhouse.io/drweng/jobs/8014936",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "meridian-saturn-capital-ms-capital-singapore",
       "company": "Meridian & Saturn Capital / MS Capital Singapore",
       "status": "scored",
@@ -2436,18 +2418,18 @@
       "id": "j-p-morgan",
       "company": "J.P. Morgan",
       "status": "scored",
-      "fitScoreRaw": "4.3 provisional AI ML / 3.8 commodities",
+      "fitScoreRaw": "4.3 provisional AI ML / 3.9 commodities research",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-12",
-      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate remains the best AI-native JPMC signal. New/recurring commodities quant trading analyst/associate surfaces are clean Singapore roles with algorithmic execution, backtesting, low-latency tooling, and TCA, but they are more execution/trading than AI-native research.",
+      "lastSeen": "2026-08-13",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate remains the best AI-native JPMC signal. Official Oracle metadata also confirms Commodities Quantitative Research - Associate with quantitative models, trading-team collaboration, and financial-engineering innovation; still below AI ML Researcher because it is more commodities/front-office quant than AI-native alpha research.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "J.P. Morgan — Quantitative Trading and Research - AI Machine Learning Researcher - Associate",
-      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210775735/",
+      "jobTitle": "J.P. Morgan — Commodities Quantitative Research, Associate",
+      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210750305/",
       "jobSource": "cached JD"
     },
     {
@@ -2521,10 +2503,36 @@
       "jobTitle": "Binance — Quantitative Researcher",
       "jobUrl": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
       "jobSource": "cached JD"
+    },
+    {
+      "id": "citadel-citsec",
+      "company": "Citadel/CitSec",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-20",
+      "notes": "Official Citadel Securities QR/QRA page resurfaced fresh: Singapore-compatible recurring signal with ML/pattern recognition/NLP and live trading signal implementation. Citadel DSG QR is excellent AI/ML + alternative-data fit but official location is New York only, so excluded for SG pipeline. Recurring; no Phase 3.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
+      "jobSource": "cached JD"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-13 — Thursday",
+        "date": "2026-08-13",
+        "candidateMentions": 34,
+        "uniqueCompanies": 17,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-12 — Ad-hoc Company Deep Search: Quadeye",
         "date": "2026-08-12",
@@ -2708,14 +2716,6 @@
         "uniqueCompanies": 4,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-17 — Friday",
-        "date": "2026-07-17",
-        "candidateMentions": 10,
-        "uniqueCompanies": 5,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2857,6 +2857,22 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-13-drw-quantitative-researcher-singapore.md",
+      "path": "outputs/jd-cache/2026-08-13-drw-quantitative-researcher-singapore.md",
+      "title": "DRW — Quantitative Researcher, Singapore",
+      "date": "2026-08-13",
+      "url": "https://job-boards.greenhouse.io/drweng/jobs/8014936",
+      "excerpt": "Source: https://job-boards.greenhouse.io/drweng/jobs/8014936 Scan date: 2026-08-13 Status: active official Greenhouse page ## Extracted Signals - Location: Singapore. - Published at: 2026-07-13 per Greenhouse page data. - Develop mathematical models using adva"
+    },
+    {
+      "file": "2026-08-13-jpmorgan-commodities-quantitative-research-associate-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-08-13-jpmorgan-commodities-quantitative-research-associate-singapore.partial.md",
+      "title": "J.P. Morgan — Commodities Quantitative Research, Associate",
+      "date": "2026-08-13",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210750305/",
+      "excerpt": "Source: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210750305/ Scan date: 2026-08-13 Status: official Oracle/JPMC metadata recovered; full JS-rendered body partial ## Extracted Signals - Title metadata: Quantitative Trading &"
     },
     {
       "file": "2026-08-12-dv-trading-remote-quantitative-researcher-web3career.md",
