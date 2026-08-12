@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T01:55:41.557Z",
+  "generatedAt": "2026-08-12T02:31:39.206Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 115,
+    "trackedCompanies": 116,
     "topTargets": 16,
-    "jdCacheFiles": 120,
+    "jdCacheFiles": 121,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 50,
+    "verify": 51,
     "watch": 27,
     "researched": 6
   },
@@ -916,6 +916,24 @@
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
       "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
       "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "nurp",
+      "company": "Nurp",
+      "status": "watch",
+      "fitScoreRaw": "3.85 conditional",
+      "score": 3.85,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-12",
+      "notes": "LinkedIn job 4452474647 and official Rippling ATS confirm AI ML Quantitative Researcher - Alpha Discovery (Hybrid): strong ML-alpha/live-portfolio loop, signal selection/weighting, live risk monitoring, exposure/bias control, entry/exit timing, position sizing, regime detection, feature engineering, and production integration. Salary USD 200k-400k plus revenue share. Downgraded because it is Miami hybrid three days in office, requires 7+ years financial-institution/hedge-fund/prop/fintech and 5+ years ML-trading experience, and Nurp is a retail-facing algo trading software / financial education SaaS rather than an institutional fund. Not lightweight; US wild-card watch only.",
+      "geo": "Miami hybrid",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Nurp — AI ML Quantitative Researcher - Alpha Discovery (Hybrid)",
+      "jobUrl": "https://nurp.rippling-ats.com/job/977094/ai-ml-quantitative-researcher-alpha-discovery-hybrid",
       "jobSource": "cached JD"
     },
     {
@@ -2400,6 +2418,14 @@
   "history": {
     "scans": [
       {
+        "title": "2026-08-12 — Ad-hoc LinkedIn Job Deep Search: Nurp 4452474647",
+        "date": "2026-08-12",
+        "candidateMentions": 2,
+        "uniqueCompanies": 2,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
         "title": "2026-08-12 — Ad-hoc Lightweight Candidate Deep Search",
         "date": "2026-08-12",
         "candidateMentions": 6,
@@ -2582,14 +2608,6 @@
         "uniqueCompanies": 8,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-14 — Tuesday",
-        "date": "2026-07-14",
-        "candidateMentions": 25,
-        "uniqueCompanies": 10,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2747,6 +2765,14 @@
       "date": "2026-08-12",
       "url": null,
       "excerpt": "> Collected: 2026-08-12 KST > Source: LinkedIn Singapore, Built In, JPMC Oracle search result > Status: partial; official Oracle body located in search but not fully scraped ## Location / Scope - Singapore. - Hybrid / front-office commodities quant trading sur"
+    },
+    {
+      "file": "2026-08-12-nurp-ai-ml-quant-alpha-discovery.md",
+      "path": "outputs/jd-cache/2026-08-12-nurp-ai-ml-quant-alpha-discovery.md",
+      "title": "Nurp — AI ML Quantitative Researcher - Alpha Discovery (Hybrid)",
+      "date": "2026-08-12",
+      "url": "https://nurp.rippling-ats.com/job/977094/ai-ml-quantitative-researcher-alpha-discovery-hybrid",
+      "excerpt": "> Collected: 2026-08-12 KST > Source: official Nurp Rippling ATS https://nurp.rippling-ats.com/job/977094/ai-ml-quantitative-researcher-alpha-discovery-hybrid + LinkedIn https://www.linkedin.com/jobs/view/4452474647/ > Status: official active; Miami hybrid; co"
     },
     {
       "file": "2026-08-12-presto-quantitative-researcher-singapore.partial.md",

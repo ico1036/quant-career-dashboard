@@ -131,6 +131,7 @@ function inferGeo(text, company = "") {
     "graviton"
   ];
   if (lower.includes("dallas") || lower.includes("texas") || lower.includes("y'all")) return "Texas/Dallas";
+  if (lower.includes("miami")) return "Miami hybrid";
   if (lower.includes("singapore") || lower.includes(" sg ") || lower.endsWith(" sg")) return "Singapore";
   if (lower.includes("remote")) return "Remote";
   if (lower.includes("hong kong") || lower.includes("hk")) return "APAC";
@@ -219,7 +220,8 @@ const careersFallback = new Map([
   ["squarepoint capital", "https://www.squarepoint-capital.com/careers"],
   ["balyasny", "https://www.bamfunds.com/careers/"],
   ["schonfeld", "https://www.schonfeld.com/careers/"],
-  ["g-research", "https://www.gresearch.com/vacancies/"]
+  ["g-research", "https://www.gresearch.com/vacancies/"],
+  ["nurp", "https://nurp.rippling-ats.com/"]
 ]);
 
 function companyNeedles(company) {
