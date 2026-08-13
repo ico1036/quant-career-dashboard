@@ -228,7 +228,8 @@ const careersFallback = new Map([
   ["keyrock", "https://jobs.ashbyhq.com/keyrock"],
   ["wormhole labs", "https://jobs.ashbyhq.com/wormholelabs"],
   ["second foundation", "https://job-boards.eu.greenhouse.io/sfweb/jobs/4631230101"],
-  ["aaa global", "https://aaaglobal.co.uk/"]
+  ["aaa global", "https://aaaglobal.co.uk/"],
+  ["trexquant", "https://trexquant.com/global-alpha-researcher"]
 ]);
 
 function companyNeedles(company) {

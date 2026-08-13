@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:09:19.948Z",
+  "generatedAt": "2026-08-13T12:22:11.985Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,7 +7,7 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 123,
+    "trackedCompanies": 124,
     "topTargets": 16,
     "jdCacheFiles": 127,
     "resumeFiles": 180,
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 4,
-    "verify": 58,
+    "verify": 59,
     "watch": 27,
     "researched": 6
   },
@@ -1441,6 +1441,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "trexquant-gar",
+      "company": "Trexquant GAR",
+      "status": "watch",
+      "fitScoreRaw": "3.6 lightweight-global / contractor-program",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-13",
+      "notes": "LinkedIn job 4284055192 maps to Trexquant Investment LP Global Alpha Researcher (GLOBAL). Official Trexquant GAR page and careers page confirm this is a real remote/global program: independent contractor, work from anywhere, flexible timing, monthly compensation plus performance bonus, proprietary simulation/research tools, mentoring, and potential full-time offers for top performers. Research content is relevant: market-neutral medium-frequency equity alphas, academic research implementation, alpha filtering/combination, data parsing, ML for alpha discovery and portfolio construction. This is closer to a low-friction paid alpha-research platform/program than a normal full-time QR role; good for lightweight global exposure and signal-building reps, but lower status/comp certainty than direct hedge-fund QR and has idea/IP/platform-risk questions.",
+      "geo": "Remote",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Trexquant GAR careers",
+      "jobUrl": "https://trexquant.com/global-alpha-researcher",
+      "jobSource": "careers page"
+    },
+    {
       "id": "alveria-capital",
       "company": "Alveria Capital",
       "status": "suspicious",
@@ -2544,6 +2562,14 @@
   "history": {
     "scans": [
       {
+        "title": "2026-08-13 — Ad-hoc LinkedIn Deep Search: Trexquant 4284055192",
+        "date": "2026-08-13",
+        "candidateMentions": 0,
+        "uniqueCompanies": 0,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
         "title": "2026-08-13 — Ad-hoc LinkedIn Deep Search: AAA Global 4440521074",
         "date": "2026-08-13",
         "candidateMentions": 0,
@@ -2724,14 +2750,6 @@
         "date": "2026-07-22",
         "candidateMentions": 15,
         "uniqueCompanies": 6,
-        "scoreCount": 0,
-        "maxScore": null
-      },
-      {
-        "title": "2026-07-21 — Tuesday Evening Manual Screen + HTML Dashboard",
-        "date": "2026-07-21",
-        "candidateMentions": 23,
-        "uniqueCompanies": 10,
         "scoreCount": 0,
         "maxScore": null
       }
