@@ -227,7 +227,8 @@ const careersFallback = new Map([
   ["okx", "https://www.okx.com/en-us/join-us/openings"],
   ["keyrock", "https://jobs.ashbyhq.com/keyrock"],
   ["wormhole labs", "https://jobs.ashbyhq.com/wormholelabs"],
-  ["second foundation", "https://job-boards.eu.greenhouse.io/sfweb/jobs/4631230101"]
+  ["second foundation", "https://job-boards.eu.greenhouse.io/sfweb/jobs/4631230101"],
+  ["aaa global", "https://aaaglobal.co.uk/"]
 ]);
 
 function companyNeedles(company) {
@@ -251,6 +252,7 @@ function companyNeedles(company) {
         "anonymous",
         "client",
         "singapore",
+        "global",
         "management",
         "investment",
         "partners",

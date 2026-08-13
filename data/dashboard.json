@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T23:33:14.011Z",
+  "generatedAt": "2026-08-13T12:09:19.948Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,7 +7,7 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 122,
+    "trackedCompanies": 123,
     "topTargets": 16,
     "jdCacheFiles": 127,
     "resumeFiles": 180,
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 4,
-    "verify": 57,
+    "verify": 58,
     "watch": 27,
     "researched": 6
   },
@@ -734,9 +734,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
-      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
-      "jobSource": "cached JD"
+      "jobTitle": "Jain Global careers",
+      "jobUrl": "https://www.google.com/search?q=Jain%20Global%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "paragon-alpha-recruiter",
@@ -809,6 +809,24 @@
       "jobTitle": "Keyrock — Quantitative Researcher / HFT Quant Remote-Possible EMEA",
       "jobUrl": "https://jobs.ashbyhq.com/keyrock",
       "jobSource": "cached JD"
+    },
+    {
+      "id": "aaa-global-recruiter",
+      "company": "AAA Global (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "3.9 recruiter-mediated / US-remote conditional",
+      "score": 3.9,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-13",
+      "notes": "LinkedIn job 4440521074 maps to AAA Global HFT Quantitative Researcher / Quantitative Researcher (Equities), posted as USA Remote with Apply visible in LinkedIn search cache. This is an anonymous-client mandate for a leading global quantitative trading firm, focused on HFT/stat-arb equities, short-horizon systematic signals, rigorous validation/backtesting, live deployment, market microstructure, Python, and C++ optional/advantageous. Interesting if the client is real and remote is not US-only, but not a direct employer posting and likely not lightweight: expect signal/track-record scrutiny, statistics, coding, backtest/overfitting discussion, and maybe HFT-style technical rounds. Use only as recruiter info ping until client name, remote geography, comp, and interview format are clarified.",
+      "geo": "Remote",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "AAA Global (recruiter) careers",
+      "jobUrl": "https://aaaglobal.co.uk/",
+      "jobSource": "careers page"
     },
     {
       "id": "citadel-phd-graduate-asia",
@@ -2526,6 +2544,14 @@
   "history": {
     "scans": [
       {
+        "title": "2026-08-13 — Ad-hoc LinkedIn Deep Search: AAA Global 4440521074",
+        "date": "2026-08-13",
+        "candidateMentions": 0,
+        "uniqueCompanies": 0,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
         "title": "2026-08-13 — Thursday",
         "date": "2026-08-13",
         "candidateMentions": 34,
@@ -2706,14 +2732,6 @@
         "date": "2026-07-21",
         "candidateMentions": 23,
         "uniqueCompanies": 10,
-        "scoreCount": 0,
-        "maxScore": null
-      },
-      {
-        "title": "2026-07-20 — Monday",
-        "date": "2026-07-20",
-        "candidateMentions": 14,
-        "uniqueCompanies": 4,
         "scoreCount": 0,
         "maxScore": null
       }
