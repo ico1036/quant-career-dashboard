@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:22:11.985Z",
+  "generatedAt": "2026-08-13T12:34:39.194Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,7 +7,7 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 124,
+    "trackedCompanies": 125,
     "topTargets": 16,
     "jdCacheFiles": 127,
     "resumeFiles": 180,
@@ -20,7 +20,7 @@
     "applyFirst": 4,
     "verify": 59,
     "watch": 27,
-    "researched": 6
+    "researched": 7
   },
   "latestBrief": {
     "title": "# Quant Job Pipeline Brief — 2026-07-21",
@@ -286,6 +286,24 @@
       "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
       "jobTitle": "Selini Capital careers",
       "jobUrl": "https://www.selini.capital/careers",
+      "jobSource": "careers page"
+    },
+    {
+      "id": "arbwick",
+      "company": "ArbWick",
+      "status": "verify",
+      "fitScoreRaw": "4.25 AI-native / LinkedIn-active",
+      "score": 4.25,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-13",
+      "notes": "LinkedIn job 4453352474 maps to ArbWick Quantitative Researcher, United States, active today with Apply visible. ArbWick positions itself as an agentic investment platform for professional investors, combining institutional-grade quantitative research, market data, deterministic analytics, and AI-driven workflows. JD is extremely aligned with Helix/research-automation positioning: original systematic research across equities, digital assets, rates, commodities, credit, FX; ML/statistical idea generation; signal libraries, backtesting frameworks, portfolio analytics, risk models, validation tools; reusable quant functions integrated into agentic investment workflows; robustness, transaction costs, liquidity, market impact, leakage/overfitting checks; and production monitoring with founders/engineers/AI researchers/institutional clients. Stronger career relevance than Trexquant GAR because it is full-time and agentic-finance-native, but verify company substance, funding/customers, compensation, remote/global eligibility, and whether it is a real quant role or product/research hybrid before spending a full resume cycle.",
+      "geo": "Remote",
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "ArbWick careers",
+      "jobUrl": "https://arbwick.com/",
       "jobSource": "careers page"
     },
     {
@@ -2523,6 +2541,24 @@
       "jobSource": "careers page"
     },
     {
+      "id": "arbwick",
+      "company": "ArbWick",
+      "status": "verify",
+      "fitScoreRaw": "4.25 AI-native / LinkedIn-active",
+      "score": 4.25,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-13",
+      "notes": "LinkedIn job 4453352474 maps to ArbWick Quantitative Researcher, United States, active today with Apply visible. ArbWick positions itself as an agentic investment platform for professional investors, combining institutional-grade quantitative research, market data, deterministic analytics, and AI-driven workflows. JD is extremely aligned with Helix/research-automation positioning: original systematic research across equities, digital assets, rates, commodities, credit, FX; ML/statistical idea generation; signal libraries, backtesting frameworks, portfolio analytics, risk models, validation tools; reusable quant functions integrated into agentic investment workflows; robustness, transaction costs, liquidity, market impact, leakage/overfitting checks; and production monitoring with founders/engineers/AI researchers/institutional clients. Stronger career relevance than Trexquant GAR because it is full-time and agentic-finance-native, but verify company substance, funding/customers, compensation, remote/global eligibility, and whether it is a real quant role or product/research hybrid before spending a full resume cycle.",
+      "geo": "Remote",
+      "action": "researched",
+      "actionLabel": "Already researched",
+      "actionMeaning": "Company has prior research or tailored resume",
+      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "jobTitle": "ArbWick careers",
+      "jobUrl": "https://arbwick.com/",
+      "jobSource": "careers page"
+    },
+    {
       "id": "binance",
       "company": "Binance",
       "status": "scored",
@@ -2539,28 +2575,18 @@
       "jobTitle": "Binance — Quantitative Researcher",
       "jobUrl": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
       "jobSource": "cached JD"
-    },
-    {
-      "id": "citadel-citsec",
-      "company": "Citadel/CitSec",
-      "status": "scored",
-      "fitScoreRaw": "4.2",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-07-20",
-      "notes": "Official Citadel Securities QR/QRA page resurfaced fresh: Singapore-compatible recurring signal with ML/pattern recognition/NLP and live trading signal implementation. Citadel DSG QR is excellent AI/ML + alternative-data fit but official location is New York only, so excluded for SG pipeline. Recurring; no Phase 3.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
-      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
-      "jobSource": "cached JD"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-13 — Ad-hoc LinkedIn Deep Search: ArbWick 4453352474",
+        "date": "2026-08-13",
+        "candidateMentions": 0,
+        "uniqueCompanies": 0,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-13 — Ad-hoc LinkedIn Deep Search: Trexquant 4284055192",
         "date": "2026-08-13",
@@ -2742,14 +2768,6 @@
         "date": "2026-07-23",
         "candidateMentions": 15,
         "uniqueCompanies": 7,
-        "scoreCount": 0,
-        "maxScore": null
-      },
-      {
-        "title": "2026-07-22 — Wednesday",
-        "date": "2026-07-22",
-        "candidateMentions": 15,
-        "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
       }

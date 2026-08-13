@@ -229,7 +229,8 @@ const careersFallback = new Map([
   ["wormhole labs", "https://jobs.ashbyhq.com/wormholelabs"],
   ["second foundation", "https://job-boards.eu.greenhouse.io/sfweb/jobs/4631230101"],
   ["aaa global", "https://aaaglobal.co.uk/"],
-  ["trexquant", "https://trexquant.com/global-alpha-researcher"]
+  ["trexquant", "https://trexquant.com/global-alpha-researcher"],
+  ["arbwick", "https://arbwick.com/"]
 ]);
 
 function companyNeedles(company) {
