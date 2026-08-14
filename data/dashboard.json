@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T00:48:43.513Z",
+  "generatedAt": "2026-08-14T04:28:48.646Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -18,9 +18,9 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 56,
+    "verify": 55,
     "watch": 23,
-    "researched": 5
+    "researched": 4
   },
   "latestBrief": {
     "title": "# Quant Job Pipeline Brief — 2026-07-21",
@@ -507,17 +507,17 @@
     {
       "id": "millennium",
       "company": "Millennium",
-      "status": "scored",
+      "status": "applied",
       "fitScoreRaw": "4.1 provisional",
       "score": 4.1,
       "scoreBucket": "strong",
       "lastSeen": "2026-08-14",
-      "notes": "Official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong remains the cleanest current Millennium surface, and LinkedIn indexed search resurfaced fresh Singapore QR cards. Full JD body extraction remains partial. No auto Phase 3 because Millennium is already tracked/researched historically.",
+      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. This remains the cleanest current Millennium surface, and LinkedIn indexed search resurfaced fresh Singapore QR cards. Full JD body extraction remains partial. Next step: track response/follow-up.",
       "geo": "Singapore",
-      "action": "researched",
-      "actionLabel": "Already researched",
-      "actionMeaning": "Company has prior research or tailored resume",
-      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
+      "action": "applied",
+      "actionLabel": "Applied",
+      "actionMeaning": "Application submitted",
+      "actionNextStep": "Track response and prepare follow-up if no reply",
       "jobTitle": "Millennium — Quantitative Researcher, Equity",
       "jobUrl": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
       "jobSource": "cached JD"
@@ -525,17 +525,17 @@
     {
       "id": "mlp-group-millennium",
       "company": "MLP Group (Millennium)",
-      "status": "scored",
+      "status": "applied",
       "fitScoreRaw": "4.1 provisional",
       "score": 4.1,
       "scoreBucket": "strong",
-      "lastSeen": "2026-07-30",
-      "notes": "career.mlp.com official Equity QR Singapore/Hong Kong page recovered. Treat together with Millennium tracker row; partial JD body, strong portfolio/alpha fit.",
+      "lastSeen": "2026-08-14",
+      "notes": "Applied via the Millennium tracker row to the career.mlp.com official Equity QR Singapore/Hong Kong page. Treat together with Millennium tracker row; partial JD body, strong portfolio/alpha fit.",
       "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "action": "applied",
+      "actionLabel": "Applied",
+      "actionMeaning": "Application submitted",
+      "actionNextStep": "Track response and prepare follow-up if no reply",
       "jobTitle": "Millennium — Quantitative Researcher, Equity",
       "jobUrl": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
       "jobSource": "cached JD"
