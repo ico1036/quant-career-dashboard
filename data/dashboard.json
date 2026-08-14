@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T23:41:01.137Z",
+  "generatedAt": "2026-08-14T00:48:43.513Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,7 +7,7 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 125,
+    "trackedCompanies": 115,
     "topTargets": 16,
     "jdCacheFiles": 127,
     "resumeFiles": 180,
@@ -18,9 +18,9 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 59,
-    "watch": 27,
-    "researched": 6
+    "verify": 56,
+    "watch": 23,
+    "researched": 5
   },
   "latestBrief": {
     "title": "# Quant Job Pipeline Brief — 2026-07-21",
@@ -178,24 +178,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
       "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "bridgewater",
-      "company": "Bridgewater",
-      "status": "researched",
-      "fitScoreRaw": "4.3",
-      "score": 4.3,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-06-29",
-      "notes": "NEW official Equity Quantitative Research Associate for New York City & Singapore: PM-led APAC systematic macro/L/S equity pod, end-to-end alpha, alternative data, new tech adoption. Strong but junior-mid; already researched historically.",
-      "geo": "Singapore",
-      "action": "researched",
-      "actionLabel": "Already researched",
-      "actionMeaning": "Company has prior research or tailored resume",
-      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
-      "jobTitle": "Bridgewater — Equity Quantitative Research Associate",
-      "jobUrl": "https://job-boards.greenhouse.io/bridgewater89/jobs/8406845002",
       "jobSource": "cached JD"
     },
     {
@@ -469,24 +451,6 @@
       "jobSource": "careers page"
     },
     {
-      "id": "second-foundation",
-      "company": "Second Foundation",
-      "status": "scored",
-      "fitScoreRaw": "4.15 energy-quant / active Tokyo",
-      "score": 4.15,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-12",
-      "notes": "LinkedIn job 4416968206 maps to Second Foundation Quantitative Research Analyst in Greater Tokyo. Official Greenhouse sfweb board has Quantitative Research Analyst Tokyo, Japan active with application form/Submit application visible. Role is physical electricity / algorithmic energy trading: improve predictive models, develop new strategies across countries/exchanges, enhance autonomous trading strategies, work with data/DevOps/developers/traders, and integrate strategies with physical assets. Strong fit for ML/data science/Python/research automation and ambiguous real-world market problems. Not lightweight: interview signals mention difficult interviews and probability/math questions; expect coding + probability + model reasoning, though likely less brainteaser-prop-shop than Quadeye/Optiver style. Location is Tokyo, with flexible hours/home-office options in JD, not global remote.",
-      "geo": "Tokyo / Japan",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Second Foundation careers",
-      "jobUrl": "https://job-boards.eu.greenhouse.io/sfweb/jobs/4631230101",
-      "jobSource": "careers page"
-    },
-    {
       "id": "anson-mccade-recruiter",
       "company": "Anson McCade (recruiter)",
       "status": "suspicious",
@@ -574,24 +538,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Millennium — Quantitative Researcher, Equity",
       "jobUrl": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "optiver",
-      "company": "Optiver",
-      "status": "scored",
-      "fitScoreRaw": "4.1 technical / texas-expanded",
-      "score": 4.1,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-11",
-      "notes": "Official Austin Quantitative Researcher - HFT Futures/Equities remains active on the QR/ML board, and the Austin office page reinforces ML, research infrastructure, big data computing, systematic trading systems, and live-market deployment. Keep as texas-expanded rather than excluding as US-only.",
-      "geo": "Texas/Dallas",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Optiver — Quantitative Researcher – HFT Futures/Equities",
-      "jobUrl": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/austin/quantitative-researcher-hft-futures-equities/",
       "jobSource": "cached JD"
     },
     {
@@ -934,24 +880,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Options Group Internal — Senior Quantitative Researcher / Associate PM",
       "jobUrl": "https://sg.indeed.com/q-quantitative-hedge-fund-jobs.html",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "rock-bund-capital",
-      "company": "Rock Bund Capital",
-      "status": "new",
-      "fitScoreRaw": "3.9",
-      "score": 3.9,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-05-19",
-      "notes": "NEW Singapore MFT QR posting on Greenhouse. Strong alpha/ML/portfolio-construction signal but crypto/MFT execution-heavy; below Phase 3 threshold.",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Rock Bund Capital — Quantitative Researcher - MFT Strategies (Crypto / TradFi)",
-      "jobUrl": "https://job-boards.eu.greenhouse.io/rockbund/jobs/4868807101",
       "jobSource": "cached JD"
     },
     {
@@ -1423,24 +1351,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "kronos-research",
-      "company": "Kronos Research",
-      "status": "watching",
-      "fitScoreRaw": "3.6 current / 4.4 prior",
-      "score": 3.6,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-08-06",
-      "notes": "Greenhouse board appears active again in search cache with Experienced / SMA Trader (Systematic Strategies) Remote; Singapore and Quantitative Research Graduate Program (2026) Taiwan. Treat as reactivated watch, but current visible Singapore role is trader/program framing rather than clean ML QR.",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Kronos Research — Machine Learning Researcher",
-      "jobUrl": "https://job-boards.greenhouse.io/kronosresearch/jobs/6662635003",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "midpoint-markets",
       "company": "Midpoint Markets",
       "status": "scored",
@@ -1513,24 +1423,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "b2c2-sbi",
-      "company": "B2C2 (SBI)",
-      "status": "scored",
-      "fitScoreRaw": "3.5",
-      "score": 3.5,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-04-29",
-      "notes": "Quantitative Trader, SG. Crypto market maker. Execution-heavy, not pure research.",
-      "geo": "Unspecified",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "B2C2 (SBI) careers",
-      "jobUrl": "https://www.b2c2.com/careers",
-      "jobSource": "careers page"
-    },
-    {
       "id": "blackrock",
       "company": "BlackRock",
       "status": "location-mismatch",
@@ -1601,42 +1493,6 @@
       "jobTitle": "Invesco careers",
       "jobUrl": "https://www.google.com/search?q=Invesco%20careers%20quant%20jobs",
       "jobSource": "job search"
-    },
-    {
-      "id": "mwam-marshall-wace",
-      "company": "MWAM (Marshall Wace)",
-      "status": "new",
-      "fitScoreRaw": "3.5 est.",
-      "score": 3.5,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-06-24",
-      "notes": "Quant Associate Programme (Research & Implementation). London-based, no SG confirmed. Systematic investment team.",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "MWAM (Marshall Wace) careers",
-      "jobUrl": "https://www.mwam.com/careers/",
-      "jobSource": "careers page"
-    },
-    {
-      "id": "qcp",
-      "company": "QCP",
-      "status": "scored",
-      "fitScoreRaw": "3.5",
-      "score": 3.5,
-      "scoreBucket": "watch",
-      "lastSeen": "2026-04-16",
-      "notes": "Head of Quant — leadership level.",
-      "geo": "Unspecified",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "QCP careers",
-      "jobUrl": "https://www.qcpgroup.com/careers",
-      "jobSource": "careers page"
     },
     {
       "id": "quantedge",
@@ -2125,42 +1981,6 @@
       "jobSource": "job search"
     },
     {
-      "id": "mio-partners",
-      "company": "MIO Partners",
-      "status": "ghost",
-      "fitScoreRaw": "—",
-      "score": null,
-      "scoreBucket": "unknown",
-      "lastSeen": "2026-08-03",
-      "notes": "Official Greenhouse Senior Quantitative Research Manager has strong LLM-assisted quant research leadership signal, but explicitly requires US work authorization without sponsorship. Excluded from SG-compatible/Texas-expanded action pipeline.",
-      "geo": "Texas/Dallas",
-      "action": "hold",
-      "actionLabel": "Hold",
-      "actionMeaning": "Low fit, blocked, stale, or suspicious",
-      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "MIO Partners — Senior Quantitative Research Manager",
-      "jobUrl": "https://job-boards.greenhouse.io/miopartners/jobs/4904027008",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "monad-foundation",
-      "company": "Monad Foundation",
-      "status": "ghost",
-      "fitScoreRaw": "—",
-      "score": null,
-      "scoreBucket": "unknown",
-      "lastSeen": "2026-07-10",
-      "notes": "Official Ashby/Monad ecosystem QR page surfaced, but secondary official ecosystem page says no longer accepting applications. Do not pursue unless reopened.",
-      "geo": "Unspecified",
-      "action": "hold",
-      "actionLabel": "Hold",
-      "actionMeaning": "Low fit, blocked, stale, or suspicious",
-      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Monad Foundation careers",
-      "jobUrl": "https://www.monad.xyz/careers",
-      "jobSource": "careers page"
-    },
-    {
       "id": "monolith",
       "company": "MONOLITH",
       "status": "closed",
@@ -2433,24 +2253,6 @@
       "jobSource": "cached JD"
     },
     {
-      "id": "bridgewater",
-      "company": "Bridgewater",
-      "status": "researched",
-      "fitScoreRaw": "4.3",
-      "score": 4.3,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-06-29",
-      "notes": "NEW official Equity Quantitative Research Associate for New York City & Singapore: PM-led APAC systematic macro/L/S equity pod, end-to-end alpha, alternative data, new tech adoption. Strong but junior-mid; already researched historically.",
-      "geo": "Singapore",
-      "action": "researched",
-      "actionLabel": "Already researched",
-      "actionMeaning": "Company has prior research or tailored resume",
-      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
-      "jobTitle": "Bridgewater — Equity Quantitative Research Associate",
-      "jobUrl": "https://job-boards.greenhouse.io/bridgewater89/jobs/8406845002",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "imc-trading",
       "company": "IMC Trading",
       "status": "researched",
@@ -2574,6 +2376,24 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Binance — Quantitative Researcher",
       "jobUrl": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "citadel-citsec",
+      "company": "Citadel/CitSec",
+      "status": "scored",
+      "fitScoreRaw": "4.2",
+      "score": 4.2,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-07-20",
+      "notes": "Official Citadel Securities QR/QRA page resurfaced fresh: Singapore-compatible recurring signal with ML/pattern recognition/NLP and live trading signal implementation. Citadel DSG QR is excellent AI/ML + alternative-data fit but official location is New York only, so excluded for SG pipeline. Recurring; no Phase 3.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
+      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
       "jobSource": "cached JD"
     }
   ],
