@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T23:34:48.199Z",
+  "generatedAt": "2026-08-17T23:33:59.171Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 115,
     "topTargets": 16,
-    "jdCacheFiles": 128,
+    "jdCacheFiles": 129,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -40,11 +40,11 @@
       "id": "gic",
       "company": "GIC",
       "status": "scored",
-      "fitScoreRaw": "4.8",
+      "fitScoreRaw": "4.8 AI Alpha / 4.15 PESG",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-31",
-      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group page crawled today. Still the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. GIC Phase 3 eligible on demand.",
+      "lastSeen": "2026-08-18",
+      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-18 LinkedIn browser + official GIC JD also recovered AVP Quantitative Researcher Fixed Income & FX PESG: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2112,11 +2112,11 @@
       "id": "gic",
       "company": "GIC",
       "status": "scored",
-      "fitScoreRaw": "4.8",
+      "fitScoreRaw": "4.8 AI Alpha / 4.15 PESG",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-07-31",
-      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group page crawled today. Still the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. GIC Phase 3 eligible on demand.",
+      "lastSeen": "2026-08-18",
+      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-18 LinkedIn browser + official GIC JD also recovered AVP Quantitative Researcher Fixed Income & FX PESG: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2400,6 +2400,14 @@
   "history": {
     "scans": [
       {
+        "title": "2026-08-18 — Tuesday",
+        "date": "2026-08-18",
+        "candidateMentions": 26,
+        "uniqueCompanies": 12,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
         "title": "2026-08-17 — Monday",
         "date": "2026-08-17",
         "candidateMentions": 40,
@@ -2582,14 +2590,6 @@
         "uniqueCompanies": 10,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-27 — Monday",
-        "date": "2026-07-27",
-        "candidateMentions": 25,
-        "uniqueCompanies": 11,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2731,6 +2731,14 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-18-gic-avp-quantitative-researcher-fixed-income-fx-pesg.md",
+      "path": "outputs/jd-cache/2026-08-18-gic-avp-quantitative-researcher-fixed-income-fx-pesg.md",
+      "title": "GIC — AVP, Quantitative Researcher (Fixed Income & FX) - PESG",
+      "date": "2026-08-18",
+      "url": "https://careers.gic.com.sg/job/Singapore-AVP%2C-Quantitative-Researcher-%28Fixed-Income-%26-FX%29-Portfolio-Execution-%26-Solutions-Group-%28PESG%29/1330955566/",
+      "excerpt": "> Collected: 2026-08-18 > Source: https://careers.gic.com.sg/job/Singapore-AVP%2C-Quantitative-Researcher-%28Fixed-Income-%26-FX%29-Portfolio-Execution-%26-Solutions-Group-%28PESG%29/1330955566/ > Status: official employer JD, Singapore, legitimate ## Role Por"
     },
     {
       "file": "2026-08-17-millennium-deep-learning-quantitative-researcher-singapore.partial.md",
