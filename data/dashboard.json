@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:33:59.171Z",
+  "generatedAt": "2026-08-18T23:34:42.205Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 115,
+    "trackedCompanies": 117,
     "topTargets": 16,
-    "jdCacheFiles": 129,
+    "jdCacheFiles": 132,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,7 +18,7 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 55,
+    "verify": 56,
     "watch": 23,
     "researched": 4
   },
@@ -205,8 +205,8 @@
       "fitScoreRaw": "4.3 provisional AI ML / 3.9 commodities research",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-17",
-      "notes": "LinkedIn browser scan surfaced Quantitative Trading & Research - Commodities Quantitative Research - Associate Singapore as a visible 3-day-old card. Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate remains the best AI-native JPMC signal; commodities remains below it because it is more front-office quant than AI-native alpha research.",
+      "lastSeen": "2026-08-19",
+      "notes": "Gmail LinkedIn alerts corroborated the recurring Singapore Quantitative Trading & Research / AI-ML family. Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate remains the best AI-native JPMC signal; commodities remains below it because it is more front-office quant than AI-native alpha research.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -223,8 +223,8 @@
       "fitScoreRaw": "4.3",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-17",
-      "notes": "LinkedIn browser scan showed a visible Quantitative Researcher / Trading Team Singapore card, and web_search cross-checked the official Jump Trading page. AI Research Scientist R&D remains a high-fit watch. AI team consists of quantitative researchers, engineers, and ML experts leading LLM research/applications at Jump. Recurring high-fit direct-employer target.",
+      "lastSeen": "2026-08-19",
+      "notes": "Gmail LinkedIn alerts and live LinkedIn browser scan both corroborated Singapore Quantitative Researcher / Trader \\",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -232,6 +232,24 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
       "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "millennium",
+      "company": "Millennium",
+      "status": "applied",
+      "fitScoreRaw": "4.3 provisional",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-19",
+      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. 2026-08-17-19 scans keep surfacing Deep Learning Quantitative Researcher Singapore through LinkedIn/MLP index signals. Exact Deep Learning JD still needs direct employer/ATS recovery, but this remains the strongest new ML-specific recurring signal. Next step: track response/follow-up and recover exact JD.",
+      "geo": "Singapore",
+      "action": "applied",
+      "actionLabel": "Applied",
+      "actionMeaning": "Application submitted",
+      "actionNextStep": "Track response and prepare follow-up if no reply",
+      "jobTitle": "Millennium — Deep Learning Quantitative Researcher, Singapore",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4444602891/",
       "jobSource": "cached JD"
     },
     {
@@ -287,24 +305,6 @@
       "jobTitle": "ArbWick careers",
       "jobUrl": "https://arbwick.com/",
       "jobSource": "careers page"
-    },
-    {
-      "id": "millennium",
-      "company": "Millennium",
-      "status": "applied",
-      "fitScoreRaw": "4.25 provisional",
-      "score": 4.25,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-17",
-      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. 2026-08-17 LinkedIn browser scan also surfaced a new visible Deep Learning Quantitative Researcher Singapore card posted 1 day ago. Exact Deep Learning JD still needs direct employer/ATS recovery, but this is the strongest new ML-specific recurring signal. Next step: track response/follow-up and recover exact JD.",
-      "geo": "Singapore",
-      "action": "applied",
-      "actionLabel": "Applied",
-      "actionMeaning": "Application submitted",
-      "actionNextStep": "Track response and prepare follow-up if no reply",
-      "jobTitle": "Millennium — Deep Learning Quantitative Researcher, Singapore",
-      "jobUrl": "https://www.linkedin.com/jobs/view/4444602891/",
-      "jobSource": "cached JD"
     },
     {
       "id": "binance",
@@ -403,8 +403,8 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-04",
-      "notes": "Official WorldQuant Greenhouse Singapore Quantitative Researcher page remains active with ML/AI and research-scientist signal. Recurring; no Phase 3.",
+      "lastSeen": "2026-08-19",
+      "notes": "LinkedIn indexed search resurfaced a fresh 6-day Singapore Quantitative Researcher signal; official WorldQuant Greenhouse Singapore QR family remains the legitimacy anchor with ML/AI and research-scientist signal. Recurring; no Phase 3.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -439,8 +439,8 @@
       "fitScoreRaw": "4.15 current / 4.6 prior ML",
       "score": 4.15,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-17",
-      "notes": "LinkedIn browser scan showed a visible Quantitative Researcher Singapore card, and web_search cross-checked the official DRW Quantitative Researcher page. Prior official page signal includes statistical learning, cutting-edge ML, predictive signals, production handoff, execution/risk optimization, and algorithmic trade prototyping. Current recurring surface remains less immediately actionable than the prior experienced ML QR / Quantitative AI Strategist surface.",
+      "lastSeen": "2026-08-19",
+      "notes": "LinkedIn indexed search and official DRW Singapore career pages continue to surface Quantitative Researcher - ML / Equities family signals. Prior official page signal includes statistical learning, cutting-edge ML, predictive signals, production handoff, execution/risk optimization, and algorithmic trade prototyping. Current recurring surface remains less immediately actionable than the prior experienced ML QR / Quantitative AI Strategist surface.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -629,6 +629,24 @@
       "jobTitle": "Balyasny (BAM) careers",
       "jobUrl": "https://www.bamfunds.com/careers/",
       "jobSource": "careers page"
+    },
+    {
+      "id": "bank-of-singapore",
+      "company": "Bank of Singapore",
+      "status": "partial",
+      "fitScoreRaw": "4.0 provisional title-only",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-19",
+      "notes": "Gmail LinkedIn alert surfaced Multi-Strat and Investment AI Specialist in Singapore. This is a rare investment-AI title and may align with AI-native investment workflow positioning, but exact JD was not recovered today. Promote only after JD recovery; no Phase 3 yet.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Bank of Singapore — Multi-Strat and Investment AI Specialist",
+      "jobUrl": "https://www.linkedin.com/comm/jobs/view/4453629651/",
+      "jobSource": "cached JD"
     },
     {
       "id": "hrt-austin-mid-freq",
@@ -1639,6 +1657,24 @@
       "jobSource": "job search"
     },
     {
+      "id": "thedatajob",
+      "company": "TheDataJob",
+      "status": "partial",
+      "fitScoreRaw": "3.4 provisional reposting surface",
+      "score": 3.4,
+      "scoreBucket": "low",
+      "lastSeen": "2026-08-19",
+      "notes": "Gmail LinkedIn alerts repeatedly surfaced Quantitative Trader \\",
+      "geo": "Unspecified",
+      "action": "hold",
+      "actionLabel": "Hold",
+      "actionMeaning": "Low fit, blocked, stale, or suspicious",
+      "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
+      "jobTitle": "TheDataJob — Quantitative Trader | Trading Team",
+      "jobUrl": "https://www.linkedin.com/comm/jobs/view/4455238893/",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "acheron-trading",
       "company": "Acheron Trading",
       "status": "scored",
@@ -2277,8 +2313,8 @@
       "fitScoreRaw": "4.3 provisional AI ML / 3.9 commodities research",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-17",
-      "notes": "LinkedIn browser scan surfaced Quantitative Trading & Research - Commodities Quantitative Research - Associate Singapore as a visible 3-day-old card. Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate remains the best AI-native JPMC signal; commodities remains below it because it is more front-office quant than AI-native alpha research.",
+      "lastSeen": "2026-08-19",
+      "notes": "Gmail LinkedIn alerts corroborated the recurring Singapore Quantitative Trading & Research / AI-ML family. Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate remains the best AI-native JPMC signal; commodities remains below it because it is more front-office quant than AI-native alpha research.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2295,8 +2331,8 @@
       "fitScoreRaw": "4.3",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-17",
-      "notes": "LinkedIn browser scan showed a visible Quantitative Researcher / Trading Team Singapore card, and web_search cross-checked the official Jump Trading page. AI Research Scientist R&D remains a high-fit watch. AI team consists of quantitative researchers, engineers, and ML experts leading LLM research/applications at Jump. Recurring high-fit direct-employer target.",
+      "lastSeen": "2026-08-19",
+      "notes": "Gmail LinkedIn alerts and live LinkedIn browser scan both corroborated Singapore Quantitative Researcher / Trader \\",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2304,6 +2340,24 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
       "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "millennium",
+      "company": "Millennium",
+      "status": "applied",
+      "fitScoreRaw": "4.3 provisional",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-19",
+      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. 2026-08-17-19 scans keep surfacing Deep Learning Quantitative Researcher Singapore through LinkedIn/MLP index signals. Exact Deep Learning JD still needs direct employer/ATS recovery, but this remains the strongest new ML-specific recurring signal. Next step: track response/follow-up and recover exact JD.",
+      "geo": "Singapore",
+      "action": "applied",
+      "actionLabel": "Applied",
+      "actionMeaning": "Application submitted",
+      "actionNextStep": "Track response and prepare follow-up if no reply",
+      "jobTitle": "Millennium — Deep Learning Quantitative Researcher, Singapore",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4444602891/",
       "jobSource": "cached JD"
     },
     {
@@ -2361,24 +2415,6 @@
       "jobSource": "careers page"
     },
     {
-      "id": "millennium",
-      "company": "Millennium",
-      "status": "applied",
-      "fitScoreRaw": "4.25 provisional",
-      "score": 4.25,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-17",
-      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. 2026-08-17 LinkedIn browser scan also surfaced a new visible Deep Learning Quantitative Researcher Singapore card posted 1 day ago. Exact Deep Learning JD still needs direct employer/ATS recovery, but this is the strongest new ML-specific recurring signal. Next step: track response/follow-up and recover exact JD.",
-      "geo": "Singapore",
-      "action": "applied",
-      "actionLabel": "Applied",
-      "actionMeaning": "Application submitted",
-      "actionNextStep": "Track response and prepare follow-up if no reply",
-      "jobTitle": "Millennium — Deep Learning Quantitative Researcher, Singapore",
-      "jobUrl": "https://www.linkedin.com/jobs/view/4444602891/",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "binance",
       "company": "Binance",
       "status": "scored",
@@ -2399,6 +2435,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-19 — Wednesday",
+        "date": "2026-08-19",
+        "candidateMentions": 40,
+        "uniqueCompanies": 20,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-18 — Tuesday",
         "date": "2026-08-18",
@@ -2582,14 +2626,6 @@
         "uniqueCompanies": 10,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-28 — Tuesday",
-        "date": "2026-07-28",
-        "candidateMentions": 25,
-        "uniqueCompanies": 10,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2731,6 +2767,30 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-19-bank-of-singapore-multistrat-investment-ai-specialist.partial.md",
+      "path": "outputs/jd-cache/2026-08-19-bank-of-singapore-multistrat-investment-ai-specialist.partial.md",
+      "title": "Bank of Singapore — Multi-Strat and Investment AI Specialist",
+      "date": "2026-08-19",
+      "url": "https://www.linkedin.com/comm/jobs/view/4453629651/",
+      "excerpt": "- Date surfaced: 2026-08-19 scan - Source: Gmail LinkedIn Job Alert, email dated Fri, 14 Aug 2026 02:25 UTC - LinkedIn URL: https://www.linkedin.com/comm/jobs/view/4453629651/ - Location: Singapore - Status: partial / Gmail-only discovery - Fit score: 4.0 prov"
+    },
+    {
+      "file": "2026-08-19-thedatajob-quantitative-trader-trading-team.partial.md",
+      "path": "outputs/jd-cache/2026-08-19-thedatajob-quantitative-trader-trading-team.partial.md",
+      "title": "TheDataJob — Quantitative Trader | Trading Team",
+      "date": "2026-08-19",
+      "url": "https://www.linkedin.com/comm/jobs/view/4455238893/",
+      "excerpt": "- Date surfaced: 2026-08-19 scan - Source: Gmail LinkedIn Job Alerts, emails dated Tue, 18 Aug 2026 04:26 UTC and Tue, 18 Aug 2026 02:25 UTC - LinkedIn URL: https://www.linkedin.com/comm/jobs/view/4455238893/ - Location: Singapore - Status: partial / reposting"
+    },
+    {
+      "file": "2026-08-19-tower-research-junior-quant-trader-researcher.partial.md",
+      "path": "outputs/jd-cache/2026-08-19-tower-research-junior-quant-trader-researcher.partial.md",
+      "title": "Tower Research Capital — Junior Quantitative Trader / Researcher",
+      "date": "2026-08-19",
+      "url": "https://www.linkedin.com/comm/jobs/view/4446316649/",
+      "excerpt": "- Date surfaced: 2026-08-19 scan - Source: Gmail LinkedIn Job Alert, email dated Tue, 18 Aug 2026 04:26 UTC - LinkedIn URL: https://www.linkedin.com/comm/jobs/view/4446316649/ - Location: Singapore - Status: recurring / junior-hybrid - Fit score: 3.6 provision"
     },
     {
       "file": "2026-08-18-gic-avp-quantitative-researcher-fixed-income-fx-pesg.md",
