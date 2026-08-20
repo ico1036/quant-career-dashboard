@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T23:35:20.636Z",
+  "generatedAt": "2026-08-20T23:36:40.203Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 119,
     "topTargets": 16,
-    "jdCacheFiles": 134,
+    "jdCacheFiles": 137,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -43,8 +43,8 @@
       "fitScoreRaw": "4.8 AI Alpha / 4.15 PESG",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-20",
-      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-20 LinkedIn browser + official GIC JD still show AVP Quantitative Researcher Fixed Income & FX PESG: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
+      "lastSeen": "2026-08-21",
+      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-21 official GIC JD still shows AVP Quantitative Researcher Fixed Income & FX PESG: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -61,8 +61,8 @@
       "fitScoreRaw": "4.6 ML / 4.15 equities",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-20",
-      "notes": "Official DRW Singapore pages remain active for Quantitative Researcher - Machine Learning, Quantitative Researcher Equities, and QR-family roles. Current official ML JD explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; equities JD adds NLP, optimization, automated trading agents, intraday alpha, and production systematic strategies. Recurring high-fit direct-employer target.",
+      "lastSeen": "2026-08-21",
+      "notes": "Official DRW Singapore board was browser-visible with 18 openings including Quantitative Researcher, Quantitative Researcher Equities, Quantitative Researcher - Machine Learning, QR Intern, QTA, and QTA Intern. Current official ML JD explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; equities JD adds NLP, optimization, automated trading agents, intraday alpha, and production systematic strategies. Recurring high-fit direct-employer target.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -194,8 +194,8 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
-      "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+      "jobTitle": "Selby Jennings — Quantitative Researcher, Fundamental Equity Alpha",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/quantitative-researcher-fundamental-equity-alpha-a-share-global-markets-at-selby-jennings-4456144954",
       "jobSource": "cached JD"
     },
     {
@@ -241,8 +241,8 @@
       "fitScoreRaw": "4.3 QR / 4.5 AI watch",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-20",
-      "notes": "Live LinkedIn browser scan and official Jump Trading pages corroborated Singapore Quantitative Researcher \\",
+      "lastSeen": "2026-08-21",
+      "notes": "Live LinkedIn/browser surfaces and official Jump Trading pages corroborate Singapore Quantitative Researcher \\",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -367,8 +367,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-20",
-      "notes": "Dallas office/company presence retained under texas-expanded scope. 2026-08-20 official vacancies show QR, ML, NLP, Quantitative Analyst, experienced QR, and core AI roles, and the NLP Researcher JD is very strong on LLM/domain adaptation/finance text prediction. Current visible role locations remain London, so no clean Dallas-actionable full-time research JD today; keep re-scanning and do not exclude as US-only.",
+      "lastSeen": "2026-08-21",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. 2026-08-21 official NLP Researcher JD remains very strong on LLM/domain adaptation/finance text prediction, and the company page mentions London and Dallas offices. Current visible role location remains London, so no clean Dallas-actionable full-time research JD today; keep re-scanning and do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -475,16 +475,16 @@
       "fitScoreRaw": "4.15 provisional / texas-expanded remote",
       "score": 4.15,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-20",
-      "notes": "Texas-expanded LinkedIn browser search surfaced PhD Machine Learning/AI Researcher/Engineer for an anonymous global elite hedge fund, United States Remote. Strong AI-native quant language: transformers, GenAI, RL, end-to-end ML, data pipelines/fine-tuning, large datasets/compute, and market-opportunity discovery. Recruiter-mediated anonymous-client surface and non-Dallas-specific US remote status block Phase 3; use only as info-ping/watch.",
+      "lastSeen": "2026-08-21",
+      "notes": "Texas-expanded LinkedIn browser search again surfaced PhD Machine Learning/AI Researcher/Engineer for an anonymous global elite hedge fund, United States Remote, 10h old. Strong AI-native quant language: transformers, GenAI, RL, end-to-end ML, data pipelines/fine-tuning, large datasets/compute, and market-opportunity discovery. Recruiter-mediated anonymous-client surface and non-Dallas-specific US remote status block Phase 3; use only as info-ping/watch.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Hunter Bond (recruiter) careers",
-      "jobUrl": "https://www.google.com/search?q=Hunter%20Bond%20(recruiter)%20careers%20quant%20jobs",
-      "jobSource": "job search"
+      "jobTitle": "Hunter Bond — PhD Machine Learning/AI Researcher/Engineer (Texas-Expanded Partial)",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4453896609/",
+      "jobSource": "cached JD"
     },
     {
       "id": "citi",
@@ -565,8 +565,8 @@
       "fitScoreRaw": "4.05 provisional",
       "score": 4.05,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-20",
-      "notes": "Fresh LinkedIn browser card surfaced Quantitative Researcher APAC Remote, 9h old. Search-indexed Durlston pages show Singapore/APAC QR mandates with systematic trading, alpha generation, ML, pricing/volatility/forecasting/optimization/execution, large datasets, and strong project ownership. Treat as recruiter info-ping only until client, direct JD, compensation, and SG/remote eligibility are known.",
+      "lastSeen": "2026-08-21",
+      "notes": "Fresh LinkedIn browser card still surfaces Quantitative Researcher APAC Remote, 1 day old. Search-indexed Durlston pages show Singapore/APAC QR mandates with systematic trading, alpha generation, ML, pricing/volatility/forecasting/optimization/execution, large datasets, and strong project ownership. Treat as recruiter info-ping only until client, direct JD, compensation, and SG/remote eligibility are known.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -835,8 +835,8 @@
       "fitScoreRaw": "3.9-4.1 provisional",
       "score": 3.9,
       "scoreBucket": "watch",
-      "lastSeen": "2026-08-20",
-      "notes": "Fresh LinkedIn browser card surfaced Quantitative Researcher Singapore, while JobStreet/eFC snippets continue to show Quant Analyst / Quant Data Scientist / ML quant hedge-fund surfaces. Strong ML/quant signal but recruiter/anonymous status blocks Phase 3 until employer is identified.",
+      "lastSeen": "2026-08-21",
+      "notes": "Fresh LinkedIn browser card still surfaces Quantitative Researcher Singapore, and public LinkedIn snippet says Quantitative Researcher \\",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -950,9 +950,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Selby Jennings (recruiter) careers",
-      "jobUrl": "https://www.google.com/search?q=Selby%20Jennings%20(recruiter)%20careers%20quant%20jobs",
-      "jobSource": "job search"
+      "jobTitle": "Selby Jennings — Quantitative Researcher, Fundamental Equity Alpha",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/quantitative-researcher-fundamental-equity-alpha-a-share-global-markets-at-selby-jennings-4456144954",
+      "jobSource": "cached JD"
     },
     {
       "id": "squarepoint-capital",
@@ -2187,8 +2187,8 @@
       "fitScoreRaw": "4.8 AI Alpha / 4.15 PESG",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-20",
-      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-20 LinkedIn browser + official GIC JD still show AVP Quantitative Researcher Fixed Income & FX PESG: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
+      "lastSeen": "2026-08-21",
+      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-21 official GIC JD still shows AVP Quantitative Researcher Fixed Income & FX PESG: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2205,8 +2205,8 @@
       "fitScoreRaw": "4.6 ML / 4.15 equities",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-20",
-      "notes": "Official DRW Singapore pages remain active for Quantitative Researcher - Machine Learning, Quantitative Researcher Equities, and QR-family roles. Current official ML JD explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; equities JD adds NLP, optimization, automated trading agents, intraday alpha, and production systematic strategies. Recurring high-fit direct-employer target.",
+      "lastSeen": "2026-08-21",
+      "notes": "Official DRW Singapore board was browser-visible with 18 openings including Quantitative Researcher, Quantitative Researcher Equities, Quantitative Researcher - Machine Learning, QR Intern, QTA, and QTA Intern. Current official ML JD explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; equities JD adds NLP, optimization, automated trading agents, intraday alpha, and production systematic strategies. Recurring high-fit direct-employer target.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2338,8 +2338,8 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
-      "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+      "jobTitle": "Selby Jennings — Quantitative Researcher, Fundamental Equity Alpha",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/quantitative-researcher-fundamental-equity-alpha-a-share-global-markets-at-selby-jennings-4456144954",
       "jobSource": "cached JD"
     },
     {
@@ -2385,8 +2385,8 @@
       "fitScoreRaw": "4.3 QR / 4.5 AI watch",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-20",
-      "notes": "Live LinkedIn browser scan and official Jump Trading pages corroborated Singapore Quantitative Researcher \\",
+      "lastSeen": "2026-08-21",
+      "notes": "Live LinkedIn/browser surfaces and official Jump Trading pages corroborate Singapore Quantitative Researcher \\",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2484,6 +2484,14 @@
         "date": "2026-08-19",
         "candidateMentions": 40,
         "uniqueCompanies": 20,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-08-21 — Friday",
+        "date": "2026-08-21",
+        "candidateMentions": 33,
+        "uniqueCompanies": 12,
         "scoreCount": 0,
         "maxScore": null
       },
@@ -2654,14 +2662,6 @@
         "uniqueCompanies": 8,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-07-30 — Thursday",
-        "date": "2026-07-30",
-        "candidateMentions": 21,
-        "uniqueCompanies": 11,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2803,6 +2803,30 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "hunter-bond-phd-ml-ai-researcher-texas-expanded-2026-08-21.md",
+      "path": "outputs/jd-cache/hunter-bond-phd-ml-ai-researcher-texas-expanded-2026-08-21.md",
+      "title": "Hunter Bond — PhD Machine Learning/AI Researcher/Engineer (Texas-Expanded Partial)",
+      "date": "2026-08-21",
+      "url": "https://www.linkedin.com/jobs/view/4453896609/",
+      "excerpt": "Source: LinkedIn browser scan, 2026-08-21. URL: https://www.linkedin.com/jobs/view/4453896609/ Status: suspicious / recruiter-mediated / texas-expanded remote. Visible details: - Title: PhD Machine Learning/AI Researcher/Engineer : NeurIPS, ICML, ICLR, JMLR : "
+    },
+    {
+      "file": "selby-jennings-fundamental-equity-alpha-2026-08-21.md",
+      "path": "outputs/jd-cache/selby-jennings-fundamental-equity-alpha-2026-08-21.md",
+      "title": "Selby Jennings — Quantitative Researcher, Fundamental Equity Alpha",
+      "date": "2026-08-21",
+      "url": "https://sg.linkedin.com/jobs/view/quantitative-researcher-fundamental-equity-alpha-a-share-global-markets-at-selby-jennings-4456144954",
+      "excerpt": "Source: LinkedIn browser and public LinkedIn indexed page, 2026-08-21. URL: https://sg.linkedin.com/jobs/view/quantitative-researcher-fundamental-equity-alpha-a-share-global-markets-at-selby-jennings-4456144954 Status: suspicious / recruiter-mediated. Visible "
+    },
+    {
+      "file": "vega-solutions-post-graduate-quant-research-intern-2026-08-21.md",
+      "path": "outputs/jd-cache/vega-solutions-post-graduate-quant-research-intern-2026-08-21.md",
+      "title": "Vega Solutions — Post-Graduate Quant Research Intern",
+      "date": "2026-08-21",
+      "url": "https://sg.linkedin.com/jobs/view/post-graduate-quant-research-intern-at-vega-solutions-4456123800",
+      "excerpt": "Source: LinkedIn browser and public LinkedIn indexed page, 2026-08-21. URL: https://sg.linkedin.com/jobs/view/post-graduate-quant-research-intern-at-vega-solutions-4456123800 Status: partial / intern-only. Visible details: - Title: Post-Graduate Quant Research"
     },
     {
       "file": "2026-08-20-durlston-partners-quantitative-researcher-apac-remote.partial.md",
