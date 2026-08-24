@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T23:37:43.539Z",
+  "generatedAt": "2026-08-24T23:37:10.064Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 120,
+    "trackedCompanies": 122,
     "topTargets": 16,
-    "jdCacheFiles": 141,
+    "jdCacheFiles": 143,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,8 +18,8 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 57,
-    "watch": 22,
+    "verify": 58,
+    "watch": 23,
     "researched": 4
   },
   "latestBrief": {
@@ -43,8 +43,8 @@
       "fitScoreRaw": "4.8 AI Alpha / 4.15 PESG",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-21",
-      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-21 official GIC JD still shows AVP Quantitative Researcher Fixed Income & FX PESG: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
+      "lastSeen": "2026-08-25",
+      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-25 portal/search pass still treats PESG as recurring: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -61,8 +61,8 @@
       "fitScoreRaw": "4.6 ML / 4.15 equities",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-21",
-      "notes": "Official DRW Singapore board was browser-visible with 18 openings including Quantitative Researcher, Quantitative Researcher Equities, Quantitative Researcher - Machine Learning, QR Intern, QTA, and QTA Intern. Current official ML JD explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; equities JD adds NLP, optimization, automated trading agents, intraday alpha, and production systematic strategies. Recurring high-fit direct-employer target.",
+      "lastSeen": "2026-08-25",
+      "notes": "Official DRW Singapore board remains browser-visible with Quantitative Researcher, Quantitative Researcher Equities, Quantitative Researcher, Equities, Quantitative Researcher - Machine Learning, QR Intern, QTA, and QTA Intern. The official ML JD still explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; equities JD adds NLP, optimization, automated trading agents, intraday alpha, and production systematic strategies. Recurring high-fit direct-employer target.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -79,7 +79,7 @@
       "fitScoreRaw": "4.55 AI ML / 3.9 commodities research",
       "score": 4.55,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-24",
+      "lastSeen": "2026-08-25",
       "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page is active, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
       "geo": "Singapore",
       "action": "apply",
@@ -259,8 +259,8 @@
       "fitScoreRaw": "4.3 QR / 4.5 AI watch",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-21",
-      "notes": "Live LinkedIn/browser surfaces and official Jump Trading pages corroborate Singapore Quantitative Researcher \\",
+      "lastSeen": "2026-08-25",
+      "notes": "Official Jump careers page remains accessible and points candidates to current open roles; prior direct Jump job pages corroborate Singapore Quantitative Researcher \\",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -349,9 +349,9 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-07",
-      "notes": "Official Lever board still shows Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals including AI Agent Engineer, LLM reasoning/post-training, LLM trading/data scientist, RAG/NLP, AI product roles, and quant-trading product roles. Keep as SG-compatible remote.",
-      "geo": "Remote",
+      "lastSeen": "2026-08-25",
+      "notes": "LinkedIn browser scan again surfaced Quantitative Researcher - Option in Singapore, Singapore (Remote). Prior official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals. Keep as SG-compatible remote and recurring.",
+      "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
@@ -403,8 +403,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-24",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and the official vacancies page still lists QR/ML/NLP research family roles. Today's portal output again shows current research roles in London, including NLP Researcher and Machine Learning Researcher, with no clean Dallas-actionable full-time research JD. Keep re-scanning and do not exclude as US-only.",
+      "lastSeen": "2026-08-25",
+      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. Today's vacancy portal output again lists research roles in London only, including NLP Researcher, Machine Learning Researcher, Quantitative Researcher Experienced/Postgraduate, and Quantitative Analyst. Keep re-scanning and do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -575,6 +575,24 @@
       "jobTitle": "Platinum & Partners (recruiter) careers",
       "jobUrl": "https://www.google.com/search?q=Platinum%20%26%20Partners%20(recruiter)%20careers%20quant%20jobs",
       "jobSource": "job search"
+    },
+    {
+      "id": "cw-talent-solutions-recruiter",
+      "company": "CW Talent Solutions (recruiter)",
+      "status": "suspicious",
+      "fitScoreRaw": "4.05 provisional",
+      "score": 4.05,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-25",
+      "notes": "LinkedIn browser scan surfaced Quantitative Researcher - Quant Macro, Singapore, posted within 24h. JD describes macro/futures alpha research, large-scale datasets, Python/R/C++, backtesting, systematic strategy integration, and premier quant investment-firm client. Recruiter-mediated anonymous-client surface blocks Phase 3 until client/apply route is known.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "CW Talent Solutions — Quantitative Researcher - Quant Macro",
+      "jobUrl": "https://www.linkedin.com/jobs/search/?currentJobId=4458202396",
+      "jobSource": "cached JD"
     },
     {
       "id": "durlston-partners-recruiter",
@@ -1024,6 +1042,24 @@
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
       "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
       "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "boston-consulting-group-bcg-x",
+      "company": "Boston Consulting Group (BCG X)",
+      "status": "scored",
+      "fitScoreRaw": "3.85 provisional",
+      "score": 3.85,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-08-25",
+      "notes": "LinkedIn browser scan surfaced Forward Deployed AI Scientist (2027 intake), Singapore, posted within 24h. Strong AI/ML/GenAI builder signal with production deployment and client impact, but it is consulting/product AI rather than quant finance, 2027 intake, and only a secondary career-adjacent option.",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Boston Consulting Group (BCG X) — Forward Deployed AI Scientist (For 2027 intake)",
+      "jobUrl": "https://www.linkedin.com/jobs/search/?currentJobId=4457109833",
       "jobSource": "cached JD"
     },
     {
@@ -2205,8 +2241,8 @@
       "fitScoreRaw": "4.8 AI Alpha / 4.15 PESG",
       "score": 4.8,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-21",
-      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-21 official GIC JD still shows AVP Quantitative Researcher Fixed Income & FX PESG: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
+      "lastSeen": "2026-08-25",
+      "notes": "Official AVP/VP Quantitative Analyst, AI Alpha Group remains the strongest active Singapore fit: AI-native investment team, GenAI-powered fundamental process, portfolio construction/risk, alternative/unstructured data, RAG/fine-tuning/multi-agent/contextual engineering. 2026-08-25 portal/search pass still treats PESG as recurring: microstructure, execution modelling, TCA, regime identification, ML for execution/counterparty selection, and ideation-to-production ownership. GIC Phase 3 eligible on demand; PESG is strong but less LLM-native than AI Alpha.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2223,8 +2259,8 @@
       "fitScoreRaw": "4.6 ML / 4.15 equities",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-21",
-      "notes": "Official DRW Singapore board was browser-visible with 18 openings including Quantitative Researcher, Quantitative Researcher Equities, Quantitative Researcher - Machine Learning, QR Intern, QTA, and QTA Intern. Current official ML JD explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; equities JD adds NLP, optimization, automated trading agents, intraday alpha, and production systematic strategies. Recurring high-fit direct-employer target.",
+      "lastSeen": "2026-08-25",
+      "notes": "Official DRW Singapore board remains browser-visible with Quantitative Researcher, Quantitative Researcher Equities, Quantitative Researcher, Equities, Quantitative Researcher - Machine Learning, QR Intern, QTA, and QTA Intern. The official ML JD still explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; equities JD adds NLP, optimization, automated trading agents, intraday alpha, and production systematic strategies. Recurring high-fit direct-employer target.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2241,7 +2277,7 @@
       "fitScoreRaw": "4.55 AI ML / 3.9 commodities research",
       "score": 4.55,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-24",
+      "lastSeen": "2026-08-25",
       "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page is active, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
       "geo": "Singapore",
       "action": "apply",
@@ -2421,8 +2457,8 @@
       "fitScoreRaw": "4.3 QR / 4.5 AI watch",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-21",
-      "notes": "Live LinkedIn/browser surfaces and official Jump Trading pages corroborate Singapore Quantitative Researcher \\",
+      "lastSeen": "2026-08-25",
+      "notes": "Official Jump careers page remains accessible and points candidates to current open roles; prior direct Jump job pages corroborate Singapore Quantitative Researcher \\",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2489,6 +2525,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-25 — Tuesday",
+        "date": "2026-08-25",
+        "candidateMentions": 30,
+        "uniqueCompanies": 15,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-24 — Monday",
         "date": "2026-08-24",
@@ -2672,14 +2716,6 @@
         "uniqueCompanies": 11,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-08-03 — Monday",
-        "date": "2026-08-03",
-        "candidateMentions": 25,
-        "uniqueCompanies": 11,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2821,6 +2857,22 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-25-bcg-forward-deployed-ai-scientist-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-08-25-bcg-forward-deployed-ai-scientist-singapore.partial.md",
+      "title": "Boston Consulting Group (BCG X) — Forward Deployed AI Scientist (For 2027 intake)",
+      "date": "2026-08-25",
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4457109833",
+      "excerpt": "> Cached: 2026-08-25 > Source: LinkedIn browser scan, visible logged-in page > URL: https://www.linkedin.com/jobs/search/?currentJobId=4457109833 > Location: Singapore, Singapore (On-site) > Status: partial / career-adjacent ## Extracted Signal LinkedIn visibl"
+    },
+    {
+      "file": "2026-08-25-cw-talent-quant-macro-singapore.partial-suspicious.md",
+      "path": "outputs/jd-cache/2026-08-25-cw-talent-quant-macro-singapore.partial-suspicious.md",
+      "title": "CW Talent Solutions — Quantitative Researcher - Quant Macro",
+      "date": "2026-08-25",
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4458202396",
+      "excerpt": "> Cached: 2026-08-25 > Source: LinkedIn browser scan, visible logged-in page > URL: https://www.linkedin.com/jobs/search/?currentJobId=4458202396 > Location: Singapore, Singapore (On-site) > Status: suspicious / recruiter-mediated anonymous client ## Extracted"
     },
     {
       "file": "balyasny-equity-volatility-qr-singapore-2026-08-24.partial.md",
