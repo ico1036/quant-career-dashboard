@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:36:08.780Z",
+  "generatedAt": "2026-08-26T23:35:58.743Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 122,
     "topTargets": 16,
-    "jdCacheFiles": 144,
+    "jdCacheFiles": 148,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -61,15 +61,15 @@
       "fitScoreRaw": "4.6 ML / 4.2 QR-family",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-26",
-      "notes": "Official DRW Singapore board remains browser-visible with Quantitative Researcher, Quantitative Researcher Equities, Quantitative Researcher, Equities, Quantitative Researcher - Machine Learning, QR Intern, QTA, and related quant/developer roles. The official ML JD still explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; the newly visible general QR page adds fresh graduate-cycle signal with statistics, machine learning, signal processing, optimization/control, large datasets, and Python/R/MATLAB/C++ research stack. Recurring high-fit direct-employer target.",
+      "lastSeen": "2026-08-27",
+      "notes": "Official DRW Singapore Machine Learning QR page reverified by browser: transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, live deployment, PhD/exceptional MSc, and immediate Singapore start. Recurring high-fit direct-employer target.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
       "actionMeaning": "Clean high-priority target",
       "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
-      "jobTitle": "DRW — Quantitative Researcher, Singapore",
-      "jobUrl": "https://www.drw.com/work-at-drw/listings/quantitative-researcher-3474915",
+      "jobTitle": "DRW — Quantitative Researcher - Machine Learning",
+      "jobUrl": "https://www.drw.com/work-at-drw/listings/quantitative-researcher-machine-learning-3256559",
       "jobSource": "cached JD"
     },
     {
@@ -79,8 +79,8 @@
       "fitScoreRaw": "4.55 AI ML / 3.9 commodities research",
       "score": 4.55,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-26",
-      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page is active, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
+      "lastSeen": "2026-08-27",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page remains active in search, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -217,6 +217,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "millennium",
+      "company": "Millennium",
+      "status": "applied",
+      "fitScoreRaw": "4.35 provisional",
+      "score": 4.35,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-27",
+      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. 2026-08-27 LinkedIn card and direct Eightfold JD both confirmed REQ-25302 active: Asia office preferred, systematic equity alpha research, statistical learning, alternative data, Asia portfolio optimization, and live PnL attribution. Recurring/applied; no Phase 3.",
+      "geo": "Singapore",
+      "action": "applied",
+      "actionLabel": "Applied",
+      "actionMeaning": "Application submitted",
+      "actionNextStep": "Track response and prepare follow-up if no reply",
+      "jobTitle": "Millennium — Quantitative Researcher, Equity",
+      "jobUrl": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "univerz-hr-consulting-family-office",
       "company": "Univerz HR Consulting / Family Office",
       "status": "suspicious",
@@ -268,24 +286,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
       "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "millennium",
-      "company": "Millennium",
-      "status": "applied",
-      "fitScoreRaw": "4.3 provisional",
-      "score": 4.3,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-26",
-      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. 2026-08-26 official search/portal pass still exposes the Singapore/Hong Kong REQ-25302 role; Deep Learning QR remains an indexed watch signal but exact direct JD still needs recovery. Next step: track response/follow-up and recover exact Deep Learning JD.",
-      "geo": "Singapore",
-      "action": "applied",
-      "actionLabel": "Applied",
-      "actionMeaning": "Application submitted",
-      "actionNextStep": "Track response and prepare follow-up if no reply",
-      "jobTitle": "Millennium — Deep Learning Quantitative Researcher, Singapore",
-      "jobUrl": "https://www.linkedin.com/jobs/view/4444602891/",
       "jobSource": "cached JD"
     },
     {
@@ -349,9 +349,9 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-26",
-      "notes": "Official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals nearby. Keep as SG-compatible remote and recurring.",
-      "geo": "Remote",
+      "lastSeen": "2026-08-27",
+      "notes": "Official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals nearby. 2026-08-27 LinkedIn Singapore browser pass also resurfaced Quantitative Researcher - Option as a visible SG-compatible remote card. Keep as recurring; no Phase 3.",
+      "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
@@ -403,8 +403,8 @@
       "fitScoreRaw": "4.2 technical / texas-expanded watch",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-26",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. Today's vacancy portal output again exposed only London in the location filter and visible roles, so keep re-scanning and do not exclude as US-only.",
+      "lastSeen": "2026-08-27",
+      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-08-27 search again exposed ML Researcher, NLP Researcher, Quantitative Researcher - Postgraduate, Quantitative Analyst, and QR internship pages, but actionable locations still read London. Keep re-scanning and do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2102,9 +2102,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Lumenai Investments careers",
-      "jobUrl": "https://www.google.com/search?q=Lumenai%20Investments%20careers%20quant%20jobs",
-      "jobSource": "job search"
+      "jobTitle": "Shanghai Yanfu Investments — Quantitative Researcher",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/quantitative-researcher-at-shanghai-yanfu-investments-co-ltd-3697846396",
+      "jobSource": "cached JD"
     },
     {
       "id": "monolith",
@@ -2259,15 +2259,15 @@
       "fitScoreRaw": "4.6 ML / 4.2 QR-family",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-26",
-      "notes": "Official DRW Singapore board remains browser-visible with Quantitative Researcher, Quantitative Researcher Equities, Quantitative Researcher, Equities, Quantitative Researcher - Machine Learning, QR Intern, QTA, and related quant/developer roles. The official ML JD still explicitly includes transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment; the newly visible general QR page adds fresh graduate-cycle signal with statistics, machine learning, signal processing, optimization/control, large datasets, and Python/R/MATLAB/C++ research stack. Recurring high-fit direct-employer target.",
+      "lastSeen": "2026-08-27",
+      "notes": "Official DRW Singapore Machine Learning QR page reverified by browser: transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, live deployment, PhD/exceptional MSc, and immediate Singapore start. Recurring high-fit direct-employer target.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
       "actionMeaning": "Clean high-priority target",
       "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
-      "jobTitle": "DRW — Quantitative Researcher, Singapore",
-      "jobUrl": "https://www.drw.com/work-at-drw/listings/quantitative-researcher-3474915",
+      "jobTitle": "DRW — Quantitative Researcher - Machine Learning",
+      "jobUrl": "https://www.drw.com/work-at-drw/listings/quantitative-researcher-machine-learning-3256559",
       "jobSource": "cached JD"
     },
     {
@@ -2277,8 +2277,8 @@
       "fitScoreRaw": "4.55 AI ML / 3.9 commodities research",
       "score": 4.55,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-26",
-      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page is active, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
+      "lastSeen": "2026-08-27",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page remains active in search, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2415,6 +2415,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "millennium",
+      "company": "Millennium",
+      "status": "applied",
+      "fitScoreRaw": "4.35 provisional",
+      "score": 4.35,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-27",
+      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. 2026-08-27 LinkedIn card and direct Eightfold JD both confirmed REQ-25302 active: Asia office preferred, systematic equity alpha research, statistical learning, alternative data, Asia portfolio optimization, and live PnL attribution. Recurring/applied; no Phase 3.",
+      "geo": "Singapore",
+      "action": "applied",
+      "actionLabel": "Applied",
+      "actionMeaning": "Application submitted",
+      "actionNextStep": "Track response and prepare follow-up if no reply",
+      "jobTitle": "Millennium — Quantitative Researcher, Equity",
+      "jobUrl": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "univerz-hr-consulting-family-office",
       "company": "Univerz HR Consulting / Family Office",
       "status": "suspicious",
@@ -2466,24 +2484,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
       "jobUrl": "https://www.jumptrading.com/hr/job?gh_jid=7294191",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "millennium",
-      "company": "Millennium",
-      "status": "applied",
-      "fitScoreRaw": "4.3 provisional",
-      "score": 4.3,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-26",
-      "notes": "Applied to the official MLP/Eightfold Quantitative Researcher, Equity Singapore/Hong Kong role. 2026-08-26 official search/portal pass still exposes the Singapore/Hong Kong REQ-25302 role; Deep Learning QR remains an indexed watch signal but exact direct JD still needs recovery. Next step: track response/follow-up and recover exact Deep Learning JD.",
-      "geo": "Singapore",
-      "action": "applied",
-      "actionLabel": "Applied",
-      "actionMeaning": "Application submitted",
-      "actionNextStep": "Track response and prepare follow-up if no reply",
-      "jobTitle": "Millennium — Deep Learning Quantitative Researcher, Singapore",
-      "jobUrl": "https://www.linkedin.com/jobs/view/4444602891/",
       "jobSource": "cached JD"
     },
     {
@@ -2562,6 +2562,14 @@
         "date": "2026-08-26",
         "candidateMentions": 28,
         "uniqueCompanies": 9,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-08-27 — Thursday",
+        "date": "2026-08-27",
+        "candidateMentions": 31,
+        "uniqueCompanies": 14,
         "scoreCount": 0,
         "maxScore": null
       },
@@ -2708,14 +2716,6 @@
         "uniqueCompanies": 12,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-08-05 — Wednesday",
-        "date": "2026-08-05",
-        "candidateMentions": 20,
-        "uniqueCompanies": 10,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2857,6 +2857,38 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-27-drw-quantitative-researcher-machine-learning-singapore.md",
+      "path": "outputs/jd-cache/2026-08-27-drw-quantitative-researcher-machine-learning-singapore.md",
+      "title": "DRW — Quantitative Researcher - Machine Learning",
+      "date": "2026-08-27",
+      "url": "https://www.drw.com/work-at-drw/listings/quantitative-researcher-machine-learning-3256559",
+      "excerpt": "Date cached: 2026-08-27 Source: official DRW careers page URL: https://www.drw.com/work-at-drw/listings/quantitative-researcher-machine-learning-3256559 Status: recurring / direct employer Fit score: 4.6 Official JD is active for Singapore. Employment type reg"
+    },
+    {
+      "file": "2026-08-27-gresearch-ml-nlp-qr-family-texas-expanded-watch.md",
+      "path": "outputs/jd-cache/2026-08-27-gresearch-ml-nlp-qr-family-texas-expanded-watch.md",
+      "title": "G-Research — ML / NLP / QR Family",
+      "date": "2026-08-27",
+      "url": "https://www.gresearch.com/vacancies/",
+      "excerpt": "Date cached: 2026-08-27 Source: official G-Research search-visible pages URL: https://www.gresearch.com/vacancies/ Status: texas-expanded watch / location blocked Fit score: 4.2 technical Signals recovered: - G-Research official pages still describe the firm a"
+    },
+    {
+      "file": "2026-08-27-millennium-quantitative-researcher-equity-singapore.md",
+      "path": "outputs/jd-cache/2026-08-27-millennium-quantitative-researcher-equity-singapore.md",
+      "title": "Millennium — Quantitative Researcher, Equity",
+      "date": "2026-08-27",
+      "url": "https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore",
+      "excerpt": "Date cached: 2026-08-27 Source: official MLP/Eightfold JD plus LinkedIn browser card URL: https://career.mlp.com/careers/job/755943523992-quantitative-researcher-equity-singapore-singapore LinkedIn job ID: 4439424966 Status: recurring / applied Fit score: 4.35"
+    },
+    {
+      "file": "2026-08-27-shanghai-yanfu-quantitative-researcher-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-08-27-shanghai-yanfu-quantitative-researcher-singapore.partial.md",
+      "title": "Shanghai Yanfu Investments — Quantitative Researcher",
+      "date": "2026-08-27",
+      "url": "https://sg.linkedin.com/jobs/view/quantitative-researcher-at-shanghai-yanfu-investments-co-ltd-3697846396",
+      "excerpt": "Date cached: 2026-08-27 Source: LinkedIn browser card plus search-indexed LinkedIn snippet URL: https://sg.linkedin.com/jobs/view/quantitative-researcher-at-shanghai-yanfu-investments-co-ltd-3697846396 Status: partial / new watch Fit score: 3.9 provisional Sig"
     },
     {
       "file": "2026-08-26-drw-quantitative-researcher-singapore.md",
