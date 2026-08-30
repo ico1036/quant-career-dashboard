@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T23:37:27.240Z",
+  "generatedAt": "2026-08-30T23:37:10.446Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 122,
     "topTargets": 16,
-    "jdCacheFiles": 149,
+    "jdCacheFiles": 150,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -58,11 +58,11 @@
       "id": "drw",
       "company": "DRW",
       "status": "scored",
-      "fitScoreRaw": "4.6 ML / 4.2 QR-family",
+      "fitScoreRaw": "4.6 ML / 4.2 QR-family / 4.35 Commodities-London location-blocked",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-28",
-      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster now includes general Quantitative Researcher 3474915, QR Equities, QR - ML, QR Intern, QTA, and related trading-engineering roles. ML QR remains a top recurring high-fit direct-employer target with transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment.",
+      "lastSeen": "2026-08-31",
+      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster still includes general Quantitative Researcher 3474915, QR Equities, QR - ML, QR Intern, QTA, and related trading-engineering roles. ML QR remains a top recurring high-fit direct-employer target with transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment. New 2026-08-31 portal hit: London Quantitative Researcher - Commodities explicitly uses AI/LLMs for commodity alpha/model work, but it is UK-location blocked for this pipeline.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -79,8 +79,8 @@
       "fitScoreRaw": "4.55 AI ML / 3.9 commodities research",
       "score": 4.55,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-28",
-      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page remains active in browser, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
+      "lastSeen": "2026-08-31",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page remains active in search/browser evidence, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -253,6 +253,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "g-research",
+      "company": "G-Research",
+      "status": "watching",
+      "fitScoreRaw": "4.3 ML/NLP technical / texas-expanded watch",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-31",
+      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-08-31 portal scan confirmed current ML Researcher and NLP Researcher pages are London-only despite excellent LLM/NLP/compute/research-autonomy signal. Keep re-scanning and do not exclude as US-only.",
+      "geo": "Texas/Dallas",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "G-Research — ML / NLP / QR Family",
+      "jobUrl": "https://www.gresearch.com/vacancies/",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "imc-trading",
       "company": "IMC Trading",
       "status": "researched",
@@ -349,9 +367,9 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-27",
-      "notes": "Official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals nearby. 2026-08-27 LinkedIn Singapore browser pass also resurfaced Quantitative Researcher - Option as a visible SG-compatible remote card. Keep as recurring; no Phase 3.",
-      "geo": "Singapore",
+      "lastSeen": "2026-08-31",
+      "notes": "Official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals nearby. 2026-08-31 portal pass also showed multiple AI/LLM/data-science adjacent Asia roles, including Research Scientist - LLM Foundation Models and Data Scientist (LLM & Trading), but the direct quant role remains the Option QR. Keep as recurring; no Phase 3.",
+      "geo": "Remote",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
@@ -395,24 +413,6 @@
       "jobTitle": "DV Trading careers",
       "jobUrl": "https://dvtrading.co/join-dv/",
       "jobSource": "careers page"
-    },
-    {
-      "id": "g-research",
-      "company": "G-Research",
-      "status": "watching",
-      "fitScoreRaw": "4.2 technical / texas-expanded watch",
-      "score": 4.2,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-08-28",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-08-28 portal scan loaded official vacancies, but visible location filter still showed London only. Keep re-scanning and do not exclude as US-only.",
-      "geo": "Texas/Dallas",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — ML / NLP / QR Family",
-      "jobUrl": "https://www.gresearch.com/vacancies/",
-      "jobSource": "cached JD"
     },
     {
       "id": "hrt",
@@ -2256,11 +2256,11 @@
       "id": "drw",
       "company": "DRW",
       "status": "scored",
-      "fitScoreRaw": "4.6 ML / 4.2 QR-family",
+      "fitScoreRaw": "4.6 ML / 4.2 QR-family / 4.35 Commodities-London location-blocked",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-28",
-      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster now includes general Quantitative Researcher 3474915, QR Equities, QR - ML, QR Intern, QTA, and related trading-engineering roles. ML QR remains a top recurring high-fit direct-employer target with transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment.",
+      "lastSeen": "2026-08-31",
+      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster still includes general Quantitative Researcher 3474915, QR Equities, QR - ML, QR Intern, QTA, and related trading-engineering roles. ML QR remains a top recurring high-fit direct-employer target with transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment. New 2026-08-31 portal hit: London Quantitative Researcher - Commodities explicitly uses AI/LLMs for commodity alpha/model work, but it is UK-location blocked for this pipeline.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2277,8 +2277,8 @@
       "fitScoreRaw": "4.55 AI ML / 3.9 commodities research",
       "score": 4.55,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-28",
-      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page remains active in browser, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
+      "lastSeen": "2026-08-31",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page remains active in search/browser evidence, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2451,6 +2451,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "g-research",
+      "company": "G-Research",
+      "status": "watching",
+      "fitScoreRaw": "4.3 ML/NLP technical / texas-expanded watch",
+      "score": 4.3,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-08-31",
+      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-08-31 portal scan confirmed current ML Researcher and NLP Researcher pages are London-only despite excellent LLM/NLP/compute/research-autonomy signal. Keep re-scanning and do not exclude as US-only.",
+      "geo": "Texas/Dallas",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "G-Research — ML / NLP / QR Family",
+      "jobUrl": "https://www.gresearch.com/vacancies/",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "imc-trading",
       "company": "IMC Trading",
       "status": "researched",
@@ -2503,28 +2521,18 @@
       "jobTitle": "Schonfeld — Quantitative Researcher",
       "jobUrl": "https://job-boards.greenhouse.io/schonfeld/jobs/7624691",
       "jobSource": "cached JD"
-    },
-    {
-      "id": "selini-capital",
-      "company": "Selini Capital",
-      "status": "researched",
-      "fitScoreRaw": "4.3",
-      "score": 4.3,
-      "scoreBucket": "strong",
-      "lastSeen": "2026-05-21",
-      "notes": "Experienced Quantitative Researcher (London/Singapore) on Greenhouse. Crypto HFT/systematic trading; research-heavy feature/model/pipeline improvement with direct live strategy feedback. Resume v1 done.",
-      "geo": "Singapore",
-      "action": "researched",
-      "actionLabel": "Already researched",
-      "actionMeaning": "Company has prior research or tailored resume",
-      "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
-      "jobTitle": "Selini Capital careers",
-      "jobUrl": "https://www.selini.capital/careers",
-      "jobSource": "careers page"
     }
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-08-31 — Monday",
+        "date": "2026-08-31",
+        "candidateMentions": 33,
+        "uniqueCompanies": 16,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-28 — Friday",
         "date": "2026-08-28",
@@ -2708,14 +2716,6 @@
         "uniqueCompanies": 14,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-08-07 — Friday",
-        "date": "2026-08-07",
-        "candidateMentions": 32,
-        "uniqueCompanies": 15,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2857,6 +2857,14 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-08-31-drw-quantitative-researcher-commodities-london-ai-llm-location-blocked.md",
+      "path": "outputs/jd-cache/2026-08-31-drw-quantitative-researcher-commodities-london-ai-llm-location-blocked.md",
+      "title": "DRW — Quantitative Researcher - Commodities",
+      "date": "2026-08-31",
+      "url": "https://job-boards.greenhouse.io/drweng/jobs/6362259",
+      "excerpt": "- Date cached: 2026-08-31 - Source: official Greenhouse / DRW Engineering board - URL: https://job-boards.greenhouse.io/drweng/jobs/6362259 - Location: London - Status: legitimate direct-employer JD, location-blocked for SG/Texas pipeline - Fit score: 4.35 tec"
     },
     {
       "file": "2026-08-28-millennium-quantitative-researcher-quantitative-strategies-singapore.md",
