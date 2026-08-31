@@ -256,6 +256,7 @@ function companyNeedles(company) {
         "singapore",
         "global",
         "management",
+        "fund",
         "investment",
         "partners",
         "options"

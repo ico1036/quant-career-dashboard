@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T23:37:10.446Z",
+  "generatedAt": "2026-08-31T23:38:26.935Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 122,
+    "trackedCompanies": 125,
     "topTargets": 16,
-    "jdCacheFiles": 150,
+    "jdCacheFiles": 153,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,8 +18,8 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 5,
-    "verify": 58,
-    "watch": 23,
+    "verify": 59,
+    "watch": 25,
     "researched": 4
   },
   "latestBrief": {
@@ -61,8 +61,8 @@
       "fitScoreRaw": "4.6 ML / 4.2 QR-family / 4.35 Commodities-London location-blocked",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-31",
-      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster still includes general Quantitative Researcher 3474915, QR Equities, QR - ML, QR Intern, QTA, and related trading-engineering roles. ML QR remains a top recurring high-fit direct-employer target with transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment. New 2026-08-31 portal hit: London Quantitative Researcher - Commodities explicitly uses AI/LLMs for commodity alpha/model work, but it is UK-location blocked for this pipeline.",
+      "lastSeen": "2026-09-01",
+      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster still includes general Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, QR Intern, QTA, Quant Developer, and Systematic Commodities Trader Singapore. ML QR remains the cleanest direct Singapore fit with modern ML, noisy datasets, production pipelines, and live trading deployment.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -241,8 +241,8 @@
       "fitScoreRaw": "4.35 provisional",
       "score": 4.35,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-24",
-      "notes": "LinkedIn/browser recovered Senior Quantitative Researcher / Quantitative Portfolio Manager for an unnamed Singapore family office: build long-only systematic equity platform from scratch, research to backtest to portfolio construction to paper/live implementation, partner with fundamental investors, report to CIO, and explicitly use AI coding/research agents such as Claude Code. Excellent autonomy/AI-workflow fit, but recruiter-mediated anonymous-client surface, 6+ years seniority, Mandarin plus, and family-office opacity block Phase 3 until client/comp/capital/interview route are verified.",
+      "lastSeen": "2026-09-01",
+      "notes": "Search/LinkedIn again surfaced Senior Quantitative Researcher / Quantitative Portfolio Manager for an unnamed Singapore family office: long-only systematic equity platform, ML/Python, portfolio construction, factor modelling, AI coding, and research tools. Excellent autonomy/AI-workflow fit, but recruiter-mediated anonymous-client surface, 6+ years seniority, Mandarin plus, and family-office opacity block Phase 3 until client/comp/capital/interview route are verified.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -259,8 +259,8 @@
       "fitScoreRaw": "4.3 ML/NLP technical / texas-expanded watch",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-31",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-08-31 portal scan confirmed current ML Researcher and NLP Researcher pages are London-only despite excellent LLM/NLP/compute/research-autonomy signal. Keep re-scanning and do not exclude as US-only.",
+      "lastSeen": "2026-09-01",
+      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-09-01 portal/search pass again surfaced ML, NLP, QR, and senior QR families, but no clean Dallas/Texas direct-employer QR/AI research JD. Keep re-scanning and do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -367,8 +367,8 @@
       "fitScoreRaw": "4.2",
       "score": 4.2,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-31",
-      "notes": "Official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals nearby. 2026-08-31 portal pass also showed multiple AI/LLM/data-science adjacent Asia roles, including Research Scientist - LLM Foundation Models and Data Scientist (LLM & Trading), but the direct quant role remains the Option QR. Keep as recurring; no Phase 3.",
+      "lastSeen": "2026-09-01",
+      "notes": "Official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals nearby. 2026-09-01 portal pass showed Quantitative Strategy, Quantitative Researcher - Option, Quantitative Researcher for Fresh STEM PhD graduates, Senior Data Analyst Trading, Product Manager Quant Trading, Data Scientist LLM & Trading, AI Agent Engineer, and Research Scientist - LLM Foundation Models. Direct quant role remains the Option QR/Fresh STEM PhD family; keep recurring, no Phase 3.",
       "geo": "Remote",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -811,6 +811,24 @@
       "jobSource": "job search"
     },
     {
+      "id": "verition-fund-management",
+      "company": "Verition Fund Management",
+      "status": "verify",
+      "fitScoreRaw": "4.0 provisional",
+      "score": 4,
+      "scoreBucket": "strong",
+      "lastSeen": "2026-09-01",
+      "notes": "LinkedIn/foundit surfaces Equities Quantitative Researcher in Singapore with Python, machine learning, data analysis frameworks, and portfolio optimization. Verition is a verifiable multi-strategy manager, but a direct official Singapore JD was not recovered today; keep as verify/watch before Phase 3.",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Verition — Equities Quantitative Researcher, Singapore",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/equities-quantitative-researcher-at-verition-4337083240",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "keyrock",
       "company": "Keyrock",
       "status": "watch",
@@ -1189,6 +1207,24 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "impeccable-tech",
+      "company": "Impeccable Tech",
+      "status": "partial",
+      "fitScoreRaw": "3.8 provisional",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-09-01",
+      "notes": "MyCareersFuture/JobStreet/foundit surfaced Senior Quantitative Researcher in Singapore, listed within the last week, with advanced quantitative models, ML methodologies, statistical modelling, clustering, optimization, feature engineering, time-series analysis, simulation, and backtesting. Company/domain fit and actual trading/investment mandate are unclear, so keep as partial until direct business context and apply route are verified.",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Impeccable Tech — Senior Quantitative Researcher, Singapore",
+      "jobUrl": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-quantitative-researcher-impeccable-tech-2708becadeb0773b98387ca405cd3135",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "tudor-investment-xantium",
       "company": "Tudor Investment / Xantium",
       "status": "scored",
@@ -1495,6 +1531,24 @@
       "jobSource": "careers page"
     },
     {
+      "id": "yields-digital",
+      "company": "Yields Digital",
+      "status": "partial",
+      "fitScoreRaw": "3.6 provisional",
+      "score": 3.6,
+      "scoreBucket": "watch",
+      "lastSeen": "2026-09-01",
+      "notes": "LinkedIn indexed Senior Quantitative Analyst - Digital Assets Singapore, posted within ~1-3 days on the fresh row but with an older duplicate closed posting. Crypto/tradfi analytics and portfolio-strategy language is relevant, but role appears analyst/risk/product-adjacent and needs direct official JD/company verification before promotion.",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Yields Digital — Senior Quantitative Analyst - Digital Assets, Singapore",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/senior-quantitative-analyst-digital-assets-at-yields-digital-4458041663",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "alveria-capital",
       "company": "Alveria Capital",
       "status": "suspicious",
@@ -1796,9 +1850,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Graviton Research Capital — Quantitative Researcher (Singapore)",
-      "jobUrl": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
-      "jobSource": "cached JD"
+      "jobTitle": "Golden Horse Fund Management careers",
+      "jobUrl": "https://www.google.com/search?q=Golden%20Horse%20Fund%20Management%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "vulpes-investment-management",
@@ -2048,9 +2102,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Graviton Research Capital — Quantitative Researcher (Singapore)",
-      "jobUrl": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/4114667002?gh_jid=4114667002",
-      "jobSource": "cached JD"
+      "jobTitle": "FengHe Fund Management careers",
+      "jobUrl": "https://www.google.com/search?q=FengHe%20Fund%20Management%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "fionics",
@@ -2259,8 +2313,8 @@
       "fitScoreRaw": "4.6 ML / 4.2 QR-family / 4.35 Commodities-London location-blocked",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-08-31",
-      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster still includes general Quantitative Researcher 3474915, QR Equities, QR - ML, QR Intern, QTA, and related trading-engineering roles. ML QR remains a top recurring high-fit direct-employer target with transformer-style modern ML, scalable production ML pipelines, noisy structured/unstructured datasets, and live deployment. New 2026-08-31 portal hit: London Quantitative Researcher - Commodities explicitly uses AI/LLMs for commodity alpha/model work, but it is UK-location blocked for this pipeline.",
+      "lastSeen": "2026-09-01",
+      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster still includes general Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, QR Intern, QTA, Quant Developer, and Systematic Commodities Trader Singapore. ML QR remains the cleanest direct Singapore fit with modern ML, noisy datasets, production pipelines, and live trading deployment.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2439,8 +2493,8 @@
       "fitScoreRaw": "4.35 provisional",
       "score": 4.35,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-24",
-      "notes": "LinkedIn/browser recovered Senior Quantitative Researcher / Quantitative Portfolio Manager for an unnamed Singapore family office: build long-only systematic equity platform from scratch, research to backtest to portfolio construction to paper/live implementation, partner with fundamental investors, report to CIO, and explicitly use AI coding/research agents such as Claude Code. Excellent autonomy/AI-workflow fit, but recruiter-mediated anonymous-client surface, 6+ years seniority, Mandarin plus, and family-office opacity block Phase 3 until client/comp/capital/interview route are verified.",
+      "lastSeen": "2026-09-01",
+      "notes": "Search/LinkedIn again surfaced Senior Quantitative Researcher / Quantitative Portfolio Manager for an unnamed Singapore family office: long-only systematic equity platform, ML/Python, portfolio construction, factor modelling, AI coding, and research tools. Excellent autonomy/AI-workflow fit, but recruiter-mediated anonymous-client surface, 6+ years seniority, Mandarin plus, and family-office opacity block Phase 3 until client/comp/capital/interview route are verified.",
       "geo": "Singapore",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2457,8 +2511,8 @@
       "fitScoreRaw": "4.3 ML/NLP technical / texas-expanded watch",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-08-31",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-08-31 portal scan confirmed current ML Researcher and NLP Researcher pages are London-only despite excellent LLM/NLP/compute/research-autonomy signal. Keep re-scanning and do not exclude as US-only.",
+      "lastSeen": "2026-09-01",
+      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-09-01 portal/search pass again surfaced ML, NLP, QR, and senior QR families, but no clean Dallas/Texas direct-employer QR/AI research JD. Keep re-scanning and do not exclude as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
@@ -2525,6 +2579,14 @@
   ],
   "history": {
     "scans": [
+      {
+        "title": "2026-09-01 — Tuesday",
+        "date": "2026-09-01",
+        "candidateMentions": 32,
+        "uniqueCompanies": 15,
+        "scoreCount": 0,
+        "maxScore": null
+      },
       {
         "title": "2026-08-31 — Monday",
         "date": "2026-08-31",
@@ -2708,14 +2770,6 @@
         "uniqueCompanies": 16,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-08-10 — Monday",
-        "date": "2026-08-10",
-        "candidateMentions": 29,
-        "uniqueCompanies": 14,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2857,6 +2911,30 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-09-01-impeccable-tech-senior-quantitative-researcher-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-09-01-impeccable-tech-senior-quantitative-researcher-singapore.partial.md",
+      "title": "Impeccable Tech — Senior Quantitative Researcher, Singapore",
+      "date": "2026-09-01",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-quantitative-researcher-impeccable-tech-2708becadeb0773b98387ca405cd3135",
+      "excerpt": "- Date cached: 2026-09-01 - Source: MyCareersFuture / JobStreet / foundit search surfaces - Source URL: https://www.mycareersfuture.gov.sg/job/information-technology/senior-quantitative-researcher-impeccable-tech-2708becadeb0773b98387ca405cd3135 - Status: part"
+    },
+    {
+      "file": "2026-09-01-verition-equities-quantitative-researcher-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-09-01-verition-equities-quantitative-researcher-singapore.partial.md",
+      "title": "Verition — Equities Quantitative Researcher, Singapore",
+      "date": "2026-09-01",
+      "url": "https://sg.linkedin.com/jobs/view/equities-quantitative-researcher-at-verition-4337083240",
+      "excerpt": "- Date cached: 2026-09-01 - Source: LinkedIn indexed search / foundit related listing - Source URL: https://sg.linkedin.com/jobs/view/equities-quantitative-researcher-at-verition-4337083240 - Status: verify; direct official Singapore JD not recovered in this p"
+    },
+    {
+      "file": "2026-09-01-yields-digital-senior-quantitative-analyst-digital-assets-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-09-01-yields-digital-senior-quantitative-analyst-digital-assets-singapore.partial.md",
+      "title": "Yields Digital — Senior Quantitative Analyst - Digital Assets, Singapore",
+      "date": "2026-09-01",
+      "url": "https://sg.linkedin.com/jobs/view/senior-quantitative-analyst-digital-assets-at-yields-digital-4458041663",
+      "excerpt": "- Date cached: 2026-09-01 - Source: LinkedIn indexed search result - Source URL: https://sg.linkedin.com/jobs/view/senior-quantitative-analyst-digital-assets-at-yields-digital-4458041663 - Status: partial; duplicate older closed posting exists - Location: Sing"
     },
     {
       "file": "2026-08-31-drw-quantitative-researcher-commodities-london-ai-llm-location-blocked.md",
