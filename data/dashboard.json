@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T23:38:26.935Z",
+  "generatedAt": "2026-09-02T01:15:58.163Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 125,
     "topTargets": 16,
-    "jdCacheFiles": 153,
+    "jdCacheFiles": 156,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -61,8 +61,8 @@
       "fitScoreRaw": "4.6 ML / 4.2 QR-family / 4.35 Commodities-London location-blocked",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-09-01",
-      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster still includes general Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, QR Intern, QTA, Quant Developer, and Systematic Commodities Trader Singapore. ML QR remains the cleanest direct Singapore fit with modern ML, noisy datasets, production pipelines, and live trading deployment.",
+      "lastSeen": "2026-09-02",
+      "notes": "Official DRW Singapore board reverified from embedded Next.js job data: active QR-family cluster still includes general Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, Quantitative Research Intern 3474904, Quantitative Trading Analyst 3474920, Quantitative Developer - Equity Options 2562226, and Systematic Commodities Trader 3411510 in Singapore. New title-only Quantitative Researcher Futures 3523573 is New York City, so location-blocked for this scope. ML QR remains the cleanest direct Singapore fit with modern ML, noisy datasets, production pipelines, and live trading deployment.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -259,14 +259,14 @@
       "fitScoreRaw": "4.3 ML/NLP technical / texas-expanded watch",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-09-01",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-09-01 portal/search pass again surfaced ML, NLP, QR, and senior QR families, but no clean Dallas/Texas direct-employer QR/AI research JD. Keep re-scanning and do not exclude as US-only.",
+      "lastSeen": "2026-09-02",
+      "notes": "Dallas office/company presence retained under texas-expanded scope, and official G-Research vacancies still show Quantitative Researcher - Experienced, Natural Language Processing Researcher, Quantitative Researcher - Postgraduate, Machine Learning Researcher, and Fundamental Equity Research, but all visible actionable research roles are London. Keep re-scanning for Dallas/Texas and do not exclude Dallas-company signals as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — ML / NLP / QR Family",
+      "jobTitle": "G-Research — ML / NLP / Quantitative Research Family",
       "jobUrl": "https://www.gresearch.com/vacancies/",
       "jobSource": "cached JD"
     },
@@ -536,7 +536,7 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — NLP / ML Research Family, Texas-Expanded Watch",
+      "jobTitle": "G-Research — ML / NLP / Quantitative Research Family",
       "jobUrl": "https://www.gresearch.com/vacancies/",
       "jobSource": "cached JD"
     },
@@ -1735,15 +1735,15 @@
       "fitScoreRaw": "3.4",
       "score": 3.4,
       "scoreBucket": "low",
-      "lastSeen": "2026-06-18",
-      "notes": "Portal active: Crypto Quant Trader Singapore visible; most research/quant roles are non-SG/intern/engineering. Trader-heavy, below Phase 3 threshold.",
+      "lastSeen": "2026-09-02",
+      "notes": "Official Greenhouse board active. Singapore-relevant rows include 2027 Internship/Graduate - Quantitative Research/Trading 8581570002 and Quantitative Developer / Software Engineer 8617401002 across HK/Singapore/Shanghai/Beijing, plus Crypto Quantitative Trader 7604719002 in Singapore. Useful market signal, but graduate/trader/dev-heavy, below Phase 3 threshold for experienced AI-native QR positioning.",
       "geo": "Singapore",
       "action": "hold",
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Qube Research & Technologies — Board SG Quant Signals",
-      "jobUrl": "https://job-boards.greenhouse.io/quberesearchandtechnologies",
+      "jobTitle": "QRT/Qube — 2027 Internship/Graduate - Quantitative Research/Trading",
+      "jobUrl": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002",
       "jobSource": "cached JD"
     },
     {
@@ -2313,8 +2313,8 @@
       "fitScoreRaw": "4.6 ML / 4.2 QR-family / 4.35 Commodities-London location-blocked",
       "score": 4.6,
       "scoreBucket": "elite",
-      "lastSeen": "2026-09-01",
-      "notes": "Official DRW Singapore board reverified by browser: active QR-family cluster still includes general Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, QR Intern, QTA, Quant Developer, and Systematic Commodities Trader Singapore. ML QR remains the cleanest direct Singapore fit with modern ML, noisy datasets, production pipelines, and live trading deployment.",
+      "lastSeen": "2026-09-02",
+      "notes": "Official DRW Singapore board reverified from embedded Next.js job data: active QR-family cluster still includes general Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, Quantitative Research Intern 3474904, Quantitative Trading Analyst 3474920, Quantitative Developer - Equity Options 2562226, and Systematic Commodities Trader 3411510 in Singapore. New title-only Quantitative Researcher Futures 3523573 is New York City, so location-blocked for this scope. ML QR remains the cleanest direct Singapore fit with modern ML, noisy datasets, production pipelines, and live trading deployment.",
       "geo": "Singapore",
       "action": "apply",
       "actionLabel": "Apply now",
@@ -2511,14 +2511,14 @@
       "fitScoreRaw": "4.3 ML/NLP technical / texas-expanded watch",
       "score": 4.3,
       "scoreBucket": "strong",
-      "lastSeen": "2026-09-01",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and official/search-visible G-Research pages still show QR/ML/NLP research family roles plus Dallas/London company language. 2026-09-01 portal/search pass again surfaced ML, NLP, QR, and senior QR families, but no clean Dallas/Texas direct-employer QR/AI research JD. Keep re-scanning and do not exclude as US-only.",
+      "lastSeen": "2026-09-02",
+      "notes": "Dallas office/company presence retained under texas-expanded scope, and official G-Research vacancies still show Quantitative Researcher - Experienced, Natural Language Processing Researcher, Quantitative Researcher - Postgraduate, Machine Learning Researcher, and Fundamental Equity Research, but all visible actionable research roles are London. Keep re-scanning for Dallas/Texas and do not exclude Dallas-company signals as US-only.",
       "geo": "Texas/Dallas",
       "action": "verify",
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "G-Research — ML / NLP / QR Family",
+      "jobTitle": "G-Research — ML / NLP / Quantitative Research Family",
       "jobUrl": "https://www.gresearch.com/vacancies/",
       "jobSource": "cached JD"
     },
@@ -2584,6 +2584,14 @@
         "date": "2026-09-01",
         "candidateMentions": 32,
         "uniqueCompanies": 15,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
+        "title": "2026-09-02 — Wednesday",
+        "date": "2026-09-02",
+        "candidateMentions": 18,
+        "uniqueCompanies": 7,
         "scoreCount": 0,
         "maxScore": null
       },
@@ -2762,14 +2770,6 @@
         "uniqueCompanies": 0,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-08-11 — Tuesday",
-        "date": "2026-08-11",
-        "candidateMentions": 32,
-        "uniqueCompanies": 16,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
@@ -2911,6 +2911,30 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-09-02-drw-quantitative-researcher-futures-nyc-location-blocked.md",
+      "path": "outputs/jd-cache/2026-09-02-drw-quantitative-researcher-futures-nyc-location-blocked.md",
+      "title": "DRW — Quantitative Researcher Futures",
+      "date": "2026-09-02",
+      "url": "https://www.drw.com/work-at-drw/listings/quantitative-researcher-futures-3523573",
+      "excerpt": "> Cached: 2026-09-02 > Source: https://www.drw.com/work-at-drw/listings/quantitative-researcher-futures-3523573 > Status: official direct-employer row; location-blocked for SG/Texas scope ## Extracted Signal - Title: Quantitative Researcher Futures - Company: "
+    },
+    {
+      "file": "2026-09-02-gresearch-ml-nlp-qr-family-london-texas-watch.md",
+      "path": "outputs/jd-cache/2026-09-02-gresearch-ml-nlp-qr-family-london-texas-watch.md",
+      "title": "G-Research — ML / NLP / Quantitative Research Family",
+      "date": "2026-09-02",
+      "url": "https://www.gresearch.com/vacancies/",
+      "excerpt": "> Cached: 2026-09-02 > Source: https://www.gresearch.com/vacancies/ > Status: official portal; texas-expanded watch, London-location blocked today ## Extracted Signal Official vacancies visible in today's portal pass: - Quantitative Researcher - Experienced — "
+    },
+    {
+      "file": "2026-09-02-qube-2027-graduate-quant-research-trading-singapore.md",
+      "path": "outputs/jd-cache/2026-09-02-qube-2027-graduate-quant-research-trading-singapore.md",
+      "title": "QRT/Qube — 2027 Internship/Graduate - Quantitative Research/Trading",
+      "date": "2026-09-02",
+      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002",
+      "excerpt": "> Cached: 2026-09-02 > Source: https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002 > Status: official Greenhouse row; low-priority graduate signal ## Extracted Signal - Title: 2027 Internship/Graduate - Quantitative Research/Trading - "
     },
     {
       "file": "2026-09-01-impeccable-tech-senior-quantitative-researcher-singapore.partial.md",
