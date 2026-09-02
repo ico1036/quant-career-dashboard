@@ -59,6 +59,25 @@ function scoreBucket(score) {
   return "low";
 }
 
+function daysSinceDate(dateLabel) {
+  const match = String(dateLabel ?? "").match(/\d{4}-\d{2}-\d{2}/);
+  if (!match) return null;
+  const then = new Date(`${match[0]}T00:00:00Z`);
+  if (Number.isNaN(then.getTime())) return null;
+  const now = new Date();
+  return Math.max(0, Math.floor((now.getTime() - then.getTime()) / 86400000));
+}
+
+function freshnessStatus(lastSeen, status, notes) {
+  const text = `${status} ${notes}`.toLowerCase();
+  if (/ghost|closed|withdrawn|archived|stale|no longer/.test(text)) return "stale_or_closed";
+  const ageDays = daysSinceDate(lastSeen);
+  if (ageDays === null) return "unknown";
+  if (ageDays <= 14) return "fresh";
+  if (ageDays <= 45) return "recent";
+  return "needs_recheck";
+}
+
 function inferAction(status, score, notes) {
   const statusText = `${status}`.toLowerCase();
   const text = `${status} ${notes}`.toLowerCase();
@@ -345,6 +364,8 @@ function parseTargetCompanies() {
     const fullText = `${company} ${status} ${fitScoreRaw} ${lastSeen} ${notes}`;
     const action = inferAction(status, score, notes);
     const actionDetail = actionDetails(action);
+    const freshness = freshnessStatus(lastSeen, status, notes);
+    const ageDays = daysSinceDate(lastSeen);
     rows.push({
       id: company.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
       company,
@@ -354,6 +375,8 @@ function parseTargetCompanies() {
       scoreBucket: scoreBucket(score),
       lastSeen,
       notes,
+      ageDays,
+      freshness,
       geo: inferGeo(fullText, company),
       action,
       actionLabel: actionDetail.label,
@@ -402,18 +425,35 @@ function parseScanHistory() {
       remote: stripMarkdown(m[4])
     }));
 
-  return { scans: scans.slice(-24).reverse(), summaryRows: summaryRows.slice(-12).reverse() };
+  scans.sort((a, b) => b.date.localeCompare(a.date) || b.title.localeCompare(a.title));
+  return { scans: scans.slice(0, 24), summaryRows: summaryRows.slice(-12).reverse() };
 }
 
 function parseBrief() {
-  const path = join(outputDir, "brief-2026-07-21-collected-postings-and-dallas-expansion.md");
-  const md = read(path);
-  const lines = md.split(/\r?\n/).filter(Boolean);
+  const md = read(join(outputDir, "scan-history.md"));
+  const sections = [...md.matchAll(/^##\s+(.+)$/gm)];
+  if (!sections.length) {
+    return { title: "Quant Job Pipeline Brief", scope: [] };
+  }
+  const latest = sections
+    .map((match, index) => ({
+      match,
+      index,
+      date: stripMarkdown(match[1]).match(/\d{4}-\d{2}-\d{2}/)?.[0] ?? ""
+    }))
+    .sort((a, b) => b.date.localeCompare(a.date) || b.index - a.index)[0].match;
+  const start = latest.index ?? 0;
+  const next = sections.find((section) => (section.index ?? 0) > start);
+  const body = md.slice(start, next?.index ?? md.length);
+  const lines = body
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean);
   return {
     title: stripMarkdown(lines[0] ?? "Quant Job Pipeline Brief"),
     scope: lines
-      .filter((line) => line.startsWith("- "))
-      .slice(0, 8)
+      .filter((line) => line.startsWith("- ") || line.startsWith("→"))
+      .slice(0, 10)
       .map((line) => stripMarkdown(line.replace(/^- /, "")))
   };
 }
@@ -706,7 +746,10 @@ const history = parseScanHistory();
 const jdCache = parseJdCache();
 const companies = enrichCompanyLinks(parseTargetCompanies(), jdCache);
 const resumes = parseResumes(companies);
-const top = companies.filter((item) => (item.score ?? 0) >= 4).slice(0, 16);
+const top = companies
+  .filter((item) => (item.score ?? 0) >= 4)
+  .filter((item) => item.freshness !== "stale_or_closed" && item.freshness !== "needs_recheck")
+  .slice(0, 16);
 const events = trackedEvents();
 const watchSources = fundWatchSources();
 
@@ -732,7 +775,10 @@ const payload = {
     applyFirst: companies.filter((item) => item.action === "apply").length,
     verify: companies.filter((item) => item.action === "verify").length,
     watch: companies.filter((item) => item.action === "watch").length,
-    researched: companies.filter((item) => item.action === "researched").length
+    researched: companies.filter((item) => item.action === "researched").length,
+    freshCompanies: companies.filter((item) => item.freshness === "fresh").length,
+    needsRecheck: companies.filter((item) => item.freshness === "needs_recheck").length,
+    staleOrClosed: companies.filter((item) => item.freshness === "stale_or_closed").length
   },
   latestBrief: parseBrief(),
   companies,
