@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T04:09:34.358Z",
+  "generatedAt": "2026-09-02T23:36:49.488Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 137,
+    "trackedCompanies": 139,
     "topTargets": 16,
-    "jdCacheFiles": 170,
+    "jdCacheFiles": 174,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,10 +18,10 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 69,
-    "watch": 28,
+    "verify": 70,
+    "watch": 29,
     "researched": 3,
-    "freshCompanies": 36,
+    "freshCompanies": 39,
     "needsRecheck": 58,
     "staleOrClosed": 11,
     "locationBlocked": 3,
@@ -29,22 +29,22 @@
       "PureQuant": 42,
       "AI/ML": 2,
       "AI Agent": 1,
-      "Combination": 92
+      "Combination": 94
     }
   },
   "latestBrief": {
-    "title": "## 2026-09-02 — Wednesday",
+    "title": "## 2026-09-03 — Thursday",
     "scope": [
-      "Gmail LinkedIn alerts: unavailable/blocked due Gmail API/token-cache/scope failures after successful gws auth status; no Gmail-only discoveries.",
-      "LinkedIn browser scan: blocked/partial because no result cards were visible and user-browser attach was unavailable.",
-      "DRW, QRT/Qube, and G-Research were verified on direct employer/ATS pages today.",
-      "QRT graduate rows are legitimate but junior/graduate framed; do not auto-apply.",
-      "G-Research remains legitimate and technically excellent, but today's actionable research roles are London-only, so this is a texas-expanded watch item rather than an apply item.",
-      "Recruiter/anonymous-client surfaces remain suspicious until direct employer, compensation, geography, and apply route are known.",
-      "Texas/Dallas roles were retained as texas-expanded; no clean Dallas/Texas direct-employer quant/AI research JD surfaced today.",
-      "→ Official Singapore board remains the best recurring clean target: active ML QR, general QR, equities QR, QTA, quant dev, and systematic commodities rows with production trading impact and strong ML/research environment.",
-      "→ Strongest pure ML/NLP research thesis, including LLM/NLP and deep mathematical modelling signals; no clean Dallas/Texas role was visible today.",
-      "→ Search-visible recurring high-fit Singapore/applied-company signal; no new action."
+      "Gmail LinkedIn alerts: blocked by Gmail API insufficientPermissions despite valid OAuth token; no Gmail-only discoveries.",
+      "LinkedIn browser scan: real visible-card scan. Managed OpenClaw profile could see result counts and cards for Singapore QR, SG ML QR, Asia AI QR, and Dallas QR. User Chrome attach failed due DevTools port unavailability, but managed browser had signed-in LinkedIn visibility.",
+      "DRW, J.P. Morgan, Binance, QRT/Qube, G-Research, Citadel Securities, and Jump are legitimate direct-employer/ATS signals.",
+      "Chishi Family Office and Dymon are legitimate MyCareersFuture/company-name signals but need deeper diligence before promotion.",
+      "Metabit is legitimate/recurring but the newest row is execution/dev-heavy.",
+      "Dallas/Texas roles were retained as texas-expanded; no clean Dallas/Texas direct-employer quant/AI research JD surfaced today.",
+      "→ Best clean recurring direct-employer target: active Singapore QR/ML cluster, production trading, noisy data, statistical learning, and live strategy deployment.",
+      "→ Official JD is unusually aligned: latest AI/ML for systematic trading R&D, small focused team, independence, compute/data support, production P&L responsibility, and finance experience not required.",
+      "→ Strong SG-compatible remote quant/strategy family plus AI/LLM/trading adjacency. Recurring; no new package.",
+      "→ Fresh and local, but sparse public JD. Needs AUM/strategy/team verification before serious application work."
     ]
   },
   "companies": [
@@ -52,12 +52,12 @@
       "id": "drw",
       "company": "DRW",
       "status": "scored",
-      "fitScoreRaw": "4.6 ML / 4.2 QR-family / 4.35 Commodities-London location-blocked",
+      "fitScoreRaw": "4.6 ML / 4.2 QR-family",
       "score": 4.6,
       "scoreBucket": "elite",
       "category": "Combination",
-      "lastSeen": "2026-09-02",
-      "notes": "Official DRW Singapore board reverified from embedded Next.js job data: active QR-family cluster still includes general Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, Quantitative Research Intern 3474904, Quantitative Trading Analyst 3474920, Quantitative Developer - Equity Options 2562226, and Systematic Commodities Trader 3411510 in Singapore. New title-only Quantitative Researcher Futures 3523573 is New York City, so location-blocked for this scope. ML QR remains the cleanest direct Singapore fit with modern ML, noisy datasets, production pipelines, and live trading deployment.",
+      "lastSeen": "2026-09-03",
+      "notes": "Official DRW Singapore board reverified in browser: active cluster includes Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, Quantitative Research Intern 3474904, Quantitative Trading Analyst 3474920, Quantitative Developer - Equity Options 2562226, Quantitative Developer Intern (Python) 3463992, Quantitative Trading Analyst Intern 3474906, and Systematic Commodities Trader 3411510 in Singapore. ML QR remains the cleanest direct Singapore fit.",
       "ageDays": 0,
       "freshness": "fresh",
       "geo": "Singapore",
@@ -77,9 +77,9 @@
       "score": 4.55,
       "scoreBucket": "elite",
       "category": "Combination",
-      "lastSeen": "2026-08-31",
-      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page remains active in search/browser evidence, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
-      "ageDays": 2,
+      "lastSeen": "2026-09-03",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page reverified in browser: job 210775735, posted 2026-07-30, CapitaSpring Singapore, small ATS team, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
+      "ageDays": 0,
       "freshness": "fresh",
       "geo": "Singapore",
       "action": "apply",
@@ -87,7 +87,7 @@
       "actionMeaning": "Clean high-priority target",
       "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
       "jobTitle": "J.P. Morgan — Quantitative Trading and Research - AI Machine Learning Researcher - Associate",
-      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210775735",
+      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775735",
       "jobSource": "cached JD"
     },
     {
@@ -266,8 +266,8 @@
       "score": 4.3,
       "scoreBucket": "strong",
       "category": "Combination",
-      "lastSeen": "2026-09-02",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and official G-Research vacancies still show Quantitative Researcher - Experienced, Natural Language Processing Researcher, Quantitative Researcher - Postgraduate, Machine Learning Researcher, and Fundamental Equity Research, but all visible actionable research roles are London. Keep re-scanning for Dallas/Texas and do not exclude Dallas-company signals as US-only.",
+      "lastSeen": "2026-09-03",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies browser pass still exposes only London as a filter/location while team pages emphasize quant research and machine learning. No clean Dallas/Texas actionable QR/AI research JD surfaced today; keep re-scanning and do not exclude Dallas-company signals as US-only.",
       "ageDays": 0,
       "freshness": "fresh",
       "geo": "Texas/Dallas",
@@ -392,9 +392,9 @@
       "score": 4.2,
       "scoreBucket": "strong",
       "category": "Combination",
-      "lastSeen": "2026-09-01",
-      "notes": "Official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals nearby. 2026-09-01 portal pass showed Quantitative Strategy, Quantitative Researcher - Option, Quantitative Researcher for Fresh STEM PhD graduates, Senior Data Analyst Trading, Product Manager Quant Trading, Data Scientist LLM & Trading, AI Agent Engineer, and Research Scientist - LLM Foundation Models. Direct quant role remains the Option QR/Fresh STEM PhD family; keep recurring, no Phase 3.",
-      "ageDays": 1,
+      "lastSeen": "2026-09-03",
+      "notes": "Official Lever board/search still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus Quantitative Strategy, Senior Data Analyst Trading, Product Manager Quant Trading, and AI/LLM role-family signals. Direct quant role remains the Option QR/Fresh STEM PhD family; keep recurring, no Phase 3.",
+      "ageDays": 0,
       "freshness": "fresh",
       "geo": "Remote",
       "action": "verify",
@@ -1246,27 +1246,6 @@
       "jobSource": "job search"
     },
     {
-      "id": "metabit-technology-llc",
-      "company": "Metabit Technology LLC",
-      "status": "scored",
-      "fitScoreRaw": "3.9",
-      "score": 3.9,
-      "scoreBucket": "watch",
-      "category": "Combination",
-      "lastSeen": "2026-07-27",
-      "notes": "Official Greenhouse remains active with SG Senior QR Intraday Equities Alpha and Senior QR Monetization across HK/NY/SG. Company page explicitly describes AI/ML on low signal-to-noise financial datasets; role-level LLM/agentic signal remains weak. Below Phase 3.",
-      "ageDays": 37,
-      "freshness": "recent",
-      "geo": "Singapore",
-      "action": "watch",
-      "actionLabel": "Watch",
-      "actionMeaning": "Useful signal, not urgent today",
-      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Metabit Technology LLC — Senior Quantitative Researcher, Intraday Equities Alpha",
-      "jobUrl": "https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009",
-      "jobSource": "cached JD"
-    },
-    {
       "id": "options-group-internal-recruiter",
       "company": "Options Group Internal (recruiter)",
       "status": "suspicious",
@@ -1435,6 +1414,27 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "metabit-technology-llc",
+      "company": "Metabit Technology LLC",
+      "status": "scored",
+      "fitScoreRaw": "3.85",
+      "score": 3.85,
+      "scoreBucket": "watch",
+      "category": "Combination",
+      "lastSeen": "2026-09-03",
+      "notes": "Fresh MyCareersFuture Singapore Quantitative Developer - Execution signal posted 2026-09-01, plus prior official Greenhouse SG Senior QR Intraday Equities Alpha and Senior QR Monetization across HK/NY/SG. AI/ML investment-process signal is real, but the newest row is execution/dev-heavy rather than pure alpha research. Below Phase 3.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Metabit Technology LLC — Senior Quantitative Researcher, Intraday Equities Alpha",
+      "jobUrl": "https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "nurp",
       "company": "Nurp",
       "status": "watch",
@@ -1558,6 +1558,27 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Douro Labs — Quantitative Researcher / Financial Engineer (Remote, partial)",
       "jobUrl": "https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "dymon-asia-capital",
+      "company": "Dymon Asia Capital",
+      "status": "watch",
+      "fitScoreRaw": "3.8 commodities analytics",
+      "score": 3.8,
+      "scoreBucket": "watch",
+      "category": "Combination",
+      "lastSeen": "2026-09-03",
+      "notes": "Fresh MyCareersFuture Head of Commodities Analytics Singapore signal, posted within the last week, with statistical/econometric/machine-learning quantitative model design, testing, deployment, and scaling language. Strong firm quality and quant/ML signal, but senior management/commodities analytics framing may be heavy and not pure alpha QR. Verify scope before action.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Dymon Asia Capital — Head of Commodities Analytics",
+      "jobUrl": "https://www.mycareersfuture.gov.sg/job/banking-finance/head-commodities-analytics-dymon-asia-capital-bc8c9d4b6e16a2723dfe21d41c39f822",
       "jobSource": "cached JD"
     },
     {
@@ -1687,6 +1708,27 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "chishi-family-office",
+      "company": "Chishi Family Office",
+      "status": "verify",
+      "fitScoreRaw": "3.75 provisional",
+      "score": 3.75,
+      "scoreBucket": "watch",
+      "category": "Combination",
+      "lastSeen": "2026-09-03",
+      "notes": "Fresh MyCareersFuture Singapore Quantitative Researcher / Analyst signal, posted within the last week and closing 2026-09-13. Singapore-based family office; snippet asks for quantitative investment research, asset management, or hedge-fund experience. Direct page/search signal is legitimate, but JD depth, AUM/capital base, strategy scope, and AI-native content need verification before promotion.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Chishi Family Office — Quantitative Researcher / Analyst",
+      "jobUrl": "https://www.mycareersfuture.gov.sg/job/quantitative-researcher-analyst-chishi-family-office-6f8bb4bc51a890e13bdc897538a9bba8",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "albert-bow-recruiter",
       "company": "Albert Bow (recruiter)",
       "status": "suspicious",
@@ -1787,9 +1829,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Deeter Analytics careers",
-      "jobUrl": "https://www.google.com/search?q=Deeter%20Analytics%20careers%20quant%20jobs",
-      "jobSource": "job search"
+      "jobTitle": "Dymon Asia Capital — Head of Commodities Analytics",
+      "jobUrl": "https://www.mycareersfuture.gov.sg/job/banking-finance/head-commodities-analytics-dymon-asia-capital-bc8c9d4b6e16a2723dfe21d41c39f822",
+      "jobSource": "cached JD"
     },
     {
       "id": "polymer-capital",
@@ -2261,8 +2303,8 @@
       "score": 3.4,
       "scoreBucket": "low",
       "category": "Combination",
-      "lastSeen": "2026-09-02",
-      "notes": "Official Greenhouse board active. Singapore-relevant rows include 2027 Internship/Graduate - Quantitative Research/Trading 8581570002 and Quantitative Developer / Software Engineer 8617401002 across HK/Singapore/Shanghai/Beijing, plus Crypto Quantitative Trader 7604719002 in Singapore. Useful market signal, but graduate/trader/dev-heavy, below Phase 3 threshold for experienced AI-native QR positioning.",
+      "lastSeen": "2026-09-03",
+      "notes": "Official Greenhouse board active in browser. Singapore-relevant rows include 2027 Internship/Graduate - Quantitative Research/Trading 8581570002 and Quantitative Developer / Software Engineer 8617401002 across HK/Singapore/Shanghai/Beijing, plus APAC infrastructure/engineering rows. Useful market signal, but graduate/trader/dev-heavy, below Phase 3 threshold for experienced AI-native QR positioning.",
       "ageDays": 0,
       "freshness": "fresh",
       "geo": "Singapore",
@@ -2931,12 +2973,12 @@
       "id": "drw",
       "company": "DRW",
       "status": "scored",
-      "fitScoreRaw": "4.6 ML / 4.2 QR-family / 4.35 Commodities-London location-blocked",
+      "fitScoreRaw": "4.6 ML / 4.2 QR-family",
       "score": 4.6,
       "scoreBucket": "elite",
       "category": "Combination",
-      "lastSeen": "2026-09-02",
-      "notes": "Official DRW Singapore board reverified from embedded Next.js job data: active QR-family cluster still includes general Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, Quantitative Research Intern 3474904, Quantitative Trading Analyst 3474920, Quantitative Developer - Equity Options 2562226, and Systematic Commodities Trader 3411510 in Singapore. New title-only Quantitative Researcher Futures 3523573 is New York City, so location-blocked for this scope. ML QR remains the cleanest direct Singapore fit with modern ML, noisy datasets, production pipelines, and live trading deployment.",
+      "lastSeen": "2026-09-03",
+      "notes": "Official DRW Singapore board reverified in browser: active cluster includes Quantitative Researcher 3474915, Quantitative Researcher Equities 3238583, Quantitative Researcher, Equities 3309128, Quantitative Researcher - Machine Learning 3256559, Quantitative Research Intern 3474904, Quantitative Trading Analyst 3474920, Quantitative Developer - Equity Options 2562226, Quantitative Developer Intern (Python) 3463992, Quantitative Trading Analyst Intern 3474906, and Systematic Commodities Trader 3411510 in Singapore. ML QR remains the cleanest direct Singapore fit.",
       "ageDays": 0,
       "freshness": "fresh",
       "geo": "Singapore",
@@ -2956,9 +2998,9 @@
       "score": 4.55,
       "scoreBucket": "elite",
       "category": "Combination",
-      "lastSeen": "2026-08-31",
-      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page remains active in search/browser evidence, posted 2026-07-30. It is a strong AI-native systematic-trading fit: small focused team, independence, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, model architecture/training/trading decision processes, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
-      "ageDays": 2,
+      "lastSeen": "2026-09-03",
+      "notes": "Official Oracle/JPMC Singapore Quantitative Trading and Research - AI Machine Learning Researcher Associate page reverified in browser: job 210775735, posted 2026-07-30, CapitaSpring Singapore, small ATS team, latest AI/ML for systematic trading R&D, production trading with P&L responsibility, alpha generation, portfolio optimization, and execution algorithms. Recurring company; no automatic Phase 3.",
+      "ageDays": 0,
       "freshness": "fresh",
       "geo": "Singapore",
       "action": "apply",
@@ -2966,7 +3008,7 @@
       "actionMeaning": "Clean high-priority target",
       "actionNextStep": "Open posting, use paired resume, submit or start Phase 3 package",
       "jobTitle": "J.P. Morgan — Quantitative Trading and Research - AI Machine Learning Researcher - Associate",
-      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210775735",
+      "jobUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775735",
       "jobSource": "cached JD"
     },
     {
@@ -2998,8 +3040,8 @@
       "score": 4.3,
       "scoreBucket": "strong",
       "category": "Combination",
-      "lastSeen": "2026-09-02",
-      "notes": "Dallas office/company presence retained under texas-expanded scope, and official G-Research vacancies still show Quantitative Researcher - Experienced, Natural Language Processing Researcher, Quantitative Researcher - Postgraduate, Machine Learning Researcher, and Fundamental Equity Research, but all visible actionable research roles are London. Keep re-scanning for Dallas/Texas and do not exclude Dallas-company signals as US-only.",
+      "lastSeen": "2026-09-03",
+      "notes": "Dallas office/company presence retained under texas-expanded scope. Official vacancies browser pass still exposes only London as a filter/location while team pages emphasize quant research and machine learning. No clean Dallas/Texas actionable QR/AI research JD surfaced today; keep re-scanning and do not exclude Dallas-company signals as US-only.",
       "ageDays": 0,
       "freshness": "fresh",
       "geo": "Texas/Dallas",
@@ -3061,9 +3103,9 @@
       "score": 4.2,
       "scoreBucket": "strong",
       "category": "Combination",
-      "lastSeen": "2026-09-01",
-      "notes": "Official Lever board still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus dense AI/LLM/agent role-family signals nearby. 2026-09-01 portal pass showed Quantitative Strategy, Quantitative Researcher - Option, Quantitative Researcher for Fresh STEM PhD graduates, Senior Data Analyst Trading, Product Manager Quant Trading, Data Scientist LLM & Trading, AI Agent Engineer, and Research Scientist - LLM Foundation Models. Direct quant role remains the Option QR/Fresh STEM PhD family; keep recurring, no Phase 3.",
-      "ageDays": 1,
+      "lastSeen": "2026-09-03",
+      "notes": "Official Lever board/search still anchors Quantitative Researcher - Option remote across Asia/South East Asia and Fresh STEM PhD QR remote across Asia, plus Quantitative Strategy, Senior Data Analyst Trading, Product Manager Quant Trading, and AI/LLM role-family signals. Direct quant role remains the Option QR/Fresh STEM PhD family; keep recurring, no Phase 3.",
+      "ageDays": 0,
       "freshness": "fresh",
       "geo": "Remote",
       "action": "verify",
@@ -3267,6 +3309,14 @@
   "history": {
     "scans": [
       {
+        "title": "2026-09-03 — Thursday",
+        "date": "2026-09-03",
+        "candidateMentions": 32,
+        "uniqueCompanies": 15,
+        "scoreCount": 0,
+        "maxScore": null
+      },
+      {
         "title": "2026-09-02 — Wednesday",
         "date": "2026-09-02",
         "candidateMentions": 18,
@@ -3449,17 +3499,15 @@
         "uniqueCompanies": 6,
         "scoreCount": 0,
         "maxScore": null
-      },
-      {
-        "title": "2026-08-12 — Ad-hoc Company Deep Search: Quadeye",
-        "date": "2026-08-12",
-        "candidateMentions": 2,
-        "uniqueCompanies": 2,
-        "scoreCount": 0,
-        "maxScore": null
       }
     ],
     "summaryRows": [
+      {
+        "dateLabel": "2026-09-03 (Thu)",
+        "sgQuant": "9건 unique",
+        "aiNative": "4 strong recurring / 2 new partial",
+        "remote": "SG-compatible remote: Binance"
+      },
       {
         "dateLabel": "2026-05-15 (Fri)",
         "sgQuant": "8건 unique",
@@ -3525,12 +3573,6 @@
         "sgQuant": "5건",
         "aiNative": "약함 (간접시그널만)",
         "remote": "❌ None"
-      },
-      {
-        "dateLabel": "2026-04-17 (Fri)",
-        "sgQuant": "5건",
-        "aiNative": "5건 (Top: Jump Trading, Binance LLM, GIC VP×2, Westbury)",
-        "remote": "⏱️ Timeout"
       }
     ]
   },
@@ -3598,6 +3640,38 @@
       "date": "20260612",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
       "excerpt": "> Cached: 2026-06-12 > Source: https://job-boards.greenhouse.io/worldquant/jobs/4070746006 > Status: official Greenhouse active; recurring company WorldQuant develops and deploys systematic financial strategies across asset classes and global markets. It seeks"
+    },
+    {
+      "file": "2026-09-03-chishi-family-office-quantitative-researcher-analyst-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-09-03-chishi-family-office-quantitative-researcher-analyst-singapore.partial.md",
+      "title": "Chishi Family Office — Quantitative Researcher / Analyst",
+      "date": "2026-09-03",
+      "url": "https://www.mycareersfuture.gov.sg/job/quantitative-researcher-analyst-chishi-family-office-6f8bb4bc51a890e13bdc897538a9bba8",
+      "excerpt": "Date cached: 2026-09-03 Source: MyCareersFuture search result URL: https://www.mycareersfuture.gov.sg/job/quantitative-researcher-analyst-chishi-family-office-6f8bb4bc51a890e13bdc897538a9bba8 Location: Singapore Posting signal: posted within 7 days; closing 20"
+    },
+    {
+      "file": "2026-09-03-dymon-head-commodities-analytics-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-09-03-dymon-head-commodities-analytics-singapore.partial.md",
+      "title": "Dymon Asia Capital — Head of Commodities Analytics",
+      "date": "2026-09-03",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/head-commodities-analytics-dymon-asia-capital-bc8c9d4b6e16a2723dfe21d41c39f822",
+      "excerpt": "Date cached: 2026-09-03 Source: MyCareersFuture search result URL: https://www.mycareersfuture.gov.sg/job/banking-finance/head-commodities-analytics-dymon-asia-capital-bc8c9d4b6e16a2723dfe21d41c39f822 Location: Singapore Posting signal: posted within 7 days St"
+    },
+    {
+      "file": "2026-09-03-jpmorgan-ai-machine-learning-researcher-associate-singapore.md",
+      "path": "outputs/jd-cache/2026-09-03-jpmorgan-ai-machine-learning-researcher-associate-singapore.md",
+      "title": "J.P. Morgan — Quantitative Trading and Research - AI Machine Learning Researcher - Associate",
+      "date": "2026-09-03",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775735",
+      "excerpt": "Date cached: 2026-09-03 Source: Official Oracle/JPMC careers browser render URL: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775735 Location: Singapore, CapitaSpring 88 Market Street Posting date: 2026-07-30 Status: recurr"
+    },
+    {
+      "file": "2026-09-03-metabit-quantitative-developer-execution-singapore.partial.md",
+      "path": "outputs/jd-cache/2026-09-03-metabit-quantitative-developer-execution-singapore.partial.md",
+      "title": "Metabit Asset Management — Quantitative Developer - Execution",
+      "date": "2026-09-03",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-developer-%E2%80%93-execution-metabit-asset-management-1c5c5f00456f28927bd5ef813bb9bbd5",
+      "excerpt": "Date cached: 2026-09-03 Source: MyCareersFuture search result URL: https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-developer-%E2%80%93-execution-metabit-asset-management-1c5c5f00456f28927bd5ef813bb9bbd5 Location: Singapore Posting date sign"
     },
     {
       "file": "2026-09-02-abaxx-exchange-quant-developer-singapore.md",
