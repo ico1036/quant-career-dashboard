@@ -205,6 +205,7 @@ const companyAliasRules = [
   ["g-research", ["g-research", "gresearch"]],
   ["jane street", ["jane street"]],
   ["quantedge", ["quantedge"]],
+  ["engineers gate", ["engineers gate"]],
   ["moreton capital partners", ["moreton"]],
   ["fionics", ["fionics"]],
   ["ms capital", ["ms capital", "ms-capital"]],
@@ -254,6 +255,7 @@ const careersFallback = new Map([
   ["squarepoint capital", "https://www.squarepoint-capital.com/careers"],
   ["balyasny", "https://www.bamfunds.com/careers/"],
   ["schonfeld", "https://www.schonfeld.com/careers/"],
+  ["engineers gate", "https://www.eglp.com/careers/"],
   ["g-research", "https://www.gresearch.com/vacancies/"],
   ["nurp", "https://nurp.rippling-ats.com/"],
   ["dv trading", "https://dvtrading.co/join-dv/"],
@@ -292,7 +294,18 @@ function companyNeedles(company) {
         "fund",
         "investment",
         "partners",
-        "options"
+        "options",
+        "deep",
+        "learning",
+        "forecasting",
+        "markets",
+        "market",
+        "researcher",
+        "researching",
+        "current",
+        "watching",
+        "engineers",
+        "gate"
       ].includes(token))
   );
 
@@ -320,8 +333,20 @@ function fallbackJobUrl(company) {
   return `https://www.google.com/search?q=${encodeURIComponent(`${company} careers quant jobs`)}`;
 }
 
+function needleMatches(haystack, needle) {
+  const escaped = needle
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "[^a-z0-9]+")
+    .replace(/^\[\^a-z0-9\]\+|\[\^a-z0-9\]\+$/g, "");
+  if (!escaped) return false;
+  return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`).test(haystack);
+}
+
 function bestJdForCompany(company, jdCache) {
   const needles = companyNeedles(company.company);
+  if (!needles.length) return null;
+  const exactCompanyPattern = new RegExp(company.company.toLowerCase().replace(/[^a-z0-9]+/g, "[^a-z0-9]+"));
   const geo = company.geo.toLowerCase();
   const scored = jdCache
     .filter((jd) => jd.url)
@@ -331,8 +356,9 @@ function bestJdForCompany(company, jdCache) {
       let companyScore = 0;
       for (const needle of needles) {
         if (!needle) continue;
-        if (haystack.includes(needle)) companyScore += needle.length > 8 ? 5 : 3;
+        if (needleMatches(haystack, needle)) companyScore += needle.length > 8 ? 5 : 3;
       }
+      if (exactCompanyPattern.test(haystack)) companyScore += 8;
       score += companyScore;
       if (geo.includes("singapore") && haystack.includes("singapore")) score += 3;
       if (geo.includes("remote") && haystack.includes("remote")) score += 2;
@@ -341,7 +367,7 @@ function bestJdForCompany(company, jdCache) {
       if (/intern|graduate|university/i.test(haystack) && !/intern|graduate|university/i.test(company.notes)) score -= 2;
       return { jd, score, companyScore };
     })
-    .filter((item) => item.companyScore > 0)
+    .filter((item) => item.companyScore >= 5)
     .sort((a, b) => b.score - a.score || String(b.jd.date ?? "").localeCompare(String(a.jd.date ?? "")));
 
   return scored[0]?.jd ?? null;

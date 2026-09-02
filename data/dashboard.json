@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T03:46:55.393Z",
+  "generatedAt": "2026-09-02T04:06:35.531Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -7,9 +7,9 @@
     "latestHtml": "outputs/quant-opportunity-dashboard-2026-07-21.html"
   },
   "metrics": {
-    "trackedCompanies": 131,
+    "trackedCompanies": 137,
     "topTargets": 16,
-    "jdCacheFiles": 163,
+    "jdCacheFiles": 170,
     "resumeFiles": 180,
     "currentResumeFiles": 66,
     "archivedResumeFiles": 114,
@@ -18,10 +18,10 @@
     "virtualWatchEvents": 4,
     "scansParsed": 24,
     "applyFirst": 3,
-    "verify": 64,
-    "watch": 27,
+    "verify": 69,
+    "watch": 28,
     "researched": 3,
-    "freshCompanies": 30,
+    "freshCompanies": 36,
     "needsRecheck": 58,
     "staleOrClosed": 11,
     "locationBlocked": 3,
@@ -29,7 +29,7 @@
       "PureQuant": 41,
       "AI/ML": 2,
       "AI Agent": 1,
-      "Combination": 87
+      "Combination": 93
     }
   },
   "latestBrief": {
@@ -296,9 +296,9 @@
       "actionLabel": "Already researched",
       "actionMeaning": "Company has prior research or tailored resume",
       "actionNextStep": "Reuse existing materials; only refresh if the JD changed",
-      "jobTitle": "IMC — APAC Quant Research / Experienced Roles",
-      "jobUrl": "https://www.imc.com/ap/careers/experienced-roles/quant-research",
-      "jobSource": "cached JD"
+      "jobTitle": "IMC Trading careers",
+      "jobUrl": "https://www.imc.com/ap/careers/",
+      "jobSource": "careers page"
     },
     {
       "id": "jump-trading",
@@ -527,9 +527,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Point72 — Quantitative Researcher, Machine Learning",
-      "jobUrl": "https://job-boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
-      "jobSource": "cached JD"
+      "jobTitle": "Point72 Cubist careers",
+      "jobUrl": "https://careers.point72.com/",
+      "jobSource": "careers page"
     },
     {
       "id": "worldquant",
@@ -569,8 +569,8 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Millennium — Deep Learning Quantitative Researcher, Singapore",
-      "jobUrl": "https://www.linkedin.com/jobs/view/4444602891/",
+      "jobTitle": "XTX Markets — Deep Learning / Forecasting Watch",
+      "jobUrl": "https://www.xtxmarkets.com/careers/",
       "jobSource": "cached JD"
     },
     {
@@ -592,6 +592,27 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "HedgeSPA — Quantitative Finance Researcher / AI Quant Team",
       "jobUrl": "https://www.hedgespa.com/careers",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "stealth-ai-startups-crypto-qr",
+      "company": "Stealth AI Startups Crypto QR",
+      "status": "verify",
+      "fitScoreRaw": "4.15 AI-agent crypto quant",
+      "score": 4.15,
+      "scoreBucket": "strong",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "Fresh LinkedIn Singapore signal for Founding/Cofounder Quant Researcher (Crypto Trading): owns AI/ML trading model development for an AI agent platform and optimizes algorithmic trading models for crypto markets. Very ArbWick-like and more QR-shaped than the lead software engineer role, but stealth identity and cofounder/equity structure require verification before applying.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Stealth AI Startups Crypto QR — Founding/Cofounder Quant Researcher (Crypto Trading)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/founding-quant-researcher-crypto-trading-at-stealth-ai-startups-4183492049",
       "jobSource": "cached JD"
     },
     {
@@ -658,6 +679,27 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "peak-legal-counsel-autonomous-alpha",
+      "company": "Peak Legal Counsel Autonomous Alpha",
+      "status": "verify",
+      "fitScoreRaw": "4.1 agentic quant architect",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "Fresh LinkedIn Singapore signal for Lead Quant Agent Developer (AI Architect), recruiter-retained for a multi-billion dollar alternative asset manager in Singapore. JD claims autonomous alpha / agentic quant ecosystem and trading intelligence architecture. Strong ArbWick-like theme, but recruiter opacity means verify client, seniority, compensation, and whether this is hands-on quant research or platform architecture.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Peak Legal Counsel — Lead Quant Agent Developer (AI Architect)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/lead-quant-agent-developer-ai-architect-at-peak-legal-counsel-4399731595",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "platinum-partners-recruiter",
       "company": "Platinum & Partners (recruiter)",
       "status": "suspicious",
@@ -677,6 +719,27 @@
       "jobTitle": "Platinum & Partners (recruiter) careers",
       "jobUrl": "https://www.google.com/search?q=Platinum%20%26%20Partners%20(recruiter)%20careers%20quant%20jobs",
       "jobSource": "job search"
+    },
+    {
+      "id": "attix",
+      "company": "ATTIX",
+      "status": "verify",
+      "fitScoreRaw": "4.05 AI/LLM quant finance",
+      "score": 4.05,
+      "scoreBucket": "strong",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "Fresh LinkedIn Singapore signal for AI / LLM Engineer (Quantitative Finance): intelligent systems for financial data, trading insights, portfolio optimization, and portfolio management systems. Strong productized quant-AI fit; verify firm substance, JD depth, and whether role has alpha research ownership.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "ATTIX — AI / LLM Engineer (Quantitative Finance)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/ai-llm-engineer-quantitative-finance-at-attix-4324625063",
+      "jobSource": "cached JD"
     },
     {
       "id": "cw-talent-solutions-recruiter",
@@ -763,6 +826,27 @@
       "jobSource": "job search"
     },
     {
+      "id": "stealth-ai-startups-lead-software",
+      "company": "Stealth AI Startups Lead Software",
+      "status": "verify",
+      "fitScoreRaw": "4.05 AI-agent quant trading",
+      "score": 4.05,
+      "scoreBucket": "strong",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "Fresh LinkedIn Singapore signal for Lead Software Engineer (AI Agent / Quant Trading): founding team equity, competitive salary, remote-first work environment, AI-powered trading, and intersection of AI and finance. Very ArbWick-like in theme, but company identity is hidden and role is engineering-led rather than pure QR. Verify company, funding, founder quality, capital/trading mandate, equity terms, and whether there is real alpha ownership before applying.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Stealth AI Startups — Lead Software Engineer (AI Agent / Quant Trading)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/lead-software-engineer-ai-agent-quant-trading-at-stealth-ai-startups-4174463447",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "aquatic-capital-management",
       "company": "Aquatic Capital Management",
       "status": "watching",
@@ -800,8 +884,8 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Dada Consultants / Unnamed Fintech — Quantitative Researcher, Options Pricing & Volatility",
-      "jobUrl": "https://www.mycareersfuture.gov.sg/job/banking-finance/quantitative-researcher-%E2%80%93-options-pricing-volatility-dadaconsultants-af0e68a0537c1302ab1219238200a6bc",
+      "jobTitle": "Bank of Singapore — Multi-Strat and Investment AI Specialist",
+      "jobUrl": "https://www.linkedin.com/comm/jobs/view/4453629651/",
       "jobSource": "cached JD"
     },
     {
@@ -968,9 +1052,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Verition — Equities Quantitative Researcher, Singapore",
-      "jobUrl": "https://sg.linkedin.com/jobs/view/equities-quantitative-researcher-at-verition-4337083240",
-      "jobSource": "cached JD"
+      "jobTitle": "Verition Fund Management careers",
+      "jobUrl": "https://www.google.com/search?q=Verition%20Fund%20Management%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "keyrock",
@@ -991,6 +1075,27 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "Keyrock — Quantitative Researcher / HFT Quant Remote-Possible EMEA",
       "jobUrl": "https://jobs.ashbyhq.com/keyrock",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "trulyyy",
+      "company": "Trulyyy",
+      "status": "verify",
+      "fitScoreRaw": "3.95 trading-agent AI engineer",
+      "score": 3.95,
+      "scoreBucket": "watch",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "LinkedIn Singapore signal for AI Engineer - Trading Agent, full-time mid-senior. Strong title-level AI-agent/trading fit and similar-job graph connects it to Jump QR, Millennium DL QR, Binance applied data, and other AI/finance roles. Direct company substance and full JD need verification before promotion.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "watch",
+      "actionLabel": "Watch",
+      "actionMeaning": "Useful signal, not urgent today",
+      "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
+      "jobTitle": "Trulyyy — AI Engineer - Trading Agent",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/ai-engineer-trading-agent-at-trulyyy-4430379750",
       "jobSource": "cached JD"
     },
     {
@@ -1262,8 +1367,29 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
-      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+      "jobTitle": "XTX Markets — Deep Learning / Forecasting Watch",
+      "jobUrl": "https://www.xtxmarkets.com/careers/",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "batonics-ab",
+      "company": "Batonics AB",
+      "status": "watch",
+      "fitScoreRaw": "3.85 quant AI infrastructure",
+      "score": 3.85,
+      "scoreBucket": "watch",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "Fresh LinkedIn Singapore signal for Systems/Infra/Platform Engineer (Quant Trading Systems). Company says it builds high-throughput quant trading/research platforms and AI agents for funds across Asia/U.S./Europe. Relevant ArbWick-adjacent infrastructure, but role is infra/platform-heavy rather than QR; keep as watch unless user wants quant-agent infra.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Batonics AB — Systems/Infra/Platform Engineer (Quant Trading Systems)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/systems-infra-platform-engineer-quant-trading-systems-at-batonics-ab-4316233942",
       "jobSource": "cached JD"
     },
     {
@@ -1388,9 +1514,9 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "DV Trading — Remote Quantitative Researcher (web3.career Discovery)",
-      "jobUrl": "https://dvtrading.co/job-post/quantitative-researcher-bahamas-ny/",
-      "jobSource": "cached JD"
+      "jobTitle": "BAH Partners (recruiter) careers",
+      "jobUrl": "https://www.google.com/search?q=BAH%20Partners%20(recruiter)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "citadel-gqs-qre",
@@ -1493,9 +1619,9 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Tudor Investment Corporation — Low Latency Quantitative Researcher",
-      "jobUrl": "https://job-boards.greenhouse.io/tudorgroup/jobs/5358163",
-      "jobSource": "cached JD"
+      "jobTitle": "Tudor Investment / Xantium careers",
+      "jobUrl": "https://www.google.com/search?q=Tudor%20Investment%20%2F%20Xantium%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "virtu-financial",
@@ -1745,9 +1871,9 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "Tudor Investment Corporation — Low Latency Quantitative Researcher",
-      "jobUrl": "https://job-boards.greenhouse.io/tudorgroup/jobs/5358163",
-      "jobSource": "cached JD"
+      "jobTitle": "Xantium/Tudor Investment careers",
+      "jobUrl": "https://www.google.com/search?q=Xantium%2FTudor%20Investment%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "anonymous-systematic-equities-efc",
@@ -1808,9 +1934,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Jump Trading — Quantitative Researcher | Trading Team",
-      "jobUrl": "https://www-webflow.jumptrading.com/hr/job?gh_jid=5870589",
-      "jobSource": "cached JD"
+      "jobTitle": "Engineers Gate (EG) careers",
+      "jobUrl": "https://www.eglp.com/careers/",
+      "jobSource": "careers page"
     },
     {
       "id": "lion-global-investors-aioi",
@@ -1850,9 +1976,9 @@
       "actionLabel": "Watch",
       "actionMeaning": "Useful signal, not urgent today",
       "actionNextStep": "Keep tracking for new SG/remote QR or ML openings",
-      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
-      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
-      "jobSource": "cached JD"
+      "jobTitle": "Midpoint Markets careers",
+      "jobUrl": "https://www.google.com/search?q=Midpoint%20Markets%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "trexquant-gar",
@@ -1934,9 +2060,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Anonymous / eFinancialCareers — Quantitative Researcher – Systematic Trading Strategies",
-      "jobUrl": "https://www.efinancialcareers.sg/jobs-Singapore-Singapore-Quantitative_Researcher_%E2%80%93_Systematic_Trading_Strategies.id23371327",
-      "jobSource": "cached JD"
+      "jobTitle": "Anonymous US HF (eFC) careers",
+      "jobUrl": "https://www.google.com/search?q=Anonymous%20US%20HF%20(eFC)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "blackrock",
@@ -1976,9 +2102,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Wormhole Labs — Quantitative Researcher (Stale web3.career Row)",
-      "jobUrl": "https://jobs.ashbyhq.com/wormholelabs",
-      "jobSource": "cached JD"
+      "jobTitle": "Brew Labs careers",
+      "jobUrl": "https://www.google.com/search?q=Brew%20Labs%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "invesco",
@@ -2081,9 +2207,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Squarepoint Capital — Junior Quant Researcher - ML Alpha Research",
-      "jobUrl": "https://job-boards.greenhouse.io/embed/job_app?for=squarepointcapital&token=6069464",
-      "jobSource": "cached JD"
+      "jobTitle": "Bright Point Capital careers",
+      "jobUrl": "https://www.google.com/search?q=Bright%20Point%20Capital%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "graviton-research-capital",
@@ -2333,9 +2459,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "IMC — APAC Quant Research / Experienced Roles",
-      "jobUrl": "https://www.imc.com/ap/careers/experienced-roles/quant-research",
-      "jobSource": "cached JD"
+      "jobTitle": "ATTIX APAC careers",
+      "jobUrl": "https://www.google.com/search?q=ATTIX%20APAC%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "crypto-com-trading-analytics",
@@ -2396,9 +2522,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Citadel Securities — Quantitative Researcher, PhD Graduate (Asia)",
-      "jobUrl": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-asia/",
-      "jobSource": "cached JD"
+      "jobTitle": "Wintermute Graduate QR careers",
+      "jobUrl": "https://www.google.com/search?q=Wintermute%20Graduate%20QR%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "mercuria",
@@ -2480,9 +2606,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Binance — Quantitative Researcher",
-      "jobUrl": "https://jobs.lever.co/binance/a13367b2-8bd9-41e1-878f-478cd1539354",
-      "jobSource": "cached JD"
+      "jobTitle": "Aptitude Asia (recruiter) careers",
+      "jobUrl": "https://www.google.com/search?q=Aptitude%20Asia%20(recruiter)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "charterhouse-recruiter",
@@ -2522,9 +2648,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "Metabit Technology LLC — Senior Quantitative Researcher, Intraday Equities Alpha",
-      "jobUrl": "https://job-boards.greenhouse.io/metabittechnologyllc/jobs/4023846009",
-      "jobSource": "cached JD"
+      "jobTitle": "DV Trading LLC careers",
+      "jobUrl": "https://dvtrading.co/join-dv/",
+      "jobSource": "careers page"
     },
     {
       "id": "eastspring",
@@ -2711,9 +2837,9 @@
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
       "actionNextStep": "Do not spend resume cycle unless a cleaner role appears",
-      "jobTitle": "PEAK Legal careers",
-      "jobUrl": "https://www.google.com/search?q=PEAK%20Legal%20careers%20quant%20jobs",
-      "jobSource": "job search"
+      "jobTitle": "Peak Legal Counsel — Lead Quant Agent Developer (AI Architect)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/lead-quant-agent-developer-ai-architect-at-peak-legal-counsel-4399731595",
+      "jobSource": "cached JD"
     },
     {
       "id": "standard-signal-yc-s26",
@@ -2732,9 +2858,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "IMC — APAC Quant Research / Experienced Roles",
-      "jobUrl": "https://www.imc.com/ap/careers/experienced-roles/quant-research",
-      "jobSource": "cached JD"
+      "jobTitle": "Standard Signal (YC S26) careers",
+      "jobUrl": "https://www.google.com/search?q=Standard%20Signal%20(YC%20S26)%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "starx-capital-markets",
@@ -2753,9 +2879,9 @@
       "actionLabel": "Verify first",
       "actionMeaning": "Promising but needs a quick check",
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "WorldQuant — Quantitative Researcher (Singapore)",
-      "jobUrl": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
-      "jobSource": "cached JD"
+      "jobTitle": "StarX Capital Markets careers",
+      "jobUrl": "https://www.google.com/search?q=StarX%20Capital%20Markets%20careers%20quant%20jobs",
+      "jobSource": "job search"
     },
     {
       "id": "voleon-group",
@@ -3033,6 +3159,27 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "stealth-ai-startups-crypto-qr",
+      "company": "Stealth AI Startups Crypto QR",
+      "status": "verify",
+      "fitScoreRaw": "4.15 AI-agent crypto quant",
+      "score": 4.15,
+      "scoreBucket": "strong",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "Fresh LinkedIn Singapore signal for Founding/Cofounder Quant Researcher (Crypto Trading): owns AI/ML trading model development for an AI agent platform and optimizes algorithmic trading models for crypto markets. Very ArbWick-like and more QR-shaped than the lead software engineer role, but stealth identity and cofounder/equity structure require verification before applying.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Stealth AI Startups Crypto QR — Founding/Cofounder Quant Researcher (Crypto Trading)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/founding-quant-researcher-crypto-trading-at-stealth-ai-startups-4183492049",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "g-research-nlp-researcher",
       "company": "G-Research NLP Researcher",
       "status": "scored",
@@ -3054,6 +3201,48 @@
       "jobSource": "cached JD"
     },
     {
+      "id": "peak-legal-counsel-autonomous-alpha",
+      "company": "Peak Legal Counsel Autonomous Alpha",
+      "status": "verify",
+      "fitScoreRaw": "4.1 agentic quant architect",
+      "score": 4.1,
+      "scoreBucket": "strong",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "Fresh LinkedIn Singapore signal for Lead Quant Agent Developer (AI Architect), recruiter-retained for a multi-billion dollar alternative asset manager in Singapore. JD claims autonomous alpha / agentic quant ecosystem and trading intelligence architecture. Strong ArbWick-like theme, but recruiter opacity means verify client, seniority, compensation, and whether this is hands-on quant research or platform architecture.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "Peak Legal Counsel — Lead Quant Agent Developer (AI Architect)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/lead-quant-agent-developer-ai-architect-at-peak-legal-counsel-4399731595",
+      "jobSource": "cached JD"
+    },
+    {
+      "id": "attix",
+      "company": "ATTIX",
+      "status": "verify",
+      "fitScoreRaw": "4.05 AI/LLM quant finance",
+      "score": 4.05,
+      "scoreBucket": "strong",
+      "category": "Combination",
+      "lastSeen": "2026-09-02",
+      "notes": "Fresh LinkedIn Singapore signal for AI / LLM Engineer (Quantitative Finance): intelligent systems for financial data, trading insights, portfolio optimization, and portfolio management systems. Strong productized quant-AI fit; verify firm substance, JD depth, and whether role has alpha research ownership.",
+      "ageDays": 0,
+      "freshness": "fresh",
+      "geo": "Singapore",
+      "action": "verify",
+      "actionLabel": "Verify first",
+      "actionMeaning": "Promising but needs a quick check",
+      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
+      "jobTitle": "ATTIX — AI / LLM Engineer (Quantitative Finance)",
+      "jobUrl": "https://sg.linkedin.com/jobs/view/ai-llm-engineer-quantitative-finance-at-attix-4324625063",
+      "jobSource": "cached JD"
+    },
+    {
       "id": "okx-deep-learning-quant",
       "company": "OKX Deep Learning Quant",
       "status": "watch",
@@ -3072,69 +3261,6 @@
       "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
       "jobTitle": "OKX — Deep Learning Quant Researcher (web3.career Watch)",
       "jobUrl": "https://www.okx.com/en-us/join-us/openings",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "hrt-austin-mid-freq",
-      "company": "HRT Austin Mid-Freq",
-      "status": "watching",
-      "fitScoreRaw": "4.0 technical / texas-expanded",
-      "score": 4,
-      "scoreBucket": "strong",
-      "category": "Combination",
-      "lastSeen": "2026-07-31",
-      "notes": "Official HRT careers surfaced Quantitative Researcher (Mid-Freq) with Austin/Texas company location signal. Treat as texas-expanded watch: technical fit is relevant, but role actionability/location details are not yet as clean as Singapore direct JDs.",
-      "ageDays": 33,
-      "freshness": "recent",
-      "geo": "Texas/Dallas",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Hudson River Trading — Singapore Careers Snapshot",
-      "jobUrl": "https://www.hudsonrivertrading.com/careers/",
-      "jobSource": "cached JD"
-    },
-    {
-      "id": "presto",
-      "company": "Presto",
-      "status": "scored",
-      "fitScoreRaw": "4.0 provisional",
-      "score": 4,
-      "scoreBucket": "strong",
-      "category": "Combination",
-      "lastSeen": "2026-08-12",
-      "notes": "Fresh LinkedIn/official-company signal for Quantitative Researcher Singapore: automatically tradable signals, machine learning/deep learning, microstructure/news/fundamental/analyst-prediction data, and automated trading systems. Direct careers page confirms quantitative trading firm; full direct JD still needs recovery before Phase 3.",
-      "ageDays": 21,
-      "freshness": "recent",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Presto careers",
-      "jobUrl": "https://www.google.com/search?q=Presto%20careers%20quant%20jobs",
-      "jobSource": "job search"
-    },
-    {
-      "id": "verition-fund-management",
-      "company": "Verition Fund Management",
-      "status": "verify",
-      "fitScoreRaw": "4.0 provisional",
-      "score": 4,
-      "scoreBucket": "strong",
-      "category": "Combination",
-      "lastSeen": "2026-09-01",
-      "notes": "LinkedIn/foundit surfaces Equities Quantitative Researcher in Singapore with Python, machine learning, data analysis frameworks, and portfolio optimization. Verition is a verifiable multi-strategy manager, but a direct official Singapore JD was not recovered today; keep as verify/watch before Phase 3.",
-      "ageDays": 1,
-      "freshness": "fresh",
-      "geo": "Singapore",
-      "action": "verify",
-      "actionLabel": "Verify first",
-      "actionMeaning": "Promising but needs a quick check",
-      "actionNextStep": "Confirm JD, location, seniority, and active status before spending resume cycle",
-      "jobTitle": "Verition — Equities Quantitative Researcher, Singapore",
-      "jobUrl": "https://sg.linkedin.com/jobs/view/equities-quantitative-researcher-at-verition-4337083240",
       "jobSource": "cached JD"
     }
   ],
@@ -3482,6 +3608,22 @@
       "excerpt": "Date cached: 2026-09-02 Source: JobStreet search-visible snippet URL: https://sg.jobstreet.com/quant-jobs/in-Singapore Status: watch / low-priority Location: Singapore Fit score: 3.45 ## Extracted Signals - Fresh Singapore Quant Developer signal at Abaxx Excha"
     },
     {
+      "file": "2026-09-02-attix-ai-llm-engineer-quantitative-finance-singapore.md",
+      "path": "outputs/jd-cache/2026-09-02-attix-ai-llm-engineer-quantitative-finance-singapore.md",
+      "title": "ATTIX — AI / LLM Engineer (Quantitative Finance)",
+      "date": "2026-09-02",
+      "url": "https://sg.linkedin.com/jobs/view/ai-llm-engineer-quantitative-finance-at-attix-4324625063",
+      "excerpt": "Source: LinkedIn Singapore search-visible listing. URL: https://sg.linkedin.com/jobs/view/ai-llm-engineer-quantitative-finance-at-attix-4324625063 Captured: 2026-09-02 Status: verify-only. Signals: - Singapore role explicitly combining AI/LLM engineering and q"
+    },
+    {
+      "file": "2026-09-02-batonics-ab-systems-infra-platform-engineer-quant-trading-systems-singapore.md",
+      "path": "outputs/jd-cache/2026-09-02-batonics-ab-systems-infra-platform-engineer-quant-trading-systems-singapore.md",
+      "title": "Batonics AB — Systems/Infra/Platform Engineer (Quant Trading Systems)",
+      "date": "2026-09-02",
+      "url": "https://sg.linkedin.com/jobs/view/systems-infra-platform-engineer-quant-trading-systems-at-batonics-ab-4316233942",
+      "excerpt": "Source: LinkedIn Singapore search-visible listing. URL: https://sg.linkedin.com/jobs/view/systems-infra-platform-engineer-quant-trading-systems-at-batonics-ab-4316233942 Captured: 2026-09-02 Status: watch. Signals: - Singapore role in quant trading systems. - "
+    },
+    {
       "file": "2026-09-02-caladan-quant-trader-singapore.md",
       "path": "outputs/jd-cache/2026-09-02-caladan-quant-trader-singapore.md",
       "title": "Caladan — Quant Trader",
@@ -3538,6 +3680,14 @@
       "excerpt": "Date cached: 2026-09-02 Source: JobStreet / InternSG / Jora search-visible snippets URL: https://www.internsg.com/job/lion-global-investors-ltd-quant-research-data-engineering-nlp-and-generative-ai-intern-6/ Status: watch / intern-level AI-quant signal Locatio"
     },
     {
+      "file": "2026-09-02-peak-legal-counsel-lead-quant-agent-developer-singapore.md",
+      "path": "outputs/jd-cache/2026-09-02-peak-legal-counsel-lead-quant-agent-developer-singapore.md",
+      "title": "Peak Legal Counsel — Lead Quant Agent Developer (AI Architect)",
+      "date": "2026-09-02",
+      "url": "https://sg.linkedin.com/jobs/view/lead-quant-agent-developer-ai-architect-at-peak-legal-counsel-4399731595",
+      "excerpt": "Source: LinkedIn Singapore search-visible listing. URL: https://sg.linkedin.com/jobs/view/lead-quant-agent-developer-ai-architect-at-peak-legal-counsel-4399731595 Captured: 2026-09-02 Status: verify-only; recruiter-retained / client anonymous. Signals: - Singa"
+    },
+    {
       "file": "2026-09-02-qube-2027-graduate-quant-research-trading-singapore.md",
       "path": "outputs/jd-cache/2026-09-02-qube-2027-graduate-quant-research-trading-singapore.md",
       "title": "QRT/Qube — 2027 Internship/Graduate - Quantitative Research/Trading",
@@ -3546,12 +3696,44 @@
       "excerpt": "> Cached: 2026-09-02 > Source: https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002 > Status: official Greenhouse row; low-priority graduate signal ## Extracted Signal - Title: 2027 Internship/Graduate - Quantitative Research/Trading - "
     },
     {
+      "file": "2026-09-02-stealth-ai-startups-lead-software-engineer-ai-agent-quant-trading-singapore.md",
+      "path": "outputs/jd-cache/2026-09-02-stealth-ai-startups-lead-software-engineer-ai-agent-quant-trading-singapore.md",
+      "title": "Stealth AI Startups — Lead Software Engineer (AI Agent / Quant Trading)",
+      "date": "2026-09-02",
+      "url": "https://sg.linkedin.com/jobs/view/lead-software-engineer-ai-agent-quant-trading-at-stealth-ai-startups-4174463447",
+      "excerpt": "Date cached: 2026-09-02 Source: LinkedIn search-visible page URL: https://sg.linkedin.com/jobs/view/lead-software-engineer-ai-agent-quant-trading-at-stealth-ai-startups-4174463447 Status: verify / LinkedIn-only stealth-company signal Location: Singapore Fit sc"
+    },
+    {
+      "file": "2026-09-02-stealth-ai-startups-founding-quant-researcher-crypto-trading-singapore.md",
+      "path": "outputs/jd-cache/2026-09-02-stealth-ai-startups-founding-quant-researcher-crypto-trading-singapore.md",
+      "title": "Stealth AI Startups Crypto QR — Founding/Cofounder Quant Researcher (Crypto Trading)",
+      "date": "2026-09-02",
+      "url": "https://sg.linkedin.com/jobs/view/founding-quant-researcher-crypto-trading-at-stealth-ai-startups-4183492049",
+      "excerpt": "Source: LinkedIn Singapore search-visible listing. URL: https://sg.linkedin.com/jobs/view/founding-quant-researcher-crypto-trading-at-stealth-ai-startups-4183492049 Captured: 2026-09-02 Status: verify-only; LinkedIn listing visible in search crawl, company ide"
+    },
+    {
+      "file": "2026-09-02-trulyyy-ai-engineer-trading-agent-singapore.md",
+      "path": "outputs/jd-cache/2026-09-02-trulyyy-ai-engineer-trading-agent-singapore.md",
+      "title": "Trulyyy — AI Engineer - Trading Agent",
+      "date": "2026-09-02",
+      "url": "https://sg.linkedin.com/jobs/view/ai-engineer-trading-agent-at-trulyyy-4430379750",
+      "excerpt": "Date cached: 2026-09-02 Source: LinkedIn search-visible page URL: https://sg.linkedin.com/jobs/view/ai-engineer-trading-agent-at-trulyyy-4430379750 Status: verify / LinkedIn-only AI trading-agent signal Location: Singapore Fit score: 3.95 ## Extracted Signals "
+    },
+    {
       "file": "2026-09-02-varsity-tech-latenttech-ai-engineer-multi-agentic-quant-systems.md",
       "path": "outputs/jd-cache/2026-09-02-varsity-tech-latenttech-ai-engineer-multi-agentic-quant-systems.md",
       "title": "Varsity Tech / LatentTech — AI Engineer (Multi-Agentic Quant Systems)",
       "date": "2026-09-02",
       "url": "https://www.internsg.com/job/varsity-tech-ai-engineer-multi-agentic-quant-systems/",
       "excerpt": "Date cached: 2026-09-02 Source: InternSG / Indeed / JobStreet / Careerjet search-visible snippets URL: https://www.internsg.com/job/varsity-tech-ai-engineer-multi-agentic-quant-systems/ Status: verify / small-company agentic-quant lead Location: 144 Robinson R"
+    },
+    {
+      "file": "2026-09-02-xtx-deep-learning-forecasting-location-mismatch.md",
+      "path": "outputs/jd-cache/2026-09-02-xtx-deep-learning-forecasting-location-mismatch.md",
+      "title": "XTX Markets — Deep Learning / Forecasting Watch",
+      "date": "2026-09-02",
+      "url": "https://www.xtxmarkets.com/careers/",
+      "excerpt": "Date cached: 2026-09-02 Source: prior search surface / tracker correction URL: https://www.xtxmarkets.com/careers/ Status: location-mismatch / watch Location: London / non-SG in recovered surfaces Fit score: 4.2 technical ## Correction Dashboard matching previ"
     },
     {
       "file": "2026-09-01-impeccable-tech-senior-quantitative-researcher-singapore.partial.md",
