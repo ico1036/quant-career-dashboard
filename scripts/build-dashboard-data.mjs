@@ -70,7 +70,9 @@ function daysSinceDate(dateLabel) {
 
 function freshnessStatus(lastSeen, status, notes) {
   const text = `${status} ${notes}`.toLowerCase();
+  const statusText = `${status}`.toLowerCase();
   if (/ghost|closed|withdrawn|archived|stale|no longer/.test(text)) return "stale_or_closed";
+  if (/location[- ]mismatch|location[- ]blocked/.test(statusText)) return "location_blocked";
   const ageDays = daysSinceDate(lastSeen);
   if (ageDays === null) return "unknown";
   if (ageDays <= 14) return "fresh";
@@ -748,7 +750,8 @@ const companies = enrichCompanyLinks(parseTargetCompanies(), jdCache);
 const resumes = parseResumes(companies);
 const top = companies
   .filter((item) => (item.score ?? 0) >= 4)
-  .filter((item) => item.freshness !== "stale_or_closed" && item.freshness !== "needs_recheck")
+  .filter((item) => !["suspicious", "partial", "location-mismatch"].includes(String(item.status).toLowerCase()))
+  .filter((item) => item.freshness !== "stale_or_closed" && item.freshness !== "needs_recheck" && item.freshness !== "location_blocked")
   .slice(0, 16);
 const events = trackedEvents();
 const watchSources = fundWatchSources();
@@ -778,7 +781,8 @@ const payload = {
     researched: companies.filter((item) => item.action === "researched").length,
     freshCompanies: companies.filter((item) => item.freshness === "fresh").length,
     needsRecheck: companies.filter((item) => item.freshness === "needs_recheck").length,
-    staleOrClosed: companies.filter((item) => item.freshness === "stale_or_closed").length
+    staleOrClosed: companies.filter((item) => item.freshness === "stale_or_closed").length,
+    locationBlocked: companies.filter((item) => item.freshness === "location_blocked").length
   },
   latestBrief: parseBrief(),
   companies,
