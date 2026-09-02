@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T04:06:35.531Z",
+  "generatedAt": "2026-09-02T04:09:34.358Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -26,10 +26,10 @@
     "staleOrClosed": 11,
     "locationBlocked": 3,
     "categoryCounts": {
-      "PureQuant": 41,
+      "PureQuant": 42,
       "AI/ML": 2,
       "AI Agent": 1,
-      "Combination": 93
+      "Combination": 92
     }
   },
   "latestBrief": {
@@ -2823,16 +2823,16 @@
     {
       "id": "peak-legal",
       "company": "PEAK Legal",
-      "status": "new",
+      "status": "duplicate",
       "fitScoreRaw": "—",
       "score": null,
       "scoreBucket": "unknown",
-      "category": "Combination",
+      "category": "PureQuant",
       "lastSeen": "2026-04-15",
-      "notes": "\"Quant Agent Developer\" — most AI-native title.",
+      "notes": "Legacy title-only Quant Agent Developer signal. Superseded by the 2026-09-02 Peak Legal Counsel Autonomous Alpha row with Singapore LinkedIn evidence; keep this row only as historical context.",
       "ageDays": 140,
       "freshness": "needs_recheck",
-      "geo": "Unspecified",
+      "geo": "Singapore",
       "action": "hold",
       "actionLabel": "Hold",
       "actionMeaning": "Low fit, blocked, stale, or suspicious",
