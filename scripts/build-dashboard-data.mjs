@@ -750,7 +750,7 @@ const companies = enrichCompanyLinks(parseTargetCompanies(), jdCache);
 const resumes = parseResumes(companies);
 const top = companies
   .filter((item) => (item.score ?? 0) >= 4)
-  .filter((item) => !["suspicious", "partial", "location-mismatch"].includes(String(item.status).toLowerCase()))
+  .filter((item) => !["applied", "screening-submitted", "suspicious", "partial", "location-mismatch"].includes(String(item.status).toLowerCase()))
   .filter((item) => item.freshness !== "stale_or_closed" && item.freshness !== "needs_recheck" && item.freshness !== "location_blocked")
   .slice(0, 16);
 const events = trackedEvents();
