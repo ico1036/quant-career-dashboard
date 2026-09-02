@@ -304,6 +304,10 @@
     .hold { color: var(--red); background: var(--soft-red); }
     .researched { color: var(--violet); background: var(--soft-violet); }
     .unknown { color: #475467; background: #eef2f7; }
+    .category-purequant { color: #2f3a45; background: #eef2f7; }
+    .category-ai-ml { color: var(--blue); background: var(--soft-blue); }
+    .category-ai-agent { color: var(--violet); background: var(--soft-violet); }
+    .category-combination { color: var(--green); background: var(--soft-green); }
 
     .action-cell {
       display: grid;
@@ -514,6 +518,7 @@
               <tr>
                 <th>Company / Posting</th>
                 <th>Score</th>
+                <th>Category</th>
                 <th>Action</th>
                 <th>Geo</th>
                 <th>Last Seen</th>
@@ -558,6 +563,13 @@
           <option value="researched">Already researched</option>
           <option value="hold">Hold</option>
         </select>
+        <select id="category-filter">
+          <option value="all">All categories</option>
+          <option value="PureQuant">PureQuant</option>
+          <option value="AI/ML">AI/ML</option>
+          <option value="AI Agent">AI Agent</option>
+          <option value="Combination">Combination</option>
+        </select>
         <select id="geo-filter">
           <option value="all">All geos</option>
           <option value="Singapore">Singapore</option>
@@ -574,6 +586,7 @@
               <th>Company / Posting</th>
               <th>Status</th>
               <th>Score</th>
+              <th>Category</th>
               <th>Action</th>
               <th>Geo</th>
               <th>Last Seen</th>
@@ -811,6 +824,12 @@
       return `<span class="score ${esc(item.scoreBucket)}">${score}</span>`;
     }
 
+    function categoryCell(item) {
+      const category = item.category ?? "PureQuant";
+      const className = `category-${category.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
+      return `<span class="pill ${esc(className)}">${esc(category)}</span>`;
+    }
+
     function shortNotes(notes, limit = 160) {
       if (!notes) return "";
       return notes.length > limit ? `${notes.slice(0, limit - 1)}...` : notes;
@@ -869,6 +888,7 @@
         <tr>
           <td data-label="Company">${companyCell(item, true)}</td>
           <td data-label="Score">${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
+          <td data-label="Category">${categoryCell(item)}</td>
           <td data-label="Action">${actionCell(item)}</td>
           <td data-label="Geo">${esc(item.geo)}</td>
           <td data-label="Last Seen">${esc(item.lastSeen)}</td>
@@ -898,7 +918,7 @@
             ${items.map((item) => `
               <div class="job-card">
                 <b>${item.jobUrl ? `<a href="${esc(item.jobUrl)}" target="_blank" rel="noreferrer">${esc(item.company)}</a>` : esc(item.company)} · ${item.score === null ? "n/a" : item.score.toFixed(1)}</b>
-                <span class="note">${esc(item.geo)} · ${esc(item.lastSeen)}</span>
+                <span class="note">${esc(item.category ?? "PureQuant")} · ${esc(item.geo)} · ${esc(item.lastSeen)}</span>
                 <p>${esc(item.actionMeaning ?? actionMeta[action].meaning)}</p>
                 <p>${esc(shortNotes(item.notes, 100))}</p>
               </div>
@@ -912,12 +932,14 @@
     function filteredCompanies() {
       const q = document.getElementById("search").value.trim().toLowerCase();
       const action = document.getElementById("action-filter").value;
+      const category = document.getElementById("category-filter").value;
       const geo = document.getElementById("geo-filter").value;
 
       return state.companies.filter((item) => {
-        const haystack = `${item.company} ${item.status} ${item.notes} ${item.geo}`.toLowerCase();
+        const haystack = `${item.company} ${item.status} ${item.notes} ${item.geo} ${item.category}`.toLowerCase();
         return (!q || haystack.includes(q))
           && (action === "all" || item.action === action)
+          && (category === "all" || item.category === category)
           && (geo === "all" || item.geo === geo);
       });
     }
@@ -930,6 +952,7 @@
           <td data-label="Company">${companyCell(item)}</td>
           <td data-label="Status">${esc(item.status)}</td>
           <td data-label="Score">${scoreCell(item)}<br><span class="note">${esc(item.fitScoreRaw)}</span></td>
+          <td data-label="Category">${categoryCell(item)}</td>
           <td data-label="Action">${actionCell(item)}</td>
           <td data-label="Geo">${esc(item.geo)}</td>
           <td data-label="Last Seen">${esc(item.lastSeen)}</td>
@@ -1225,7 +1248,7 @@
       document.querySelectorAll(".tabs button").forEach((button) => {
         button.addEventListener("click", () => activateTab(button.dataset.tab));
       });
-      ["search", "action-filter", "geo-filter"].forEach((id) => {
+      ["search", "action-filter", "category-filter", "geo-filter"].forEach((id) => {
         document.getElementById(id).addEventListener("input", renderCompanyTable);
       });
       document.getElementById("jd-search").addEventListener("input", renderJdTable);

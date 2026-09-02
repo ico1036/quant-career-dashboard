@@ -59,6 +59,18 @@ function scoreBucket(score) {
   return "low";
 }
 
+function inferOpportunityCategory(company, status, fitScoreRaw, notes) {
+  const text = `${company} ${status} ${fitScoreRaw} ${notes}`.toLowerCase();
+  const hasQuant = /quant|alpha|trading|trader|portfolio|market|derivative|options|systematic|statistical|backtest|signal|p&l|execution|microstructure|finance|investment/.test(text);
+  const hasAiMl = /ai|a\/i|machine learning|deep learning|\bml\b|nlp|llm|genai|generative|reinforcement learning|neural|transformer|rag|fine-tun|model training/.test(text);
+  const hasAgent = /agentic|multi-agent|ai agent|agents|autonomous agent|agent workflow|langgraph|crew/i.test(text);
+
+  if (hasQuant && (hasAgent || hasAiMl)) return "Combination";
+  if (hasAgent) return "AI Agent";
+  if (hasAiMl) return "AI/ML";
+  return hasQuant ? "PureQuant" : "PureQuant";
+}
+
 function daysSinceDate(dateLabel) {
   const match = String(dateLabel ?? "").match(/\d{4}-\d{2}-\d{2}/);
   if (!match) return null;
@@ -375,6 +387,7 @@ function parseTargetCompanies() {
       fitScoreRaw,
       score,
       scoreBucket: scoreBucket(score),
+      category: inferOpportunityCategory(company, status, fitScoreRaw, notes),
       lastSeen,
       notes,
       ageDays,
@@ -755,6 +768,12 @@ const top = companies
   .slice(0, 16);
 const events = trackedEvents();
 const watchSources = fundWatchSources();
+const categoryCounts = Object.fromEntries(
+  ["PureQuant", "AI/ML", "AI Agent", "Combination"].map((category) => [
+    category,
+    companies.filter((item) => item.category === category).length
+  ])
+);
 
 const payload = {
   generatedAt: new Date().toISOString(),
@@ -782,7 +801,8 @@ const payload = {
     freshCompanies: companies.filter((item) => item.freshness === "fresh").length,
     needsRecheck: companies.filter((item) => item.freshness === "needs_recheck").length,
     staleOrClosed: companies.filter((item) => item.freshness === "stale_or_closed").length,
-    locationBlocked: companies.filter((item) => item.freshness === "location_blocked").length
+    locationBlocked: companies.filter((item) => item.freshness === "location_blocked").length,
+    categoryCounts
   },
   latestBrief: parseBrief(),
   companies,
