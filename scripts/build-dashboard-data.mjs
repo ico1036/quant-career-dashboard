@@ -349,7 +349,7 @@ function bestJdForCompany(company, jdCache) {
   const exactCompanyPattern = new RegExp(company.company.toLowerCase().replace(/[^a-z0-9]+/g, "[^a-z0-9]+"));
   const geo = company.geo.toLowerCase();
   const scored = jdCache
-    .filter((jd) => jd.url)
+    .filter((jd) => jd.url && !jd.closed)
     .map((jd) => {
       const haystack = `${jd.title} ${jd.file} ${jd.excerpt}`.toLowerCase();
       let score = 0;
@@ -511,6 +511,7 @@ function parseJdCache() {
       const excerpt = stripMarkdown(md.replace(/^#.*$/m, "").replace(/\s+/g, " ")).slice(0, 260);
       return {
         file: name,
+        closed: /^Status:\s*.*(?:closed|not accepting)/im.test(md),
         path: relative(root, path),
         title,
         date,
