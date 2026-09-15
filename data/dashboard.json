@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T23:38:04.862Z",
+  "generatedAt": "2026-09-15T23:38:43.608Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -9,7 +9,7 @@
   "metrics": {
     "trackedCompanies": 166,
     "topTargets": 16,
-    "jdCacheFiles": 256,
+    "jdCacheFiles": 258,
     "resumeFiles": 181,
     "currentResumeFiles": 67,
     "archivedResumeFiles": 114,
@@ -6375,6 +6375,15 @@
       "excerpt": "URL: https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-researcher-2026-phds/ Location: London | New York | Singapore Status: official portal verified 2026-05-28 JD excerpt: Algorithm Developers build and maintain models that drive trading, a"
     },
     {
+      "file": "jpmorgan-ats-ai-ml-researcher-sg.md",
+      "closed": false,
+      "path": "outputs/jd-cache/jpmorgan-ats-ai-ml-researcher-sg.md",
+      "title": "JPMorganChase — Quantitative Trading and Research, AI Machine Learning Researcher, Associate (Singapore)",
+      "date": null,
+      "url": null,
+      "excerpt": "> Captured: 2026-09-16 | LinkedIn 4447247575 | On-site, full-time | Reposted 3 days ago | >100 clicked apply > Responses managed off LinkedIn | Apply active > Fresh fit score: 4.63/5 (A4.9 D4.3 I4.7 P5.0 C4.0) | Level L4 Associate | AI-Native Quant + Portfolio"
+    },
+    {
       "file": "jump-ai-research-scientist-rd.md",
       "closed": false,
       "path": "outputs/jd-cache/jump-ai-research-scientist-rd.md",
@@ -6409,6 +6418,15 @@
       "date": null,
       "url": "https://www.jumptrading.com/hr/job?gh_jid=7460950",
       "excerpt": "> Cached: 2026-05-22 | Source: https://www.jumptrading.com/hr/job?gh_jid=7460950 Location: Singapore Job Type: Full-Time Trading teams comprise traders, quantitative researchers, and engineers examining global markets, leveraging statistical analysis and data "
+    },
+    {
+      "file": "millennium-deep-learning-qr-sg.md",
+      "closed": false,
+      "path": "outputs/jd-cache/millennium-deep-learning-qr-sg.md",
+      "title": "Millennium — Deep Learning Quantitative Researcher (Singapore)",
+      "date": null,
+      "url": null,
+      "excerpt": "> Captured: 2026-09-16 | LinkedIn 4444602891 | On-site, full-time | Reposted ~1 week ago | >100 clicked apply > Apply: email QuantTalentEUR@mlp.com, reference REQ-30088 (responses managed off LinkedIn) > Fresh fit score: 4.57/5 (A4.7 D4.8 I4.6 P4.8 C3.2) | Lev"
     },
     {
       "file": "optiver-graduate-qr-phd-2026.md",
