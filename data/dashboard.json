@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T23:39:13.907Z",
+  "generatedAt": "2026-09-20T23:40:27.217Z",
   "sourceFiles": {
     "targetCompanies": "data/target-companies.md",
     "scanHistory": "outputs/scan-history.md",
@@ -35,11 +35,16 @@
   "latestBrief": {
     "title": "## 2026-09-21 — Monday",
     "scope": [
-      "Kronos: stale-portal mismatch, removed from active shortlist (not an accusation about the firm).",
-      "FundInsight: age 0 (April), independently verifiable company 0, JD specificity 1, own-domain application route 1, independent cross-reference 0 = 2/5; suspicious/hold.",
-      "Albert Bow: date unconfirmed 0, established recruiter 1, JD specificity 1, own recruiter ATS 1, named-client cross-reference 0 = 3/5; suspicious until client verified.",
-      "Sryantra: date 0, own site/team identity not independently established 0, listing specificity 0, own-domain apply route 1, prior LinkedIn listing 1 = 2/5; partial/suspicious.",
-      "Teza/Graviton/DRW/Point72/Metabit/Citadel/Binance: verifiable employer, detailed official JD, direct application and source cross-check give 4/5; unknown age not interpreted as fresh posting. HRT partial body does not establish newness. Selby is a verified recruiter but client is anonymous and body partial; keep prior suspicious state."
+      "Scope: Singapore primary, SG-compatible remote, Texas/Dallas texas-expanded.",
+      "Gmail LinkedIn alerts: blocked; 0 emails scanned; candidate count unknown (OAuth expired/revoked, HTTP 401).",
+      "LinkedIn browser: partial; 19 unique search cards, 1 retained search candidate plus 1 targeted JPMorgan recheck.",
+      "Discovery: 16 web queries plus official portal checks; 14 merged role records including junior/verification holds, not 14 apply recommendations.",
+      "JPMorgan AI ML Associate: Apply visible; historical fit 4.63 retained, current JD body partial.",
+      "DRW: official ML QR active, historical 4.6; Equities QR fresh 4.4. Already applied; no duplicate submission.",
+      "Albert Bow SG/remote QR: full JD recovered, provisional 4.1; anonymous client verification required.",
+      "Teza Austin: official Ashby confirms on-site 5 days; fit 3.9, texas-expanded retained. G-Research research list London only.",
+      "Point72 SG current entry-level JD verified separately from expired legacy link; Kronos homepage/ATS mismatch held.",
+      "No new verified high-fit employer; no Phase 3, applications or outreach. QCP follow-up review due soon (day 13)."
     ]
   },
   "companies": [
@@ -4064,8 +4069,8 @@
         "date": "2026-09-21",
         "candidateMentions": 39,
         "uniqueCompanies": 26,
-        "scoreCount": 0,
-        "maxScore": null
+        "scoreCount": 14,
+        "maxScore": 4.63
       },
       {
         "title": "2026-09-18 — Friday",
